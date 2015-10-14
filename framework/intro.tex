@@ -1,0 +1,11 @@
+\section{Introduction}
+The approach we referenced from the state of the art are quite different but we think they can be seen as different implementations (sometimes partial) of a same conceptual framework.
+
+The conceptual framework we propose comes from a deep understanding of the different approaches and the internal mechanisms they used. We tried to abstract these mechanisms to extract the essence of the information needed to specify a behavioral coordination pattern between heterogeneous languages. The conceptual framework can be used to better understand the existing approaches but also to define requirements about a more general and systematic way to define such approach. In the conceptual framework, we identified three elements, further described in the next sub sections:  
+\begin{itemize}
+	\item A \emph{language interface}, which provides a (partial) view over the syntax and the behavioral semantics of a language. It is not part of a behavioral coordination pattern but it is a way to homogenize the view of different languages so that it can be used by the coordination pattern itself.
+	\item A \emph{correspondence rule}, which specifies, based on elements from some language interfaces, what elements from different models have to be coordinated together. The notion of correspondence is well defined in~\cite{clavreulmodelcompo}: \emph{we consider correspondences as any kind of implicit or explicit relationships between sets of models or sets of model elements.} 
+	
+	\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.  
+ 
+\end{itemize}

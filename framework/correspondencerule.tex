@@ -1,0 +1,25 @@
+\section{Correspondence Rule}
+		\begin{itemize}
+			\item A correspondence matching specifies, based on the language interface, when to instantiate a coordination rule and with which elements from the model to bind it.
+			It intends to capture the \emph{know-how} of the system engineer that, by knowing the involved languages and by having the models to coordinate decides how to instantia           te the coordination rules and how to bind them to elements of the models.
+			
+			\item In the approach proposed by Di Natale et al.~\cite{dinatale}, the correspondence matching relies on information manually given by the system designer in the mapping model. The use of dedicated stereotypes in the mapping model restricts what type of elements from the languages can be bound. For instance, the use of the \emph{SwDeployment} mapping imposes the binding of two elements: one of type \emph{CPU} and another one of type \emph{Task}. \todo{Consequently, the correspondence matching is not really made at the language level and consists in going through all the mappings from the mapping model to know what elements must be coordinated.}			
+			\item In Ptolemy and ModHel'X, the single abstract syntax, common to all the languages, specifies the correspondence matching by providing composite actors (\ie the actors can contain an internal configuration). In consequence, the level $n$ in the hierarchy of the specification actually specifies the coordination of the models at the level $n-1$ in the hierarchy, if they exist. These approaches are, however, specific cases since the syntax of all languages is unique: the correspondence matching is then a single mechanism embedded in all the languages.
+			
+			\item In Mascot~\cite{mascotbib}, the correspondence matching relies on the SDL wrappers to identify when a coordination should be generated. It also relies on a name matching between the signals in SDL and the stream in matlab to identify the equivalence between the variables in the two languages. 
+		\end{itemize}
+		\subsection{Discussion}
+	\begin{itemize}
+			\item The correspondence matching of a coordination pattern could/should be customized according to the actual nature of the languages used (\eg are the languages related somehow or not) or according to the company modeling conventions. 
+			%For instance, if there exist a naming convention between information going from and to a model as recommended in ~\cite{walker2007configuration}.
+			The correspondence matching can also represents the ``tricks'' used by a system designer to know how to coordinate the model (\eg each objects of a specific type must be coordinated with all the objects of another type when they have the same number of methods in their interface). In the reviewed approaches, we identified two different situations:
+			\begin{enumerate}
+				\item the correspondence matching is based on an explicit modeling artifact (like the matching model in \cite{MarcoModels2014} or the hierarchy in \cite{modhelxbib,ptolemybib}) 	
+				\item the correspondence matching is based on a specific modeling conventions (like the name matching in~\cite{mascotbib})
+				\end{enumerate}
+				
+				The first case do not capture all the knowledge of the system designer, which is still injected manually by using a dedicated modeling artifact. It makes lots of sense when the identification of the correspondences is not systematic, like for instance for the allocation of tasks on CPUs. In some cases, this modeling artifact can be created by another dedicated tool (like \cite{kofman:hal-00950533} that uses design space exploration techniques to determine the allocation). It could be interesting to understand how the notions used in the megamodel field~\cite{megamodel} or in multi-view approaches~\cite{ieee42010} can be exploited to specify, in a generic way, the correspondences required in the definition of behavioral coordination patterns between heterogeneous languages. 
+				
+				The second case is interesting because it can be used on languages totally independent, \ie which have no idea of the existence of the other one. It requires the establishment of modeling conventions but is very agile when it is needed to add a new language into the development process. The Epsilon Comparison Language~\cite{epsilonbib} is a dedicated language to express matching relationships between models conforming to different language. It can express, at the language level, queries on different models and specify predicates based on the result of these queries. An interesting solution could investigate the introduce of such language in the specification of a correspondence matching,  to make the correspondence matching explicit, modular and adaptable.
+				
+				\end{itemize}

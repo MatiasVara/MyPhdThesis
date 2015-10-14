@@ -1,0 +1,39 @@
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+The style file: alpha.bst
+Database file #1: bibliography/bibliography.bib
+Repeated entry---line 372 of file bibliography/bibliography.bib
+ : @inproceedings{frameadlsbib
+ :                            ,
+I'm skipping whatever remains of this entry
+A bad cross reference---entry "neverlang"
+refers to entry "conf/soco/2012", which doesn't exist
+Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "MarcoModels2014"
+Warning--I didn't find a database entry for "ptolemybib"
+Warning--I didn't find a database entry for "henzingerIA"
+Warning--I didn't find a database entry for "coordinainterfacebib"
+Warning--I didn't find a database entry for "Opus"
+Warning--I didn't find a database entry for "eventStructures"
+Warning--I didn't find a database entry for "lee1998framework"
+Warning--I didn't find a database entry for "rapide"
+Warning--I didn't find a database entry for "tr:ccsl"
+Warning--I didn't find a database entry for "tagmachine"
+Warning--I didn't find a database entry for "sle13combemalebib"
+Warning--I didn't find a database entry for "kofman:hal-00950533"
+Warning--I didn't find a database entry for "megamodel"
+Warning--I didn't find a database entry for "ieee42010"
+Warning--I didn't find a database entry for "epsilonbib"
+Warning--I didn't find a database entry for "multi-viewApproach"
+Warning--I didn't find a database entry for "varalarsen:gemoc13"
+Warning--I didn't find a database entry for "timesquare"
+Warning--I didn't find a database entry for "D3.1.2"
+Warning--I didn't find a database entry for "girault_lee:composition"
+Warning--I didn't find a database entry for "encodingcomparison"
+Warning--I didn't find a database entry for "ECL"
+Warning--I didn't find a database entry for "omgocl2"
+Warning--I didn't find a database entry for "conf/soco/2012"
+Warning--empty booktitle in ptoleframebib
+Warning--empty booktitle in kompose
+Warning--empty institution in garlansoftarchbib
+Warning--empty booktitle in AspectJoverview
+(There were 2 error messages)

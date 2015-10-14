@@ -1,0 +1,96 @@
+\newcommand{\tsq}{\textsc{TimeSquare}\xspace}
+\newcommand{\ccsl}{\textsc{ccsl}\xspace}
+\newcommand{\ecl}{\textsc{ecl}\xspace}
+\newcommand{\as}{\textsc{as}\xspace}
+\newcommand{\dsa}{\textsc{dsa}\xspace}
+\newcommand{\dse}{\textsc{dse}\xspace}
+\newcommand{\mse}{\textsc{mse}\xspace}
+\newcommand{\mocc}{\textsc{mocc}\xspace}
+\newcommand{\moccml}{\textsc{moccml}\xspace}
+\newcommand{\ie}{\emph{i.e.,~}}
+\newcommand{\eg}{\emph{e.g.},~}
+\newcommand{\bcool}{\textsc{B-COoL}\xspace}
+
+\newcommand{\todo}[1]{{\color{blue}\fcolorbox{red}{yellow}{\textbf{TODO:}} #1}}
+
+\definecolor{KRed}{rgb}{0.59,0,0}
+\definecolor{KBlue}{rgb}{0,0,0.59}
+\definecolor{KBlack}{rgb}{0,0,0}
+\definecolor{KGreen}{rgb}{0,0.59,0}
+\definecolor{KPurple}{rgb}{0.5,0,0.47}
+\definecolor{KOliveGreen}{cmyk}{0.64,0,0.95,0.40}
+
+\definecolor{DBlue}{rgb}{0,0,0.4}
+\definecolor{DRed}{rgb}{0.4,0,0}
+\definecolor{CGreen}{rgb}{0.3,0.7,0.4}
+\definecolor{OliveGreen}{rgb}{0.3,0.7,0.4}
+\definecolor{LGrey}{rgb}{0.95,0.95,0.95}
+
+
+\lstdefinelanguage{ecl}
+{
+	morekeywords=[0]{ require, using, extern, pre, post, inv},
+	morekeywords=[1]{activity, tfsm},
+	morekeywords=[2]{ aspect, abstract },
+	morekeywords=[3]{ end, Operator, operator },
+	morekeywords=[4]{ package, context, def, Event, self},
+	morekeywords=[5]{  },
+	morekeywords=[6]{ and, or, not },
+	sensitive=true,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+}
+
+\lstset{language=ecl,
+	basicstyle=\ttfamily,
+	keywordstyle=[0]\bf\color{KRed},
+	keywordstyle=[1]\bf\color{KBlue},
+	keywordstyle=[2]\textit\bf\color{KBlue},
+	keywordstyle=[3]\bf\color{KBlue},
+	keywordstyle=[4]\textit\bf\color{KPurple},
+	keywordstyle=[5]\bf\color{KBlack},
+	keywordstyle=[6]\bf\color{KPurple},
+	commentstyle=\color{KOliveGreen},
+	tabsize=2,
+	breaklines=true,
+	aboveskip=1pt,
+	belowskip=1pt,
+	numbersep=3pt
+	%   frame=single,
+	%   backgroundcolor=\color{Gris}    
+}
+
+\lstdefinelanguage{bcool}
+{
+	morekeywords=[0]{ require, using, extern, pre, post, inv},
+	morekeywords=[1]{activity, tfsm},
+	morekeywords=[2]{},
+	morekeywords=[3]{ end, Operator, operator, BCOoLSpec},
+	morekeywords=[4]{ ImportLib, ImportInterface, as, when, CoordinationRule, CorrespondenceMatching, Event, Local, Global},
+	morekeywords=[5]{ occurs, startAction, finishAction, entering, leaving, startActivity, finishActivity, ticks, firing},
+	morekeywords=[6]{ and, or, not },
+	sensitive=true,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+}
+
+\lstset{language=bcool,
+	basicstyle=\ttfamily,
+	keywordstyle=[0]\bf\color{KRed},
+	keywordstyle=[1]\bf\color{KBlue},
+	keywordstyle=[2]\textit\bf\color{KBlue},
+	keywordstyle=[3]\bf\color{KBlue},
+	keywordstyle=[4]\textit\bf\color{KPurple},
+	keywordstyle=[5]\bf\color{KBlack},
+	keywordstyle=[6]\bf\color{KPurple},
+	commentstyle=\color{KOliveGreen},
+	tabsize=2,
+	breaklines=true,
+	aboveskip=5pt,
+	belowskip=5pt,
+	numbersep=3pt
+	%   frame=single,
+	%   backgroundcolor=\color{Gris}    
+}

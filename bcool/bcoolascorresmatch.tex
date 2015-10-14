@@ -1,0 +1,18 @@
+\subsubsection{More about Correspondence Matching}
+\label{subsubsec:explicitcorrespondence}
+
+In the previous examples, the matching relies on an implicit correspondence, \ie by comparing the name of the FSMEvents and the name of the Actions. However, in some cases, there exists an explicit reference between the elements that must be coordinated. Such reference works as a connector that enables the system designer to define what element must be coordinated. 
+	
+For instance, in our running example, we modify the TFSM metamodel by adding a reference (named \emph{linkedAction}) between a FSMEvent and an action. At model level, such a reference links FSMEvents with Actions thus resulting in a explicit correspondence between elements.
+	
+\begin{lstlisting}[language=bcool,
+	caption={A correspondence matching that relies on a explicit reference},
+	label={lst:bcoolrunningexampleexplicit}, 
+	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, firstnumber=7, xleftmargin=2pt]
+	CorrespondenceMatching: when ( dse1 = dse2.linkedAction )
+\end{lstlisting}
+	
+In \bcool, the reference can be used to select the elements to be coordinated. To illustrate this, we slightly modify the running example by using the reference \emph{linkedAction} to select instances of \dse (see Listing~\ref{lst:bcoolrunningexampleexplicit}). In this case, the instance of \dse are selected by comparing its context.  
+
+\todo{To think about the use of dictioraries to match} 
+	

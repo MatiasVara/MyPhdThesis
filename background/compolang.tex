@@ -1,0 +1,37 @@
+\section{Structural Composition Approaches}
+	\begin{itemize}
+		\item In this section, we focus on the approaches that propose to compose the syntax of DSMLs. Some of these approaches propose to compose the syntax of DSMLs into a new syntax. Other approaches specify how models conforming to different DSMLs can be composed, and then, such specification is used to composed the syntax of models into a new model. 
+		\item In the following, we overview these approaches. 	
+	\end{itemize}    	
+ \subsection{Composition of Models Syntax}
+    	\begin{itemize}
+    		\item Composition model approaches provide a single model from several heterogeneous models. They specify what concepts from different languages are selected and how they are composed. The specification is manually done by the system designer. The specification is applied between models in order to generate a new model that may conform either to the inputs model languages (homogeneous case) or to a different language. 
+    		
+    		\item Brunet et al.~\cite{mergemanifest} argue that the composition of two models is always identified as a \emph{merging}. The merging operator takes two models as inputs and applies a \emph{relationship} which specifies how the models are related one to another. The application of the operator results in a new model. In this work, authors suppose the models conform to the same language, but conclude that the merging operator can be generalized to heterogeneous models. Similarly, approaches like \emph{Kompose}~\cite{kompose} or \emph{Epsilon}~\cite{epsilon}\footnote{http://www.eclipse.org/epsilon/} rely on operators that are specified between languages but applied between models to generate a new model. 
+    		
+    		\item ~\cite{kompose} proposes two generic operators to compose models automatically: \emph{matching} and \emph{merging}. The matching operator specifies which elements in the language can match and how they can match. The merge operator defines how the matched elements are merged. The framework can be adapted to add composition capabilities to a particular language. For instance, Kompose adds composition capabilities to the Ecore metamodel.
+    		
+    		\item Epsilon~\cite{epsilon}\footnote{http://www.eclipse.org/epsilon/} purposes one language for specifying the matching and one for specifying the merging. The matching is expressed using the \emph{Epsilon Comparison Language}\footnote{http://www.eclipse.org/epsilon/doc/ecl/}. The merging is expressed using the \emph{Epsilon Merge Language}\footnote{http://www.eclipse.org/epsilon/doc/eml/}. Theses languages are rule based oriented. The matching rules enable the user to specify a comparison algorithm to identify pairs of matching elements. The matching elements are merged through the merging rules. While the input models can conform to different metamodels, they have to conform to the same meta metamodel (Ecore). The output model conforms to a metamodel chosen by the user (The output model has to conform to Ecore).
+    		
+    		\item A different mechanism for model composition is proposed by \emph{Aspect Oriented Approaches}~\cite{aop}. In these approaches, the composition is asymmetric, one model plays the role of \emph{base} on which other (partial) models named \emph{aspects} are woven. The aspect is made of a \emph{pointcut} and \emph{advice}. A pointcut specifies the \emph{join points} in the base model, \ie the place that will be replaced by the advice during the weaving. The advice contains the (partial) model that is to be woven. Approaches like \emph{AspectJ}\footnote{http://eclipse.org/aspectj/}, \emph{MATA}~\cite{matabib} and \emph{SmartAdapter}~\cite{smartadapbib} implements this approach. %In both approaches, an aspect is made up with a pattern matching and a composition specification. In SmartAdapter the composition specification is called composition protocol. The application of the aspect model to the base model is achieved in two phases. First, a match of the pattern has to be found in the base model. Once a match is found, the composition specification defines how elements are combined. Both tools are homogeneous approaches, \ie they compose models from the same language.       		 		
+    	\end{itemize}
+    	
+\subsection{Composition of Languages Syntax}
+\begin{itemize}
+	\item Language composition approaches propose to compose the syntax of DSMLs into a new syntax. The composition is manually done by the system designer who specifies what concepts from different languages are related. This results in a new language that picks characteristics from the composed languages. The characteristics of the the new language depends on how language are composed. In the literature, there exist several techniques for language composition. For instance, Emerson et al.~\cite{metamodelcompo} propose three techniques to compose the syntax of languages: \emph{Merging}, \emph{Interfacing} and \emph{Refinement}. The merging composes two languages that share a concept. These concepts are used as ``join points" to stitch the two languages together into a unified whole. Differently, interfacing composes DSMLs that capture distinct but related domains. The DSMLs do not present joint points and the composition requires an interface between the languages. In other cases, one DSML captures in detail a modeling concept that exists only as a ``blackbox" in a second DSML, \ie the concept defined in one DSML refines in other in the second DMSL. These techniques are implemented in the GME framework~\cite{metamodelcompo}. 
+	
+	\item In a different approach, authors~\cite{monticore} provide two techniques for the composition of languages: \emph{Inheritance} and \emph{Language Embedding}. They implement these techniques in the framework Monticore. These techniques, however, correspond respectively to refinement and interfacing in~\cite{metamodelcompo}.
+	
+	\item Nervelang~\cite{neverlang} is a framework that builds a custom language from features coming from general purpose languages. A feature, such as the syntactical aspect of a loop, is encapsulated in a \emph{module block}. The blocks can be composed together for generating the compiler/interpreter of the resulting language.  
+	
+	%Also, it is not clear how much these approaches are suitable for separation of preoccupation and development a single system by various domain experts that focus on a specific part of the system.
+	
+\end{itemize}
+    	
+ \subsection{Discussion}
+		 \begin{itemize}
+			 	\item The approaches previously studied compose the syntax of languages to generate a new syntax. In this sense, they propose to model a heterogeneous system by using a \emph{unified language}. However, in a complex system, a unified language may be not easy to handle and the re-usability would be limited. 
+			 	
+			 	\item These approaches compose the syntax of models by specifying the composition at the language level. Then, by generative techniques, inputs models are composed into a new model. These approaches avoid having a unified language that can be hard to handle. Instead, they specify the composition at language level but they apply between models. 
+			 	\item The approaches previously presented only provide the means to compose syntactic elements. A modeling language has also a behavioral semantics that model the behavior of a domain~\cite{?,?}. In the following, we focus on the approaches that deal with the integration of the behavior of models.  
+		 \end{itemize}

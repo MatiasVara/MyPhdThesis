@@ -1,0 +1,22 @@
+\section{Coordination Rule}
+		\begin{itemize}
+			\item The coordination rule specifies the actual coordination between the elements to be coordinated. A coordination rule is very close to the notion of connector type from the ADLs; it models the glue between the elements identified by the correspondence matching.
+			
+			\item In Ptolemy and ModHel'X, composite actors interact with their internal actors by explicitly invoking the methods in their interface. The coordination rule is then specified in Java, together with the firing of an actor. In addition to this mechanism, ModHel'X reified the concept of \emph{semantic adaptation} so that it enables the user to manually specify the code to adapt two component interfaces, like a glue in traditional ADLs.
+			
+			\item In~\cite{dinatale}, each type of mapping (\ie each stereotype in the mapping model) is translated to a specific glue, which encodes how the elements of the functional and the platform language are coordinated. The coordination rule is thus implicit into the translation semantics of the mapping language. It is really close to the notion of built-in connector type from approaches like AADL or Clara, but without the analysibility properties.        
+			
+			\item \todo{In Mascot, the coordination rules is hard coded in the implementation of the SDL wrappers. It depends on the type of the signal from and to the SDL wrappers with regards to the type of communication identified in the interface.}  
+		\end{itemize}
+		
+\subsection{Discussion}
+ 	\begin{itemize}
+
+ 		\item None of the approaches we reviewed really took advantage of state of the art on software architecture and coordination languages.
+ 		The notion of user defined connector types as defined by Wright or Reo or Unicon is better formulated the the approaches previously presented. Leveraging on such approach to provide coordination rule seems quite intuitive and would bring a clear separation between the computational and coordination activity while allowing the definition of domain specific coordination. Also, according to the domain addressed by the covered approaches that none of them used a formal language to specify the coordination rule. Based on state of the art approaches based on formal languages (like BIP or Wright), it can be interesting to experiment the adaptation of a formal language to specify the coordination rule of behavioral patterns between heterogeneous languages.
+ 		\item  A recent work considers using CCSL~\cite{semanticadaptccsl} to formally specify the semantic adaption that could provide the means for analyzing.
+ 		
+ 		\item A recent work~\cite{semanticadaptlang} propose a dedicated language to explicitly specify the semantic adaptation. Currently in ModHel'X, the semantic adaptation is written in java, \ie a general purpose language. Instead, this approach proposes to use a language closed to system designer domain. From DSL code, Java code is generated and implemented into ModHel'X. Since Java code is used, verification and validation of the coordinated system remain limited.   
+ 		
+ 		 
+ 		\end{itemize}

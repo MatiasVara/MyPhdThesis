@@ -1,0 +1,14 @@
+\section{Conclusion}
+We propose to capture the specification of coordination pattern by using a language dedicated to the system designer domain. Such language is based on:
+
+\begin{itemize}
+	\item A language behavioral interface made of event types. 
+	\item A correspondence rule that enables to specify both explicit and implicit matching syntactic elements of the models. 
+	\item A coordination rule based on a formal language. 
+\end{itemize} 
+
+To capture the specification of coordination patterns between languages, we require a behavioral interface, but at the language level. A language behavioral interface must abstract the behavioral semantics of a language, thus providing only the information required to coordinate it, \ie a partial representation of concurrency and time-related aspects. 
+Furthermore, to avoid altering the coordinated language semantics, the specification of coordination patterns between languages should be non intrusive, \ie it should keep separated the coordination and the computation concerns. We propose to use \dse as ``coordination points" to drive the execution of languages. These events are used as handles or control points in two complementary ways: to observe what happens inside the model, and to control what is allowed to happen or not. When required by the coordination, constraints are used to forbid or delay some event occurrences. Forbidding occurrences reduces what can be done by individual models. When several executions are allowed
+(nondeterminism), it gives some freedom to individual semantics for making their own choices. All this put together makes the \dse suitable to drive coordinated simulations without being intrusive in the models. Coordination patterns are captured as constraints at the language level on the \dse
+
+\todo{The design of \bcool is inspired by current structural composition languages (\eg\cite{epsilon,kompose}). These approaches rely on the \emph{matching} and \emph{merging} phases of syntactic model elements. A matching rule specifies what elements from different models are selected. A merging rule specifies how the selected model elements are composed. In these approaches the specification is at the language level, but the application is between models. Similarly, a \bcool operator relies on a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. The merging phase is replaced by a coordination rule. While in the structural case the merging operates on the syntax, the coordination rule operates on elements of the semantics (\ie instances of \dse). Thus, coordination rules specify the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. }
