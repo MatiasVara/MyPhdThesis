@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  14 OCT 2015 22:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  14 OCT 2015 23:42
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -600,20 +600,16 @@ e 55.
 (pdftex.def)             Requested size: 290.22107pt x 71.26115pt.
 ) (bcool/bcoollib.tex [36 <./bcool/figs/runningeventvarfilter.pdf>]
 
-LaTeX Warning: Citation `tr:ccsl' on page 37 undefined on input line 33.
+LaTeX Warning: Citation `tr:ccsl' on page 37 undefined on input line 27.
 
 
-LaTeX Warning: Citation `varalarsen:gemoc13' on page 37 undefined on input line
- 33.
+LaTeX Warning: Citation `timesquare' on page 37 undefined on input line 27.
 
-
-LaTeX Warning: Citation `timesquare' on page 37 undefined on input line 34.
-
-) (bcool/bcoolascorresmatch.tex [37])) (bcool/bcoolsemantics.tex
+) (bcool/bcoolascorresmatch.tex [37]) (bcool/bcoolsemantics.tex
 
 LaTeX Warning: Citation `D3.1.2' on page 38 undefined on input line 2.
 
-) [38] (bcool/langworkbench.tex [39]
+)) [38] (bcool/langworkbench.tex [39]
 
 LaTeX Warning: Reference `?' on page 40 undefined on input line 17.
 
@@ -753,7 +749,7 @@ LaTeX Warning: There were undefined references.
 Here is how much of TeX's memory you used:
  4875 strings out of 493673
  66821 string characters out of 3141527
- 168542 words of memory out of 3000000
+ 169542 words of memory out of 3000000
  7991 multiletter control sequences out of 15000+200000
  17735 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -777,7 +773,7 @@ ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (77 pages, 2216819 bytes).
+Output written on thesis.pdf (77 pages, 2216956 bytes).
 PDF statistics:
  830 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
