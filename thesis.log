@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  15 OCT 2015 10:03
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  15 OCT 2015 10:08
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -593,97 +593,97 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 (./bcool/bcool.tex [28] [29]
 Chapter 4.
 (./bcool/intro.tex) (./bcool/language.tex (./bcool/bcoolintro.tex
+<bcool/figs/bcoolpic.pdf, id=265, 556.0775pt x 360.34625pt>
+File: bcool/figs/bcoolpic.pdf Graphic file (type pdf)
 
-LaTeX Warning: Reference `fig:bcoolpic' on page 30 undefined on input line 8.
+<use bcool/figs/bcoolpic.pdf>
+Package pdftex.def Info: bcool/figs/bcoolpic.pdf used on input line 3.
+(pdftex.def)             Requested size: 483.69687pt x 313.44922pt.
+ [30
 
-[30
-
-] <bcool/figs/models.pdf, id=268, 518.93875pt x 388.45125pt>
+]
+<bcool/figs/models.pdf, id=269, 518.93875pt x 388.45125pt>
 File: bcool/figs/models.pdf Graphic file (type pdf)
 
 <use bcool/figs/models.pdf>
 Package pdftex.def Info: bcool/figs/models.pdf used on input line 14.
 (pdftex.def)             Requested size: 241.84843pt x 181.03694pt.
 ) (./bcool/bcoolas.tex
-<bcool/figs/BcoolMM.pdf, id=269, 507.8975pt x 325.215pt>
+<bcool/figs/BcoolMM.pdf, id=270, 507.8975pt x 325.215pt>
 File: bcool/figs/BcoolMM.pdf Graphic file (type pdf)
 
 <use bcool/figs/BcoolMM.pdf>
 Package pdftex.def Info: bcool/figs/BcoolMM.pdf used on input line 5.
 (pdftex.def)             Requested size: 386.95897pt x 247.78625pt.
- [31 <./bcool/figs/models.pdf>] [32 <./bcool/figs/BcoolMM.pdf>] <bcool/figs/run
-ningrdv.pdf, id=426, 450.48299pt x 68.255pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31 <./bcool/figs/bcoolpic.pdf>] [32 <./bcool/figs/models.pdf>] [33 <./bcool/f
+igs/BcoolMM.pdf>] <bcool/figs/runningrdv.pdf, id=498, 450.48299pt x 68.255pt>
 File: bcool/figs/runningrdv.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningrdv.pdf>
 Package pdftex.def Info: bcool/figs/runningrdv.pdf used on input line 35.
 (pdftex.def)             Requested size: 290.22107pt x 43.97362pt.
 
-<bcool/figs/runningcausality.pdf, id=427, 582.175pt x 65.846pt>
+<bcool/figs/runningcausality.pdf, id=499, 582.175pt x 65.846pt>
 File: bcool/figs/runningcausality.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningcausality.pdf>
 Package pdftex.def Info: bcool/figs/runningcausality.pdf used on input line 45.
 
 (pdftex.def)             Requested size: 314.40001pt x 35.5603pt.
-) (./bcool/bcoolaseventvar.tex
-Underfull \vbox (badness 4634) has occurred while \output is active []
-
- [33 <./bcool/figs/runningrdv.pdf> <./bcool/figs/runningcausality.pdf
+) (./bcool/bcoolaseventvar.tex [34 <./bcool/figs/runningrdv.pdf> <./bcool/figs/
+runningcausality.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./bcool/figs/runningcausality.pdf): PDF
  inclusion: multiple pdfs with page group included in a single page
->] <bcool/figs/runningeventvar.pdf, id=441, 377.41pt x 99.57199pt>
+>] <bcool/figs/runningeventvar.pdf, id=511, 377.41pt x 99.57199pt>
 File: bcool/figs/runningeventvar.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvar.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvar.pdf used on input line 31.
 (pdftex.def)             Requested size: 241.84843pt x 63.80637pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[34] [35 <./bcool/figs/runningeventvar.pdf>]
-<bcool/figs/runningeventvarfilter.pdf, id=452, 539.61598pt x 132.495pt>
+ [35 <./bcool/figs/runningeventvar.pdf>]
+<bcool/figs/runningeventvarfilter.pdf, id=519, 539.61598pt x 132.495pt>
 File: bcool/figs/runningeventvarfilter.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvarfilter.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvarfilter.pdf used on input lin
 e 55.
 (pdftex.def)             Requested size: 290.22107pt x 71.26115pt.
-) (./bcool/bcoollib.tex [36 <./bcool/figs/runningeventvarfilter.pdf>]
+) (./bcool/bcoollib.tex
+Underfull \vbox (badness 2753) has occurred while \output is active []
 
-LaTeX Warning: Citation `tr:ccsl' on page 37 undefined on input line 27.
+ [36 <./bcool/figs/runningeventvarfilter.pdf>] [37]
+
+LaTeX Warning: Citation `tr:ccsl' on page 38 undefined on input line 27.
 
 
-LaTeX Warning: Citation `timesquare' on page 37 undefined on input line 27.
+LaTeX Warning: Citation `timesquare' on page 38 undefined on input line 27.
 
-) (./bcool/bcoolascorresmatch.tex [37]) (./bcool/bcoolsemantics.tex
+) (./bcool/bcoolascorresmatch.tex) (./bcool/bcoolsemantics.tex
 
 LaTeX Warning: Citation `D3.1.2' on page 38 undefined on input line 2.
 
-)) [38] (./bcool/langworkbench.tex [39]
+)) [38] [39] (./bcool/langworkbench.tex
 
 LaTeX Warning: Reference `?' on page 40 undefined on input line 17.
 
 
 LaTeX Warning: Reference `?' on page 40 undefined on input line 17.
 
-<bcool/figs/process.pdf, id=474, 505.89pt x 343.2825pt>
+[40] <bcool/figs/process.pdf, id=544, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
 <use bcool/figs/process.pdf>
 Package pdftex.def Info: bcool/figs/process.pdf used on input line 27.
 (pdftex.def)             Requested size: 290.22107pt x 196.94066pt.
-) (./bcool/evaluation.tex [40]
+) (./bcool/evaluation.tex [41 <./bcool/figs/process.pdf>]
 
-LaTeX Warning: Citation `varalarsen:gemoc13' on page 41 undefined on input line
+LaTeX Warning: Citation `varalarsen:gemoc13' on page 42 undefined on input line
  5.
 
-
-Underfull \vbox (badness 4024) has occurred while \output is active []
-
- [41 <./bcool/figs/process.pdf>]
 
 LaTeX Warning: Citation `girault_lee:composition' on page 42 undefined on input
  line 7.
@@ -694,54 +694,54 @@ LaTeX Warning: Citation `ptolemy' on page 42 undefined on input line 11.
 
 LaTeX Warning: Citation `Boulanger2008' on page 42 undefined on input line 11.
 
-)) (./examples/examples.tex [42]
+) [42]) (./examples/examples.tex [43]
 Chapter 5.
 (./examples/intro.tex) (./examples/cameraexample.tex
 
-LaTeX Warning: Reference `fig:bcoolsyncrohomo' on page 43 undefined on input li
+LaTeX Warning: Reference `fig:bcoolsyncrohomo' on page 44 undefined on input li
 ne 14.
 
-[43
+[44
 
-] [44] [45]
+] [45] [46]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [47]
 
-LaTeX Warning: Citation `encodingcomparison' on page 47 undefined on input line
+LaTeX Warning: Citation `encodingcomparison' on page 48 undefined on input line
  79.
 
-<examples/figs/picmodels.pdf, id=674, 525.965pt x 617.30624pt>
+<examples/figs/picmodels.pdf, id=744, 525.965pt x 617.30624pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
 Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 83.
 (pdftex.def)             Requested size: 290.22107pt x 340.63097pt.
- [47] [48 <./examples/figs/picmodels.pdf>])
-(./examples/allocationexample.tex)) (./conclusion/conclusion.tex [49]
+ [48] [49 <./examples/figs/picmodels.pdf>])
+(./examples/allocationexample.tex)) (./conclusion/conclusion.tex [50]
 Chapter 6.
-) (./appendix/runningexamplelang.tex [50
+) (./appendix/runningexamplelang.tex [51
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `ECL' on page 51 undefined on input line 5.
+LaTeX Warning: Citation `ECL' on page 52 undefined on input line 5.
 
 
-LaTeX Warning: Citation `omgocl2' on page 51 undefined on input line 5.
+LaTeX Warning: Citation `omgocl2' on page 52 undefined on input line 5.
 
-<bcool/figs/tfsmlang.pdf, id=712, 558.085pt x 747.79375pt>
+<bcool/figs/tfsmlang.pdf, id=782, 558.085pt x 747.79375pt>
 File: bcool/figs/tfsmlang.pdf Graphic file (type pdf)
 
 <use bcool/figs/tfsmlang.pdf>
 Package pdftex.def Info: bcool/figs/tfsmlang.pdf used on input line 9.
 (pdftex.def)             Requested size: 483.69687pt x 648.13348pt.
- [51
+ [52
 
 ]) (./appendix/expressionandrelations.tex
-[52] [53 <./bcool/figs/tfsmlang.pdf>]
+[53] [54 <./bcool/figs/tfsmlang.pdf>]
 Appendix B.
-) (./thesis.bbl [54
+) (./thesis.bbl [55
 
 ]
 Missing character: There is no Ã in font cmr12!
@@ -754,14 +754,14 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [55
+ [56
 
-] [56]
+] [57]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no © in font cmti12!
- [57] [58]
+ [58] [59]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -777,12 +777,12 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [59]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
  [60]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [61]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -791,7 +791,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-) [61] (./thesis.aux)
+) [62] (./thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -800,13 +800,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 5219 strings out of 493304
- 72737 string characters out of 6139871
- 177715 words of memory out of 5000000
- 8419 multiletter control sequences out of 15000+600000
+ 5224 strings out of 493304
+ 72860 string characters out of 6139871
+ 178726 words of memory out of 5000000
+ 8423 multiletter control sequences out of 15000+600000
  17735 words of font info for 72 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 37i,10n,40p,3037b,1668s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 37i,10n,40p,3037b,1685s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
 /texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
@@ -825,10 +825,10 @@ exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
 -dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/f
 onts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (77 pages, 2158675 bytes).
+Output written on thesis.pdf (78 pages, 2272636 bytes).
 PDF statistics:
- 837 PDF objects out of 1000 (max. 8388607)
- 523 compressed objects within 6 object streams
+ 906 PDF objects out of 1000 (max. 8388607)
+ 567 compressed objects within 6 object streams
  0 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 71 words of extra memory for PDF output out of 10000 (max. 10000000)
 

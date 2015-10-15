@@ -6,16 +6,17 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces High Level view of the approach proposed by Di Natale et al. in\nobreakspace {}\cite {dinatale}}}{14}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Heterogeneous Model of a Coffee Machine}}{31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{32}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{33}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{33}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{35}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{36}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces The Proposed Workflow}}{41}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of the Approach}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Heterogeneous Model of a Coffee Machine}}{32}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{33}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{34}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{34}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{35}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{36}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces The Proposed Workflow}}{41}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface}}{48}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface}}{49}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{53}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{54}
 \addvspace {10\p@ }
