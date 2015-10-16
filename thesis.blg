@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
 The style file: alpha.bst
 Database file #1: bibliography/bibliography.bib
 Repeated entry---line 372 of file bibliography/bibliography.bib
@@ -23,17 +25,60 @@ Warning--I didn't find a database entry for "kofman:hal-00950533"
 Warning--I didn't find a database entry for "megamodel"
 Warning--I didn't find a database entry for "ieee42010"
 Warning--I didn't find a database entry for "epsilonbib"
-Warning--I didn't find a database entry for "multi-viewApproach"
-Warning--I didn't find a database entry for "varalarsen:gemoc13"
-Warning--I didn't find a database entry for "timesquare"
 Warning--I didn't find a database entry for "D3.1.2"
+Warning--I didn't find a database entry for "varalarsen:gemoc13"
 Warning--I didn't find a database entry for "girault_lee:composition"
+Warning--I didn't find a database entry for "ptolemy"
+Warning--I didn't find a database entry for "Boulanger2008"
 Warning--I didn't find a database entry for "encodingcomparison"
 Warning--I didn't find a database entry for "ECL"
 Warning--I didn't find a database entry for "omgocl2"
 Warning--I didn't find a database entry for "conf/soco/2012"
+Warning--empty institution in ccslbib
 Warning--empty booktitle in ptoleframebib
 Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
+Warning--empty institution in ambabus
 Warning--empty booktitle in AspectJoverview
+You've used 52 entries,
+            2543 wiz_defined-function locations,
+            909 strings with 14944 characters,
+and the built_in function-call counts, 24451 in all, are:
+= -- 2401
+> -- 1369
+< -- 40
++ -- 490
+- -- 478
+* -- 1809
+:= -- 3990
+add.period$ -- 175
+call.type$ -- 52
+change.case$ -- 378
+chr.to.int$ -- 50
+cite$ -- 58
+duplicate$ -- 981
+empty$ -- 1668
+format.name$ -- 525
+if$ -- 5088
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 265
+num.names$ -- 170
+pop$ -- 391
+preamble$ -- 1
+purify$ -- 430
+quote$ -- 0
+skip$ -- 813
+stack$ -- 0
+substring$ -- 1096
+swap$ -- 246
+text.length$ -- 40
+text.prefix$ -- 10
+top$ -- 0
+type$ -- 404
+warning$ -- 6
+while$ -- 220
+width$ -- 55
+write$ -- 703
 (There were 2 error messages)

@@ -94,3 +94,34 @@
 	%   frame=single,
 	%   backgroundcolor=\color{Gris}    
 }
+
+\lstdefinelanguage{moccml}
+{
+	morekeywords=[0]{ require, using, extern, pre, post, inv},
+	morekeywords=[1]{dse, Coincides, Causes, SampleBy, root, integer},
+	morekeywords=[2]{"./ccsllibrary/kernel.ccslLib","./ccsllibrary/CCSL.ccslLib"},
+	morekeywords=[3]{ end, Operator, operator, BCOoLSpec},
+	morekeywords=[4]{ RelationDefinition, Relation, AutomataConstraintLibrary, RelationDeclarations, as, RelationLibrary, ExpressionLibrary, RelationDefinitions, RelationDeclaration, imports, BCoolLibrary, import, ExpressionDeclarations, ExpressionDefinitions, ExpressionDefinition, ExpressionDeclaration},
+	morekeywords=[5]{ occurs, startAction, finishAction, entering, leaving, startActivity, finishActivity, ticks},
+	morekeywords=[6]{ and, or, not },
+	sensitive=true,
+	morecomment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	morestring=[b]",
+}
+
+\lstset{language=moccml,
+	basicstyle=\ttfamily,
+	keywordstyle=[0]\bf\color{KRed},
+	keywordstyle=[1]\bf\color{KBlue},
+	keywordstyle=[2]\textit\bf\color{KBlue},
+	keywordstyle=[3]\bf\color{KBlue},
+	keywordstyle=[4]\textit\bf\color{KPurple},
+	keywordstyle=[5]\bf\color{KBlack},
+	keywordstyle=[6]\bf\color{KPurple},
+	commentstyle=\color{KOliveGreen},
+	tabsize=2,
+	breaklines=true,
+	%   frame=single,
+	%   backgroundcolor=\color{Gris}    
+}

@@ -17,6 +17,12 @@ F.~Arbab, I.~Herman, and P.~Spilling.
 \newblock An overview of manifold and its implementation.
 \newblock {\em Concurrency: Pract. Exper.}, 5(1):23--70, February 1993.
 
+\bibitem[And09]{ccslbib}
+C.~Andr{\'e}.
+\newblock {Syntax and Semantics of the Clock Constraint Specification Language
+  (CCSL)}.
+\newblock Technical report, 2009.
+
 \bibitem[BCE{\etalchar{+}}06]{mergemanifest}
 Greg Brunet, Marsha Chechik, Steve Easterbrook, Shiva Nejati, Nan Niu, and
   Mehrdad Sabetzadeh.
@@ -111,6 +117,11 @@ Abhijit Davare, Douglas Densmore, Liangpeng Guo, Roberto Passerone, Alberto~L.
   Sangiovanni-Vincentelli, Alena Simalatsar, and Qi~Zhu.
 \newblock {metroII}: A design environment for cyber-physical systems.
 \newblock {\em ACM TECS}, 2013.
+
+\bibitem[DM12]{timesquarebib}
+Julien Deantoni and Fr{\'e}d{\'e}ric Mallet.
+\newblock {TimeSquare: Treat your Models with Logical Time}.
+\newblock In {\em {TOOLS}}, 2012.
 
 \bibitem[DNCSSV14]{dinatale}
 Marco Di~Natale, Francesco Chirico, Andrea Sindico, and Alberto

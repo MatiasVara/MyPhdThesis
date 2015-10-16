@@ -6,7 +6,7 @@ caption={Synchronized product operator between the TFSM and Activity languages b
 label={lst:bcoolrunningexample2}, 
 basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 BCOoLSpec TFSM-fUMLOperators
-ImportLib "facilities.bcoollib"
+ImportLib "facilities.moccml"
 ImportInterface "activitySemantics.ecl" as activity
 ImportInterface "TFSM.ecl" as tfsm
 
@@ -15,8 +15,8 @@ Global Event globalClock;
 Operator SyncProduct(dse1 : activity::startAction, dse2 : tfsm::occurs)
 CorrespondenceMatching: when (dse1.name = dse2.name)
 CoordinationRule: 
-	Local Event sampledStartAction = Sample (globalClock, dse1);
-	Local Event sampledOccurs = Sample (globalClock, dse2);
+	Local Event sampledStartAction = SampledBy (globalClock, dse1);
+	Local Event sampledOccurs = SampledBy (globalClock, dse2);
 	
 	RendezVous(sampledstartAction, sampledoccurs)
 end operator
@@ -41,8 +41,8 @@ label={lst:bcoolrunningexample3},
 basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, firstnumber=10, xleftmargin=2pt]
 CoordinationRule: 
 	Local Event dividerFrec = Filter (globalClock, 4)
-	Local Event sampledStartAction = Sample (dividedFrec, dse1);
-	Local Event sampledOccurs = Sample (dividedFrec, dse2);
+	Local Event sampledStartAction = SampledBy (dividedFrec, dse1);
+	Local Event sampledOccurs = SampledBy (dividedFrec, dse2);
 
 	RendezVous(sampledstartAction, sampledoccurs)
 end operator

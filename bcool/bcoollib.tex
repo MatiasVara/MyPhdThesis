@@ -1,18 +1,44 @@
 \subsubsection{Library}
 \label{subsec:bcoollib}
 
-\begin{itemize}
-	\item Libraries gather some predefined event expressions and relations, which must be imported by the specification (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). Libraries can be organized by modeling domains to gather all the relevant event relations and expressions. 
-	
-	\item Libraries are defined by using \moccml~\cite{moccmlbib} (Model of Concurrency and Communication Language), a dedicated meta-language for formally specifying the concurrency concern	within the definition of a DSL. In \bcool, we use the possibility to create libraries in order to group relations and expressions. 
-	
-	\item Roughly speaking, a \moccml library is a set of declarations together with their formal parameters. A library also contains some definitions, which give the actual behavior of the declarations. Event expressions create a new event from their parameters (\eg building the \textit{Union}, or the \textit{Intersection} of its parameters). They can be used to filter some occurrences of existing events. Such constraints are used in \bcool either to provide global events used in different operators or to define some filters used in the coordination rules. Relations, however, constrain the evolution of the events given as formal parameters. For instance, a relation can define a \textit{Rendezvous} synchronization on its parameters. Lots of other relations, more or less complex can be defined \eg \textit{Causality}, \textit{FIFO}. For instance, an event relation can be used to encapsulate the AMBA protocol~\cite{ambabus}. 
-	
-	\item \bcool includes a library, named \emph{facilities.moccmllib}, that provides all the declarations used in all the previous examples. The integrator however can extend the current library by defining new specific constraints depending on its problems and domain. 
+Libraries gather some predefined event expressions and relations, which must be imported by the specification (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). They are organized by modeling domains to gather all the relevant event relations and expressions. \bcool relies on \moccml~\cite{moccmlbib} (Model of Concurrency and Communication Language) that allows the definition of libraries of constraints between events.
 
-	\item Libraries can be used to encapsulate complex coordination rules. For instances, the coordination rule presented in Listing~\ref{lst:bcoolrunningexample2} can be rewritten by defining an event relation named \emph{RendezvousWithGlobalClock} (see Listing~\ref{lst:bcoolrunningexamplellib}). This improves the readability and enables the reuse.     
-	
-	\item \todo{To show the corresponding moccml code}
+Roughly speaking, a \moccml library is a set of declarations together with their formal parameters. A library also contains some definitions, which give the actual behavior of the declarations. Event expressions create a new event from their parameters (\eg building the \textit{Union}, or the \textit{Intersection} of its parameters). Such constraints are used in \bcool either to provide global events used in different operators or to define some local events used in the coordination rules. Relations, however, constrain the evolution of the events given as formal parameters. In \moccml, relations can be defined by following the syntax of \ccsl~\cite{ccslbib}. In addition, the language gives state based support for the definition of relations thus enabling to define complex communication protocols, \eg the AMBA protocol~\cite{ambabus}.
+
+\todo{To show a graphical representation of relation in \moccml by using a TFSM}
+
+
+\begin{lstlisting}[language=moccml,
+		caption={Facilities Library in \moccml},
+		label={lst:moccmllib}, 
+		basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+		AutomataConstraintLibrary Facilities{ 
+		import "platform:/plugin/fr.inria.aoste.timesquare.ccslkernel.model/ccsllibrary/kernel.ccslLib" as kernel;
+		import "platform:/plugin/fr.inria.aoste.timesquare.ccslkernel.model/ccsllibrary/CCSL.ccslLib" as CCSLLib;
+		
+		RelationLibrary CCSLBasedBCOoLRelations {
+		RelationDefinition RendezVousDef[RendezVous]{ 
+			Relation RendezVousrelat[Coincides]( Clock1->ClockA, Clock2->ClockB)
+		}
+		RelationDefinition RendezVouswithGlobalClockDef[RendezVouswithGlobalClock]{ 
+			Expression sampledStartAction = SampledBy (Sampled -> globalClock, Trigger-> startAction)
+			Expression sampledOccurs = SampledBy (Sampled -> globalClock, Trigger-> occurs)
+			Relation RendezVousSamples[Coincides](   Clock2-> sampledStartAction , Clock1-> sampledOccurs  )
+		}
+		RelationDeclaration RendezVous (ClockA:clock, ClockB:clock) 
+		RelationDeclaration RendezVouswithGlobalClock (startAction: clock , occurs: clock, globalClock: clock )
+		}
+		ExpressionLibrary BCOolExpressions{
+			ExpressionDefinition SampledDef [SampledBy]{
+				root=Sample_result 
+				Expression Sample_result = SampledOn(SampledOnTrigger -> Trigger, SampledOnSampledClock ->Sampled)
+		}
+		ExpressionDeclaration SampledBy(Trigger: clock,  Sampled: clock):clock
+		}	
+		}
+\end{lstlisting}
+
+\bcool includes the library \emph{facilities.moccmllib} that provides all the declarations used in the previous examples. This is partially shows in Listing~\ref{lst:moccmllib}. The integrator however can extend the current library by defining new specific constraints depending on its problems and domain. For instance, the coordination rule presented in Listing~\ref{lst:bcoolrunningexample2} can be rewritten by defining an event relation named \emph{RendezvousWithGlobalClock} (Listing~\ref{lst:bcoolrunningexamplellib}: line 11). Then, such a relation can be reused in other specification. Furthermore, libraries improves the readability of a \bcool specification by gathering domain specific relations. 
 	
 	\begin{lstlisting}[language=bcool,
 	caption={Synchronized product operator between the TFSM and Activity languages by using the library},
@@ -23,7 +49,4 @@
 	end operator
 	\end{lstlisting}
 	
-	
-	\item By using \moccml, the resulting coordination is expressed in \ccsl~\cite{tr:ccsl}, a formal language dedicated to event constraints. When building \bcool operators a \ccsl specification is produced. We can then use \ccsl tool (TimeSquare~\cite{timesquare}) to analyze and execute the generated coordination specification. This is further discussed in Section~\ref{section:bcoollengbench}. \todo{We could also use another language to build the semantics of operators and then take benefit from other analysis tools}.
-	
-\end{itemize}
+%By relying on \moccml, the application of \bcool operators generate a coordination specification in \ccsl. We can then use \ccsl tool (TimeSquare~\cite{timesquarebib}) to perform analyze and execute the generated coordination specification. This is further discussed in Section~\ref{sec:validation}.
