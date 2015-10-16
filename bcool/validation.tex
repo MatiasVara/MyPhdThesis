@@ -1,34 +1,20 @@
 \section{Validation}
 \label{sec:validation}
 \begin{itemize}
-	\item By relying on \moccml, the application of \bcool operators generates a coordination specification in \ccsl. We can then use \ccsl tool (TimeSquare~\cite{timesquarebib}) to perform analyze and execute the generated coordination specification. 
+	\item In this section, we use the \bcool specification presented in Listing~\ref{lst:bcoolrunningexample} to coordinate the running example. The application of \bcool operators generates a coordination specification in \ccsl. Figure~\ref{?} shows the partial specification in \ccsl. The specification begins by importing the \ccsl of each models. Then, the coordination is specified by adding some constraints. More precisely, it specifies a simultaneous occurrence between the coordinated events.      
 	
-	\item \todo{To show \ccsl code}
 	
-	\item To validate the coordinated, we provide two methods: execution and state-space exploration. 
+	 \item The \ccsl specification can be executed by using TimeSquare~\cite{timesquarebib}. Figure~\ref{fig:coffemachinevcd} illustrates the partial timing output of the execution of the running example. TimeSquare also offers the possibility to obtain by exploration quantitative results on the scheduling state-space (see Figure~\ref{?}). The state space is always computable if models are finite. 
 	
-	\item The state space exploration only valid when models has a finite execution. 
-	
-	\item In this section, we show the possible validation and verification activities that we can perform on the coordinated system. 
-	
-	\item By using TimeSquare, we can execute the coordinated system. Figure~\ref{?} illustrates the partial timing output of the execution of the whole example.
-	
-	\item Before be coordinated, FSMEvents and Action are allowed to occur, individual semantics makes their own choices. The coordination constrains the occurences of these events thus reducing what can be done by individual models. For instance,     
-
+	 \item \todo{To show the space state}
+	  \item \todo{To change the picture, add :}
 	\begin{figure}[h]
-		\center
-		\includegraphics[width=.9\textwidth]{bcool/figs/coffeemachinevcd}
-		\caption{todo}
-		\label{fig:runningeventvar}
+	  	\center
+	  	\includegraphics[width=.9\textwidth]{bcool/figs/coffeemachinevcd}
+	  	\caption{todo}
+	  	\label{fig:coffemachinevcd}
 	\end{figure}
 	
-	\item The workbench also offers the possibility to obtain by exploration quantitative results on the scheduling state-space.
-	
-	\item \todo{To describe a bit the execution}
-	\item . Then, the coordination constrains such events thus limiting the behavior of both models. Since the constrains expressed by the coordination these events becomes precedes. The simulation then only will the scenario where these events are precedes. 
-	
-	\item The semantics of Activity allows the multiple execution of the activity, however, given the constrain imposed by the coordination, the execution is controlled by the TFSM. 
-	
-	\item \todo{To describe how the behavior of both models is contraint by the glue. The global behavior is intersecction of both behaviors}
+	\item When a coin is inserted (\emph{coin:occurs} happens), the \emph{selectCoffee:occurs} event is triggered. Then, the coordination forces a simultaneous occurrence between \emph{selectCoffee:occurs} and \emph{selectCoffee:startAction} thus making the activity starts to execute. Then, when the coffee is released, the coordination forces a simultaneous occurrence between the events \emph{releaseCoffee:startAction} and \emph{releaseCoffee:occurs}. The coordination constrains some events by making them to happen simultaneously. This reduces what can be done by individual models, \ie some FSMEvents and Action can only occurs simultaneously. Other events are only constrained by the individual semantics that decides when they occur. The coordination only constraints the behavior of both models without adding new ones. In this sense, the coordination is non intrusive thus not altering the behavior of individual models. 
 	
 \end{itemize}
