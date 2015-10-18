@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  17 OCT 2015 16:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  19 OCT 2015 00:15
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -353,13 +353,12 @@ File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 (Font)              using `OT1/cmr/bx/n' instead on input line 32.
 
-[8])
+[8] [9])
 \tf@toc=\write4
- [9] [10
-
-] (thesis.lot)
+ [10] (thesis.lot)
 \tf@lot=\write5
  [11
+
 
 ] [12
 
@@ -602,25 +601,30 @@ e 55.
 ) (bcool/bcoollib.tex
 Underfull \vbox (badness 2753) has occurred while \output is active []
 
- [36 <./bcool/figs/runningeventvarfilter.pdf>] [37]) (bcool/bcoolascorresmatch.
-tex [38])
-(bcool/bcoolsemantics.tex
+ [36 <./bcool/figs/runningeventvarfilter.pdf>] [37]) (bcool/bcoolsemantics.tex
 
-LaTeX Warning: Citation `D3.1.2' on page 39 undefined on input line 2.
+LaTeX Warning: Citation `D3.1.2' on page 38 undefined on input line 2.
 
-)) [39] (bcool/validation.tex [40]
+)) [38] (bcool/validation.tex
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-LaTeX Warning: Reference `?' on page 41 undefined on input line 29.
+ [39]
 
-<bcool/figs/coffeemachinevcd.pdf, id=540, 884.10298pt x 195.129pt>
+LaTeX Warning: Reference `?' on page 40 undefined on input line 29.
+
+<bcool/figs/coffeemachinevcd.pdf, id=537, 884.10298pt x 195.129pt>
 File: bcool/figs/coffeemachinevcd.pdf Graphic file (type pdf)
 
 <use bcool/figs/coffeemachinevcd.pdf>
 Package pdftex.def Info: bcool/figs/coffeemachinevcd.pdf used on input line 33.
 
 (pdftex.def)             Requested size: 435.32422pt x 96.0785pt.
- [41 <./bcool/figs/coffeemachinevcd.pdf>]) (bcool/langworkbench.tex
-<bcool/figs/bcooltechnos.png, id=548, 728.7225pt x 609.27625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[40]) (bcool/langworkbench.tex
+<bcool/figs/bcooltechnos.png, id=541, 728.7225pt x 609.27625pt>
 File: bcool/figs/bcooltechnos.png Graphic file (type png)
 
 <use bcool/figs/bcooltechnos.png>
@@ -630,6 +634,7 @@ Package pdftex.def Info: bcool/figs/bcooltechnos.png used on input line 7.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
+[41 <./bcool/figs/coffeemachinevcd.pdf>]
 <bcool/figs/process.pdf, id=550, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
@@ -640,81 +645,60 @@ Package pdftex.def Info: bcool/figs/process.pdf used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[42] [43 <./bcool/figs/bcooltechnos.png>]
-<bcool/figs/bcoolscreen.png, id=558, 677.02937pt x 459.21562pt>
+[42 <./bcool/figs/bcooltechnos.png>]
+<bcool/figs/bcoolscreen.png, id=555, 677.02937pt x 459.21562pt>
 File: bcool/figs/bcoolscreen.png Graphic file (type png)
 
 <use bcool/figs/bcoolscreen.png>
 Package pdftex.def Info: bcool/figs/bcoolscreen.png used on input line 39.
 (pdftex.def)             Requested size: 290.22107pt x 196.85625pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-) (bcool/evaluation.tex [44 <./bcool/figs/process.pdf>]
+ [43 <./bcool/figs/process.pdf>])
+(bcool/evaluation.tex [44 <./bcool/figs/bcoolscreen.png>]
 
 LaTeX Warning: Citation `varalarsen:gemoc13' on page 45 undefined on input line
- 5.
+ 10.
 
-
-LaTeX Warning: Citation `girault_lee:composition' on page 45 undefined on input
- line 7.
-
-[45 <./bcool/figs/bcoolscreen.png>]
-
-LaTeX Warning: Citation `ptolemy' on page 46 undefined on input line 11.
-
-
-LaTeX Warning: Citation `Boulanger2008' on page 46 undefined on input line 11.
-
-)) (examples/examples.tex [46]
+[45])) (examples/examples.tex [46]
 Chapter 5.
-(examples/intro.tex) (examples/cameraexample.tex
+(examples/intro.tex) (examples/cameraexample.tex [47
 
-LaTeX Warning: Reference `fig:bcoolsyncrohomo' on page 47 undefined on input li
-ne 14.
-
-[47
-
-] [48] [49]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [50]
+] [48] [49] [50]
 
 LaTeX Warning: Citation `encodingcomparison' on page 51 undefined on input line
- 79.
+ 84.
 
-<examples/figs/picmodels.pdf, id=758, 525.965pt x 617.30624pt>
+<examples/figs/picmodels.pdf, id=759, 525.965pt x 617.30624pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
-Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 83.
+Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 88.
 (pdftex.def)             Requested size: 290.22107pt x 340.63097pt.
  [51] [52 <./examples/figs/picmodels.pdf>])
-(examples/allocationexample.tex)) (conclusion/conclusion.tex [53]
+(examples/allocationexample.tex (bcool/bcoolascorresmatch.tex [53])))
+(conclusion/conclusion.tex [54]
 Chapter 6.
-) (appendix/runningexamplelang.tex [54
+) (appendix/runningexamplelang.tex [55
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `ECL' on page 55 undefined on input line 5.
+LaTeX Warning: Citation `ECL' on page 56 undefined on input line 5.
 
 
-LaTeX Warning: Citation `omgocl2' on page 55 undefined on input line 5.
+LaTeX Warning: Citation `omgocl2' on page 56 undefined on input line 5.
 
-<bcool/figs/tfsmlang.pdf, id=796, 558.085pt x 747.79375pt>
+<bcool/figs/tfsmlang.pdf, id=800, 558.085pt x 747.79375pt>
 File: bcool/figs/tfsmlang.pdf Graphic file (type pdf)
 
 <use bcool/figs/tfsmlang.pdf>
 Package pdftex.def Info: bcool/figs/tfsmlang.pdf used on input line 9.
 (pdftex.def)             Requested size: 483.69687pt x 648.13348pt.
- [55
+ [56
 
 ]) (appendix/expressionandrelations.tex
-[56] [57 <./bcool/figs/tfsmlang.pdf>]
+[57] [58 <./bcool/figs/tfsmlang.pdf>]
 Appendix B.
-) (thesis.bbl [58
+) (thesis.bbl [59
 
 ]
 Missing character: There is no Ã in font cmr12!
@@ -727,14 +711,14 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [59
+ [60
 
-] [60]
+] [61]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no © in font cmti12!
- [61] [62]
+ [62] [63]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -744,18 +728,18 @@ Missing character: There is no € in font cmti12!
 Missing character: There is no ” in font cmti12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [63]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
  [64]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [65]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -764,7 +748,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-) [65] (thesis.aux)
+) [66] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -773,35 +757,36 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 4964 strings out of 493673
- 68728 string characters out of 3141527
- 172755 words of memory out of 3000000
- 8073 multiletter control sequences out of 15000+200000
- 17735 words of font info for 72 fonts, out of 3000000 for 9000
+ 4962 strings out of 493673
+ 68679 string characters out of 3141527
+ 172753 words of memory out of 3000000
+ 8070 multiletter control sequences out of 15000+200000
+ 18043 words of font info for 73 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  37i,10n,40p,3037b,1651s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
-/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
-Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
-am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
-es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files 
-(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86
-)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
-KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
-9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (81 pages, 3016770 bytes).
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
+:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
+rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
+ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
+ Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
+ (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
+86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
+MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
+.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
+ype1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (82 pages, 3028924 bytes).
 PDF statistics:
- 919 PDF objects out of 1000 (max. 8388607)
+ 926 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 

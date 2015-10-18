@@ -1,17 +1,24 @@
 \section{Operators between TFSM and Activity}
 	\begin{itemize}
-		\item We define four operators. Each operator captures a given coordination pattern between TFSM and the fUML language
+		\item \todo{To show only the hierarchical coordination!}
+		\item \todo{This example has to show the benefice of our approach in term of automatic coordination and variations of the semantics of the coordination}
+		\item \todo{The no timing hierarchical coordination must be specify in one operator by relying on a library}
+			
+		\item Operator captures a given coordination pattern between TFSM and the fUML language
 		\item We capture a timing and hierarchical coordination pattern.
 		\item We use these operators to coordinate a surveillance camera system (Moto)
 		\item We verify and verify the coordinated system.
-		\item Why this two languages?
+
 	\end{itemize}
+	
+	
 	\subsection{Definition}
+	
 	In a \bcool specification (see Listing~\ref{fig:bcoolsyncrohetero}: line 1), we define four coordination operators between the TFSM and fUML languages. The specification begins by importing (see Listing~\ref{fig:bcoolsyncrohetero}: line 3 and 4) the behavioral interfaces of each language, defined as an \ecl specification.
 	
 	
 	\todo{The first operator, named \emph{SyncProduct} (see Listing~\ref{fig:bcoolsyncrohetero}: line 6), differs from the running example because it applies to heterogeneous languages (namely fUML and TFSM). 
-	Whereas in the running example the occurrences of FSMEvents were synchronized with the occurrences of other FSMEvents, here they are synchronized with the start of fUML \emph{Actions}, \ie by coordinating instances of \dse \emph{occurs} and \emph{startAction}. This operator only requires a slight modification of the specification presented in the running example (see Listing~\ref{fig:bcoolsyncrohomo}). The only modifications are the imported interfaces and the type of the \dse used in the operator (see Listing~\ref{fig:bcoolsyncrohetero}: line 6). The rest of the definition (\ie the correspondence matching and coordination rule) is unchanged (see Listing~\ref{fig:bcoolsyncrohetero}: line 7 and 8). This is the simple adaptation to go from the homogeneous case to the heterogeneous case. We want to highlight that the adaptation has been done only by identifying the new \dse to be constrained. This should also be the case for other languages.} 
+	Whereas in the running example the occurrences of FSMEvents were synchronized with the occurrences of other FSMEvents, here they are synchronized with the start of fUML \emph{Actions}, \ie by coordinating instances of \dse \emph{occurs} and \emph{startAction}.} 
 
 	For the second and third operators, we specify a hierarchical coordination pattern between the TFSM and fUML languages, unlike hierarchical coordination frameworks where the semantics is hidden, these operators explicitly specify how the hierarchical coordination is implemented. In our case, we chose the semantics in which entering a specific state of a TFSM model triggers the execution of a given fUML activity. When leaving a state, several semantic variation points may be chosen. The outgoing transitions from a state can be considered, for instance, as preemptive for the activity model (\ie firing a transition from a state to another preempts the internal activity). Alternatively, the transition can be considered as non-preemptive (\ie the states cannot be left before the associated activity finishes). In this paper, we chose non-preemptive transitions, preemptive ones are detailed on the companion webpage. Listing~\ref{fig:bcoolnopremtive} presents the \bcool specification that is organized around two operators: \textit{StateEntering} and \textit{StateLeaving}. 
 	
@@ -53,10 +60,8 @@
 	For the fourth operator, we deal with the temporal aspects of the model coordination. The operator specifies how the time in the TFSM elapses during the execution of the activities that specify the on-entry action of a state. This coordination is also hierarchical, but in this case, only considers the timing aspects. In the TFSM language, each state machine has a \emph{localClock} used to measure the time (see Figure~\ref{fig:tfsmmm}) while the fUML language is untimed. The local clock is a \emph{FSMClock}, which defines a \dse named \emph{ticks} whose occurrences represent a physical time increment. In the fUML language, the duration of activities can be represented as the time between the \dse \emph{startActivity} and \dse \emph{finishActivity} (Listing~\ref{fig:eclfuml}). To coordinate the time, it is necessary to specify the number of \emph{ticks} of the local clock between the occurrence of the \dse \emph{startActivity} and \emph{finishActivity}. We propose an operator that enforces the execution of the ``internal'' activity to be atomic with respect to the time in the TFSM model. As a result, there is no occurrence of the \dse ticks of the corresponding local clock during the execution of the activity. 
 	
 	Listing~\ref{fig:bcooltimeinactions} captures the corresponding coordination pattern by defining the operator named \emph{NoTimeinRefinedActivity}. The operator selects instances of \dse startActivity and finishActivity by using their context. As a result, the pairs selected identify the starting and finishing of an activity. Then, we select the activities that represent a state (Listing~\ref{fig:bcooltimeinactions}: line 24). To do so, we use the onEnterAction defined in the context of State. Then, we use the selected instances of \dse entering to select instances of \dse ticks of the corresponding local clock (Listing~\ref{fig:bcooltimeinactions}: line 25). The coordination rule must specify how much time is consumed during the execution of an activity. First, we use the event expression \emph{SampledBy} to create a local event named \emph{sampled} which ticks always after the startActivity instance, and coincides with the occurrences of the instance of the corresponding \dse ticks (Listing~\ref{fig:bcooltimeinactions}: line 27). Second, we synchronize the event sampled with the finishing of the activity by using a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28). This results for instances of ticks to occur only after the activity has finished its execution.
-	% During the execution of an activity, there is no occurrence of ticks. Thus, we use a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28) to specify that ticks can occur only after the activity finishes.    
-	%Second, since during the execution of the activity there is no occurrence of ticks, they can occur only after the activity finishes, then we synchronize the event sampled with the finishing of the activity by a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28).
 	
-	The coordination rule presented earlier can be built by relying on a \bcool library. In this case, we have to extend the library \emph{facilities.bcoollib} and add a new event relation named \emph{atomicActivity}. Then, we have to replace the event expressions and relations by the event relation atomicActivity with the corresponding parameters (\ie dse1, dse2, dse4). The use of the library to define domain specific relations has two major benefits. First, once defined in the library, event relations can be reused in various \bcool specifications. Second, by defining a dedicated event relation, we improve the readability and modularity of the \bcool specification.  %Libraries are also supported by coordination frameworks like Ptolemy. In this case, directors can be reused by sharing the corresponding Java library. However, to understand how a director works, the code should be very well documented. Otherwise, the understanding of the director depends on the Java skill of the integrator. Differently, in our approach, we are using a language dedicated to integrator experts thus easing the understanding and adaptation of the \bcool specification. 
+	The coordination rule presented earlier can be built by relying on a \bcool library. In this case, we have to extend the library \emph{facilities.bcoollib} and add a new event relation named \emph{atomicActivity}. Then, we have to replace the event expressions and relations by the event relation atomicActivity with the corresponding parameters (\ie dse1, dse2, dse4). The use of the library to define domain specific relations has two major benefits. First, once defined in the library, event relations can be reused in various \bcool specifications. Second, by defining a dedicated event relation, we improve the readability and modularity of the \bcool specification.
 	
 	\begin{lstlisting}[language=bcool,
 	caption={Timing coordination operator between TFSM and fUML language},
@@ -91,4 +96,12 @@
 	
 	By using the language workbench presented in Section~\ref{section:bcoollengbench}, the coordination specification generated for the surveillance camera system can be executed and analysed. More precisely, we are able to execute the coordination specification by using TimeSquare, and to explore the state space. For lack of space we do not show the timing output of the execution of the surveillance camera system, however, the models together with a procedure to execute and verify them can be found in the companion web site.
 	
+	\todo{to show a timing and state space exploration}
 	\subsection{Discussion}
+	
+	\begin{itemize}
+		\item Discussion by relying on the criteria presented in evaluation.
+		\item Semantics variation of the hierarchical coordination. 
+		\item automatic generation of the coordination, eight relation.
+		\item Verification and validation. 
+	\end{itemize}

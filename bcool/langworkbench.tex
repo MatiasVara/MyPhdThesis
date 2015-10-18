@@ -24,7 +24,7 @@ Based on the GEMOC studio, Figure~\ref{fig:proposedworkflow} illustrates the pro
 
 In the language workbench, an integrator develop operators by relying on the deployed languages. The \bcool specification can import the language behavioral interface that are automatically deployed into the workbench. To build its own libraries, the workbench provides \moccml thus helping the integrator to specify EventRelations and EventExpression. 
 
-Operators are automatically deployed into the modeling workbench and can be used by a system designer to generate the coordination. This task is automated by relying on a set of plugins. The workbench provides several tools to perform verification activities \eg execution and animation, space-state exploration, etc.  
+Operators are automatically deployed into the modeling workbench and can be used by a system designer to generate the coordination. This task is automated by relying on a set of plugins\footnote{\todo{I have to talk about how the operators are applied by the plugin, this is not evident!}}. The workbench provides several tools to perform verification activities \eg execution and animation, space-state exploration, etc.  
 
 To summarize, a \bcool developer (\ie integrator) develops a set of operators by relying on the language behavioral interface (\ecl) and libraries (\moccml). Then, a \bcool user (\ie system designer) applies these operator on his models to: 
 		\begin{itemize}
@@ -32,7 +32,7 @@ To summarize, a \bcool developer (\ie integrator) develops a set of operators by
 			\item Perform execution and verification activities.
 		\end{itemize}
 
-We implement the running example by using the GEMOC studio. We rely on the languages TFSM and Activity that are proposed by the studio. Once deployed into the language workbench, we use \bcool to specify the operator in Listing~\ref{lst:bcoolrunningexample} (Figure~\ref{fig:screenbcool}: point 1). In the model workbench, we use the deployed languages to build the models of the coffee machine. This corresponds with a TFSM and an Activity (Figure~\ref{fig:screenbcool}: point 2). Then, we use the workbench to execute, verify and animate the coordinated models.   
+We implement the running example in the GEMOC studio. We rely on the languages TFSM and Activity that are integrated into the study. Then, we use \bcool to specify the operator in Listing~\ref{lst:bcoolrunningexample} (Figure~\ref{fig:screenbcool}: point 1). In the model workbench, we build the models of the coffee machine: a TFSM named \emph{CoffeeCoin} and an Activity named \emph{CoffeeAlgorithm} (Figure~\ref{fig:screenbcool}: point 2). Then, we use the workbench to execute, verify and animate the coordinated models. In particular, Figure shows the animation proposed by Sirius.   
 
 \begin{figure}[h]
 	\begin{center}
@@ -42,6 +42,7 @@ We implement the running example by using the GEMOC studio. We rely on the langu
 	\end{center}
 \end{figure}
 
-\todo{A video showing the full workflow and the animation can be found in ?. To talk about the site}
+A video presenting the whole flow can be found on the companion website~\footnote{http://timesquare.inria.fr/BCOoL}, which also contains more examples with full descriptions. These examples are hosted in Github~\footnote{http://github.com} at BCOoLExamples~\footnote{http://matiasvara.github.io/BCOoLExamples/}. The \bcool code is hosted in the open source project Gemoc~\footnote{http://github.com/gemoc/} thus making the project fully available.
+
   
 
