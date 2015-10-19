@@ -1,48 +1,47 @@
-\section{Timing Hierarchical Coordination between TFSMs and Activities}
+\section{Timing Hierarchical Coordination Operator between TFSM and Activity Languages}
+\subsection{Overview}
 	\begin{itemize}
+		\item In this section, we use \bcool to specify two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. Each operator captures a coordination pattern between the TFSM and Activity Language. 
 		
-		\item We specify two operators that capture a coordination pattern between TFSM and Activities languages. 
-		\item The execution of activities is coordinated with the entering and leaving of states. These actions are atomic from the point of view of the TFSM. 
-		\item We use these operators to coordinate a surveillance camera system.
-		\item We execute and verify the coordinated system.
+		\item The \emph{startActivityWhenEnter} operator captures a hierarchical coordination pattern between the TFSM and fUML languages, unlike hierarchical coordination frameworks where the semantics is hidden, this operator explicitly specify how the hierarchical coordination is implemented. In our case, we chose the semantics in which entering a specific state of a TFSM model triggers the execution of a given fUML activity. When leaving a state, several semantic variation points may be chosen. The outgoing transitions from a state can be considered, for instance, as preemptive for the activity model (\ie firing a transition from a state to another preempts the internal activity). Alternatively, the transition can be considered as non-preemptive (\ie the states cannot be left before the associated activity finishes). In this example, we chose non-preemptive transitions. So that the state can be left only after the activity is finished. 
+		
+		\item In the \emph{AtomicActions} operator, we deal with the temporal aspects of the model coordination. The operator specifies how the time in the TFSM elapses during the execution of the activities that specify the on-entry action of a state. This coordination is also hierarchical, but in this case, only considers the timing aspects. In the TFSM language, each state machine has a \emph{localClock} used to measure the time (see Appendix~\ref{ap:languages}) while the fUML language is untimed. The local clock is a \emph{FSMClock}, which defines a \dse named \emph{ticks} whose occurrences represent a physical time increment. In the fUML language, the duration of activities can be represented as the time between the \dse \emph{startActivity} and \dse \emph{finishActivity} (see Appendix~\ref{ap:languages}). To coordinate the time, it is necessary to specify the number of \emph{ticks} of the local clock between the occurrence of the \dse \emph{startActivity} and \emph{finishActivity}. Thus the operator enforces the execution of the ``internal'' activity to be atomic with respect to the time in the TFSM model. As a result, there is no occurrence of the \dse ticks of the corresponding local clock during the execution of the activity.
+
+		\item In the following, we define these operators in \bcool. Then, we use them to coordinate the heterogeneous model of a surveillance camera system (see Figure~\ref{fig:camerasystem}). We finish this section by studying the coordinated model.  
+
 
 	\end{itemize}
 	
 	
-	\subsection{Definition}
-	
-	
+	\subsection{Definition of the Coordination Operators}
 	\begin{itemize}
-		\item The \bcool is shown in Listing~\ref{lst:bcoolStartActivityWhenEnter} that is organized around two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. 
+		\item The \bcool specification (Listing~\ref{lst:bcoolStartActivityWhenEnter} and Listing~\ref{lst:AtomicActions}) is organized around two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. 
+		
+		\begin{lstlisting}[language=bcool,
+		caption={Hierarchical operator between TFSM and fUML languages},
+		label={lst:bcoolStartActivityWhenEnter}, 
+		basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+		BCOoLSpec TFMSandActivityOperators
+		ImportLib "facilities.moccml"
+		ImportInterface "activitySemantics.ecl" as activity
+		ImportInterface "TFSM.ecl" as tfsm
+		Operator  StartActivityWhenEnter (activityStart : ad::startActivity , activityStop : ad::finishActivity, enterState : tfsm::entering, leaveState : tfsm::leaving)
+		CorrespondenceMatching: when ((activityStart.name = activityStop.name ) and (enterState.name = leaveState.name) and (activityStart.name = enterState.onEnterAction.name));
+		CoordinationRule: 
+		LoopFromStartToFinishNonPeemptive (enterState, leaveState, activityStart, activityStop)
+		end operator;
+		\end{lstlisting}
 		
 		
-		\item  The \emph{startActivityWhenEnter} operator specifies a hierarchical coordination pattern between the TFSM and fUML languages, unlike hierarchical coordination frameworks where the semantics is hidden, these operators explicitly specify how the hierarchical coordination is implemented. In our case, we chose the semantics in which entering a specific state of a TFSM model triggers the execution of a given fUML activity. When leaving a state, several semantic variation points may be chosen. The outgoing transitions from a state can be considered, for instance, as preemptive for the activity model (\ie firing a transition from a state to another preempts the internal activity). Alternatively, the transition can be considered as non-preemptive (\ie the states cannot be left before the associated activity finishes). In this example, we chose non-preemptive transitions.
+		\item The \emph{startActivityWhenEnter} operator coordinates the action of entering into a state with the start of an activity so that when a state is entered, the execution of the activity is started synchronously. Then, the operator expresses that the leaving of the state follows the termination of the activity.   
 		
-		\item \todo{To implement such operator, we rely on the library. We use \moccml to define the event relation \emph{LoopFromStartToFinishNonPeemptive}} 
-		
-		\item \todo{To show the graphical representation of the event relation in \moccml}
-		
-		
-\begin{lstlisting}[language=bcool,
-			caption={Hierarchical operator between TFSM and fUML languages},
-			label={lst:bcoolStartActivityWhenEnter}, 
-			basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
-BCOoLSpec TFMSandActivityOperators
-ImportLib "facilities.moccml"
-ImportInterface "activitySemantics.ecl" as activity
-ImportInterface "TFSM.ecl" as tfsm
-Operator  StartActivityWhenEnter (activityStart : ad::startActivity , activityStop : ad::finishActivity, enterState : tfsm::entering, leaveState : tfsm::leaving)
-CorrespondenceMatching: when ((activityStart.name = activityStop.name ) and (enterState.name = leaveState.name) and
-(activityStart.name = enterState.onEnterAction.name));
-CoordinationRule: 
- LoopFromStartToFinishNonPeemptive (enterState, leaveState, activityStart, activityStop)
-end operator;
-\end{lstlisting}
-		
-		
-		
-		\item In the \emph{AtomicActions} operator, we deal with the temporal aspects of the model coordination. The operator specifies how the time in the TFSM elapses during the execution of the activities that specify the on-entry action of a state. This coordination is also hierarchical, but in this case, only considers the timing aspects. In the TFSM language, each state machine has a \emph{localClock} used to measure the time (see Figure~\ref{fig:tfsmmm}) while the fUML language is untimed. The local clock is a \emph{FSMClock}, which defines a \dse named \emph{ticks} whose occurrences represent a physical time increment. In the fUML language, the duration of activities can be represented as the time between the \dse \emph{startActivity} and \dse \emph{finishActivity} (Listing~\ref{fig:eclfuml}). To coordinate the time, it is necessary to specify the number of \emph{ticks} of the local clock between the occurrence of the \dse \emph{startActivity} and \emph{finishActivity}. We propose an operator that enforces the execution of the ``internal'' activity to be atomic with respect to the time in the TFSM model. As a result, there is no occurrence of the \dse ticks of the corresponding local clock during the execution of the activity.
-		
+		 \item Entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
+		 
+		 \item To identify pairs of events that matches, the correspondence selects events by comparing the \emph{onEnterAction} defined in the states and the name of the activities (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). OnEnterAction is a method defined in the context of State (see Figure~\ref{fig:tfsmmm}) that specifies the method invoked when a state is entered. In our case, we use this attribute to specify the name of the activity that the state represents. 
+		  
+		 \item To specify the semantics of the coordination, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive} defined in the library \emph{facilities.moccml}. Since we have select this semantics in which entering a state synchronously triggers the starting of an activity, the event relation specifies an strong synchronization between the selected pairs of \dse \emph{entering} and \emph{startActivity}. Then, the event relation specifies a causality between the finishing of the activity and the leaving of the state.     
+
+		\item \todo{To show and explain the graphical representation of the event relation in \moccml}
 		
 \begin{lstlisting}[language=bcool,
 caption={Timing coordination operator between TFSM and fUML language},
@@ -59,8 +58,8 @@ end operator;
 		
 		\item \todo{To do so, we rely on the \moccml event relation \emph{AtomicExec}}
 		
-		\item \todo{To check if I can define the relation atomicexec by using automata}
-			%First, we use the event expression \emph{SampledBy} to create a local event named \emph{sampled} which ticks always after the startActivity instance, and coincides with the occurrences of the instance of the corresponding \dse ticks (Listing~\ref{fig:bcooltimeinactions}: line 27). Second, we synchronize the event sampled with the finishing of the activity by using a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28). This results for instances of ticks to occur only after the activity has finished its execution.
+		\item \todo{To explain how the event relation works by relying on the graphical representation}
+		%First, we use the event expression \emph{SampledBy} to create a local event named \emph{sampled} which ticks always after the startActivity instance, and coincides with the occurrences of the instance of the corresponding \dse ticks (Listing~\ref{fig:bcooltimeinactions}: line 27). Second, we synchronize the event sampled with the finishing of the activity by using a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28). This results for instances of ticks to occur only after the activity has finished its execution.
 	
 		\item The use of the library to define domain specific relations has two major benefits. First, once defined in the library, event relations can be reused in various \bcool specifications. Second, by defining a dedicated event relation, we improve the readability and modularity of the \bcool specification.
 	
