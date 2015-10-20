@@ -15,7 +15,7 @@
 	
 	\subsection{Definition of the Coordination Operators}
 	\begin{itemize}
-		\item The \bcool specification (Listing~\ref{lst:bcoolStartActivityWhenEnter} and Listing~\ref{lst:AtomicActions}) is organized around two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. 
+		\item The \bcool specification is organized around two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. 
 		
 		\begin{lstlisting}[language=bcool,
 		caption={Hierarchical operator between TFSM and fUML languages},
@@ -33,13 +33,13 @@
 		\end{lstlisting}
 		
 		
-		\item The \emph{startActivityWhenEnter} operator coordinates the action of entering into a state with the start of an activity so that when a state is entered, the execution of the activity is started synchronously. Then, the operator expresses that the leaving of the state follows the termination of the activity.   
+		\item The \emph{startActivityWhenEnter}  (Listing~\ref{lst:bcoolStartActivityWhenEnter}) operator coordinates the action of entering into a state with the start of an activity so that when a state is entered, the execution of the activity is started synchronously. Then, the operator expresses that the leaving of the state follows the termination of the activity.   
 		
 		 \item Entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
 		 
-		 \item To identify pairs of events that matches, the correspondence selects events by comparing the \emph{onEnterAction} defined in the states and the name of the activities (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). OnEnterAction is a method defined in the context of State (see Figure~\ref{fig:tfsmmm}) that specifies the method invoked when a state is entered. In our case, we use this attribute to specify the name of the activity that the state represents. 
+		 \item To identify pairs of events that match, the correspondence compares the \emph{onEnterAction} defined in the states and the name of the activities (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). OnEnterAction is a method defined in the context of State (see Figure~\ref{fig:tfsmmm}) that specifies the method invoked when a state is entered. In our case, we use this attribute to specify the name of the activity that the state represents. 
 		  
-		 \item To specify the semantics of the coordination, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive} defined in the library \emph{facilities.moccml}. Since we have select this semantics in which entering a state synchronously triggers the starting of an activity, the event relation specifies an strong synchronization between the selected pairs of \dse \emph{entering} and \emph{startActivity}. Then, the event relation specifies a causality between the finishing of the activity and the leaving of the state.     
+		 \item \todo{To specify the semantics of the coordination, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive} defined in the library \emph{facilities.moccml}. Since we have select this semantics in which entering a state synchronously triggers the starting of an activity, the event relation specifies an strong synchronization between the selected pairs of \dse \emph{entering} and \emph{startActivity}. Then, the event relation specifies a causality between the finishing of the activity and the leaving of the state.}     
 
 		\item \todo{To show and explain the graphical representation of the event relation in \moccml}
 		
@@ -54,7 +54,9 @@ CoordinationRule:
 end operator;
 \end{lstlisting}
 		
-		\item Listing~\ref{lst:AtomicActions} captures the corresponding coordination pattern by defining the operator named \emph{AtomicActions}. The operator selects instances of \dse startActivity and finishActivity by using their context. As a result, the pairs selected identify the starting and finishing of an activity. Then, we select the activities that represent a state (Listing~\ref{lst:AtomicActions}: line 12). To do so, we use the onEnterAction defined in the context of State. Then, we use the selected instances of \dse entering to select instances of \dse ticks of the corresponding local clock (Listing~\ref{lst:AtomicActions}: line 25). The coordination rule must specify how much time is consumed during the execution of an activity.
+		\item Listing~\ref{lst:AtomicActions} contains the definition of operator named \emph{AtomicActions}. The operator selects instances of \dse startActivity and finishActivity by using their context. As a result, the pairs selected identify the starting and finishing of an activity. Then, we select the activities that represent a state (Listing~\ref{lst:AtomicActions}: line 12). To do so, we use the onEnterAction defined in the context of State. Then, we use the selected instances of \dse entering to select instances of \dse ticks of the corresponding local clock (Listing~\ref{lst:AtomicActions}: line 25). The coordination rule must specify how much time is consumed during the execution of an activity.
+		
+		\item In this example, we consider the execution of the activity is atomic. So that, during the execution of the activity, there are non ticks of the tfsm local clock. In other words, the local clock can only ticks only after the activity has finished its execution. 
 		
 		\item \todo{To do so, we rely on the \moccml event relation \emph{AtomicExec}}
 		

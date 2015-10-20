@@ -1,7 +1,7 @@
 \chapter{The TFSM and Activity Languages}
 \label{ap:languages}
 
-\todo{To add Activity language}
+\todo{To add the description of Activity language}
 
 To illustrate the approach, we introduce a simple state-based language named Timed Finite State Machine (TFSM) and its behavioral interface; a state machine language augmented with timed transitions (see Figure~\ref{fig:tfsmmm}). The metamodel describes the abstract syntax of the TFSM language (see Figure~\ref{fig:tfsmmm}). A \emph{System} is composed of \emph{TFSMs}, global \emph{FSMEvents} and global \emph{FSMClocks}. Each \emph{TFSM} is composed of \emph{States}. Each state can be the source of outgoing guarded \emph{Transitions}. A guard can be specified either by the reception of an \emph{FSMEvent} (\emph{EventGuard}) or by a duration relative to the entry time in the source state of the transition (\emph{TemporalGuard}). When fired, transitions generate a set of simultaneous \emph{FSMEvent} occurrences.
 
@@ -9,9 +9,8 @@ The TFSM language defines the following \dse: \emph{entering} and \emph{leaving}
 %\eject
 \begin{figure}
 	\begin{center}
-		\includegraphics[width=1\textwidth]{bcool/figs/tfsmlang}
+		\includegraphics[width=1\textwidth]{appendix/figs/tfsmlang}
 		\caption{(At the top) The TFSM metamodel with its language behavioral interface. (At the bottom)  a TFSM model with its model behavioral interface}
-		\vspace{-2ex}
 		\label{fig:tfsmmm}
 	\end{center}
 \end{figure}
@@ -45,3 +44,11 @@ context Action
 def : startAction : Event = self
 def : finishAction : Event = self
 \end{lstlisting}
+
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{appendix/figs/activitylang}
+		\caption{(At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}
+		\label{fig:tfsmmm}
+	\end{center}
+\end{figure}
