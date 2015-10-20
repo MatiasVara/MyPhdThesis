@@ -1,4 +1,4 @@
-\section{Timing Hierarchical Coordination Operator between TFSM and Activity Languages}
+\section{Timing and Hierarchical Coordination Operator between TFSM and Activity Languages}
 \subsection{Overview}
 	\begin{itemize}
 		\item In this section, we use \bcool to specify two operators: \emph{startActivityWhenEnter} and \emph{AtomicActions}. Each operator captures a coordination pattern between the TFSM and Activity Language. 
@@ -37,12 +37,22 @@
 		
 		 \item Entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
 		 
-		 \item To identify pairs of events that match, the correspondence compares the \emph{onEnterAction} defined in the states and the name of the activities (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). OnEnterAction is a method defined in the context of State (see Figure~\ref{fig:tfsmmm}) that specifies the method invoked when a state is entered. In our case, we use this attribute to specify the name of the activity that the state represents. 
+		 \item To identify pairs of events, we compare the \emph{onEnterAction} and the name of the activities (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). OnEnterAction is a method defined in the context of State (see Figure~\ref{fig:tfsmmm}). It specifies the name of the activity that the state represents. 
 		  
-		 \item \todo{To specify the semantics of the coordination, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive} defined in the library \emph{facilities.moccml}. Since we have select this semantics in which entering a state synchronously triggers the starting of an activity, the event relation specifies an strong synchronization between the selected pairs of \dse \emph{entering} and \emph{startActivity}. Then, the event relation specifies a causality between the finishing of the activity and the leaving of the state.}     
-
-		\item \todo{To show and explain the graphical representation of the event relation in \moccml}
+		 
+		 \item For the coordination rule, we have selected this semantics in which entering a state synchronously triggers the starting of an activity. Then, the coordination rule has to specify a causality between the finishing of the activity and the leaving of the state.     
+		 
+		 \item To do so, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive}. Figures~\ref{ch:examples} shows its graphical representation in \moccml. This is illustrated by the transition between the states \emph{waitEnterState} and \emph{canLoop}. The event relation specifies an strong synchronization between the selected pairs of \dse \emph{entering} and \emph{startActivity}. The transition is only taken when both the state entered and the activity is started. Then, in the canLoop state, the activity can freely execute (\ie the events startActivity and finishActivity are not constrained). Then, the state can be left (the modeleave occurs) only after the activity finishes.       
+		 
 		
+		
+			\begin{figure}
+				\center
+				\includegraphics[scale=0.5]{examples/figs/LoopFromStartToFinishNonPreemptive.png}
+				\caption{Graphical Representation of the Event Relation LoopFromStartToFinishNonPreemptive}
+				\label{fig:LoopFromStartToFinishNonPreemptive}
+			\end{figure}
+				
 \begin{lstlisting}[language=bcool,
 caption={Timing coordination operator between TFSM and fUML language},
 label={lst:AtomicActions}, 
@@ -61,6 +71,15 @@ end operator;
 		\item \todo{To do so, we rely on the \moccml event relation \emph{AtomicExec}}
 		
 		\item \todo{To explain how the event relation works by relying on the graphical representation}
+		
+		
+		\begin{figure}
+		  \center
+		  \includegraphics[scale=0.5]{examples/figs/AtomicExec.png}
+		  \caption{Graphical Representation of the Event Relation AtomicExec}
+		  \label{fig:LoopFromStartToFinishNonPreemptive}
+		\end{figure}
+					
 		%First, we use the event expression \emph{SampledBy} to create a local event named \emph{sampled} which ticks always after the startActivity instance, and coincides with the occurrences of the instance of the corresponding \dse ticks (Listing~\ref{fig:bcooltimeinactions}: line 27). Second, we synchronize the event sampled with the finishing of the activity by using a causality relation (Listing~\ref{fig:bcooltimeinactions}: line 28). This results for instances of ticks to occur only after the activity has finished its execution.
 	
 		\item The use of the library to define domain specific relations has two major benefits. First, once defined in the library, event relations can be reused in various \bcool specifications. Second, by defining a dedicated event relation, we improve the readability and modularity of the \bcool specification.
