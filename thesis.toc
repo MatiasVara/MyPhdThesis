@@ -52,16 +52,16 @@
 \contentsline {subsection}{\numberline {5.2.2}Definition of the Coordination Operators}{48}
 \contentsline {subsection}{\numberline {5.2.3}Use of the Operators in a Surveillance Camera System}{51}
 \contentsline {subsection}{\numberline {5.2.4}Discussion}{53}
-\contentsline {section}{\numberline {5.3}Operator between SigPML and TFSM}{53}
+\contentsline {section}{\numberline {5.3}Operator between SigPML and TFSM}{54}
 \contentsline {subsubsection}{More about Correspondence Matching}{54}
-\contentsline {subsection}{\numberline {5.3.1}Definition}{54}
-\contentsline {subsection}{\numberline {5.3.2}Use of the Operators in deployed system}{54}
-\contentsline {subsection}{\numberline {5.3.3}Discussion}{54}
-\contentsline {section}{\numberline {5.4}Conclusion}{54}
-\contentsline {chapter}{\numberline {6}Conclusion}{55}
-\contentsline {section}{\numberline {6.1}Summary of Thesis Achievements}{55}
-\contentsline {section}{\numberline {6.2}Applications}{55}
-\contentsline {section}{\numberline {6.3}Future Work}{55}
-\contentsline {chapter}{\numberline {A}The TFSM and Activity Languages}{56}
-\contentsline {chapter}{\numberline {B}Event Expression and Event Relations}{60}
-\contentsline {chapter}{Bibliography}{60}
+\contentsline {subsection}{\numberline {5.3.1}Definition}{55}
+\contentsline {subsection}{\numberline {5.3.2}Use of the Operators in deployed system}{55}
+\contentsline {subsection}{\numberline {5.3.3}Discussion}{55}
+\contentsline {section}{\numberline {5.4}Conclusion}{55}
+\contentsline {chapter}{\numberline {6}Conclusion}{56}
+\contentsline {section}{\numberline {6.1}Summary of Thesis Achievements}{56}
+\contentsline {section}{\numberline {6.2}Applications}{56}
+\contentsline {section}{\numberline {6.3}Future Work}{56}
+\contentsline {chapter}{\numberline {A}The TFSM and Activity Languages}{57}
+\contentsline {chapter}{\numberline {B}Event Expression and Event Relations}{61}
+\contentsline {chapter}{Bibliography}{61}

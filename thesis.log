@@ -1,13 +1,15 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  20 OCT 2015 22:54
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  21 OCT 2015 11:54
 entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
 **thesis.tex
-(thesis.tex
-LaTeX2e <2015/01/01> patch level 2
-Babel <3.9m> and hyphenation patterns for 69 languages loaded.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
-Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
-File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+(./thesis.tex
+LaTeX2e <2011/06/27>
+Babel <3.9h> and hyphenation patterns for 78 languages loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
+Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
+File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -22,22 +24,22 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -52,12 +54,11 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
-
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
-Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
 \lst@mode=\count91
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -71,54 +72,54 @@ Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 \lst@lineno=\count96
 \lst@maxwidth=\dimen114
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
 \c@lstnumber=\count97
 \lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
-File: listings.cfg 2015/06/04 1.6 listings configuration
+(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2013/08/26 1.5b listings configuration
 ))
-Package: listings 2015/06/04 1.6 (Carsten Heinz)
+Package: listings 2013/08/26 1.5b (Carsten Heinz)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
-Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 142.
+Package color Info: Driver file: pdftex.def on input line 130.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen115
 ))
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count100
@@ -159,23 +160,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -190,45 +191,45 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \Verbatim@Infile=\read1
 )
 \@input{thesis.preamble.aux}
-(thesis.preamble.tex
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+\openout2 = `thesis.preamble.aux'.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+(./thesis.preamble.tex
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
-File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
+File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
 )
-Package graphics Info: Driver file: pdftex.def on input line 94.
+Package graphics Info: Driver file: pdftex.def on input line 91.
 )
 \Gin@req@height=\dimen125
 \Gin@req@width=\dimen126
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
-Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
+(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
+Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks26
 \verbatim@line=\toks27
 \verbatim@in@stream=\read2
 )
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
+(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
-)
-(mathchars.sty)
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
+) (./mathchars.sty)
+(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
-)
-(blocked.sty) (uhead.sty) (boxit.sty) (icthesis.sty)
+) (./blocked.sty) (./uhead.sty) (./boxit.sty) (./icthesis.sty)
 \c@definition=\count112
 \c@theorem=\count113
-) (keywordstyle.sty)
-(thesis.aux
+) (./keywordstyle.sty)
+(./thesis.aux
 
 LaTeX Warning: Label `fig:LoopFromStartToFinishNonPreemptive' multiply defined.
 
@@ -237,6 +238,8 @@ LaTeX Warning: Label `fig:LoopFromStartToFinishNonPreemptive' multiply defined.
 LaTeX Warning: Label `fig:tfsmmm' multiply defined.
 
 )
+\openout1 = `thesis.aux'.
+
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 14.
@@ -285,7 +288,7 @@ LaTeX Font Info:    ... okay on input line 14.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count114
-("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count115
 \scratchdimen=\dimen127
@@ -298,7 +301,50 @@ LaTeX Font Info:    ... okay on input line 14.
 \MPnumerator=\count119
 \makeMPintoPDFobject=\count120
 \everyMPtoPDFconversion=\toks29
+) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
+))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+Package grfext Info: Graphics extension search list:
+(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 452.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
 Missing character: There is no â in font cmr17!
 Missing character: There is no € in font cmr17!
 Missing character: There is no ™ in font cmr17!
@@ -310,25 +356,25 @@ Overfull \vbox (92.04564pt too high) detected at line 24
 
 
 
-{C:/Users/Matias/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
 
 ]
-(abstract/abstract.tex) (acknowledgements/acknowledgements.tex [1] [2
+(./abstract/abstract.tex) (./acknowledgements/acknowledgements.tex [1] [2
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 10.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 10.
 )
-(dedication/dedication.tex [3
+(./dedication/dedication.tex [3
 
 ] [4
 
-]) (quotes/quotes.tex [5
+]) (./quotes/quotes.tex [5
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 7--10
@@ -337,21 +383,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 7--10
 
 ) [6
 
-] (thesis.toc
+] (./thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 4.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 4.
- ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+
+(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+stmry on input line 4.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
+(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
 LaTeX Font Info:    Try loading font information for U+lasy on input line 4.
 
-("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
+(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 ) [7
 
@@ -363,35 +410,41 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 [8] [9])
 \tf@toc=\write4
- [10] (thesis.lot)
+\openout4 = `thesis.toc'.
+
+ [10] (./thesis.lot)
 \tf@lot=\write5
+\openout5 = `thesis.lot'.
+
  [11
 
 
 ] [12
 
-] (thesis.lof [13
+] (./thesis.lof [13
 
 ])
 \tf@lof=\write6
+\openout6 = `thesis.lof'.
+
  [14]
-(introduction/introduction.tex
+(./introduction/introduction.tex
 Chapter 1.
-) (background/background.tex [1
+) (./background/background.tex [1
 
 
 ]
 Chapter 2.
-(background/intro.tex [2
+(./background/intro.tex [2
 
-]) (background/compolang.tex [3]
+]) (./background/compolang.tex [3]
 Overfull \hbox (50.96873pt too wide) in paragraph at lines 16--17
 []\OT1/cmr/m/n/12 A dif-fer-ent mech-a-nism for model com-po-si-tion is pro-pos
 ed by \OT1/cmr/m/it/12 As-pect Ori-ented Ap-proaches \OT1/cmr/m/n/12 [[]].
  []
 
 
-Underfull \vbox (badness 4120) has occurred while \output is active []
+Underfull \vbox (badness 3579) has occurred while \output is active []
 
  [4]
 [5]
@@ -401,8 +454,8 @@ LaTeX Warning: Citation `?' on page 6 undefined on input line 36.
 
 LaTeX Warning: Citation `?' on page 6 undefined on input line 36.
 
-) (background/compolangbeha.tex [6]) (background/coordapp.tex [7] [8] [9]
-<background/figs/wrightspec.pdf, id=91, 624.3325pt x 500.87125pt>
+) (./background/compolangbeha.tex [6]) (./background/coordapp.tex [7] [8]
+[9] <background/figs/wrightspec.pdf, id=92, 624.3325pt x 500.87125pt>
 File: background/figs/wrightspec.pdf Graphic file (type pdf)
 
 <use background/figs/wrightspec.pdf>
@@ -419,7 +472,7 @@ LaTeX Warning: Citation `MarcoModels2014' on page 12 undefined on input line 53
 
 LaTeX Warning: Citation `ptolemybib' on page 12 undefined on input line 53.
 
-<framework/figs/coordpatterapp.pdf, id=114, 528.97626pt x 417.56pt>
+<framework/figs/coordpatterapp.pdf, id=115, 528.97626pt x 417.56pt>
 File: framework/figs/coordpatterapp.pdf Graphic file (type pdf)
 
 <use framework/figs/coordpatterapp.pdf>
@@ -427,7 +480,7 @@ Package pdftex.def Info: framework/figs/coordpatterapp.pdf used on input line 5
 7.
 (pdftex.def)             Requested size: 290.22107pt x 229.09163pt.
 
-<background/figs/ptolemyfig.pdf, id=115, 504.88625pt x 370.38374pt>
+<background/figs/ptolemyfig.pdf, id=116, 504.88625pt x 370.38374pt>
 File: background/figs/ptolemyfig.pdf Graphic file (type pdf)
 
 <use background/figs/ptolemyfig.pdf>
@@ -436,9 +489,9 @@ Package pdftex.def Info: background/figs/ptolemyfig.pdf used on input line 65.
  [12] [13 <./framework/figs/coordpatterapp.pdf> <./background/figs/ptolemyfig.p
 df
 
-pdfTeX warning: pdflatex.exe (file ./background/figs/ptolemyfig.pdf): PDF inclu
-sion: multiple pdfs with page group included in a single page
->] <background/figs/diNatale.pdf, id=186, 592.2125pt x 373.395pt>
+pdfTeX warning: /usr/bin/pdflatex (file ./background/figs/ptolemyfig.pdf): PDF 
+inclusion: multiple pdfs with page group included in a single page
+>] <background/figs/diNatale.pdf, id=188, 592.2125pt x 373.395pt>
 File: background/figs/diNatale.pdf Graphic file (type pdf)
 
 <use background/figs/diNatale.pdf>
@@ -451,11 +504,11 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-[17]) (background/conclu.tex)) (framework/framework.tex [18]
+[17]) (./background/conclu.tex)) (./framework/framework.tex [18]
 Chapter 3.
-(framework/intro.tex [19
+(./framework/intro.tex [19
 
-]) (framework/interface.tex
+]) (./framework/interface.tex
 
 LaTeX Warning: Citation `ptolemybib' on page 20 undefined on input line 5.
 
@@ -518,7 +571,7 @@ LaTeX Warning: Citation `tagmachine' on page 22 undefined on input line 22.
 LaTeX Warning: Citation `sle13combemalebib' on page 23 undefined on input line 
 24.
 
-[23]) (framework/correspondencerule.tex [24]
+[23]) (./framework/correspondencerule.tex [24]
 
 LaTeX Warning: Citation `MarcoModels2014' on page 25 undefined on input line 17
 .
@@ -540,14 +593,14 @@ LaTeX Warning: Citation `ieee42010' on page 25 undefined on input line 21.
 
 LaTeX Warning: Citation `epsilonbib' on page 26 undefined on input line 23.
 
-) (framework/coordinationrule.tex [26]) (framework/conclu.tex
+) (./framework/coordinationrule.tex [26]) (./framework/conclu.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [27]))
-(bcool/bcool.tex [28] [29]
+(./bcool/bcool.tex [28] [29]
 Chapter 4.
-(bcool/intro.tex) (bcool/language.tex (bcool/bcoolintro.tex
-<bcool/figs/bcoolpic.pdf, id=263, 556.0775pt x 360.34625pt>
+(./bcool/intro.tex) (./bcool/language.tex (./bcool/bcoolintro.tex
+<bcool/figs/bcoolpic.pdf, id=265, 556.0775pt x 360.34625pt>
 File: bcool/figs/bcoolpic.pdf Graphic file (type pdf)
 
 <use bcool/figs/bcoolpic.pdf>
@@ -556,14 +609,14 @@ Package pdftex.def Info: bcool/figs/bcoolpic.pdf used on input line 3.
  [30
 
 ]
-<bcool/figs/models.pdf, id=267, 518.93875pt x 388.45125pt>
+<bcool/figs/models.pdf, id=269, 518.93875pt x 388.45125pt>
 File: bcool/figs/models.pdf Graphic file (type pdf)
 
 <use bcool/figs/models.pdf>
 Package pdftex.def Info: bcool/figs/models.pdf used on input line 14.
 (pdftex.def)             Requested size: 241.84843pt x 181.03694pt.
-) (bcool/bcoolas.tex
-<bcool/figs/BcoolMM.pdf, id=268, 507.8975pt x 325.215pt>
+) (./bcool/bcoolas.tex
+<bcool/figs/BcoolMM.pdf, id=270, 507.8975pt x 325.215pt>
 File: bcool/figs/BcoolMM.pdf Graphic file (type pdf)
 
 <use bcool/figs/BcoolMM.pdf>
@@ -571,54 +624,55 @@ Package pdftex.def Info: bcool/figs/BcoolMM.pdf used on input line 5.
 (pdftex.def)             Requested size: 386.95897pt x 247.78625pt.
  [31 <./bcool/figs/bcoolpic.pdf>] [32 <./bcool/figs/models.pdf>] [33 <./bcool/f
 igs/BcoolMM.pdf>]
-<bcool/figs/runningrdv.pdf, id=495, 450.48299pt x 68.255pt>
+<bcool/figs/runningrdv.pdf, id=498, 450.48299pt x 68.255pt>
 File: bcool/figs/runningrdv.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningrdv.pdf>
 Package pdftex.def Info: bcool/figs/runningrdv.pdf used on input line 35.
 (pdftex.def)             Requested size: 290.22107pt x 43.97362pt.
 
-<bcool/figs/runningcausality.pdf, id=496, 582.175pt x 65.846pt>
+<bcool/figs/runningcausality.pdf, id=499, 582.175pt x 65.846pt>
 File: bcool/figs/runningcausality.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningcausality.pdf>
 Package pdftex.def Info: bcool/figs/runningcausality.pdf used on input line 45.
 
 (pdftex.def)             Requested size: 314.40001pt x 35.5603pt.
-) (bcool/bcoolaseventvar.tex [34 <./bcool/figs/runningrdv.pdf> <./bcool/figs/ru
-nningcausality.pdf
+) (./bcool/bcoolaseventvar.tex [34 <./bcool/figs/runningrdv.pdf> <./bcool/figs/
+runningcausality.pdf
 
-pdfTeX warning: pdflatex.exe (file ./bcool/figs/runningcausality.pdf): PDF incl
-usion: multiple pdfs with page group included in a single page
->] <bcool/figs/runningeventvar.pdf, id=507, 377.41pt x 99.57199pt>
+pdfTeX warning: /usr/bin/pdflatex (file ./bcool/figs/runningcausality.pdf): PDF
+ inclusion: multiple pdfs with page group included in a single page
+>] <bcool/figs/runningeventvar.pdf, id=511, 377.41pt x 99.57199pt>
 File: bcool/figs/runningeventvar.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvar.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvar.pdf used on input line 31.
 (pdftex.def)             Requested size: 241.84843pt x 63.80637pt.
  [35 <./bcool/figs/runningeventvar.pdf>]
-<bcool/figs/runningeventvarfilter.pdf, id=515, 539.61598pt x 132.495pt>
+<bcool/figs/runningeventvarfilter.pdf, id=519, 539.61598pt x 132.495pt>
 File: bcool/figs/runningeventvarfilter.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvarfilter.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvarfilter.pdf used on input lin
 e 55.
 (pdftex.def)             Requested size: 290.22107pt x 71.26115pt.
-) (bcool/bcoollib.tex
+) (./bcool/bcoollib.tex
 Underfull \vbox (badness 2753) has occurred while \output is active []
 
- [36 <./bcool/figs/runningeventvarfilter.pdf>] [37]) (bcool/bcoolsemantics.tex
+ [36 <./bcool/figs/runningeventvarfilter.pdf>] [37]) (./bcool/bcoolsemantics.te
+x
 
 LaTeX Warning: Citation `D3.1.2' on page 38 undefined on input line 2.
 
-)) [38] (bcool/validation.tex
+)) [38] (./bcool/validation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
 
 LaTeX Warning: Reference `?' on page 40 undefined on input line 29.
 
-<bcool/figs/coffeemachinevcd.pdf, id=537, 884.10298pt x 195.129pt>
+<bcool/figs/coffeemachinevcd.pdf, id=541, 884.10298pt x 195.129pt>
 File: bcool/figs/coffeemachinevcd.pdf Graphic file (type pdf)
 
 <use bcool/figs/coffeemachinevcd.pdf>
@@ -629,8 +683,8 @@ Package pdftex.def Info: bcool/figs/coffeemachinevcd.pdf used on input line 33.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[40]) (bcool/langworkbench.tex
-<bcool/figs/bcooltechnos.png, id=541, 728.7225pt x 609.27625pt>
+[40]) (./bcool/langworkbench.tex
+<bcool/figs/bcooltechnos.png, id=545, 728.7225pt x 609.27625pt>
 File: bcool/figs/bcooltechnos.png Graphic file (type png)
 
 <use bcool/figs/bcooltechnos.png>
@@ -641,7 +695,7 @@ Package pdftex.def Info: bcool/figs/bcooltechnos.png used on input line 7.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [41 <./bcool/figs/coffeemachinevcd.pdf>]
-<bcool/figs/process.pdf, id=550, 505.89pt x 343.2825pt>
+<bcool/figs/process.pdf, id=554, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
 <use bcool/figs/process.pdf>
@@ -652,66 +706,64 @@ Package pdftex.def Info: bcool/figs/process.pdf used on input line 17.
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 [42 <./bcool/figs/bcooltechnos.png>]
-<bcool/figs/bcoolscreen.png, id=555, 677.02937pt x 459.21562pt>
+<bcool/figs/bcoolscreen.png, id=559, 677.02937pt x 459.21562pt>
 File: bcool/figs/bcoolscreen.png Graphic file (type png)
 
 <use bcool/figs/bcoolscreen.png>
 Package pdftex.def Info: bcool/figs/bcoolscreen.png used on input line 39.
 (pdftex.def)             Requested size: 290.22107pt x 196.85625pt.
  [43 <./bcool/figs/process.pdf>])
-(bcool/evaluation.tex [44 <./bcool/figs/bcoolscreen.png>]
+(./bcool/evaluation.tex [44 <./bcool/figs/bcoolscreen.png>]
 
 LaTeX Warning: Citation `varalarsen:gemoc13' on page 45 undefined on input line
  10.
 
-[45]) (bcool/conclu.tex)) (examples/examples.tex [46]
+[45]) (./bcool/conclu.tex)) (./examples/examples.tex [46]
 Chapter 5.
-(examples/intro.tex) (examples/cameraexample.tex [47
+(./examples/intro.tex) (./examples/cameraexample.tex [47
 
-] [48]
-<examples/figs/LoopFromStartToFinishNonPreemptive.png, id=753, 603.0028pt x 377
-.15906pt>
-File: examples/figs/LoopFromStartToFinishNonPreemptive.png Graphic file (type p
-ng)
- <use examples/figs/LoopFromStartToFinishNonPreemptive.png>
-Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.png u
-sed on input line 51.
-(pdftex.def)             Requested size: 301.50066pt x 188.57907pt.
- [49]
-[50 <./examples/figs/LoopFromStartToFinishNonPreemptive.png>]
-<examples/figs/AtomicExec.png, id=761, 438.8897pt x 322.95656pt>
-File: examples/figs/AtomicExec.png Graphic file (type png)
+] [48] [49]
+<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=761, 611.88597pt x 39
+1.864pt>
+File: examples/figs/LoopFromStartToFinishNonPreemptive.pdf Graphic file (type p
+df)
+ <use examples/figs/LoopFromStartToFinishNonPreemptive.pdf>
+Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.pdf u
+sed on input line 55.
+(pdftex.def)             Requested size: 305.94223pt x 195.93152pt.
+ [50 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf>]
+<examples/figs/AtomicExec.pdf, id=769, 534.79799pt x 344.48701pt>
+File: examples/figs/AtomicExec.pdf Graphic file (type pdf)
 
-<use examples/figs/AtomicExec.png>
-Package pdftex.def Info: examples/figs/AtomicExec.png used on input line 78.
-(pdftex.def)             Requested size: 219.4443pt x 161.47787pt.
+<use examples/figs/AtomicExec.pdf>
+Package pdftex.def Info: examples/figs/AtomicExec.pdf used on input line 81.
+(pdftex.def)             Requested size: 267.39833pt x 172.24307pt.
+ [51 <./examples/figs/AtomicExec.pdf>]
 
+LaTeX Warning: Citation `encodingcomparison' on page 52 undefined on input line
+ 99.
 
-LaTeX Warning: Citation `encodingcomparison' on page 51 undefined on input line
- 92.
-
-[51 <./examples/figs/AtomicExec.png>]
-<examples/figs/picmodels.pdf, id=767, 699.61375pt x 507.8975pt>
+<examples/figs/picmodels.pdf, id=778, 699.61375pt x 507.8975pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
-Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 96.
+Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 103.
 (pdftex.def)             Requested size: 338.58632pt x 245.80301pt.
- [52 <./examples/figs/picmodels.pdf>])
-(examples/allocationexample.tex (bcool/bcoolascorresmatch.tex [53])))
-(conclusion/conclusion.tex [54]
+ [52]) (./examples/allocationexample.tex
+[53 <./examples/figs/picmodels.pdf>] (./bcool/bcoolascorresmatch.tex) [54]))
+(./conclusion/conclusion.tex [55]
 Chapter 6.
-) (appendix/runningexamplelang.tex [55
+) (./appendix/runningexamplelang.tex [56
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `ECL' on page 56 undefined on input line 8.
+LaTeX Warning: Citation `ECL' on page 57 undefined on input line 8.
 
 
-LaTeX Warning: Citation `omgocl2' on page 56 undefined on input line 8.
+LaTeX Warning: Citation `omgocl2' on page 57 undefined on input line 8.
 
-<appendix/figs/tfsmlang.pdf, id=805, 558.085pt x 747.79375pt>
+<appendix/figs/tfsmlang.pdf, id=819, 558.085pt x 747.79375pt>
 File: appendix/figs/tfsmlang.pdf Graphic file (type pdf)
 
 <use appendix/figs/tfsmlang.pdf>
@@ -721,9 +773,9 @@ Package pdftex.def Info: appendix/figs/tfsmlang.pdf used on input line 12.
 
 LaTeX Warning: Float too large for page by 0.3504pt on input line 16.
 
-[56
+[57
 
-] <appendix/figs/activitylang.pdf, id=809, 503.8825pt x 695.59875pt>
+] <appendix/figs/activitylang.pdf, id=824, 503.8825pt x 695.59875pt>
 File: appendix/figs/activitylang.pdf Graphic file (type pdf)
 
 <use appendix/figs/activitylang.pdf>
@@ -733,10 +785,10 @@ Package pdftex.def Info: appendix/figs/activitylang.pdf used on input line 50.
 
 LaTeX Warning: Float too large for page by 19.9523pt on input line 54.
 
-) (appendix/expressionandrelations.tex [57] [58 <./appendix/figs/tfsmlang.pdf>]
-[59 <./appendix/figs/activitylang.pdf>]
+) (./appendix/expressionandrelations.tex [58] [59 <./appendix/figs/tfsmlang.pdf
+>] [60 <./appendix/figs/activitylang.pdf>]
 Appendix B.
-) (thesis.bbl [60
+) (./thesis.bbl [61
 
 ]
 Missing character: There is no Ã in font cmr12!
@@ -749,14 +801,14 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [61
+ [62
 
-] [62]
+] [63]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no © in font cmti12!
- [63] [64]
+ [64] [65]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -766,18 +818,18 @@ Missing character: There is no € in font cmti12!
 Missing character: There is no ” in font cmti12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [65]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
  [66]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [67]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -786,7 +838,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-) [67] (thesis.aux)
+) [68] (./thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -798,36 +850,36 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4985 strings out of 493673
- 69450 string characters out of 3141527
- 172792 words of memory out of 3000000
- 8087 multiletter control sequences out of 15000+200000
- 18043 words of font info for 73 fonts, out of 3000000 for 9000
- 1025 hyphenation exceptions out of 8191
- 37i,10n,40p,3037b,1667s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
-<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
-:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
-rogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Pr
-ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Prog
-ram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program
- Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Fi
-les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files
- (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files (x
-86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86)/
-MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKTeX
- 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.9/
-fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
-/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/t
-ype1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (83 pages, 5011098 bytes).
+ 5329 strings out of 493304
+ 75370 string characters out of 6139871
+ 181977 words of memory out of 5000000
+ 8515 multiletter control sequences out of 15000+600000
+ 18043 words of font info for 73 fonts, out of 8000000 for 9000
+ 957 hyphenation exceptions out of 8191
+ 37i,10n,40p,3037b,1665s stack positions out of 5000i,500n,10000p,200000b,80000s
+</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
+r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share/texli
+ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texlive/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dist/font
+s/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1
+/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public
+/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfon
+ts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl12.pfb
+></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr
+/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/share/
+texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
+/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive/texmf
+-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (84 pages, 5014639 bytes).
 PDF statistics:
- 956 PDF objects out of 1000 (max. 8388607)
+ 973 PDF objects out of 1000 (max. 8388607)
+ 607 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
  101 words of extra memory for PDF output out of 10000 (max. 10000000)
 
