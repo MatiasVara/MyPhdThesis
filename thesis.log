@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  22 OCT 2015 17:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  23 OCT 2015 17:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -708,46 +708,56 @@ File: bcool/figs/bcoolscreen.png Graphic file (type png)
 <use bcool/figs/bcoolscreen.png>
 Package pdftex.def Info: bcool/figs/bcoolscreen.png used on input line 39.
 (pdftex.def)             Requested size: 290.22107pt x 196.85625pt.
- [43 <./bcool/figs/process.pdf>])
-(./bcool/evaluation.tex [44 <./bcool/figs/bcoolscreen.png>]
+ [43 <./bcool/figs/process.pdf>] [44 <./bcool/figs/bcoolscreen.png>]
+<bcool/figs/antbcool.pdf, id=745, 999.735pt x 356.33125pt>
+File: bcool/figs/antbcool.pdf Graphic file (type pdf)
 
-LaTeX Warning: Citation `varalarsen:gemoc13' on page 45 undefined on input line
+<use bcool/figs/antbcool.pdf>
+Package pdftex.def Info: bcool/figs/antbcool.pdf used on input line 61.
+(pdftex.def)             Requested size: 483.69687pt x 172.40178pt.
+) (./bcool/evaluation.tex [45 <./bcool/figs/antbcool.pdf>]
+
+LaTeX Warning: Citation `varalarsen:gemoc13' on page 46 undefined on input line
  10.
 
-[45]) (./bcool/conclu.tex)) (./examples/examples.tex [46]
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [46])
+(./bcool/conclu.tex)) (./examples/examples.tex [47]
 Chapter 5.
-(./examples/intro.tex) (./examples/cameraexample.tex [47
+(./examples/intro.tex) (./examples/cameraexample.tex [48
 
-] [48] [49]
+] [49] [50]
 
-LaTeX Warning: Citation `encodingcomparison' on page 50 undefined on input line
- 52.
+LaTeX Warning: Citation `encodingcomparison' on page 51 undefined on input line
+ 49.
 
-<examples/figs/picmodels.pdf, id=761, 927.465pt x 640.3925pt>
+<examples/figs/picmodels.pdf, id=779, 927.465pt x 640.3925pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
-Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 56.
+Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 53.
 (pdftex.def)             Requested size: 483.69687pt x 333.98317pt.
- [50] [51 <./examples/figs/picmodels.pdf>]
+ [51] [52 <./examples/figs/picmodels.pdf>]
 
-LaTeX Warning: Citation `MarcoModels2014' on page 52 undefined on input line 74
+LaTeX Warning: Citation `MarcoModels2014' on page 53 undefined on input line 80
 .
 
-[52]) (./examples/allocationexample.tex (./bcool/bcoolascorresmatch.tex
-[53]))) (./conclusion/conclusion.tex [54]
+[53]) (./examples/allocationexample.tex (./bcool/bcoolascorresmatch.tex
+[54]))) (./conclusion/conclusion.tex [55]
 Chapter 6.
-) (./appendix/runningexamplelang.tex [55
+) (./appendix/runningexamplelang.tex [56
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `ECL' on page 56 undefined on input line 8.
+LaTeX Warning: Citation `ECL' on page 57 undefined on input line 8.
 
 
-LaTeX Warning: Citation `omgocl2' on page 56 undefined on input line 8.
+LaTeX Warning: Citation `omgocl2' on page 57 undefined on input line 8.
 
-<appendix/figs/tfsmlang.pdf, id=805, 558.085pt x 747.79375pt>
+<appendix/figs/tfsmlang.pdf, id=823, 558.085pt x 747.79375pt>
 File: appendix/figs/tfsmlang.pdf Graphic file (type pdf)
 
 <use appendix/figs/tfsmlang.pdf>
@@ -757,9 +767,9 @@ Package pdftex.def Info: appendix/figs/tfsmlang.pdf used on input line 12.
 
 LaTeX Warning: Float too large for page by 0.3504pt on input line 16.
 
-[56
+[57
 
-] <appendix/figs/activitylang.pdf, id=809, 503.8825pt x 695.59875pt>
+] <appendix/figs/activitylang.pdf, id=828, 503.8825pt x 695.59875pt>
 File: appendix/figs/activitylang.pdf Graphic file (type pdf)
 
 <use appendix/figs/activitylang.pdf>
@@ -769,11 +779,11 @@ Package pdftex.def Info: appendix/figs/activitylang.pdf used on input line 50.
 
 LaTeX Warning: Float too large for page by 19.9523pt on input line 54.
 
-) (./appendix/expressionandrelations.tex [57] [58 <./appendix/figs/tfsmlang.pdf
->] [59 <./appendix/figs/activitylang.pdf>]
+) (./appendix/expressionandrelations.tex [58] [59 <./appendix/figs/tfsmlang.pdf
+>] [60 <./appendix/figs/activitylang.pdf>]
 Appendix B.
 
-<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=867, 611.88597pt x 39
+<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=885, 611.88597pt x 39
 1.864pt>
 File: examples/figs/LoopFromStartToFinishNonPreemptive.pdf Graphic file (type p
 df)
@@ -782,15 +792,15 @@ Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.pdf u
 sed on input line 15.
 (pdftex.def)             Requested size: 305.94223pt x 195.93152pt.
 
-<examples/figs/AtomicExec.pdf, id=868, 534.79799pt x 344.48701pt>
+<examples/figs/AtomicExec.pdf, id=886, 534.79799pt x 344.48701pt>
 File: examples/figs/AtomicExec.pdf Graphic file (type pdf)
 
 <use examples/figs/AtomicExec.pdf>
 Package pdftex.def Info: examples/figs/AtomicExec.pdf used on input line 24.
 (pdftex.def)             Requested size: 267.39833pt x 172.24307pt.
-) (./thesis.bbl [60
+) (./thesis.bbl [61
 
-] [61 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs
+] [62 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs
 /AtomicExec.pdf
 
 pdfTeX warning: /usr/bin/pdflatex (file ./examples/figs/AtomicExec.pdf): PDF in
@@ -806,14 +816,14 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¼ in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
- [62
+ [63
 
-] [63]
+] [64]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmti12!
 Missing character: There is no © in font cmti12!
- [64] [65]
+ [65] [66]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
 Missing character: There is no Å in font cmr12!
@@ -823,18 +833,18 @@ Missing character: There is no € in font cmti12!
 Missing character: There is no ” in font cmti12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no ¶ in font cmr12!
- [66]
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
-Missing character: There is no Ã in font cmr12!
-Missing character: There is no © in font cmr12!
  [67]
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+Missing character: There is no Ã in font cmr12!
+Missing character: There is no © in font cmr12!
+ [68]
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no Ã in font cmr12!
@@ -843,7 +853,7 @@ Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no Ã in font cmr12!
 Missing character: There is no © in font cmr12!
-) [68] (./thesis.aux)
+) [69] (./thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -855,10 +865,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5329 strings out of 493304
- 75378 string characters out of 6139871
- 204977 words of memory out of 5000000
- 8515 multiletter control sequences out of 15000+600000
+ 5335 strings out of 493304
+ 75521 string characters out of 6139871
+ 204989 words of memory out of 5000000
+ 8520 multiletter control sequences out of 15000+600000
  18043 words of font info for 73 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
  37i,10n,40p,3037b,1651s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -881,10 +891,10 @@ texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/texlive
 fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/fonts/t
 ype1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (84 pages, 8189529 bytes).
+Output written on thesis.pdf (85 pages, 12020514 bytes).
 PDF statistics:
- 971 PDF objects out of 1000 (max. 8388607)
- 605 compressed objects within 7 object streams
+ 990 PDF objects out of 1000 (max. 8388607)
+ 617 compressed objects within 7 object streams
  0 named destinations out of 1000 (max. 500000)
- 101 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

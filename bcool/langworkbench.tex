@@ -44,5 +44,23 @@ We implement the running example in the GEMOC studio. We rely on the languages T
 
 A video presenting the whole flow can be found on the companion website~\footnote{http://timesquare.inria.fr/BCOoL}, which also contains more examples with full descriptions. These examples are hosted in Github~\footnote{http://github.com} at BCOoLExamples~\footnote{http://matiasvara.github.io/BCOoLExamples/}. The \bcool code is hosted in the open source project Gemoc~\footnote{http://github.com/gemoc/} thus making the project fully available.
 
-  
+\subsection{Flow by using the plugins}
+\subsection{Flow by using ANT}
+	\begin{itemize}
+		\item Ant\footnote{http://www.eclipse.org/eclipse/ant/}
+		\item Operational QVT Ant tasks let you launch QVTO transformations from the Ant script.
+		\item The flow can be implemented by using Ant.
+		\item This enables to define explicitly how a \bcool specification is invoked. 
+		\item However, the specification of a ANT script must be partially defined by the user. For instances, several parameters must be defined by the user, \eg model paths, generated timemodel. 
+		  
+	\end{itemize}
+
+
+  \begin{figure}[h]
+  	\begin{center}
+  		\includegraphics[width=1\textwidth]{bcool/figs/antbcool.pdf}
+  		\caption{ANT script to build the coordination specification for the coffee machine}
+  		\label{fig:screenantbcool}
+  	\end{center}
+  \end{figure}
 
