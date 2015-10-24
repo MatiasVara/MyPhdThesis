@@ -1,11 +1,11 @@
 \section{Behavioral Composition Approaches}
 
-
-	\todo{In this section, we study approaches that use structural models to represent the behavior of models. Then, to obtain the emerging system behavior, they propose to compose these models into a new model that represent the global behavior. We also overview approaches that propose to compose the semantics of languages into a new semantics.}     
+In this section, we focus on approaches that deal with the integration of behavioral models. We begin by approaches that compose the semantics of models. They specify the composition at between languages, and then, they apply such specification to compose the semantics of models into a new model. We finish this section by overviewing approaches that compose the semantics of languages into a new semantics.  
 	
 	\subsection{Composition of Model Semantics}
 	\begin{itemize}
-    
+    \item \todo{deje aca}
+	\item In this section, we study approaches that use structural models to represent the behavior of models. Then, to obtain the emerging system behavior, they propose to compose these models into a new model that represent the global behavior.
 		
 	\item\cite{compostatechartsbib} proposes to automatically compose statecharts by relying on a matching and a merging operator. The matching is used to produce correspondence relationships between states of two models. The matching can be \emph{static} and \emph{behavioral}. The static matching relies on a naming convention and it does not depend on the semantics of statechart. Differently, the behavioral matching selects pairs of state by relying on their behavioral semantics. The merging operator takes as input two models and a correspondence relation. This results a new model conforming to statecharts.  
 		 
@@ -15,6 +15,8 @@
 
 	\subsection{Composition of Language Semantics}
 	\begin{itemize} 
+		
+		\item  We also overview approaches that propose to compose the semantics of languages into a new semantics.
 		
 		\item Chen et al.~\cite{semanticsanchoring} propose to define the semantics of a DSML by a concept called \emph{Semantic Unit} (SU). A SU is represented by a structure (\emph{Abstract Data Model}) and a behavioral semantic. The approach specifies the SU in the \emph{Abstract State Machine Language}\footnote{http://research.microsoft.com/en-us/projects/asml/} (Asml). This language is used to specify both the structure and the semantics of a SU. A given SU is associated to the Abstract Syntax (AS) of a DSML through a mapping. The mapping associates each element in the AS with an element in the Abstract Data Model of the SU. This approach  enables the system designer to compose two SU into a new one. For instance, in~\cite{composemanticanch}, authors define two SU named Finite State Machine (FSM) and Synchronize Data Flow (SDF), and then, they manually specify how the two SU can be composed. This results in a SU called EFSM.  
 		

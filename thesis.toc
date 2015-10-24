@@ -9,12 +9,12 @@
 \contentsline {section}{\numberline {2.1}Introduction}{2}
 \contentsline {section}{\numberline {2.2}Structural Composition Approaches}{3}
 \contentsline {subsection}{\numberline {2.2.1}Composition of Models Syntax}{3}
-\contentsline {subsection}{\numberline {2.2.2}Composition of Languages Syntax}{5}
+\contentsline {subsection}{\numberline {2.2.2}Composition of Languages Syntax}{4}
 \contentsline {subsection}{\numberline {2.2.3}Discussion}{5}
 \contentsline {section}{\numberline {2.3}Behavioral Composition Approaches}{6}
 \contentsline {subsection}{\numberline {2.3.1}Composition of Model Semantics}{6}
 \contentsline {subsection}{\numberline {2.3.2}Composition of Language Semantics}{7}
-\contentsline {subsection}{\numberline {2.3.3}Discussion}{7}
+\contentsline {subsection}{\numberline {2.3.3}Discussion}{8}
 \contentsline {section}{\numberline {2.4}Behavioral Coordination Approaches}{8}
 \contentsline {subsection}{\numberline {2.4.1}Coordination of Models}{8}
 \contentsline {subsection}{\numberline {2.4.2}Coordination Pattern Approaches}{12}

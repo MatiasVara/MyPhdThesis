@@ -2,3 +2,22 @@
 	\begin{itemize}
 		\item TODO
 	\end{itemize}
+	
+
+% Please add the following required packages to your document preamble:
+% \usepackage{multirow}
+\begin{table}[h]
+	\centering
+	\caption{My caption}
+	\label{my-label}
+	\begin{tabular}{cccccc}
+		\multicolumn{1}{l}{\multirow{2}{*}{Approach}} & \multicolumn{1}{l}{\multirow{2}{*}{Syntactic Composition}} & \multicolumn{2}{c}{Semantics Composition} & \multirow{2}{*}{Specification} & \multirow{2}{*}{Application} \\
+		\multicolumn{1}{l}{}                          & \multicolumn{1}{l}{}                                       & Composition         & Coordination        &                                &                              \\
+		Epsilon                                       & Yes                                                        &                     &                     & Lenguage Level                 & Model Level                  \\
+		Ptolemy                                       & No                                                         &                     & X                   & Language Level                 & Model Level                  \\
+		Rapide                                        & No                                                         &                     & X                   & Model Level                    & Model Level                  \\
+		Esper                                         & No                                                         &                     & X                   & Model Level                    & Model Level                  \\
+		MASCOT                                        & No                                                         &                     & X                   & Language Level                 & Model Level                  \\
+		\cite{compostatechartsbib}                  & No                                                         & X                   &                     & Language Level                 & Model Level                 
+	\end{tabular}
+\end{table}

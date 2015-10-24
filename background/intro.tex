@@ -1,16 +1,6 @@
 \section{Introduction}
-\begin{itemize}
-	\item \todo{To say that we focus on the behavioral aspects of the integration}
-	% heterogeneity
-	\item The development of complex software intensive systems involves interactions between different subsystems. For instance, embedded and cyber-physical systems require the interaction of multiple computing resources (general-purpose processors, DSP, GPU), and various digital or analog devices (sensors, actuators) connected through a wide range of heterogeneous communication resources (buses, networks, meshes). 
+To develop application for complex systems, no unique language is able to deal satisfactory with all the facets of developing. Model Driven Engineering proposes to use a specific language for each domain. Thus, the design of complex systems often relies on several Domain Specific Modeling Languages (DSMLs) that may pertain to different theoretical domains with its own expressiveness and properties. As a result, several models conforming to different DSMLs are developed and the specification of the overall system becomes \emph{heterogeneous}. 
 	
-	% developement of complex application under MDE, Heterogeneous Developement
-	\item To develop application for complex systems, no unique language is able to deal satisfactory with all the facets of developing. Model Driven Engineering proposes to use a specific language for each domain. Thus, the design of complex systems often relies on several Domain Specific Modeling Languages (DSMLs) that may pertain to different theoretical domains with its own expressiveness and properties. As a result, several models conforming to different DSMLs are developed and the specification of the overall system becomes \emph{heterogeneous}. 
+A DSML, as any other language, is defined by a \emph{syntax} and a \emph{semantics}. The syntax specifies the concepts of the language and their relationships. The semantics describes the expected evolutions(s) of the model state during its execution. To understand the system and its emerging behavior globally, it is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. 
 	
-	% need of integration of heterogeneous languages, focus on behavior
-	\item A DSML, as any other language, is defined by a \emph{syntax} and a \emph{semantics}. The syntax specifies the concepts of the language and their relationships. The semantics describes the expected evolutions(s) of the model state during its execution. To understand the system and its emerging behavior globally, it is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. 
-	
-	\item The purpose of this chapter is twofold: overview the current support for the structure composition of models and languages, and then, present the state of art approaches that deal with the coordination of behavioral models to provide simulation and/or verification capabilities for the whole system specification. 
-	  
-
-\end{itemize}
+In this chapter, we first overview the current support for the structure composition of models and languages. We then focus on the state of art approaches that deal with the composition and coordination of behavioral models in order to obtain the global emerging behavior.  
