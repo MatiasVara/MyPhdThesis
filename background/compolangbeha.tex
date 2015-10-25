@@ -1,28 +1,22 @@
 \section{Behavioral Composition Approaches}
 
-In this section, we focus on approaches that deal with the integration of behavioral models. We begin by approaches that compose the semantics of models. They specify the composition at between languages, and then, they apply such specification to compose the semantics of models into a new model. We finish this section by overviewing approaches that compose the semantics of languages into a new semantics.  
+\todo{In this section, we focus on approaches that deal with the integration of behavioral models by composing behaviors. We begin by approaches that compose the semantics of models. They specify the composition between languages, and then, they apply such specification to compose the semantics of models into a new model. We finish this section by approaches that compose the semantics of languages into a new semantics.}  
 	
-	\subsection{Composition of Model Semantics}
-	\begin{itemize}
-    \item \todo{deje aca}
-	\item In this section, we study approaches that use structural models to represent the behavior of models. Then, to obtain the emerging system behavior, they propose to compose these models into a new model that represent the global behavior.
+\subsection{Composition of Model Semantics}
+In this section, we study approaches that use structural models to represent the behavior of models. These approaches propose to compose behavioral models into a new model that represent the global behavior.
 		
-	\item\cite{compostatechartsbib} proposes to automatically compose statecharts by relying on a matching and a merging operator. The matching is used to produce correspondence relationships between states of two models. The matching can be \emph{static} and \emph{behavioral}. The static matching relies on a naming convention and it does not depend on the semantics of statechart. Differently, the behavioral matching selects pairs of state by relying on their behavioral semantics. The merging operator takes as input two models and a correspondence relation. This results a new model conforming to statecharts.  
+\cite{compostatechartsbib} proposes to automatically compose statecharts by relying on a matching and a merging operator. The matching is used to produce correspondence relationships between states of two models. The matching can be \emph{static} and \emph{behavioral}. The static matching relies on a naming convention and it does not depend on the semantics of statechart. Differently, the behavioral matching selects pair of states by relying on their behavioral semantics. The merging operator takes as input two models and a correspondence relation. This results a new model conforming to statecharts. A similar approach is presented in~\cite{compoclassdiagrambib}. However, in this approach, authors represents the behavior of models by using se   
 		 
-	\item Aspect Oriented Modeling provides a different approach through the weaving of aspects that encapsulate behaviors\cite{weavingbib}. The advice represents a new behavior that should replace the base behavior when it is matched by the pointcut. In AspectJ\cite{AspectJoverview} the aspects are used to extend Java and the advice is expressed in java code. RAM~\cite{rambib,composdbib} is an aspect oriented approach, which specifies aspect models defining both structure (using class diagrams) and behavior (using sequence diagrams). The weaving of an aspect structure realized by a class diagram merge. To obtain the emerging behavior, the approach proposes an automatic procedure to compose sequence diagrams. The composition of behavioral models is based on the weaving of sequence diagrams.
-	
-\end{itemize}
+Aspect Oriented Modeling provides a different approach through the weaving of aspects that encapsulate behaviors\cite{weavingbib}. Advices represent a new behavior that should replace the base behavior when it is matched by the pointcut. In AspectJ\cite{AspectJoverview}, the aspects are used to extend Java and the advice is expressed in java code. RAM~\cite{rambib,composdbib} is an aspect oriented approach, which specifies aspect models defining both structure (using class diagrams) and behavior (using sequence diagrams). To obtain the emerging behavior, the approach proposes to compose sequence diagrams. Thus the composition of behavioral models is based on the weaving of sequence diagrams.
 
-	\subsection{Composition of Language Semantics}
-	\begin{itemize} 
-		
-		\item  We also overview approaches that propose to compose the semantics of languages into a new semantics.
-		
-		\item Chen et al.~\cite{semanticsanchoring} propose to define the semantics of a DSML by a concept called \emph{Semantic Unit} (SU). A SU is represented by a structure (\emph{Abstract Data Model}) and a behavioral semantic. The approach specifies the SU in the \emph{Abstract State Machine Language}\footnote{http://research.microsoft.com/en-us/projects/asml/} (Asml). This language is used to specify both the structure and the semantics of a SU. A given SU is associated to the Abstract Syntax (AS) of a DSML through a mapping. The mapping associates each element in the AS with an element in the Abstract Data Model of the SU. This approach  enables the system designer to compose two SU into a new one. For instance, in~\cite{composemanticanch}, authors define two SU named Finite State Machine (FSM) and Synchronize Data Flow (SDF), and then, they manually specify how the two SU can be composed. This results in a SU called EFSM.  
-		
-	\end{itemize}
-	
-	\subsection{Discussion}
+\todo{The previous approaches specify at language level how behavioral model can be composed into a new model that present the resulting behavior. In the next subsection, we brieftly present approaches that specify how the semantics of languages can be composed into a new semantics.}
+
+\subsection{Composition of Language Semantics}
+To our knowledge, Chen et al.~\cite{semanticsanchoring} are the only approach that propose to define the semantics of a language by composing other semantics. This work is based on the concept of \emph{Semantic Unit} (SU). A SU is represented by a structure (\emph{Abstract Data Model}) and a behavioral semantics. The approach specifies the SU in the \emph{Abstract State Machine Language}\footnote{http://research.microsoft.com/en-us/projects/asml/} (Asml). This language is used to specify both the structure and the semantics of a SU. A given SU is associated to the Abstract Syntax (AS) of a language through a mapping. The mapping associates each element in the AS with an element in the Abstract Data Model of the SU. This approach  enables the system designer to compose two SU into a new one. For instance, in~\cite{composemanticanch}, authors define two SU named Finite State Machine (FSM) and Synchronize Data Flow (SDF), and then, they specify how the two SU can be composed. This results in a SU called EFSM.  
+
+\subsection{Discussion}
 		\begin{itemize}
 			\item  \todo{In these approaches, however, the composition is homogeneous, \ie between models conforming to the same language.} 
+			\item The semantics of the models that compose is not formally defined. They rely on a framework to automate the composition but the semantics of the languages is not formally defined.
+			\item composition of language semantics can limit the re usability. 
 		\end{itemize}

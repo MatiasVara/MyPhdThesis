@@ -23,6 +23,12 @@ C.~Andr{\'e}.
   (CCSL)}.
 \newblock Technical report, 2009.
 
+\bibitem[BC04]{compoclassdiagrambib}
+E.~Baniassad and S.~Clarke.
+\newblock Theme: an approach for aspect-oriented analysis and design.
+\newblock In {\em Software Engineering, 2004. ICSE 2004. Proceedings. 26th
+  International Conference on}, pages 158--167, May 2004.
+
 \bibitem[BCE{\etalchar{+}}06]{mergemanifest}
 Greg Brunet, Marsha Chechik, Steve Easterbrook, Shiva Nejati, Nan Niu, and
   Mehrdad Sabetzadeh.
