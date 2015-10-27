@@ -2,7 +2,7 @@
 In this section, we focus on the approaches that compose syntactic elements. We begin by approaches that propose to compose the syntax of models. They specify at language level how heterogeneous models can be composed, and then, they apply such specification to automate the composition of models. We finish this section with approaches that compose the syntax of languages into a new syntax. 
 
  	
- \subsection{Composition of Models Syntax}
+ \subsection{Composition of Models Structure}
 
 In this section, we overview approaches that compose the syntax of heterogeneous models into a single model syntax. They specify what concepts from different languages are selected and how they are composed. The specification is applied between models in order to generate a new model that may conform either to the inputs model languages (homogeneous case) or to a different language (heterogeneous case). In the following, we present the approaches by pointing on how they specify the composition.   
 
@@ -17,7 +17,7 @@ Different that previous approaches, \emph{Aspect Oriented Approaches}~\cite{aop}
 % sumarizes + link
 The approaches previously studied specify the composition at language level in order to automate the composition between models syntax. In the next subsection, we overview approaches that specify the composition between languages in order to get a new language syntax. 	 		
     	
-\subsection{Composition of Languages Syntax}
+\subsection{Composition of Languages Structure}
 
 Language composition approaches propose to compose the syntax of languages into a new syntax. A system designer specifies what concepts from different languages are related thus resulting in a new language. The characteristics of the new language depends on how languages are composed. Several techniques for language composition already exist. For instance, Emerson et al.~\cite{metamodelcompo} propose three techniques to compose the syntax of languages: \emph{Merging}, \emph{Interfacing} and \emph{Refinement}. The merging composes two languages that share a concept. These concepts are used as ``join points" to stitch the two languages together into a unified whole. However, when languages do not present joint points, the composition requires an interface. Thus interfacing composes languages that capture distinct but related domains by relying on an interface. In refinement, one language captures in detail a modeling concept that exists only as a ``blackbox" in a second DSML, \ie the concept defined in one languages refines in other in the second language. These techniques are implemented in the GME framework~\cite{metamodelcompo}. Monticore~\cite{monticore} is a similar approach that implements two techniques for the composition of languages: \emph{Inheritance} and \emph{Language Embedding}. These techniques, however, correspond respectively to refinement and interfacing in~\cite{metamodelcompo}.
 	
