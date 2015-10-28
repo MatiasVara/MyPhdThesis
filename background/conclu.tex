@@ -1,48 +1,31 @@
 \section{Conclusion}
-	\begin{itemize}
-	\item In this chapter, we have presented a background of current approaches that deal with the integration of heterogeneous models and languages in both a structural and a behavioral way. 
-	
-	\item We presented several approaches that enables the composition of structures. Some approaches specify the composition at language level but apply between models thus automating the composition of structural models. Other enables the composition of languages structure in order to obtain a new syntax.  
-	
-	\item We have noted that the MDE community provides some extensive support for the structural composition of models and languages.
-	
-	\item Afterwards, we have presented the state of art approaches that deal with the integration of behaviors. We have identified two approaches that relay on different mechanisms to obtain the emerging system behavior: Composition and Coordination. 
-	
-	\item We have determined that compositional approaches only provides support for the composition of homogeneous behavioral models. Differently, coordination approaches also give support for the coordination of heterogeneous behavioral models. 
-	
-	\item Then, we have presented the work done by Coordination Languages and ADLs in order to coordinate the behavior of heterogeneous models. Afterwards, we have shown how coordination pattern approaches have leveraged on the know-how of system designer to automate the coordination of models. 
-	
-	\item However, we have noted that the knowledge about system integration is currently either implicitly held by the system designer or encoded within a framework. 
-	
-	\item To capture explicitly this knowledge and thus leverage integrator know-how, we propose a dedicated language to capture coordination patterns between languages, thus reifying the coordination specification at the language level.    
+In this chapter, we have presented a background of current approaches that deal with the integration of heterogeneous models and languages in both a structural and a behavioral way. We have presented approaches that enable the composition of structures. In some of them, the specification is at language level and apply between models. Similarly, others specify at language level but in order to obtain a new syntax. We have noted that the MDE community provides extensive support for the structural composition of models and languages. Afterwards, we have presented the state of art approaches that deal with the integration of behaviors (see Table~\ref{tbl:overview}). We have identified two group of approaches that relay on different mechanisms to obtain the emerging system behavior: Composition and Coordination. We have determined that compositional approaches only provide support for the composition of homogeneous behavioral models. Conversely, we have presented the work done by Coordination Languages and ADLs that support the coordination of heterogeneous models. However, the system designer has to manually specify each relation, thus making this task tedious and error prone. Then, we have shown how coordination pattern approaches have leveraged on the know-how of system designer to automate the coordination between models. However, we have noted that the knowledge about system integration is encoded within a framework. Furthermore, in frameworks, the model of coordination is expressed by using a general purpose language thus limiting verification and validation activities. 
 
-	\item In the next chapter, we use the concepts from this chapter to define a multi-view framework to model systems
-	\end{itemize}
+To capture explicitly the know-how of a system designer, we propose \bcool a dedicated language to capture coordination patterns between languages, thus reifying the coordination at the language level (see Figure~\ref{fig:bcoolapp}). From this specification, a formal model of coordination is generated. This enables validation and verification of the coordinated system. In the next chapter, we relay on the state of art approach to build \bcool. 
 
-
-         	\begin{figure}
-         		\begin{center}
-         			\includegraphics[width=0.7\textwidth]{background/figs/bcoolapp.png}
-         			\caption{Overview of Our Approach}
-         			\label{fig:bcoolapp}
-         		\end{center}
-         	\end{figure}	
+\begin{figure}
+\begin{center}
+\includegraphics[width=0.7\textwidth]{background/figs/bcoolapp}
+\caption{Overview of Our Approach}
+\label{fig:bcoolapp}
+\end{center}
+\end{figure}	
 
 
 \begin{landscape}% Landscape page
-
 \begin{table}[]
 	\centering
-	\caption{Overview of Behavioral Approaches}
-	\label{my-label}
+	\caption{Overview of Behavioral Composition/Coordination Approaches}
+	\label{tbl:overview}
 	\resizebox{\textwidth}{!}{%
-		\begin{tabular}{cllcccccc
-				>{\columncolor[HTML]{9AFF99}}l }
-			\multicolumn{3}{c}{} Approaches & Semantic Anchoring & \cite{compostatechartsbib} & Esper & Rapide & Ptolemy & Di Natale et. al & BCOoL \\
-			\multicolumn{3}{c}{Syntactic Composition} &  &  &  &  &  &  &  \\
-			\multicolumn{3}{c}{Behavioral Composition} & X (Homogeneous) & \begin{tabular}[c]{@{}c@{}}X \\ (Homogeneous)\end{tabular} &  &  &  &  &  \\
-			\multicolumn{3}{c}{\cellcolor[HTML]{FFFE65}Behavioral Coordination} &  &  & X (N Models) & X (N Models) & \cellcolor[HTML]{FFFE65}X(predefined Languages) & \cellcolor[HTML]{FFFE65}X (2 Languages) & X (N Languages) \\
-			\multicolumn{3}{c}{\cellcolor[HTML]{FFCC67}Language used to express the coordination between Models} & Assml & Statechart & \cellcolor[HTML]{FFCC67}Formal Language & \cellcolor[HTML]{FFCC67}Formal Language & JAVA in a framework & C++ in a framework & Formal Language
+		\begin{tabular}{@{}|c|l|l|c|c|c|c|c|c|c|
+				>{\columncolor[HTML]{9AFF99}}c |@{}}
+			\toprule
+			\multicolumn{3}{|c|}{} & \multicolumn{2}{c|}{Behavioral Composition Approaches} & \multicolumn{3}{c|}{Coordination of Model Approaches} & \multicolumn{2}{c|}{Coordination Pattern Approaches} & Our Approach \\ \cmidrule(l){4-11} 
+			\multicolumn{3}{|c|}{\multirow{-2}{*}{}} & Semantic Anchoring & \cite{compostatechartsbib} & Esper & Rapide & BIP & Ptolemy & Di Natale et. al & BCOoL \\ \midrule
+			\multicolumn{3}{|c|}{Number of Languages/Models Supported} & 1 & 1 & N & N & 1 & Predefined set & 2 & N Languages \\ \midrule
+			\multicolumn{3}{|c|}{Specification of the Coordination (from a system designer point of view)} &  & Implicit & Explicit & Explicit & Explicit & Implicit & Impicit & Explicit \\ \midrule
+			\multicolumn{3}{|c|}{Glue (coordination at model level)} &  &  & Formal & Formal & Formal & Java (generated) & C++ (generated) & Formal (generated) \\ \bottomrule
 		\end{tabular}
 	}
 \end{table}
