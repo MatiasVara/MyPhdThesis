@@ -45,6 +45,14 @@ Other approaches go one step forward and introduce a notion of user defined type
 The major drawback of these approaches is that the instantiation and binding of connector types is done manually by the system designer. Returning to the example of Figure~\ref{fig:wrightspec}, for each server and client in the system, the system designer has to instantiate two components and one connector. Then, he has to bind the component ports with the connector roles. With the increasing number and heterogeneity of the components, this task can quickly becomes difficult and error prone. More recent approaches~\cite{dinatale,mascotbib,ptoleframebib,modhelxbib} identified that the instantiation and binding of connector types can be a systematic activity the system designer repeats many times and can consequently be defined as a pattern. Such a pattern is based on the know-how of the system designer and sometimes on naming or organizational conventions adopted by the models. Thus, they have captured the specification of such a behavioral coordination pattern into a tool to automate the instantiation and binding of connector types. They specify the coordination between heterogeneous languages rather than between particular models (see Figure~\ref{fig:coordapp}). Such specification is then applied on models to instantiate a set of connector types and bind their instances. We refer to these approaches as \emph{Coordination Pattern Approaches}.
          
 \subsection{Coordination Pattern Approaches}
+
+\todo{To define what a coordination pattern is}
+
+\todo{To define what a coordination pattern approach is}
+
+%	\item We define a \emph{coordination pattern} as a systematic way to coordinate the behavior of models, based on the knowledge of a system designer. A similar notion of coordination pattern is presented by Hardebolle et al.~\cite{hardebollethese} under the wording of \emph{interaction pattern}. 
+%\item An interaction pattern is the formalization of the know-how and the systematic way to solve a coordination problem on heterogeneous languages.
+%\item We define a \emph{coordination pattern approach} an approach that captures a coordination pattern thus leveraging on the know-how a system designer. 
 Coordination pattern approaches (\eg MASCOT~\cite{mascotbib}, Ptolemy~\cite{ptoleframebib}, ModHel'X~\cite{modhelxbib}) go further than Coordination Languages and ADLs since:          
 \begin{itemize}
    \item They capture the know-how of a system designer into a coordination pattern. 

@@ -210,13 +210,6 @@ User's Guide.
 \newblock Amba specification (rev2.0) and multi layer ahb specification.
 \newblock Technical report, 2001.
 
-\bibitem[Har08]{hardebollethese}
-Cécile Hardebolle.
-\newblock {\em {Composition de modèles pour la modélisation multi-paradigme
-  du comportement des systèmes}}.
-\newblock PhD thesis, Université Paris-Sud XI, UFR Scientifique d'Orsay,
-  November 2008.
-
 \bibitem[Hoa85]{csphoarebib}
 C.~A.~R. Hoare.
 \newblock {\em Communicating Sequential Processes}.
@@ -227,6 +220,12 @@ Jean-Marc J{\'e}z{\'e}quel.
 \newblock {Model Driven Design and Aspect Weaving}.
 \newblock {\em Journal of Software and Systems Modeling (SoSyM)},
   7(2):209--218, 2008.
+
+\bibitem[JFB08]{framecompoas}
+C{\'e}dric Jeanneret, Robert France, and Benoit Baudry.
+\newblock A reference process for model composition.
+\newblock In {\em Proceedings of the 2008 AOSD Workshop on Aspect-oriented
+  Modeling}, AOM '08, pages 1--6, New York, NY, USA, 2008. ACM.
 
 \bibitem[KHH{\etalchar{+}}01]{AspectJoverview}
 Gregor Kiczales, Erik Hilsdale, Jim Hugunin, Mik Kersten, Jeffrey Palm, and
