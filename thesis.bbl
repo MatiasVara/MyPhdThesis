@@ -23,12 +23,6 @@ C.~Andr{\'e}.
   (CCSL)}.
 \newblock Technical report, 2009.
 
-\bibitem[BC04]{compoclassdiagrambib}
-E.~Baniassad and S.~Clarke.
-\newblock Theme: an approach for aspect-oriented analysis and design.
-\newblock In {\em Software Engineering, 2004. ICSE 2004. Proceedings. 26th
-  International Conference on}, pages 158--167, May 2004.
-
 \bibitem[BCE{\etalchar{+}}06]{mergemanifest}
 Greg Brunet, Marsha Chechik, Steve Easterbrook, Shiva Nejati, Nan Niu, and
   Mehrdad Sabetzadeh.
@@ -146,6 +140,11 @@ Emmanuel Durand.
 \newblock PhD thesis, Nantes, ECN, Nantes, 1998.
 \newblock Th. : automatique et informatique appliqu\'ees.
 
+\bibitem[EkCT03]{elsurveybib}
+Jad El-khoury, DeJiu Chen, and Martin T{\"o}rngren.
+\newblock A survey of modeling approaches forembedded computer control systems.
+\newblock 2003.
+
 \bibitem[ES06]{metamodelcompo}
 Matthew Emerson and Janos Sztipanovits.
 \newblock Techniques for metamodel composition.
@@ -210,6 +209,13 @@ User's Guide.
 User's Guide.
 \newblock Amba specification (rev2.0) and multi layer ahb specification.
 \newblock Technical report, 2001.
+
+\bibitem[Har08]{hardebollethese}
+Cécile Hardebolle.
+\newblock {\em {Composition de modèles pour la modélisation multi-paradigme
+  du comportement des systèmes}}.
+\newblock PhD thesis, Université Paris-Sud XI, UFR Scientifique d'Orsay,
+  November 2008.
 
 \bibitem[Hoa85]{csphoarebib}
 C.~A.~R. Hoare.
@@ -314,12 +320,6 @@ M.~Shaw, R.~DeLine, D.V. Klein, T.L. Ross, D.M. Young, and G.~Zelesnik.
 \newblock Abstractions for software architecture and tools to support them.
 \newblock {\em Software Engineering, IEEE Transactions on}, 21(4):314--335, Apr
   1995.
-
-\bibitem[SLN{\etalchar{+}}12]{semanicbackplane}
-Gabor Simko, Tihamer Levendovszky, Sandeep Neema, Ethan Jackson, Ted Bapty,
-  Joseph Porter, and Janos Sztipanovits.
-\newblock Foundation for model integration: Semantic backplane.
-\newblock In {\em ASME IDETC/CIE}, 2012.
 
 \bibitem[Weg96]{wegnercoorbib}
 Peter Wegner.

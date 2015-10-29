@@ -1,6 +1,6 @@
-\section{Language Behavioral Interface}
+\subsection{Language Behavioral Interface}
 		\begin{itemize}
-			\item The notion of language interface dedicated to behavioral coordination\footnote{we are intimately persuaded that an interface, and consequently a language interface, is purpose specific. Even if we use the term language interface in this paper, it should be understood as \emph{language interface dedicated to behavioral coordination}.} is not clearly defined in the state of the art, yet. 
+		
 			
 			\item In Ptolemy~\cite{ptolemybib} and ModHel'X~\cite{modhelxbib}, the coordinated models are all conforming a unique abstract syntax but with different behavioral semantics. Both approaches are based on the notion of \emph{Director}, which encodes the behavioral semantics in Java. A \emph{Director} implements a specific Java interface\footnote{the Executable interface, cf.} %\url{http://chess.eecs.berkeley.edu/ptexternal/src/ptII/doc/codeDoc/ptolemy/actor/Executable.html}}
 			, which provides an homogeneous view of the behavioral semantics of a language by enforcing the prototype of the functions used to encode the semantics. The semantics behind the methods are given in a natural language. For instance, a part of the \emph{fire()} function description is: ``\emph{Typically, the fire() method performs the computation associated with an actor}''. The function prototypes, together with their informal description provides an homogeneous view of the semantics of the languages, which is used to specify the coordination pattern. It can also be noticed that the name of the director usually brings some semantics to the people aware of Model of Computation and can be considered as part of the language interface. However, using the director name remains very informal.
@@ -9,7 +9,7 @@
 			
 			\item In Mascot~\cite{mascotbib}, the coordination is not symmetric since Matlab scripts are embedded in an SDL model. \todo{As a consequence the Matlab interface is used but not the SDL interface.} The authors identified two main elements about the Matlab language. First they depict the different kinds of communication used from and to Matlab. Second they characterize the Model of Computation used by the Matlab simulation engine as being Petri Net. They based the coordination on this knowledge so that these pieces of information act as the language interface of the Matlab language. \todo{On the other side, it is mandatory in the Matlab script to use the same name for the stream then the name of the signals from and to the SDL wrappers of the SDL model. Consequently, it means this approach relies on naming convention to specify the correspondence matching.}
 		\end{itemize}
-	\subsection{Discussion}
+	\subsubsection{Discussion}
 	\begin{itemize}
 	
 	    	\item All the approaches studied retrieve information on the syntax and/or behavioral semantics of the languages they coordinate. Only \cite{ptolemybib} and \cite{modhelxbib} made explicit the notion of interface; \cite{MarcoModels2014} and \cite{mascotbib} retrieved the information implicitly from the definition of the languages. 

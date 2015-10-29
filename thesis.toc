@@ -22,13 +22,14 @@
 \contentsline {section}{\numberline {2.5}Conclusion}{17}
 \contentsline {chapter}{\numberline {3}Framework for Coordination Pattern Specification}{20}
 \contentsline {section}{\numberline {3.1}Introduction}{20}
-\contentsline {section}{\numberline {3.2}Language Behavioral Interface}{21}
-\contentsline {subsection}{\numberline {3.2.1}Discussion}{22}
-\contentsline {section}{\numberline {3.3}Correspondence Rule}{25}
-\contentsline {subsection}{\numberline {3.3.1}Discussion}{26}
-\contentsline {section}{\numberline {3.4}Coordination Rule}{27}
-\contentsline {subsection}{\numberline {3.4.1}Discussion}{28}
-\contentsline {section}{\numberline {3.5}Conclusion}{29}
+\contentsline {section}{\numberline {3.2}The Framework}{20}
+\contentsline {subsection}{\numberline {3.2.1}Language Behavioral Interface}{21}
+\contentsline {subsubsection}{Discussion}{23}
+\contentsline {subsection}{\numberline {3.2.2}Correspondence Rule}{25}
+\contentsline {subsubsection}{Discussion}{26}
+\contentsline {subsection}{\numberline {3.2.3}Coordination Rule}{27}
+\contentsline {subsubsection}{Discussion}{28}
+\contentsline {section}{\numberline {3.3}Conclusion}{29}
 \contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
 \contentsline {section}{\numberline {4.2}\textsc {B-COoL}\xspace Language}{31}
