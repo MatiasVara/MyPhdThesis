@@ -1,26 +1,28 @@
 \section{The Framework}
 \subsection{Overview}
 \begin{itemize}
-	\item We focus on Coordination Pattern approaches. We propose a framework in order to understand better how these approaches are built. More precisely, how these approaches have achieved to capture a coordination pattern between languages. The main objective of the framework is to understand the requirement of a language to capture coordination patterns. We elaborate on such requirements to present \bcool. 
-
 	\item We are inspired by the framework for composition structural approaches presented in~\cite{framecompoas,kompose}: \emph{what?}, \emph{when?} and \emph{how?}.
 	
-	\item The \emph{what?} and \emph{when?} is related with a phase of \emph{matching} of syntactic model elements.
+	\item In this framework, the \emph{what?} and \emph{when?} identify the elements that should be composed. This is related with a correspondence between syntactic model elements. Based on the definition in~\cite{clavreulmodelcompo}, \emph{a correspondence is any kind of implicit or explicit relationship between of models or sets of models elements}. 
 	
-	\item The notion of correspondence is well defined in~\cite{clavreulmodelcompo}: \emph{we consider correspondences as any kind of implicit or explicit relationships between sets of models or sets of model elements.} 
-	
-	\item \todo{to check the merging in~\cite{clavreulmodelcompo} }
-	
-	\item The \emph{how?} is related with a phase of merging of syntactic model elements. 
-	
+	\item The \emph{How?} identifies the mechanism to get a new syntactic element. In~\cite{clavreulmodelcompo}, authors name this \emph{interpretation}: \emph{an interpretation is what relates the correspondence relationships to the global purpose of a model composition technique}.
+	   
+	\item In the studied approaches~\cite{epsilon,kompose}, the What and When is usually identified as a matching phase and the How it is identified as phase of merging. 
+
 	\item A matching rule specifies what elements from different models are selected. A merging rule specifies how the selected model elements are composed. In these approaches the specification is at the language level, but the application is between models.
 	
-	\item In this context, we identified the following three elements to capture the specification of a coordination pattern between languages: 
+	\item Inspired by this framework and with a deep understanding on behavioral coordination approaches, we propose to extend the previous framework to the case of behavioral coordination approaches. In these approaches, the \emph{What?} is identified as \emph{language interface}, the \emph{When?} with a \emph{correspondence rule} and the \emph{How} with \emph{coordination rule}. 
+	 
+	 
+	\item \todo{To explain why I added the notion of behavioral interface}
+	\item In the following, we present these elements.   
+	 
+	%a \bcool operator relies on a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. The merging phase is replaced by a coordination rule. While in the structural case the merging operates on the syntax, the coordination rule operates on elements of the semantics (\ie instances of \dse). Thus, coordination rules specify the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. 
 		
-	\item A \emph{language interface}, which provides a (partial) view over the syntax and the behavioral semantics of a language. It is a way, that vary from one approach to other, to homogenize the view of different languages.
+	%\item A \emph{language interface}, which provides a (partial) view over the syntax and the behavioral semantics of a language. It is a way, that vary from one approach to other, to homogenize the view of different languages.
 		
-	\item A \emph{correspondence rule}, which specifies, based on elements from the language interfaces, what elements from different models have to be coordinated together.
+	%\item A \emph{correspondence rule}, which specifies, based on elements from the language interfaces, what elements from different models have to be coordinated together.
 	
-	\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.  
+	%\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.  
  
 \end{itemize}

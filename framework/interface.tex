@@ -1,4 +1,8 @@
-\subsection{Language Behavioral Interface}
+\section{Language Behavioral Interface}
+	\subsection{Overview}
+The \emph{Language Behavioral Interface} provides \emph{What} can be coordinated. It is a (partial) view over the syntax and the behavioral semantics of a language. The goal of the interface is to homogenize the view of different languages. It is also an explicit way to define how the language can be coordinated. Such a representation varies from one approach to other. In the following, we present how each approach partially represents the languages that coordinate.
+
+	\subsection{Comparison}
 		\begin{itemize}
 		
 			
@@ -9,7 +13,7 @@
 			
 			\item In Mascot~\cite{mascotbib}, the coordination is not symmetric since Matlab scripts are embedded in an SDL model. \todo{As a consequence the Matlab interface is used but not the SDL interface.} The authors identified two main elements about the Matlab language. First they depict the different kinds of communication used from and to Matlab. Second they characterize the Model of Computation used by the Matlab simulation engine as being Petri Net. They based the coordination on this knowledge so that these pieces of information act as the language interface of the Matlab language. \todo{On the other side, it is mandatory in the Matlab script to use the same name for the stream then the name of the signals from and to the SDL wrappers of the SDL model. Consequently, it means this approach relies on naming convention to specify the correspondence matching.}
 		\end{itemize}
-	\subsubsection{Discussion}
+	\subsection{Discussion}
 	\begin{itemize}
 	
 	    	\item All the approaches studied retrieve information on the syntax and/or behavioral semantics of the languages they coordinate. Only \cite{ptolemybib} and \cite{modhelxbib} made explicit the notion of interface; \cite{MarcoModels2014} and \cite{mascotbib} retrieved the information implicitly from the definition of the languages. 
