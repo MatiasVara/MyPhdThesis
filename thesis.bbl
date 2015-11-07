@@ -227,11 +227,11 @@ C{\'e}dric Jeanneret, Robert France, and Benoit Baudry.
 \newblock In {\em Proceedings of the 2008 AOSD Workshop on Aspect-oriented
   Modeling}, AOM '08, pages 1--6, New York, NY, USA, 2008. ACM.
 
-\bibitem[KHH{\etalchar{+}}01]{AspectJoverview}
-Gregor Kiczales, Erik Hilsdale, Jim Hugunin, Mik Kersten, Jeffrey Palm, and
-  William~G. Griswold.
-\newblock An overview of aspectj.
-\newblock pages 327--353. Springer-Verlag, 2001.
+\bibitem[KFJ07]{sequenceweavingbib}
+Jacques Klein, Franck Fleurey, and Jean-Marc J{\'e}z{\'e}quel.
+\newblock {Weaving Multiple Aspects in Sequence Diagrams}.
+\newblock {\em {Transactions on Aspect-Oriented Software Development (TAOSD)}},
+  LNCS 4620:167--199, 2007.
 
 \bibitem[KHJ06]{composdbib}
 Jacques Klein, Lo{\"i}c H{\'e}lou{\"e}t, and Jean-Marc J{\'e}z{\'e}quel.
@@ -245,14 +245,6 @@ Jacques Klein and Jörg Kienzle.
 \newblock Reusable aspect models.
 \newblock In {\em IN: Proceedings. Of The 11th International Workshop On Aspect
   Oriented Modeling.}, 2007.
-
-\bibitem[KLM{\etalchar{+}}97]{aop}
-Gregor Kiczales, John Lamping, Anurag Mendhekar, Chris Maeda, Cristina Lopes,
-  Jean-Marc Loingtier, and John Irwin.
-\newblock Aspect-oriented programming.
-\newblock In Mehmet Akşit and Satoshi Matsuoka, editors, {\em ECOOP'97 —
-  Object-Oriented Programming}, volume 1241 of {\em Lecture Notes in Computer
-  Science}, pages 220--242. Springer Berlin Heidelberg, 1997.
 
 \bibitem[KPP06]{epsilon}
 Dimitrios~S. Kolovos, Richard~F. Paige, and Fiona A.~C. Polack.
@@ -295,13 +287,6 @@ Nenad Medvidovic and Richard~N. Taylor.
   Foundations of Software Engineering}, ESEC '97/FSE-5, pages 60--76, New York,
   NY, USA, 1997. Springer-Verlag New York, Inc.
 
-\bibitem[MVG{\etalchar{+}}07]{smartadapbib}
-Brice Morin, Gilles Vanwormhoudt, Alban Gaignard, Olivier Barais, and Jean marc
-  Jézéquel.
-\newblock Introducing variability into aspect-oriented modeling approaches.
-\newblock In {\em Vanderbilt University, Springer-Verlag}, pages 498--513,
-  2007.
-
 \bibitem[NSC{\etalchar{+}}07]{compostatechartsbib}
 S.~Nejati, M.~Sabetzadeh, M.~Chechik, S.~Easterbrook, and P.~Zave.
 \newblock Matching and merging of statecharts specifications.
@@ -326,15 +311,5 @@ Peter Wegner.
 \newblock In Paolo Ciancarini and Chris Hankin, editors, {\em Coordination
   Languages and Models}, volume 1061 of {\em Lecture Notes in Computer
   Science}, pages 28--33. Springer Berlin Heidelberg, 1996.
-
-\bibitem[WJE{\etalchar{+}}09]{matabib}
-Jon Whittle, Praveen Jayaraman, Ahmed Elkhodary, Ana Moreira, and João
-  Araújo.
-\newblock Mata: A unified approach for composing uml aspect models based on
-  graph transformation.
-\newblock In Shmuel Katz, Harold Ossher, Robert France, and Jean-Marc
-  Jézéquel, editors, {\em Transactions on Aspect-Oriented Software
-  Development VI}, volume 5560 of {\em Lecture Notes in Computer Science},
-  pages 191--237. Springer Berlin Heidelberg, 2009.
 
 \end{thebibliography}
