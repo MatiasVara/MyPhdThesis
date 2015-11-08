@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  7 NOV 2015 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  8 NOV 2015 22:24
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -455,217 +455,226 @@ Missing character: There is no ù in font cmti12!
  [2
 
 ]) (background/composition.tex [3] [4] [5] [6] [7]
-[8]) (background/coordapp.tex
-<background/figs/coordpatterapp.pdf, id=87, 528.97626pt x 417.56pt>
+
+LaTeX Warning: Citation `?' on page 8 undefined on input line 42.
+
+
+LaTeX Warning: Citation `?' on page 8 undefined on input line 42.
+
+
+LaTeX Warning: Citation `?' on page 8 undefined on input line 42.
+
+[8]) (background/coordapp.tex [9]
+<background/figs/coordpatterapp.pdf, id=91, 528.97626pt x 417.56pt>
 File: background/figs/coordpatterapp.pdf Graphic file (type pdf)
 
 <use background/figs/coordpatterapp.pdf>
 Package pdftex.def Info: background/figs/coordpatterapp.pdf used on input line 
 8.
 (pdftex.def)             Requested size: 290.22107pt x 229.09163pt.
- [9 <./background/figs/coordpatterapp.pdf>] [10] <background/figs/wrightspec.pd
-f, id=138, 624.3325pt x 500.87125pt>
+ [10 <./background/figs/coordpatterapp.pdf>] [11] <background/figs/wrightspec.p
+df, id=141, 624.3325pt x 500.87125pt>
 File: background/figs/wrightspec.pdf Graphic file (type pdf)
 
 <use background/figs/wrightspec.pdf>
 Package pdftex.def Info: background/figs/wrightspec.pdf used on input line 38.
 (pdftex.def)             Requested size: 241.84843pt x 194.01682pt.
- [11]
-Underfull \vbox (badness 6016) has occurred while \output is active []
-
  [12 <./background/figs/wrightspec.pdf>]
+Underfull \vbox (badness 3579) has occurred while \output is active []
+
+ [13]
 Overfull \hbox (8.43039pt too wide) in paragraph at lines 57--58
 []\OT1/cmr/m/n/12 Coordination pat-tern ap-proaches (\OT1/cmr/m/it/12 e.g.\OT1/
 cmr/m/n/12 , MAS-COT [[]], Ptolemy [[]], Mod-Hel'X [[]])
  []
 
-<background/figs/ptolemyfig.pdf, id=161, 504.88625pt x 370.38374pt>
+<background/figs/ptolemyfig.pdf, id=164, 504.88625pt x 370.38374pt>
 File: background/figs/ptolemyfig.pdf Graphic file (type pdf)
 
 <use background/figs/ptolemyfig.pdf>
 Package pdftex.def Info: background/figs/ptolemyfig.pdf used on input line 65.
 (pdftex.def)             Requested size: 338.58632pt x 248.38753pt.
- [13]
-<background/figs/diNatale.pdf, id=165, 592.2125pt x 373.395pt>
+ [14]
+<background/figs/diNatale.pdf, id=168, 592.2125pt x 373.395pt>
 File: background/figs/diNatale.pdf Graphic file (type pdf)
 
 <use background/figs/diNatale.pdf>
 Package pdftex.def Info: background/figs/diNatale.pdf used on input line 76.
 (pdftex.def)             Requested size: 338.58632pt x 213.48688pt.
 
+Underfull \vbox (badness 1616) has occurred while \output is active []
+
+ [15 <./background/figs/ptolemyfig.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [14 <./background/figs/ptolemyfig.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [15 <./background/figs/diNatale.pdf>]
+ [16 <./background/figs/diNatale.pdf>]
 Underfull \vbox (badness 3579) has occurred while \output is active []
 
- [16]
-[17]) (background/conclu.tex [18]
+ [17]
+[18]) (background/conclu.tex
 <background/figs/bcoolapp.pdf, id=228, 527.9725pt x 508.90125pt>
 File: background/figs/bcoolapp.pdf Graphic file (type pdf)
 
 <use background/figs/bcoolapp.pdf>
 Package pdftex.def Info: background/figs/bcoolapp.pdf used on input line 8.
 (pdftex.def)             Requested size: 338.58632pt x 326.35573pt.
- [19 <./background/figs/bcoolapp.pdf>]
+ [19] [20 <./background/figs/bcoolapp.pdf>]
 
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 16.
 
-[20])) (framework/framework.tex
+[21])) (framework/framework.tex
 Chapter 3.
-(framework/intro.tex [21
+(framework/intro.tex [22
 
 
 
-]) (framework/interface.tex [22]
+]) (framework/interface.tex [23]
 
-LaTeX Warning: Citation `ptolemybib' on page 23 undefined on input line 14.
+LaTeX Warning: Citation `ptolemybib' on page 24 undefined on input line 14.
 
-[23]
+[24]
 
-LaTeX Warning: Citation `ptolemybib' on page 24 undefined on input line 25.
+LaTeX Warning: Citation `ptolemybib' on page 25 undefined on input line 25.
 
 
-LaTeX Warning: Citation `MarcoModels2014' on page 24 undefined on input line 25
+LaTeX Warning: Citation `MarcoModels2014' on page 25 undefined on input line 25
 .
 
 
-LaTeX Warning: Citation `ptolemybib' on page 24 undefined on input line 26.
+LaTeX Warning: Citation `ptolemybib' on page 25 undefined on input line 26.
 
 
-LaTeX Warning: Citation `henzingerIA' on page 24 undefined on input line 27.
+LaTeX Warning: Citation `henzingerIA' on page 25 undefined on input line 27.
 
 
-LaTeX Warning: Citation `coordinainterfacebib' on page 24 undefined on input li
+LaTeX Warning: Citation `coordinainterfacebib' on page 25 undefined on input li
 ne 30.
 
 
-LaTeX Warning: Citation `Opus' on page 24 undefined on input line 32.
+LaTeX Warning: Citation `Opus' on page 25 undefined on input line 32.
 
 
-LaTeX Warning: Citation `eventStructures' on page 24 undefined on input line 32
+LaTeX Warning: Citation `eventStructures' on page 25 undefined on input line 32
 .
 
 
-LaTeX Warning: Citation `lee1998framework' on page 24 undefined on input line 3
+LaTeX Warning: Citation `lee1998framework' on page 25 undefined on input line 3
 2.
 
 
-LaTeX Warning: Citation `rapide' on page 24 undefined on input line 32.
+LaTeX Warning: Citation `rapide' on page 25 undefined on input line 32.
 
 
-LaTeX Warning: Citation `coordinainterfacebib' on page 24 undefined on input li
+LaTeX Warning: Citation `coordinainterfacebib' on page 25 undefined on input li
 ne 32.
 
 
-LaTeX Warning: Citation `rapide' on page 24 undefined on input line 32.
+LaTeX Warning: Citation `rapide' on page 25 undefined on input line 32.
 
 
-LaTeX Warning: Citation `coordinainterfacebib' on page 24 undefined on input li
+LaTeX Warning: Citation `coordinainterfacebib' on page 25 undefined on input li
 ne 32.
 
 
-LaTeX Warning: Citation `eventStructures' on page 24 undefined on input line 32
+LaTeX Warning: Citation `eventStructures' on page 25 undefined on input line 32
 .
 
 
-LaTeX Warning: Citation `tr:ccsl' on page 24 undefined on input line 32.
+LaTeX Warning: Citation `tr:ccsl' on page 25 undefined on input line 32.
 
 
-LaTeX Warning: Citation `tagmachine' on page 24 undefined on input line 32.
+LaTeX Warning: Citation `tagmachine' on page 25 undefined on input line 32.
 
-[24]
+[25]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25]
+ [26]
 
-LaTeX Warning: Citation `sle13combemalebib' on page 26 undefined on input line 
+LaTeX Warning: Citation `sle13combemalebib' on page 27 undefined on input line 
 34.
 
 ) (framework/correspondencerule.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [26]
-[27]
+ [27]
+[28]
 
-LaTeX Warning: Citation `MarcoModels2014' on page 28 undefined on input line 21
+LaTeX Warning: Citation `MarcoModels2014' on page 29 undefined on input line 21
 .
 
 
-LaTeX Warning: Citation `ptolemybib' on page 28 undefined on input line 21.
+LaTeX Warning: Citation `ptolemybib' on page 29 undefined on input line 21.
 
 
-LaTeX Warning: Citation `kofman:hal-00950533' on page 28 undefined on input lin
+LaTeX Warning: Citation `kofman:hal-00950533' on page 29 undefined on input lin
 e 25.
 
 
-LaTeX Warning: Citation `megamodel' on page 28 undefined on input line 25.
+LaTeX Warning: Citation `megamodel' on page 29 undefined on input line 25.
 
 
-LaTeX Warning: Citation `ieee42010' on page 28 undefined on input line 25.
+LaTeX Warning: Citation `ieee42010' on page 29 undefined on input line 25.
 
-[28]
+[29]
 
-LaTeX Warning: Citation `epsilonbib' on page 29 undefined on input line 27.
+LaTeX Warning: Citation `epsilonbib' on page 30 undefined on input line 27.
 
-) (framework/coordinationrule.tex [29] [30]) (framework/conclu.tex [31]))
-(bcool/bcool.tex [32]
+) (framework/coordinationrule.tex [30] [31]) (framework/conclu.tex [32]))
+(bcool/bcool.tex [33]
 Chapter 4.
 (bcool/intro.tex) (bcool/language.tex (bcool/bcoolintro.tex
-<bcool/figs/bcoolpic.pdf, id=327, 556.0775pt x 360.34625pt>
+<bcool/figs/bcoolpic.pdf, id=331, 556.0775pt x 360.34625pt>
 File: bcool/figs/bcoolpic.pdf Graphic file (type pdf)
 
 <use bcool/figs/bcoolpic.pdf>
 Package pdftex.def Info: bcool/figs/bcoolpic.pdf used on input line 3.
 (pdftex.def)             Requested size: 483.69687pt x 313.44922pt.
- [33
+ [34
 
 ]
-<bcool/figs/models.pdf, id=332, 518.93875pt x 388.45125pt>
+<bcool/figs/models.pdf, id=335, 518.93875pt x 388.45125pt>
 File: bcool/figs/models.pdf Graphic file (type pdf)
 
 <use bcool/figs/models.pdf>
 Package pdftex.def Info: bcool/figs/models.pdf used on input line 14.
 (pdftex.def)             Requested size: 241.84843pt x 181.03694pt.
 ) (bcool/bcoolas.tex
-<bcool/figs/BcoolMM.pdf, id=333, 507.8975pt x 325.215pt>
+<bcool/figs/BcoolMM.pdf, id=336, 507.8975pt x 325.215pt>
 File: bcool/figs/BcoolMM.pdf Graphic file (type pdf)
 
 <use bcool/figs/BcoolMM.pdf>
 Package pdftex.def Info: bcool/figs/BcoolMM.pdf used on input line 5.
 (pdftex.def)             Requested size: 386.95897pt x 247.78625pt.
- [34 <./bcool/figs/bcoolpic.pdf>] [35 <./bcool/figs/models.pdf>] [36 <./bcool/f
+ [35 <./bcool/figs/bcoolpic.pdf>] [36 <./bcool/figs/models.pdf>] [37 <./bcool/f
 igs/BcoolMM.pdf>]
-<bcool/figs/runningrdv.pdf, id=559, 450.48299pt x 68.255pt>
+<bcool/figs/runningrdv.pdf, id=562, 450.48299pt x 68.255pt>
 File: bcool/figs/runningrdv.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningrdv.pdf>
 Package pdftex.def Info: bcool/figs/runningrdv.pdf used on input line 35.
 (pdftex.def)             Requested size: 290.22107pt x 43.97362pt.
 
-<bcool/figs/runningcausality.pdf, id=560, 582.175pt x 65.846pt>
+<bcool/figs/runningcausality.pdf, id=563, 582.175pt x 65.846pt>
 File: bcool/figs/runningcausality.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningcausality.pdf>
 Package pdftex.def Info: bcool/figs/runningcausality.pdf used on input line 45.
 
 (pdftex.def)             Requested size: 314.40001pt x 35.5603pt.
-) (bcool/bcoolaseventvar.tex [37 <./bcool/figs/runningrdv.pdf> <./bcool/figs/ru
+) (bcool/bcoolaseventvar.tex [38 <./bcool/figs/runningrdv.pdf> <./bcool/figs/ru
 nningcausality.pdf
 
 pdfTeX warning: pdflatex.exe (file ./bcool/figs/runningcausality.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] <bcool/figs/runningeventvar.pdf, id=571, 377.41pt x 99.57199pt>
+>] <bcool/figs/runningeventvar.pdf, id=574, 377.41pt x 99.57199pt>
 File: bcool/figs/runningeventvar.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvar.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvar.pdf used on input line 31.
 (pdftex.def)             Requested size: 241.84843pt x 63.80637pt.
- [38 <./bcool/figs/runningeventvar.pdf>]
-<bcool/figs/runningeventvarfilter.pdf, id=579, 539.61598pt x 132.495pt>
+ [39 <./bcool/figs/runningeventvar.pdf>]
+<bcool/figs/runningeventvarfilter.pdf, id=583, 539.61598pt x 132.495pt>
 File: bcool/figs/runningeventvarfilter.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvarfilter.pdf>
@@ -675,18 +684,18 @@ e 55.
 ) (bcool/bcoollib.tex
 Underfull \vbox (badness 2753) has occurred while \output is active []
 
- [39 <./bcool/figs/runningeventvarfilter.pdf>] [40]) (bcool/bcoolsemantics.tex
+ [40 <./bcool/figs/runningeventvarfilter.pdf>] [41]) (bcool/bcoolsemantics.tex
 
-LaTeX Warning: Citation `D3.1.2' on page 41 undefined on input line 2.
+LaTeX Warning: Citation `D3.1.2' on page 42 undefined on input line 2.
 
-)) [41] (bcool/validation.tex
+)) [42] (bcool/validation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [42]
+ [43]
 
-LaTeX Warning: Reference `?' on page 43 undefined on input line 29.
+LaTeX Warning: Reference `?' on page 44 undefined on input line 29.
 
-<bcool/figs/coffeemachinevcd.pdf, id=601, 884.10298pt x 195.129pt>
+<bcool/figs/coffeemachinevcd.pdf, id=604, 884.10298pt x 195.129pt>
 File: bcool/figs/coffeemachinevcd.pdf Graphic file (type pdf)
 
 <use bcool/figs/coffeemachinevcd.pdf>
@@ -697,8 +706,8 @@ Package pdftex.def Info: bcool/figs/coffeemachinevcd.pdf used on input line 33.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[43]) (bcool/langworkbench.tex
-<bcool/figs/bcooltechnos.png, id=605, 728.7225pt x 609.27625pt>
+[44]) (bcool/langworkbench.tex
+<bcool/figs/bcooltechnos.png, id=608, 728.7225pt x 609.27625pt>
 File: bcool/figs/bcooltechnos.png Graphic file (type png)
 
 <use bcool/figs/bcooltechnos.png>
@@ -708,8 +717,8 @@ Package pdftex.def Info: bcool/figs/bcooltechnos.png used on input line 7.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[44 <./bcool/figs/coffeemachinevcd.pdf>]
-<bcool/figs/process.pdf, id=614, 505.89pt x 343.2825pt>
+[45 <./bcool/figs/coffeemachinevcd.pdf>]
+<bcool/figs/process.pdf, id=618, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
 <use bcool/figs/process.pdf>
@@ -719,63 +728,63 @@ Package pdftex.def Info: bcool/figs/process.pdf used on input line 17.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[45 <./bcool/figs/bcooltechnos.png>]
-<bcool/figs/bcoolscreen.png, id=620, 677.02937pt x 459.21562pt>
+[46 <./bcool/figs/bcooltechnos.png>]
+<bcool/figs/bcoolscreen.png, id=623, 677.02937pt x 459.21562pt>
 File: bcool/figs/bcoolscreen.png Graphic file (type png)
 
 <use bcool/figs/bcoolscreen.png>
 Package pdftex.def Info: bcool/figs/bcoolscreen.png used on input line 39.
 (pdftex.def)             Requested size: 290.22107pt x 196.85625pt.
- [46 <./bcool/figs/process.pdf>] [47 <./bcool/figs/bcoolscreen.png>]
-<bcool/figs/antbcool.pdf, id=805, 999.735pt x 356.33125pt>
+ [47 <./bcool/figs/process.pdf>] [48 <./bcool/figs/bcoolscreen.png>]
+<bcool/figs/antbcool.pdf, id=808, 999.735pt x 356.33125pt>
 File: bcool/figs/antbcool.pdf Graphic file (type pdf)
 
 <use bcool/figs/antbcool.pdf>
 Package pdftex.def Info: bcool/figs/antbcool.pdf used on input line 61.
 (pdftex.def)             Requested size: 483.69687pt x 172.40178pt.
-) (bcool/evaluation.tex [48 <./bcool/figs/antbcool.pdf>]
+) (bcool/evaluation.tex [49 <./bcool/figs/antbcool.pdf>]
 
-LaTeX Warning: Citation `varalarsen:gemoc13' on page 49 undefined on input line
+LaTeX Warning: Citation `varalarsen:gemoc13' on page 50 undefined on input line
  9.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
-(bcool/conclu.tex)) (examples/examples.tex [50]
+ [50])
+(bcool/conclu.tex)) (examples/examples.tex [51]
 Chapter 5.
-(examples/intro.tex) (examples/cameraexample.tex [51
+(examples/intro.tex) (examples/cameraexample.tex [52
 
-] [52] [53]
+] [53] [54]
 
-LaTeX Warning: Citation `encodingcomparison' on page 54 undefined on input line
+LaTeX Warning: Citation `encodingcomparison' on page 55 undefined on input line
  49.
 
-<examples/figs/picmodels.pdf, id=839, 927.465pt x 640.3925pt>
+<examples/figs/picmodels.pdf, id=842, 927.465pt x 640.3925pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
 Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 53.
 (pdftex.def)             Requested size: 483.69687pt x 333.98317pt.
- [54] [55 <./examples/figs/picmodels.pdf>]
+ [55] [56 <./examples/figs/picmodels.pdf>]
 
-LaTeX Warning: Citation `MarcoModels2014' on page 56 undefined on input line 80
+LaTeX Warning: Citation `MarcoModels2014' on page 57 undefined on input line 80
 .
 
-[56]) (examples/allocationexample.tex (bcool/bcoolascorresmatch.tex [57])))
-(conclusion/conclusion.tex [58]
+[57]) (examples/allocationexample.tex (bcool/bcoolascorresmatch.tex [58])))
+(conclusion/conclusion.tex [59]
 Chapter 6.
-) (appendix/runningexamplelang.tex [59
+) (appendix/runningexamplelang.tex [60
 
 ]
 Appendix A.
 
-LaTeX Warning: Citation `ECL' on page 60 undefined on input line 8.
+LaTeX Warning: Citation `ECL' on page 61 undefined on input line 8.
 
 
-LaTeX Warning: Citation `omgocl2' on page 60 undefined on input line 8.
+LaTeX Warning: Citation `omgocl2' on page 61 undefined on input line 8.
 
-<appendix/figs/tfsmlang.pdf, id=883, 558.085pt x 747.79375pt>
+<appendix/figs/tfsmlang.pdf, id=886, 558.085pt x 747.79375pt>
 File: appendix/figs/tfsmlang.pdf Graphic file (type pdf)
 
 <use appendix/figs/tfsmlang.pdf>
@@ -785,9 +794,9 @@ Package pdftex.def Info: appendix/figs/tfsmlang.pdf used on input line 12.
 
 LaTeX Warning: Float too large for page by 0.3504pt on input line 16.
 
-[60
+[61
 
-] <appendix/figs/activitylang.pdf, id=887, 503.8825pt x 695.59875pt>
+] <appendix/figs/activitylang.pdf, id=890, 503.8825pt x 695.59875pt>
 File: appendix/figs/activitylang.pdf Graphic file (type pdf)
 
 <use appendix/figs/activitylang.pdf>
@@ -797,11 +806,11 @@ Package pdftex.def Info: appendix/figs/activitylang.pdf used on input line 50.
 
 LaTeX Warning: Float too large for page by 19.9523pt on input line 54.
 
-) (appendix/expressionandrelations.tex [61] [62 <./appendix/figs/tfsmlang.pdf>]
-[63 <./appendix/figs/activitylang.pdf>]
+) (appendix/expressionandrelations.tex [62] [63 <./appendix/figs/tfsmlang.pdf>]
+[64 <./appendix/figs/activitylang.pdf>]
 Appendix B.
 
-<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=944, 611.88597pt x 39
+<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=947, 611.88597pt x 39
 1.864pt>
 File: examples/figs/LoopFromStartToFinishNonPreemptive.pdf Graphic file (type p
 df)
@@ -810,15 +819,15 @@ Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.pdf u
 sed on input line 15.
 (pdftex.def)             Requested size: 305.94223pt x 195.93152pt.
 
-<examples/figs/AtomicExec.pdf, id=945, 534.79799pt x 344.48701pt>
+<examples/figs/AtomicExec.pdf, id=948, 534.79799pt x 344.48701pt>
 File: examples/figs/AtomicExec.pdf Graphic file (type pdf)
 
 <use examples/figs/AtomicExec.pdf>
 Package pdftex.def Info: examples/figs/AtomicExec.pdf used on input line 24.
 (pdftex.def)             Requested size: 267.39833pt x 172.24307pt.
-) (thesis.bbl [64
+) (thesis.bbl [65
 
-] [65 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs
+] [66 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs
 /AtomicExec.pdf
 
 pdfTeX warning: pdflatex.exe (file ./examples/figs/AtomicExec.pdf): PDF inclusi
@@ -834,14 +843,14 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no º in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
- [66
+ [67
 
-] [67]
+] [68]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no √ in font cmti12!
 Missing character: There is no © in font cmti12!
- [68] [69]
+ [69] [70]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
 Missing character: There is no √ in font cmr12!
@@ -852,7 +861,7 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
- [70]) [71] (thesis.aux)
+ [71]) [72] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -864,13 +873,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 5629 strings out of 493673
- 77680 string characters out of 3141527
- 209550 words of memory out of 3000000
- 8704 multiletter control sequences out of 15000+200000
+ 5630 strings out of 493673
+ 77683 string characters out of 3141527
+ 209551 words of memory out of 3000000
+ 8705 multiletter control sequences out of 15000+200000
  17697 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,13n,40p,3037b,1653s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,13n,40p,3037b,1651s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C
 :/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:/P
@@ -890,9 +899,9 @@ ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (87 pages, 12283793 bytes).
+Output written on thesis.pdf (88 pages, 12285458 bytes).
 PDF statistics:
- 1040 PDF objects out of 1200 (max. 8388607)
+ 1043 PDF objects out of 1200 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  111 words of extra memory for PDF output out of 10000 (max. 10000000)
 

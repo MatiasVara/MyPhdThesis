@@ -18,6 +18,8 @@ Nejati et. al~\cite{compostatechartsbib} propose to represent the behavior of mo
        
 Aspect Oriented Modeling approaches~\cite{weavingbib} also consider the dynamic properties of models for the composition. However, in these approaches, the mechanism used to compose models is different. One model plays the role of \emph{base} and other the role of \emph{aspects}, both models conform to the same language. The composition of aspects into the base model is called \emph{weaving}. An aspect is made of a \emph{pointcut} and an \emph{advince}. The pointcut is a predicate over a model that is used to select relevant model elements called \emph{join points}. The join points are correspondence between the aspects and the base model. During the weaving, the join points are replaced by the advince, \ie the elements of a model (aspects), conform to a meta-model, are injected (woven) to another model that conforms to the same meta-model. In some approaches, the weaving of aspects is done by considering the behavior of the models used. For example, in~\cite{sequenceweavingbib,rambib,composdbib}, the behavior of a model is represented by a Sequence Diagram (base model). An aspect is defined as a pair of SD: one SD serves as a pointcut (specification of the behavior to detect), and one serves as an advice (representing the expected behavior at the join point). When a behavior in the base model is detected, the join point is replaced by the SD that represents the advince. The algorithm used for the weaving may vary from one approach to other thus resulting in a different SD depending the approach. 
 
+\todo{To illustrate by showing un example of weaving}
+
 The previous approaches manage the composition of models in order to generate a new model. Conversely, other approaches compose languages in order to generate a new language. In this approaches, the correspondences associate concepts of various metamodels in order to generate a new metamodel. The composition is done by a system designer that specifies \emph{What} and \emph{How} concepts from different metamodels are related. In the literature, several techniques exist that compose the structure of languages into a new language. For example, Emerson et al.~\cite{metamodelcompo} propose three of them:
 \begin{itemize}
 	\item \textbf{Merge:} The merging composes two languages that share a concept. These concepts are used as ``join points" to stitch the two languages together into a unified whole.
@@ -31,23 +33,21 @@ These techniques only provide the means to compose the structure of languages. A
 	\item Define the syntax of a DSML by its metamodel. 
 	\item Define the behavioral semantics of a DSML by specifying the model transformation rules between the metamodel of the DSML and the Abstract Data Model of a semantic unit. 
 \end{itemize}    
-The main benefice of the use of SUs is they can be composed into a new SU. For example, in~\cite{composemanticanch}, a SU named FSM (Finite State Machine) and a SU named SDF (Synchronized Data Flow) are composed to get a new SU called SU-EFSM. Roughly speaking, the composition is expressed manually using AsmL. Then, the resulting SU can be used to define the behavioral semantics of a language. Authors state that its solution is to define semantics for heterogeneous DSMLs as the composition of semantic units. 
+The main benefice of the use of SUs is they can be composed into a new SU. For example, in~\cite{composemanticanch}, a SU named FSM (Finite State Machine) and a SU named SDF (Synchronized Data Flow) are composed to get a new SU called SU-EFSM. Roughly speaking, the composition is expressed manually using AsmL. Then, the resulting SU can be used to define the behavioral semantics of a language.
 
 \todo{Table ? summarizes the previous approaches}
 \subsection{Discussion}
-% Composition of models 
-% adventages:
-% disaventages:
-% Composition of the behavior of models
-% Composition of languages
-% Composition of languages semantics
-By specifying the composition between a set of languages, this approaches have achieved to automate the composition between models. They have managed the composition between heterogeneous languages by relying on a fixed meta meta model. In addition, the output model can conform to any language conform to the same meta meta model. By relying on a dedicated language, Epsilon supports the definition of complex algorithm of composition. They do not take into account dynamic properties of the models, i.e., the behavioral semantics.  
+Composition of Model approaches have achieved to automate the composition between models. They have managed the composition between heterogeneous languages by relying on a fixed meta meta model. In addition, the output model can conform to any language that conform to the same meta meta model. These approaches enable to compose language by keeping the metamodels untouched. Furthermore, the specification of the composition can be easy adapted by using dedicated languages as we shown in Epsilon. However, these approaches limit the specification between only two languages. In addition, they only consider syntactic similarities between models. 
 
-These approaches have automated the composition of models considering both syntactic and behavioral similarities. However, the composition is always specified between homogeneous languages. Furthermore, operators are encoded thus not enabling any customization. The detection of behavioral similarities between models is not easy. 
+In~\cite{?,?}, approaches have automated the composition of models considering both syntactic and behavioral similarities. However, in these approaches, the composition is always specified between homogeneous languages. Furthermore, operators are encoded inside a framework. This limits their customization. In addition, the detection of behavioral similarities between models is not easy or sometimes impossible as shown in~\cite{?}. 
 
-They propose to model a heterogeneous system by relying on a unified language. Such a language results from the composition of DSMLs. The composition of several DSMLs can become hard if several Languages are involved since this task is manually done by the user. A mega metamodel may not be easy to handle. 
+Composition of Languages propose to model heterogeneous system by relying on a unified language. Such a language results from the composition of DSMLs. The composition of several DSMLs can become hard if several Languages are involved since this task is manually done by the user. A mega metamodel may not be easy to handle. In addition, to add a new language seems a hard task in comparison with the same task in composition of models approaches. Authors state that its solution is to define semantics for heterogeneous DSMLs as the composition of semantic units. Also, it is not clear how much these approaches are suitable for separation of preoccupation and development a single system by various domain experts that focus on a specific part of the system. 
 
+The main benefice that we note between the Composition of Model again the Composition of Languages is easier for the former to add a new language by only modifying the specification. In composition of language, to add a new language means to modify the metamodel of both languages. This task may not be easy. 
 
+We want to highlighted that an specification at language level (as proposed by Composition Models Approaches) is easier to handle than a unified language (As proposed by Composition of Languages Approaches). We rely on such a finding to built \bcool.
+ 
+\todo{To introduce our approach?}
 \todo{Why did not we overview multi-view approaches?}
 
 
