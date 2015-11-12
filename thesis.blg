@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
 The style file: alpha.bst
 Database file #1: bibliography/bibliography.bib
 Repeated entry---line 372 of file bibliography/bibliography.bib
@@ -35,4 +37,45 @@ Warning--empty journal in elsurveybib
 Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
+You've used 52 entries,
+            2543 wiz_defined-function locations,
+            907 strings with 14722 characters,
+and the built_in function-call counts, 23626 in all, are:
+= -- 2338
+> -- 1279
+< -- 39
++ -- 456
+- -- 443
+* -- 1723
+:= -- 3860
+add.period$ -- 174
+call.type$ -- 52
+change.case$ -- 363
+chr.to.int$ -- 50
+cite$ -- 58
+duplicate$ -- 959
+empty$ -- 1631
+format.name$ -- 495
+if$ -- 4917
+int.to.chr$ -- 3
+int.to.str$ -- 0
+missing$ -- 46
+newline$ -- 265
+num.names$ -- 168
+pop$ -- 368
+preamble$ -- 1
+purify$ -- 415
+quote$ -- 0
+skip$ -- 795
+stack$ -- 0
+substring$ -- 1066
+swap$ -- 227
+text.length$ -- 39
+text.prefix$ -- 11
+top$ -- 0
+type$ -- 404
+warning$ -- 6
+while$ -- 217
+width$ -- 55
+write$ -- 703
 (There were 2 error messages)

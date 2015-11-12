@@ -65,6 +65,19 @@ P.~Bjureus and A.~Jantsch.
 \newblock {\em IEEE Transactions on Very Large Scale Integration (VLSI)
   Systems}, 9(5), Oct 2001.
 
+\bibitem[BPW{\etalchar{+}}11]{gaborpolyglot}
+Daniel Balasubramanian, Corina~S. P\u{a}s\u{a}reanu, Michael~W. Whalen,
+  G\'{a}bor Karsai, and Michael Lowry.
+\newblock Polyglot: Modeling and analysis for multiple statechart formalisms.
+\newblock In {\em ISSTA}, 2011.
+
+\bibitem[BS07]{bipbib}
+Simon Bliudze and Joseph Sifakis.
+\newblock The algebra of connectors: Structuring interaction in bip.
+\newblock In {\em Proceedings of the 7th ACM \&Amp; IEEE International
+  Conference on Embedded Software}, EMSOFT '07, pages 11--20, New York, NY,
+  USA, 2007. ACM.
+
 \bibitem[Caz12]{neverlang}
 Walter Cazzola.
 \newblock Domain-specific languages in few steps - the neverlang approach.
@@ -105,6 +118,12 @@ Julien Deantoni, Papa~Issa Diallo, Jo{\"e}l Champeau, Benoit Combemale, and
   Language}.
 \newblock Research Report RR-8584, {INRIA}, September 2014.
 
+\bibitem[DDG{\etalchar{+}}13]{metro2bib}
+Abhijit Davare, Douglas Densmore, Liangpeng Guo, Roberto Passerone, Alberto~L.
+  Sangiovanni-Vincentelli, Alena Simalatsar, and Qi~Zhu.
+\newblock {metroII}: A design environment for cyber-physical systems.
+\newblock {\em ACM TECS}, 2013.
+
 \bibitem[DM12]{timesquarebib}
 Julien Deantoni and Fr{\'e}d{\'e}ric Mallet.
 \newblock {TimeSquare: Treat your Models with Logical Time}.
@@ -138,6 +157,12 @@ Matthew Emerson and Janos Sztipanovits.
 \newblock In {\em in The 6th OOPSLA Workshop on Domain-Specific Modeling,
   OOPSLA 2006}, pages 123--139. ACM, ACM Press, 2006.
 
+\bibitem[ESH97]{sdlbib}
+Jan Ellsberger, Amardeo Sarma, and Dieter Hogrefe.
+\newblock {\em {SDL} : formal object-oriented language for communicating
+  systems}.
+\newblock Prentice Hall, Harlow, UK, New York, Paris, 1997.
+
 \bibitem[Esp09]{esperbib}
 Esper.
 \newblock Espertech, 2009.
@@ -147,6 +172,12 @@ Franck Fleurey, Benoit Baudry, Robert France, and Sudipto Ghosh.
 \newblock Models in software engineering.
 \newblock chapter A Generic Approach for Automatic Model Composition, pages
   7--15. Springer-Verlag, Berlin, Heidelberg, 2008.
+
+\bibitem[FGH06]{aadlbib}
+Peter Feiler, David Gluch, and John Hudak.
+\newblock The architecture analysis \& design language (aadl): An introduction.
+\newblock Technical Report CMU/SEI-2006-TN-011, Software Engineering Institute,
+  Carnegie Mellon University, Pittsburgh, PA, 2006.
 
 \bibitem[GC92a]{coordsignibib}
 David Gelernter and Nicholas Carriero.
@@ -158,10 +189,27 @@ David Gelernter and Nicholas Carriero.
 \newblock Coordination languages and their significance.
 \newblock {\em Commun. ACM}, 35(2):97--107, February 1992.
 
+\bibitem[GLL99a]{giraultbib}
+A.~Girault, Bilung Lee, and E.A. Lee.
+\newblock Hierarchical finite state machines with multiple concurrency models.
+\newblock {\em Computer-Aided Design of Integrated Circuits and Systems, IEEE
+  Transactions on}, 18(6):742--760, 1999.
+
+\bibitem[GLL99b]{giraultcompo}
+A.~Girault, Bilung Lee, and E.A. Lee.
+\newblock Hierarchical finite state machines with multiple concurrency models.
+\newblock {\em IEEE TCAD}, 1999.
+
 \bibitem[GS94]{garlansoftarchbib}
 David Garlan and Mary Shaw.
 \newblock An introduction to software architecture.
 \newblock Technical report, Pittsburgh, PA, USA, 1994.
+
+\bibitem[Gui92]{matlabbib}
+User's Guide.
+\newblock {\em MATLAB: High-performance Numeric Computation and Visualization
+  Software}.
+\newblock MathWorks, 1992.
 
 \bibitem[Gui01]{ambabus}
 User's Guide.
@@ -230,6 +278,12 @@ Bart Meyers, Joachim Denil, Frédéric Boulanger, Cécile Hardebolle,
 \newblock In {\em {Proceedings of MPM 2013, Workshop on Multi-Paradigm
   Modeling}}, page 10 pages, Miami, Florida, USA, Sep 2013.
 
+\bibitem[MMP00]{taxonomyConnectors}
+Nikunj~R Mehta, Nenad Medvidovic, and Sandeep Phadke.
+\newblock Towards a taxonomy of software connectors.
+\newblock In {\em Proceedings of the 22nd international conference on Software
+  engineering}, pages 178--187. ACM, 2000.
+
 \bibitem[MT97]{frameadlsbib}
 Nenad Medvidovic and Richard~N. Taylor.
 \newblock A framework for classifying and comparing architecture description
@@ -245,10 +299,33 @@ S.~Nejati, M.~Sabetzadeh, M.~Chechik, S.~Easterbrook, and P.~Zave.
 \newblock In {\em Software Engineering, 2007. ICSE 2007. 29th International
   Conference on}, pages 54--64, May 2007.
 
+\bibitem[PA98]{coordmodels}
+George~A. Papadopoulos and Farhad Arbab.
+\newblock Coordination models and languages.
+\newblock Technical report, CWI (Centre for Mathematics and Computer Science),
+  Amsterdam, The Netherlands, The Netherlands, 1998.
+
 \bibitem[SDK{\etalchar{+}}95]{uniconbib}
 M.~Shaw, R.~DeLine, D.V. Klein, T.L. Ross, D.M. Young, and G.~Zelesnik.
 \newblock Abstractions for software architecture and tools to support them.
 \newblock {\em Software Engineering, IEEE Transactions on}, 21(4):314--335, Apr
   1995.
+
+\bibitem[Weg96]{wegnercoorbib}
+Peter Wegner.
+\newblock Coordination as constrained interaction (extended abstract).
+\newblock In Paolo Ciancarini and Chris Hankin, editors, {\em Coordination
+  Languages and Models}, volume 1061 of {\em Lecture Notes in Computer
+  Science}, pages 28--33. Springer Berlin Heidelberg, 1996.
+
+\bibitem[WJE{\etalchar{+}}09]{matabib}
+Jon Whittle, Praveen Jayaraman, Ahmed Elkhodary, Ana Moreira, and João
+  Araújo.
+\newblock Mata: A unified approach for composing uml aspect models based on
+  graph transformation.
+\newblock In Shmuel Katz, Harold Ossher, Robert France, and Jean-Marc
+  Jézéquel, editors, {\em Transactions on Aspect-Oriented Software
+  Development VI}, volume 5560 of {\em Lecture Notes in Computer Science},
+  pages 191--237. Springer Berlin Heidelberg, 2009.
 
 \end{thebibliography}
