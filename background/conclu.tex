@@ -1,7 +1,37 @@
 \section{Conclusion}
-In this chapter, we have presented a background of current approaches that deal with the integration of heterogeneous models and languages in both a structural and a behavioral way. We have presented approaches that enable the composition of structures. In some of them, the specification is at language level and apply between models. Similarly, others specify at language level but in order to obtain a new syntax. We have noted that the MDE community provides extensive support for the structural composition of models and languages. Afterwards, we have presented the state of art approaches that deal with the integration of behaviors (see Table~\ref{tbl:overview}). We have identified two group of approaches that relay on different mechanisms to obtain the emerging system behavior: Composition and Coordination. We have determined that compositional approaches only provide support for the composition of homogeneous behavioral models. Conversely, we have presented the work done by Coordination Languages and ADLs that support the coordination of heterogeneous models. However, the system designer has to manually specify each relation, thus making this task tedious and error prone. Then, we have shown how coordination pattern approaches have leveraged on the know-how of system designer to automate the coordination between models. However, we have noted that the knowledge about system integration is encoded within a framework. Furthermore, in frameworks, the model of coordination is expressed by using a general purpose language thus limiting verification and validation activities. 
+In this chapter, we have presented a background of current approaches that deal with the integration of heterogeneous models and languages, in both a structural and a behavioral way. 
 
-To capture explicitly the know-how of a system designer, we propose \bcool a dedicated language to capture coordination patterns between languages, thus reifying the coordination at the language level (see Figure~\ref{fig:bcoolapp}). From this specification, a formal model of coordination is generated. This enables validation and verification of the coordinated system. In the next chapter, we relay on the state of art approach to build \bcool. 
+We have presented approaches the combine structural models/languages in order to obtain a new model/language. 
+
+To compose models, some of these approaches consider syntactical similarities between models, whereas others take also into account the behavior of models. 
+
+We have determined that these approaches only compose homogeneous models.    
+
+Similarly, to compose languages, some of these approach only consider the syntax whereas others also considers both the sinyax and the semantics in order to get a composed language. 
+
+ 
+
+Afterwards, we have presented the state of art approaches that deal with coordination of the behavior of models/languages. 
+
+
+
+
+
+ Conversely, we have presented the work done by Coordination Languages and ADLs that support the coordination of heterogeneous models. However, the system designer has to manually specify each relation, thus making this task tedious and error prone.
+ 
+ Then, we have shown how coordination pattern approaches have leveraged on the know-how of system designer to automate the coordination between models.
+ 
+ However, we have noted that the knowledge about system integration is encoded within a framework. 
+ 
+ Furthermore, in frameworks, the model of coordination is expressed by using a general purpose language thus limiting verification and validation activities. 
+
+To capture explicitly the know-how of a system designer, we propose \bcool a dedicated language to capture coordination patterns between languages, thus reifying coordination at the language level (see Figure~\ref{fig:bcoolapp}). From this specification, a formal model of coordination is generated. 
+
+
+This enables validation and verification of the coordinated system. 
+
+
+In the next chapter, we focus on coordination pattern approaches to understand how a coordination pattern is being captured. We leverage on such knowledge to build \bcool. 
 
 \begin{figure}
 \begin{center}
