@@ -1,30 +1,29 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Specification of a Client-Server system in Wright\nobreakspace {}\cite {wrightbib}}}{13}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces High level view of Ptolemy\nobreakspace {}\cite {giraultbib}}}{14}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces High level view of Ptolemy\nobreakspace {}\cite {giraultbib}}}{15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces High Level view of the approach proposed by Di Natale et al. in\nobreakspace {}\cite {dinatale}}}{16}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Overview of Our Approach}}{22}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Specification of a Client-Server system in Wright\nobreakspace {}\cite {wrightbib}}}{12}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces High Level view of the approach proposed by Di Natale et al. in\nobreakspace {}\cite {dinatale}}}{13}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces High level view of Ptolemy\nobreakspace {}\cite {giraultbib}}}{16}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Overview of Our Approach}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of the Approach}}{36}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Heterogeneous Model of a Coffee Machine}}{37}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{38}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{39}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{39}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{40}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{41}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Resulting timing execution of the coordinated system}}{46}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{47}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces The Proposed Workflow}}{48}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Screenshot}}{49}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Overview of the Approach}}{34}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Heterogeneous Model of a Coffee Machine}}{35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{36}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{37}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{37}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{38}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{39}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Resulting timing execution of the coordinated system}}{44}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{45}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces The Proposed Workflow}}{46}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Screenshot}}{47}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{57}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{55}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{64}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{65}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{62}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{63}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {B.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{67}
-\contentsline {figure}{\numberline {B.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{67}
+\contentsline {figure}{\numberline {B.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{65}
+\contentsline {figure}{\numberline {B.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{65}
