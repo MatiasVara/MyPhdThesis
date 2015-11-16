@@ -13,11 +13,6 @@ Warning--I didn't find a database entry for "?"
 Warning--I didn't find a database entry for "ptolemybib"
 Warning--I didn't find a database entry for "MarcoModels2014"
 Warning--I didn't find a database entry for "henzingerIA"
-Warning--I didn't find a database entry for "coordinainterfacebib"
-Warning--I didn't find a database entry for "Opus"
-Warning--I didn't find a database entry for "eventStructures"
-Warning--I didn't find a database entry for "lee1998framework"
-Warning--I didn't find a database entry for "rapide"
 Warning--I didn't find a database entry for "tr:ccsl"
 Warning--I didn't find a database entry for "tagmachine"
 Warning--I didn't find a database entry for "sle13combemalebib"
@@ -32,50 +27,52 @@ Warning--I didn't find a database entry for "ECL"
 Warning--I didn't find a database entry for "omgocl2"
 Warning--I didn't find a database entry for "conf/soco/2012"
 Warning--empty institution in ccslbib
+Warning--empty publisher in coordinainterfacebib
 Warning--empty booktitle in ptoleframebib
 Warning--empty journal in elsurveybib
 Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
-You've used 52 entries,
+Warning--empty publisher in eventStructures
+You've used 47 entries,
             2543 wiz_defined-function locations,
-            907 strings with 14722 characters,
-and the built_in function-call counts, 23626 in all, are:
-= -- 2338
-> -- 1279
-< -- 39
-+ -- 456
-- -- 443
-* -- 1723
-:= -- 3860
-add.period$ -- 174
-call.type$ -- 52
-change.case$ -- 363
-chr.to.int$ -- 50
-cite$ -- 58
-duplicate$ -- 959
-empty$ -- 1631
-format.name$ -- 495
-if$ -- 4917
-int.to.chr$ -- 3
+            870 strings with 13460 characters,
+and the built_in function-call counts, 20850 in all, are:
+= -- 2057
+> -- 1118
+< -- 32
++ -- 398
+- -- 387
+* -- 1515
+:= -- 3417
+add.period$ -- 157
+call.type$ -- 47
+change.case$ -- 324
+chr.to.int$ -- 46
+cite$ -- 55
+duplicate$ -- 851
+empty$ -- 1454
+format.name$ -- 435
+if$ -- 4323
+int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 46
-newline$ -- 265
-num.names$ -- 168
-pop$ -- 368
+missing$ -- 43
+newline$ -- 240
+num.names$ -- 149
+pop$ -- 338
 preamble$ -- 1
-purify$ -- 415
+purify$ -- 372
 quote$ -- 0
-skip$ -- 795
+skip$ -- 695
 stack$ -- 0
-substring$ -- 1066
-swap$ -- 227
-text.length$ -- 39
+substring$ -- 926
+swap$ -- 185
+text.length$ -- 32
 text.prefix$ -- 11
 top$ -- 0
-type$ -- 404
-warning$ -- 6
-while$ -- 217
-width$ -- 55
-write$ -- 703
+type$ -- 364
+warning$ -- 8
+while$ -- 190
+width$ -- 51
+write$ -- 627
 (There were 2 error messages)
