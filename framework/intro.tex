@@ -1,21 +1,12 @@
 \section{Introduction}
-\todo{This INTRO has to be REDO!}
-\begin{itemize}
-\item In this chapter, we present a deep study on coordination pattern approaches. 
+In this chapter, we present a deep study of Coordination Pattern approaches. These approaches go one step forward than Coordination Languages and ADLs by leveraging on the know-how of a system designer. However, current implementation are very heterogeneous and not well characterized. Furthermore, they lack of a relationship between with the work done by software architecture and coordination languages. To understand the commonalities between these approaches, we propose a framework for coordination pattern approaches. 
 
-\item These approaches are implemented by using different technologies. However, they can be seen as different implementations (sometimes partial) of a same conceptual framework.
+In the literature, authors proposed frameworks for Coordination Languages~\cite{coordmodels}, ADLs~\cite{frameadlsbib}, and Composition of Model Approaches~\cite{framecompoas}. For example, in~\cite{frameadlsbib}, authors propose a framework in order to classify and compare several existing ADLs. A similar work is presented in~\cite{coordmodels} where authors survey several coordination languages. They focus on 1) the entities being coordinated, 2) the mechanism of
+coordination, 3) the coordination architecture, 4) the semantics, rules of protocols of coordination employed. In~\cite{framecompoas}, Jeanneret et al. propose a framework to compare model
+composition approaches by relying on the triplet \emph{what-where-how} questions that identify respectively which elements should be composed, where elements should be inserted or modified and how the composition process works to get the expected result. 
 
-\item The conceptual framework we propose comes from a deep understanding of the different approaches and the internal mechanisms they used. We tried to abstract these mechanisms to extract the essence of the information needed to specify a behavioral coordination pattern between heterogeneous languages. The conceptual framework can be used to better understand the existing approaches but also to define requirements about a more general and systematic way to define such approach.
+By inspired on these works, this chapter presents a framework for coordination pattern approaches, which is based on three questions: \emph{What?}, \emph{When?} and \emph{How?}. These questions identify respectively which elements can be coordinated, when elements must be coordinated and how they must coordinated. The What? is related with a \emph{Language Behavioral Interface} that exposes a partial view of the syntax and behavioral semantics of languages. The When? is related with a \emph{Correspondence Rule} that identifies elements from the interface that must be coordinated. The How? is related with a \emph{Coordination Rule} that defines a synchronization/coordination between selected elements. 
 
-\item Similar work done in the framework presented in~\cite{frameadlsbib}. The objetive of such a framework is to organize current work, to understand between the approaches and to suggest improvement. 
-
-\item We are inspired by the framework presented in~\cite{framecompoas} to compare model
-composition techniques. The framework relies on the triplet \emph{what?}, \emph{where?} and \emph{how?} questions that identify respectively which elements should be composed, where elements should be inserted or modified and how the composition process works to get the expected result. 
+The goal of the framework is to understand how approaches have achieved to capture coordination pattern. We conclude this chapter by proposing a dedicated language to capture coordination pattern (\bcool).  
 
 
-\item By relying on this work, we propose a framework for coordination pattern approaches. The goal of this framework is to characterize the mechanisms involved into the coordination pattern approaches. We rely on three questions: \emph{What?}, \emph{When?} and \emph{How?} that identify what concepts can be coordinated, when such elements must be coordination and how the selected elements must be coordinated.   
- 
-
-\item In the following, we present these elements.     
-	
-\end{itemize}

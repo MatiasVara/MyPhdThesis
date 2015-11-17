@@ -279,6 +279,12 @@ S.~Nejati, M.~Sabetzadeh, M.~Chechik, S.~Easterbrook, and P.~Zave.
 \newblock In {\em Software Engineering, 2007. ICSE 2007. 29th International
   Conference on}, pages 54--64, May 2007.
 
+\bibitem[PA98]{coordmodels}
+George~A. Papadopoulos and Farhad Arbab.
+\newblock Coordination models and languages.
+\newblock Technical report, CWI (Centre for Mathematics and Computer Science),
+  Amsterdam, The Netherlands, The Netherlands, 1998.
+
 \bibitem[SDK{\etalchar{+}}95]{uniconbib}
 M.~Shaw, R.~DeLine, D.V. Klein, T.L. Ross, D.M. Young, and G.~Zelesnik.
 \newblock Abstractions for software architecture and tools to support them.

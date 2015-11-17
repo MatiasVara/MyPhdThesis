@@ -34,45 +34,45 @@ Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
 Warning--empty publisher in eventStructures
-You've used 47 entries,
+You've used 48 entries,
             2543 wiz_defined-function locations,
-            870 strings with 13460 characters,
-and the built_in function-call counts, 20850 in all, are:
-= -- 2057
-> -- 1118
+            875 strings with 13637 characters,
+and the built_in function-call counts, 21167 in all, are:
+= -- 2091
+> -- 1137
 < -- 32
-+ -- 398
-- -- 387
-* -- 1515
-:= -- 3417
-add.period$ -- 157
-call.type$ -- 47
-change.case$ -- 324
-chr.to.int$ -- 46
-cite$ -- 55
-duplicate$ -- 851
-empty$ -- 1454
-format.name$ -- 435
-if$ -- 4323
++ -- 404
+- -- 393
+* -- 1534
+:= -- 3477
+add.period$ -- 160
+call.type$ -- 48
+change.case$ -- 331
+chr.to.int$ -- 47
+cite$ -- 56
+duplicate$ -- 862
+empty$ -- 1472
+format.name$ -- 442
+if$ -- 4385
 int.to.chr$ -- 2
 int.to.str$ -- 0
 missing$ -- 43
-newline$ -- 240
-num.names$ -- 149
-pop$ -- 338
+newline$ -- 245
+num.names$ -- 152
+pop$ -- 341
 preamble$ -- 1
-purify$ -- 372
+purify$ -- 379
 quote$ -- 0
-skip$ -- 695
+skip$ -- 706
 stack$ -- 0
-substring$ -- 926
+substring$ -- 933
 swap$ -- 185
 text.length$ -- 32
 text.prefix$ -- 11
 top$ -- 0
-type$ -- 364
+type$ -- 372
 warning$ -- 8
-while$ -- 190
-width$ -- 51
-write$ -- 627
+while$ -- 193
+width$ -- 52
+write$ -- 641
 (There were 2 error messages)
