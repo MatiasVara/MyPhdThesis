@@ -1,30 +1,44 @@
 \section{Correspondence Rule}
 	\subsection{Overview}
-	A \emph{correspondence rule}, which specifies, based on elements from the language interfaces, what elements from different models have to be coordinated together.
-	\todo{This is related with a correspondence between syntactic model elements. Based on the definition in~\cite{clavreulmodelcompo}, \emph{a correspondence is any kind of implicit or explicit relationship between of models or sets of models elements}.} 
-	 \todo{On the other side, it is mandatory in the Matlab script to use the same name for the stream then the name of the signals from and to the SDL wrappers of the SDL model. Consequently, it means this approach relies on naming convention to specify the correspondence matching.}
-	\subsection{Comparison}
-		\begin{itemize}
-			\item A correspondence matching specifies, based on the language interface, when to instantiate a coordination rule and with which elements from the model to bind it.
-			It intends to capture the \emph{know-how} of the system engineer that, by knowing the involved languages and by having the models to coordinate decides how to instantia           te the coordination rules and how to bind them to elements of the models.
-			
-			\item In the approach proposed by Di Natale et al.~\cite{dinatale}, the correspondence matching relies on information manually given by the system designer in the mapping model. The use of dedicated stereotypes in the mapping model restricts what type of elements from the languages can be bound. For instance, the use of the \emph{SwDeployment} mapping imposes the binding of two elements: one of type \emph{CPU} and another one of type \emph{Task}. \todo{Consequently, the correspondence matching is not really made at the language level and consists in going through all the mappings from the mapping model to know what elements must be coordinated.}			
-			\item In Ptolemy and ModHel'X, the single abstract syntax, common to all the languages, specifies the correspondence matching by providing composite actors (\ie the actors can contain an internal configuration). In consequence, the level $n$ in the hierarchy of the specification actually specifies the coordination of the models at the level $n-1$ in the hierarchy, if they exist. These approaches are, however, specific cases since the syntax of all languages is unique: the correspondence matching is then a single mechanism embedded in all the languages.
-			
-			\item In Mascot~\cite{mascotbib}, the correspondence matching relies on the SDL wrappers to identify when a coordination should be generated. It also relies on a name matching between the signals in SDL and the stream in matlab to identify the equivalence between the variables in the two languages. 
-		\end{itemize}
-		\subsection{Discussion}
 	\begin{itemize}
-			\item The correspondence matching of a coordination pattern could/should be customized according to the actual nature of the languages used (\eg are the languages related somehow or not) or according to the company modeling conventions. 
-			%For instance, if there exist a naming convention between information going from and to a model as recommended in ~\cite{walker2007configuration}.
-			The correspondence matching can also represents the ``tricks'' used by a system designer to know how to coordinate the model (\eg each objects of a specific type must be coordinated with all the objects of another type when they have the same number of methods in their interface). In the reviewed approaches, we identified two different situations:
+	\item A correspondence rule is a relationship between languages elements. It captures the know-how of a system designer that knows what concepts from different languages are related and must be coordinated. The concept of correspondence rule can be understood as a connector type in which the roles refer to syntactic languages concepts.  
+	
+	\item The correspondence matching can also represents the ``tricks'' used by a system designer to know how to coordinate the models (\eg each objects of a specific type must be coordinated with all the objects of another type when they have the same number of methods in their interface). 
+				
+	\item In~\cite{dinatale}, the correspondences between the functional and the platform languages are defined into the mapping model. To do so, the approach proposes dedicated stereotypes that fix what type of elements from the languages can be bound. For instance, the use of the \emph{SwDeployment} mapping fixes the binding of two elements: one of type \emph{CPU} and another one of type \emph{Task}. While the approach proposes correspondence rules that are defined at language level, the instantiation and binding is still a task of the system designer. 		
+
+	\item In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the correspondence between models is modeled by providing composite actors that enables the design of a system by following a hierarchical scheme. The level $n$ in the hierarchy specifies the coordination of the models that are at the level $n-1$. Composite actors are a concept into the syntax that the framework provides. The user has to manually specify what models element is a composite actor and then which models are contained into it. 
+			
+	\item In Mascot~\cite{mascotbib}, Matlab script must use the same name for the stream than the name of the signals in SDL model. Thus, the approach relies on naming convention to specify the correspondence rule. 
+		
+		\end{itemize}
+		
+	\subsection{Discussion}
+	\begin{itemize} 
+			\item In the reviewed approaches, we identified two cases:
 			\begin{enumerate}
-				\item the correspondence matching is based on an explicit modeling artifact (like the matching model in \cite{MarcoModels2014} or the hierarchy in \cite{modhelxbib,ptolemybib}) 	
-				\item the correspondence matching is based on a specific modeling conventions (like the name matching in~\cite{mascotbib})
-				\end{enumerate}
+				\item The correspondence rule is based on an explicit modeling artifact, \eg mapping model in~\cite{dinatale}, composite actors in~\cite{modhelxbib, ptoleframebib}. 	
+				\item The correspondence rule is based on a specific modeling conventions, \eg naming matching in~\cite{mascotbib}.
+			\end{enumerate}
 				
-				The first case do not capture all the knowledge of the system designer, which is still injected manually by using a dedicated modeling artifact. It makes lots of sense when the identification of the correspondences is not systematic, like for instance for the allocation of tasks on CPUs. In some cases, this modeling artifact can be created by another dedicated tool (like \cite{kofman:hal-00950533} that uses design space exploration techniques to determine the allocation). It could be interesting to understand how the notions used in the megamodel field~\cite{megamodel} or in multi-view approaches~\cite{ieee42010} can be exploited to specify, in a generic way, the correspondences required in the definition of behavioral coordination patterns between heterogeneous languages. 
+			\item In the first case, the system designer has to instantiate such modeling artifact in order to specify when concepts are related. For instance, in Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the system designer instantiates composite actors to define a hierarchical heterogeneous model. Similarly, in~\cite{dinatale}, he has to instantiate a stereotype to specify a correspondence between a task and platform. In these cases, the process of looking for a correspondence between models elements cannot be fully automatized. The approaches need a system designer to decide when a connector must be used. In these cases, the correspondences could be provided by another tool like in~\cite{kofmanbib} in which authors use design space exploration techniques to determine the allocation. By following this idea, the approach of Di Natale et. al~\cite{dinatale} could include an allocation algorithm to automate the deployment of tasks into a platform. 
+			
+			\item Conversely, when the correspondence rule relies on a naming convention (case number two), the process of looking for similarities between model elements can be easily automatized (see Section~\ref{ch:background}). For example, by using the Epsilon Comparison Language, the system designer can explicitly find similarities by querying and comparing model elements. In addition, the use of a dedicated language eases the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. For example, since convention are independent of the languages itself, it is easy to add support to a new language without changing the current implementation. Conversely, in~\cite{dinatale}, if the platform language is modified to add support to a new hardware, the mapping language must be changed to add a new stereotype that describes the new possible allocation. 
+			
+			\item We want to highlight that both kind of correspondences are needed to specify a coordination pattern. However, only the second case allows the automation of the coordination process. This is one of the achievement of composition models approaches.  
+
+			\end{itemize}
+			
+			
+						 
+						 %\item For instance, the aim of the ECP is to capture such a convetion by reying on explciit matching rules. It can express, at the language level, queries on different models and specify predicates based on the result of these queries. 
+							
+		   	%is interesting because it can be used on languages totally independent, \ie which have no idea of the existence of the other one. 
+			 %It requires the establishment of modeling conventions but is very agile when it is needed to add a new language into the development process. 
+			 %The Epsilon Comparison Language~\cite{epsilonbib} is a dedicated language to express matching relationships between models conforming to different language. 
+			 %It can express, at the language level, queries on different models and specify predicates based on the result of these queries. 
+			 %An interesting solution could investigate the introduce of such language in the specification of a correspondence matching,  to make the correspondence matching explicit, modular and adaptable.
+			%\item The correspondence matching of a coordination pattern could/should be customized according to the actual nature of the languages used (\eg are the languages related somehow or not) or according to the company modeling conventions.
+						
+						%The first case do not capture all the knowledge of the system designer, which is still injected manually by using a dedicated modeling artifact. It makes lots of sense when the identification of the correspondences is not systematic, like for instance for the allocation of tasks on CPUs. In some cases, this modeling artifact can be created by another dedicated tool (like \cite{kofman:hal-00950533} that uses design space exploration techniques to determine the allocation). It could be interesting to understand how the notions used in the megamodel field~\cite{megamodel} or in multi-view approaches~\cite{ieee42010} can be exploited to specify, in a generic way, the correspondences required in the definition of behavioral coordination patterns between heterogeneous languages.		
 				
-				The second case is interesting because it can be used on languages totally independent, \ie which have no idea of the existence of the other one. It requires the establishment of modeling conventions but is very agile when it is needed to add a new language into the development process. The Epsilon Comparison Language~\cite{epsilonbib} is a dedicated language to express matching relationships between models conforming to different language. It can express, at the language level, queries on different models and specify predicates based on the result of these queries. An interesting solution could investigate the introduce of such language in the specification of a correspondence matching,  to make the correspondence matching explicit, modular and adaptable.
-				
-				\end{itemize}

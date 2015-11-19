@@ -1,8 +1,7 @@
 \section{Coordination Rule}
 \subsection{Overview}
-A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.
-\subsection{Comparison}
-		\begin{itemize}
+\begin{itemize}
+\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.
 			\item The coordination rule specifies the actual coordination between the elements to be coordinated. A coordination rule is very close to the notion of connector type from the ADLs; it models the glue between the elements identified by the correspondence matching.
 			
 			\item In Ptolemy and ModHel'X, composite actors interact with their internal actors by explicitly invoking the methods in their interface. The coordination rule is then specified in Java, together with the firing of an actor. In addition to this mechanism, ModHel'X reified the concept of \emph{semantic adaptation} so that it enables the user to manually specify the code to adapt two component interfaces, like a glue in traditional ADLs.

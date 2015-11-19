@@ -233,6 +233,12 @@ Jacques Klein and Jörg Kienzle.
 \newblock In {\em IN: Proceedings. Of The 11th International Workshop On Aspect
   Oriented Modeling.}, 2007.
 
+\bibitem[KMDS13]{kofmanbib}
+Emilien Kofman, Jean-Vivien Millo, and Robert De~Simone.
+\newblock {Application Architecture Adequacy through an FFT case study}.
+\newblock In {\em {JRWRTC2013 - 7th Junior Researcher Workshop on Real-Time
+  Computing}}, Sophia Antipolis, France, October 2013. {Sebastian Altmeyer}.
+
 \bibitem[KPP06]{epsilon}
 Dimitrios~S. Kolovos, Richard~F. Paige, and Fiona A.~C. Polack.
 \newblock Merging models with the epsilon merging language (eml.

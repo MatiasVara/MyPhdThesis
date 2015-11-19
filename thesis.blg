@@ -10,19 +10,13 @@ I'm skipping whatever remains of this entry
 A bad cross reference---entry "neverlang"
 refers to entry "conf/soco/2012", which doesn't exist
 Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "ptolemybib"
-Warning--I didn't find a database entry for "MarcoModels2014"
-Warning--I didn't find a database entry for "henzingerIA"
+Warning--I didn't find a database entry for "background"
 Warning--I didn't find a database entry for "tr:ccsl"
 Warning--I didn't find a database entry for "tagmachine"
-Warning--I didn't find a database entry for "sle13combemalebib"
-Warning--I didn't find a database entry for "kofman:hal-00950533"
-Warning--I didn't find a database entry for "megamodel"
-Warning--I didn't find a database entry for "ieee42010"
-Warning--I didn't find a database entry for "epsilonbib"
 Warning--I didn't find a database entry for "D3.1.2"
 Warning--I didn't find a database entry for "varalarsen:gemoc13"
 Warning--I didn't find a database entry for "encodingcomparison"
+Warning--I didn't find a database entry for "MarcoModels2014"
 Warning--I didn't find a database entry for "ECL"
 Warning--I didn't find a database entry for "omgocl2"
 Warning--I didn't find a database entry for "conf/soco/2012"
@@ -34,45 +28,45 @@ Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
 Warning--empty publisher in eventStructures
-You've used 48 entries,
+You've used 49 entries,
             2543 wiz_defined-function locations,
-            875 strings with 13637 characters,
-and the built_in function-call counts, 21167 in all, are:
-= -- 2091
-> -- 1137
+            874 strings with 13793 characters,
+and the built_in function-call counts, 21575 in all, are:
+= -- 2132
+> -- 1162
 < -- 32
-+ -- 404
-- -- 393
-* -- 1534
-:= -- 3477
-add.period$ -- 160
-call.type$ -- 48
-change.case$ -- 331
-chr.to.int$ -- 47
-cite$ -- 56
-duplicate$ -- 862
-empty$ -- 1472
-format.name$ -- 442
-if$ -- 4385
++ -- 413
+- -- 402
+* -- 1564
+:= -- 3547
+add.period$ -- 164
+call.type$ -- 49
+change.case$ -- 338
+chr.to.int$ -- 48
+cite$ -- 57
+duplicate$ -- 879
+empty$ -- 1501
+format.name$ -- 452
+if$ -- 4469
 int.to.chr$ -- 2
 int.to.str$ -- 0
-missing$ -- 43
-newline$ -- 245
-num.names$ -- 152
-pop$ -- 341
+missing$ -- 44
+newline$ -- 250
+num.names$ -- 155
+pop$ -- 350
 preamble$ -- 1
-purify$ -- 379
+purify$ -- 387
 quote$ -- 0
-skip$ -- 706
+skip$ -- 716
 stack$ -- 0
-substring$ -- 933
-swap$ -- 185
+substring$ -- 940
+swap$ -- 186
 text.length$ -- 32
 text.prefix$ -- 11
 top$ -- 0
-type$ -- 372
+type$ -- 380
 warning$ -- 8
-while$ -- 193
-width$ -- 52
-write$ -- 641
+while$ -- 196
+width$ -- 53
+write$ -- 655
 (There were 2 error messages)
