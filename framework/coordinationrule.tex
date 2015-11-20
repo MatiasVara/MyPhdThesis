@@ -1,24 +1,45 @@
 \section{Coordination Rule}
 \subsection{Overview}
 \begin{itemize}
-\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.
-			\item The coordination rule specifies the actual coordination between the elements to be coordinated. A coordination rule is very close to the notion of connector type from the ADLs; it models the glue between the elements identified by the correspondence matching.
+			\item To capture the specification of a given coordination pattern, approaches specify not only what elements are related but also how they are coordinated. Together with a correspondence rule, approaches define a coordination rule that contains the specification of the interaction. In this sense, the notion of coordination rule is closed to the glue in ADLs that is used to specify the interaction. Each correspondence has associated a coordination rule that defines its behavioral meaning. 
+		 
+			\item For example, in~\cite{dinatale}, each correspondence in the mapping model (\ie stereotypes) is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform language are coordinated. More precisely, the glue is encoded into the translation semantics of the mapping language that is implemented as simple method invocation in C++.
 			
-			\item In Ptolemy and ModHel'X, composite actors interact with their internal actors by explicitly invoking the methods in their interface. The coordination rule is then specified in Java, together with the firing of an actor. In addition to this mechanism, ModHel'X reified the concept of \emph{semantic adaptation} so that it enables the user to manually specify the code to adapt two component interfaces, like a glue in traditional ADLs.
+			\item Mascot~\cite{mascotbib} encodes the coordination rule into the SDL wrappers in C. The SDL engine communicates to the Matlab engine by invoking the methods in the SDL wrappers. Such a protocol is implemented in C. 
 			
-			\item In~\cite{dinatale}, each type of mapping (\ie each stereotype in the mapping model) is translated to a specific glue, which encodes how the elements of the functional and the platform language are coordinated. The coordination rule is thus implicit into the translation semantics of the mapping language. It is really close to the notion of built-in connector type from approaches like AADL or Clara, but without the analysibility properties.        
-			
-			\item \todo{In Mascot, the coordination rules is hard coded in the implementation of the SDL wrappers. It depends on the type of the signal from and to the SDL wrappers with regards to the type of communication identified in the interface.}  
+			\item In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, composite actors interact with their internal actors by explicitly invoking the methods in their interface. In these approaches, both the semantics of models and the coordination rule are specified in Java. While in Ptolemy the coordination rule is fixed, ModHel'X enables the system designer to manually specify the code between two component interfaces (\ie semantic adaptation).
+
 		\end{itemize}
 		
 \subsection{Discussion}
  	\begin{itemize}
-
- 		\item None of the approaches we reviewed really took advantage of state of the art on software architecture and coordination languages.
- 		The notion of user defined connector types as defined by Wright or Reo or Unicon is better formulated the the approaches previously presented. Leveraging on such approach to provide coordination rule seems quite intuitive and would bring a clear separation between the computational and coordination activity while allowing the definition of domain specific coordination. Also, according to the domain addressed by the covered approaches that none of them used a formal language to specify the coordination rule. Based on state of the art approaches based on formal languages (like BIP or Wright), it can be interesting to experiment the adaptation of a formal language to specify the coordination rule of behavioral patterns between heterogeneous languages.
- 		\item  A recent work considers using CCSL~\cite{semanticadaptccsl} to formally specify the semantic adaption that could provide the means for analyzing.
+		\item In the three reviewed approaches, we identified two similarities as follows:
+		
+		\begin{enumerate}
+		\item The coordination rule is hidden inside a tool and expressed in a general purpose language.
+		\item The customization of the coordination rule is limited.
+		\end{enumerate}
+		
+		\item We want to highlight that the reviewed approaches do not leverage on the state of art on Coordination Languages and ADLs. For instance, ADLs have addressed 1) by relying on connectors that make the interaction between components explicit. Furthermore, they express the glue in a formal language to provide verification and validation of the coordinated system. 
+		
+		\item Regarding the point number 2), ADLs have well identified the notion of user-defined connector types that enables a system designer to build domain specific connectors, and use them as need.
+	
+ 	%\item These are built-in connectors types like AADL or Clara, but using a general purpose language.
+	 	%\item \todo{To add the merging operator}
+	 	
+ 		%\item \todo{A recent work~\cite{semanticadaptlang} propose a dedicated language to explicitly specify the semantic adaptation. Currently in ModHel'X, the semantic adaptation is written in java, \ie a general purpose language. Instead, this approach proposes to use a language closed to system designer domain. From DSL code, Java code is generated and implemented into ModHel'X. Since Java code is used, verification and validation of the coordinated system remain limited.}   
+ 		 		
  		
- 		\item A recent work~\cite{semanticadaptlang} propose a dedicated language to explicitly specify the semantic adaptation. Currently in ModHel'X, the semantic adaptation is written in java, \ie a general purpose language. Instead, this approach proposes to use a language closed to system designer domain. From DSL code, Java code is generated and implemented into ModHel'X. Since Java code is used, verification and validation of the coordinated system remain limited.   
+ 		%\item None of the approaches we reviewed really took advantage of state of the art on software architecture and coordination languages. 
  		
+ 		%\item The notion of user defined connector types as defined by Wright or Reo or Unicon is better formulated the approaches previously presented. Leveraging on such approach to provide coordination rule seems quite intuitive and would bring a clear separation between the computational and coordination activity while allowing the definition of domain specific coordination. 
+ 		
+ 		%\item Also, according to the domain addressed by the covered approaches that none of them used a formal language to specify the coordination rule.
+ 		
+ 		%\item  Based on state of the art approaches based on formal languages (like BIP or Wright), it can be interesting to experiment the adaptation of a formal language to specify the coordination rule of behavioral patterns between heterogeneous languages.
  		 
  		\end{itemize}
+ 		
+ 		
+ 		
+ 		%\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.

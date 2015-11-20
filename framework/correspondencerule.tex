@@ -23,10 +23,9 @@
 				
 			\item In the first case, the system designer has to instantiate such modeling artifact in order to specify when concepts are related. For instance, in Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the system designer instantiates composite actors to define a hierarchical heterogeneous model. Similarly, in~\cite{dinatale}, he has to instantiate a stereotype to specify a correspondence between a task and platform. In these cases, the process of looking for a correspondence between models elements cannot be fully automatized. The approaches need a system designer to decide when a connector must be used. In these cases, the correspondences could be provided by another tool like in~\cite{kofmanbib} in which authors use design space exploration techniques to determine the allocation. By following this idea, the approach of Di Natale et. al~\cite{dinatale} could include an allocation algorithm to automate the deployment of tasks into a platform. 
 			
+			\item \todo{To add the matching operator}
 			\item Conversely, when the correspondence rule relies on a naming convention (case number two), the process of looking for similarities between model elements can be easily automatized (see Section~\ref{ch:background}). For example, by using the Epsilon Comparison Language, the system designer can explicitly find similarities by querying and comparing model elements. In addition, the use of a dedicated language eases the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. For example, since convention are independent of the languages itself, it is easy to add support to a new language without changing the current implementation. Conversely, in~\cite{dinatale}, if the platform language is modified to add support to a new hardware, the mapping language must be changed to add a new stereotype that describes the new possible allocation. 
 			
-			\item We want to highlight that both kind of correspondences are needed to specify a coordination pattern. However, only the second case allows the automation of the coordination process. This is one of the achievement of composition models approaches.  
-
 			\end{itemize}
 			
 			
