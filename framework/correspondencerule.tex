@@ -1,32 +1,24 @@
 \section{Correspondence Rule}
 	\subsection{Overview}
-	\begin{itemize}
-	\item A correspondence rule is a relationship between languages elements. It captures the know-how of a system designer that knows what concepts from different languages are related and must be coordinated. The concept of correspondence rule can be understood as a connector type in which the roles refer to syntactic languages concepts.  
-	
-	\item The correspondence matching can also represents the ``tricks'' used by a system designer to know how to coordinate the models (\eg each objects of a specific type must be coordinated with all the objects of another type when they have the same number of methods in their interface). 
-				
-	\item In~\cite{dinatale}, the correspondences between the functional and the platform languages are defined into the mapping model. To do so, the approach proposes dedicated stereotypes that fix what type of elements from the languages can be bound. For instance, the use of the \emph{SwDeployment} mapping fixes the binding of two elements: one of type \emph{CPU} and another one of type \emph{Task}. While the approach proposes correspondence rules that are defined at language level, the instantiation and binding is still a task of the system designer. 		
+A correspondence rule is any explicit or implicit relationship between languages elements. It captures the know-how of a system designer that knows what concepts from different languages are related. In other words, it represents the ``tricks'' that a system designer uses to know what elements must be coordinated. The concept of correspondence rule can be understood as a connector in ADLs in which the roles refer to languages concepts.  
 
-	\item In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the correspondence between models is modeled by providing composite actors that enables the design of a system by following a hierarchical scheme. The level $n$ in the hierarchy specifies the coordination of the models that are at the level $n-1$. Composite actors are a concept into the syntax that the framework provides. The user has to manually specify what models element is a composite actor and then which models are contained into it. 
-			
-	\item In Mascot~\cite{mascotbib}, Matlab script must use the same name for the stream than the name of the signals in SDL model. Thus, the approach relies on naming convention to specify the correspondence rule. 
+In~\cite{dinatale}, the mapping model is used to define correspondences between the functional and the platform languages. The approach proposes dedicated stereotypes that fix what type of elements from the languages can be bound. For instance, the use of the \emph{SwDeployment} stereotype fixes the binding between two type of elements: one of type \emph{CPU} and another one of type \emph{Task}. The approach proposes correspondence rules that are defined at language level, however, the instantiation and binding are still a task of the system designer. Such connector are very similar than the built-in connectors proposed by Clara~\cite{clarabib} or AADL~\cite{aadlbib}. 
 		
-		\end{itemize}
-		
-	\subsection{Discussion}
-	\begin{itemize} 
-			\item In the reviewed approaches, we identified two cases:
-			\begin{enumerate}
-				\item The correspondence rule is based on an explicit modeling artifact, \eg mapping model in~\cite{dinatale}, composite actors in~\cite{modhelxbib, ptoleframebib}. 	
-				\item The correspondence rule is based on a specific modeling conventions, \eg naming matching in~\cite{mascotbib}.
-			\end{enumerate}
+Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib} model the correspondence between models by providing composite actors. These frameworks provide a fixed syntax in which composite actors are first class object. The system designer has to manually specify what models are composited and which ones are contained inside. This enables the designing of a system by following a hierarchical scheme where the level $n$ in the hierarchy specifies the coordination of the models that are at the level $n-1$.
+
+Conversely, Mascot~\cite{mascotbib} relies on a naming convention to specify the correspondence between events in SDL and stream in Matlab. Matlab script must use the same name for the stream than the name of the signals in SDL model.  
+
+\subsection{Discussion}
+In the reviewed approaches, we identified two ways to express the correspondences between languages elements:
+\begin{enumerate}
+ \item by using an explicit modeling artifact, \eg mapping model in~\cite{dinatale}, composite actors in~\cite{modhelxbib, ptoleframebib}. 	
+  \item by using specific modeling conventions, \eg naming matching in~\cite{mascotbib}.
+\end{enumerate}
 				
-			\item In the first case, the system designer has to instantiate such modeling artifact in order to specify when concepts are related. For instance, in Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the system designer instantiates composite actors to define a hierarchical heterogeneous model. Similarly, in~\cite{dinatale}, he has to instantiate a stereotype to specify a correspondence between a task and platform. In these cases, the process of looking for a correspondence between models elements cannot be fully automatized. The approaches need a system designer to decide when a connector must be used. In these cases, the correspondences could be provided by another tool like in~\cite{kofmanbib} in which authors use design space exploration techniques to determine the allocation. By following this idea, the approach of Di Natale et. al~\cite{dinatale} could include an allocation algorithm to automate the deployment of tasks into a platform. 
+In the first case, the system designer has to instantiate such modeling artifact in order to specify when concepts are related. For instance, in Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the system designer instantiates composite actors to define a hierarchical heterogeneous model. Similarly, in~\cite{dinatale}, he has to instantiate a stereotype to specify a correspondence between a task and platform. In these cases, the process of looking for a correspondence between models elements cannot be fully automatized. The approaches need a system designer to decide when a connector must be used. In these cases, the correspondences could be provided by another tool like in~\cite{kofmanbib} in which authors use design space exploration techniques to determine the allocation. By following this idea, the approach of Di Natale et. al~\cite{dinatale} could include an allocation algorithm to automate the deployment of tasks into a platform. 
+
+When the correspondence rule relies on a specific modeling convention (case number two), the process of looking for similarities between model elements can be easily automatized. For example, by using the Epsilon Comparison Language, the system designer can explicitly find similarities by querying and comparing model elements. In addition, the use of a dedicated language eases the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. Furthermore, convention are independent of the languages itself, so that it is easy to add support to a new language without changing the current implementation. For example in~\cite{dinatale}, if the platform language is modified to add support to a new hardware, the mapping language must be changed to add a new stereotype that describes the new possible allocation. 
 			
-			\item \todo{To add the matching operator}
-			\item Conversely, when the correspondence rule relies on a naming convention (case number two), the process of looking for similarities between model elements can be easily automatized (see Section~\ref{ch:background}). For example, by using the Epsilon Comparison Language, the system designer can explicitly find similarities by querying and comparing model elements. In addition, the use of a dedicated language eases the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. For example, since convention are independent of the languages itself, it is easy to add support to a new language without changing the current implementation. Conversely, in~\cite{dinatale}, if the platform language is modified to add support to a new hardware, the mapping language must be changed to add a new stereotype that describes the new possible allocation. 
-			
-			\end{itemize}
 			
 			
 						 

@@ -19,12 +19,12 @@
 \contentsline {section}{\numberline {3.2}Language Behavioral Interface}{23}
 \contentsline {subsection}{\numberline {3.2.1}Overview}{23}
 \contentsline {subsection}{\numberline {3.2.2}Discussion}{25}
-\contentsline {section}{\numberline {3.3}Correspondence Rule}{27}
-\contentsline {subsection}{\numberline {3.3.1}Overview}{27}
-\contentsline {subsection}{\numberline {3.3.2}Discussion}{28}
-\contentsline {section}{\numberline {3.4}Coordination Rule}{29}
-\contentsline {subsection}{\numberline {3.4.1}Overview}{29}
-\contentsline {subsection}{\numberline {3.4.2}Discussion}{30}
+\contentsline {section}{\numberline {3.3}Correspondence Rule}{26}
+\contentsline {subsection}{\numberline {3.3.1}Overview}{26}
+\contentsline {subsection}{\numberline {3.3.2}Discussion}{27}
+\contentsline {section}{\numberline {3.4}Coordination Rule}{28}
+\contentsline {subsection}{\numberline {3.4.1}Overview}{28}
+\contentsline {subsection}{\numberline {3.4.2}Discussion}{29}
 \contentsline {section}{\numberline {3.5}Conclusion}{30}
 \contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{33}
 \contentsline {section}{\numberline {4.1}Introduction}{33}

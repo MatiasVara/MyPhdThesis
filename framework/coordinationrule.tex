@@ -1,28 +1,24 @@
 \section{Coordination Rule}
 \subsection{Overview}
-\begin{itemize}
-			\item To capture the specification of a given coordination pattern, approaches specify not only what elements are related but also how they are coordinated. Together with a correspondence rule, approaches define a coordination rule that contains the specification of the interaction. In this sense, the notion of coordination rule is closed to the glue in ADLs that is used to specify the interaction. Each correspondence has associated a coordination rule that defines its behavioral meaning. 
-		 
-			\item For example, in~\cite{dinatale}, each correspondence in the mapping model (\ie stereotypes) is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform language are coordinated. More precisely, the glue is encoded into the translation semantics of the mapping language that is implemented as simple method invocation in C++.
-			
-			\item Mascot~\cite{mascotbib} encodes the coordination rule into the SDL wrappers in C. The SDL engine communicates to the Matlab engine by invoking the methods in the SDL wrappers. Such a protocol is implemented in C. 
-			
-			\item In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, composite actors interact with their internal actors by explicitly invoking the methods in their interface. In these approaches, both the semantics of models and the coordination rule are specified in Java. While in Ptolemy the coordination rule is fixed, ModHel'X enables the system designer to manually specify the code between two component interfaces (\ie semantic adaptation).
+To capture the specification of a given coordination pattern, approaches specify not only what elements from lenguages are related but also how they are coordinated. Together with a correspondence rule, approaches define a coordination rule that contains the specification of the interaction. In this sense, the notion of coordination rule is closed to the glue in ADLs that is used to specify the interaction. Each correspondence has associated a coordination rule that defines its behavioral meaning. 
 
-		\end{itemize}
-		
+For example, in~\cite{dinatale}, each correspondence in the mapping model (\ie stereotypes) is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform language are coordinated. More precisely, the glue is encoded into the translation semantics of the mapping language that is implemented as simple method invocation in C++.
+
+MASCOT~\cite{mascotbib} encodes the coordination rule into the SDL wrappers in C. The SDL engine communicates to the Matlab engine by invoking the methods in the SDL wrappers. Such a protocol is implemented in C. 
+			
+In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, composite actors interact with their internal actors by explicitly invoking the methods in their interface. In these approaches, both the semantics of models and the coordination rule are specified in Java. While in Ptolemy the coordination rule is fixed, ModHel'X enables the system designer to manually specify the code between two component interfaces (\ie semantic adaptation).
+
 \subsection{Discussion}
- 	\begin{itemize}
-		\item In the three reviewed approaches, we identified two similarities as follows:
+In the three reviewed approaches, we identified two similarities as follows:
+	
+\begin{enumerate}
+\item The coordination rule is hidden inside a tool and expressed in a general purpose language.
+\item The customization of the coordination rule is limited.
+\end{enumerate}
 		
-		\begin{enumerate}
-		\item The coordination rule is hidden inside a tool and expressed in a general purpose language.
-		\item The customization of the coordination rule is limited.
-		\end{enumerate}
+We want to highlight that the reviewed approaches do not leverage on the state of art on Coordination Languages and ADLs. For instance, ADLs have addressed 1) by relying on connectors that make the interaction between components explicit. Furthermore, they express the glue in a formal language to provide verification and validation of the coordinated system. 
 		
-		\item We want to highlight that the reviewed approaches do not leverage on the state of art on Coordination Languages and ADLs. For instance, ADLs have addressed 1) by relying on connectors that make the interaction between components explicit. Furthermore, they express the glue in a formal language to provide verification and validation of the coordinated system. 
-		
-		\item Regarding the point number 2), ADLs have well identified the notion of user-defined connector types that enables a system designer to build domain specific connectors, and use them as need.
+Regarding the point number 2), ADLs have well identified the notion of user-defined connector types that enables a system designer to build domain specific connectors and use them as need.
 	
  	%\item These are built-in connectors types like AADL or Clara, but using a general purpose language.
 	 	%\item \todo{To add the merging operator}
@@ -37,9 +33,5 @@
  		%\item Also, according to the domain addressed by the covered approaches that none of them used a formal language to specify the coordination rule.
  		
  		%\item  Based on state of the art approaches based on formal languages (like BIP or Wright), it can be interesting to experiment the adaptation of a formal language to specify the coordination rule of behavioral patterns between heterogeneous languages.
- 		 
- 		\end{itemize}
- 		
- 		
- 		
+	
  		%\item A \emph{coordination rule}, which specifies how a set of formal parameters are coordinated. In the case of model composition, this is defined as a \emph{merging} of elements. By relying on the classification proposed in~\cite{clavreulmodelcompo}, the coordination rule is a particular case of \emph{interpretation}. From authors, \emph{Interpretation is what we define as the meaning of the correspondence relationships for a given purpose in a specific context}. Since the final goal of the coordination rule is to coordinate behavioral models, the interpretation is classified as \emph{interaction}.

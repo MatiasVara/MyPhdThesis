@@ -1,6 +1,4 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
-Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
-The top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
 The style file: alpha.bst
 Database file #1: bibliography/bibliography.bib
 Repeated entry---line 372 of file bibliography/bibliography.bib
@@ -10,7 +8,6 @@ I'm skipping whatever remains of this entry
 A bad cross reference---entry "neverlang"
 refers to entry "conf/soco/2012", which doesn't exist
 Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "background"
 Warning--I didn't find a database entry for "tr:ccsl"
 Warning--I didn't find a database entry for "tagmachine"
 Warning--I didn't find a database entry for "D3.1.2"
@@ -28,45 +25,4 @@ Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
 Warning--empty publisher in eventStructures
-You've used 49 entries,
-            2543 wiz_defined-function locations,
-            874 strings with 13793 characters,
-and the built_in function-call counts, 21575 in all, are:
-= -- 2132
-> -- 1162
-< -- 32
-+ -- 413
-- -- 402
-* -- 1564
-:= -- 3547
-add.period$ -- 164
-call.type$ -- 49
-change.case$ -- 338
-chr.to.int$ -- 48
-cite$ -- 57
-duplicate$ -- 879
-empty$ -- 1501
-format.name$ -- 452
-if$ -- 4469
-int.to.chr$ -- 2
-int.to.str$ -- 0
-missing$ -- 44
-newline$ -- 250
-num.names$ -- 155
-pop$ -- 350
-preamble$ -- 1
-purify$ -- 387
-quote$ -- 0
-skip$ -- 716
-stack$ -- 0
-substring$ -- 940
-swap$ -- 186
-text.length$ -- 32
-text.prefix$ -- 11
-top$ -- 0
-type$ -- 380
-warning$ -- 8
-while$ -- 196
-width$ -- 53
-write$ -- 655
 (There were 2 error messages)

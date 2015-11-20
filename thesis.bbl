@@ -165,6 +165,12 @@ Franck Fleurey, Benoit Baudry, Robert France, and Sudipto Ghosh.
 \newblock chapter A Generic Approach for Automatic Model Composition, pages
   7--15. Springer-Verlag, Berlin, Heidelberg, 2008.
 
+\bibitem[FGH06]{aadlbib}
+Peter Feiler, David Gluch, and John Hudak.
+\newblock The architecture analysis \& design language (aadl): An introduction.
+\newblock Technical Report CMU/SEI-2006-TN-011, Software Engineering Institute,
+  Carnegie Mellon University, Pittsburgh, PA, 2006.
+
 \bibitem[GC92a]{coordsignibib}
 David Gelernter and Nicholas Carriero.
 \newblock Coordination languages and their significance.
@@ -262,13 +268,6 @@ David~C. Luckham, John~J. Kenney, Larry~M. Augustin, James Vera, Doug Bryan,
 Edward~A Lee and Alberto Sangiovanni-Vincentelli.
 \newblock A framework for comparing models of computation.
 \newblock {\em IEEE TCAD}, 1998.
-
-\bibitem[MDB{\etalchar{+}}13]{semanticadaptlang}
-Bart Meyers, Joachim Denil, Frédéric Boulanger, Cécile Hardebolle,
-  Christophe Jacquet, and Hans Vangheluwe.
-\newblock {A DSL for Explicit Semantic Adaptation}.
-\newblock In {\em {Proceedings of MPM 2013, Workshop on Multi-Paradigm
-  Modeling}}, page 10 pages, Miami, Florida, USA, Sep 2013.
 
 \bibitem[MT97]{frameadlsbib}
 Nenad Medvidovic and Richard~N. Taylor.
