@@ -29,6 +29,12 @@ Farhad Arbab.
 \newblock In {\em Bulletin of the Dutch Association for Theoretical Computer
   Science (NVTI}, pages 11--22, 1998.
 
+\bibitem[BCCSV05]{tagmachinebib}
+Albert Benveniste, Beno\^it Caillaud, Luca Carloni, and Alberto
+  Sangiovanni-Vincentelli.
+\newblock Tag machines.
+\newblock In {\em ACM Emsoft}, 2005.
+
 \bibitem[BCE{\etalchar{+}}06]{mergemanifest}
 Greg Brunet, Marsha Chechik, Steve Easterbrook, Shiva Nejati, Nan Niu, and
   Mehrdad Sabetzadeh.

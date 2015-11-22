@@ -5,11 +5,13 @@ Repeated entry---line 372 of file bibliography/bibliography.bib
  : @inproceedings{frameadlsbib
  :                            ,
 I'm skipping whatever remains of this entry
+Repeated entry---line 810 of file bibliography/bibliography.bib
+ : @techreport{ccslbib
+ :                    ,
+I'm skipping whatever remains of this entry
 A bad cross reference---entry "neverlang"
 refers to entry "conf/soco/2012", which doesn't exist
 Warning--I didn't find a database entry for "?"
-Warning--I didn't find a database entry for "tr:ccsl"
-Warning--I didn't find a database entry for "tagmachine"
 Warning--I didn't find a database entry for "D3.1.2"
 Warning--I didn't find a database entry for "varalarsen:gemoc13"
 Warning--I didn't find a database entry for "encodingcomparison"
@@ -25,4 +27,4 @@ Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
 Warning--empty publisher in eventStructures
-(There were 2 error messages)
+(There were 3 error messages)
