@@ -25,7 +25,7 @@
 \contentsline {section}{\numberline {3.4}Coordination Rule}{27}
 \contentsline {subsection}{\numberline {3.4.1}Overview}{27}
 \contentsline {subsection}{\numberline {3.4.2}Discussion}{28}
-\contentsline {section}{\numberline {3.5}Conclusion}{28}
+\contentsline {section}{\numberline {3.5}Conclusion}{29}
 \contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{31}
 \contentsline {section}{\numberline {4.1}Introduction}{31}
 \contentsline {section}{\numberline {4.2}\textsc {B-COoL}\xspace Language}{31}
