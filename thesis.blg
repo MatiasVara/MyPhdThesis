@@ -1,4 +1,6 @@
-This is BibTeX, Version 0.99dThe top-level auxiliary file: thesis.aux
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: thesis.aux
 The style file: alpha.bst
 Database file #1: bibliography/bibliography.bib
 Repeated entry---line 372 of file bibliography/bibliography.bib
@@ -12,19 +14,59 @@ I'm skipping whatever remains of this entry
 A bad cross reference---entry "neverlang"
 refers to entry "conf/soco/2012", which doesn't exist
 Warning--I didn't find a database entry for "?"
+Warning--I didn't find a database entry for "ECL"
+Warning--I didn't find a database entry for "omgocl2"
 Warning--I didn't find a database entry for "D3.1.2"
 Warning--I didn't find a database entry for "varalarsen:gemoc13"
 Warning--I didn't find a database entry for "encodingcomparison"
 Warning--I didn't find a database entry for "MarcoModels2014"
-Warning--I didn't find a database entry for "ECL"
-Warning--I didn't find a database entry for "omgocl2"
 Warning--I didn't find a database entry for "conf/soco/2012"
 Warning--empty institution in ccslbib
 Warning--empty publisher in coordinainterfacebib
 Warning--empty booktitle in ptoleframebib
-Warning--empty journal in elsurveybib
 Warning--empty booktitle in kompose
 Warning--empty institution in garlansoftarchbib
 Warning--empty institution in ambabus
 Warning--empty publisher in eventStructures
+You've used 50 entries,
+            2543 wiz_defined-function locations,
+            874 strings with 13988 characters,
+and the built_in function-call counts, 21890 in all, are:
+= -- 2149
+> -- 1203
+< -- 32
++ -- 429
+- -- 418
+* -- 1599
+:= -- 3625
+add.period$ -- 167
+call.type$ -- 50
+change.case$ -- 348
+chr.to.int$ -- 49
+cite$ -- 57
+duplicate$ -- 878
+empty$ -- 1523
+format.name$ -- 469
+if$ -- 4511
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 44
+newline$ -- 255
+num.names$ -- 158
+pop$ -- 359
+preamble$ -- 1
+purify$ -- 398
+quote$ -- 0
+skip$ -- 703
+stack$ -- 0
+substring$ -- 931
+swap$ -- 173
+text.length$ -- 32
+text.prefix$ -- 11
+top$ -- 0
+type$ -- 388
+warning$ -- 7
+while$ -- 198
+width$ -- 55
+write$ -- 668
 (There were 3 error messages)

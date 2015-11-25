@@ -9,10 +9,15 @@
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \include{thesis.preamble}
-
+\usepackage{enumitem}
 \input{keywordstyle.sty}
+\usepackage{setspace}
 
 \begin{document}
+% space between lines in paragraphs
+\singlespacing
+% space in list and enumerate
+%\setlist{nolistsep}
 
 \title{\LARGE {\bf Toward a formal and hierarchical timed model for concurrent heterogeneous model}\\
  \vspace*{6mm}
@@ -43,7 +48,7 @@
 
 \appendix
 % appendices come here
-\input{appendix/runningexamplelang}
+%\input{appendix/runningexamplelang}
 \input{appendix/expressionandrelations}
 
 \addcontentsline{toc}{chapter}{Bibliography}

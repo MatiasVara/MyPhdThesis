@@ -83,6 +83,13 @@ Walter Cazzola.
   editors, {\em Software Composition}, volume 7306 of {\em Lecture Notes in
   Computer Science}, pages 162--177. Springer, 2012.
 
+\bibitem[CDB{\etalchar{+}}15]{ttc15bib}
+Benoit Combemale, Julien Deantoni, Olivier Barais, Arnaud Blouin, Erwan Bousse,
+  C{'e}dric Brun, Thomas Degueule, and Didier Vojtisek.
+\newblock {A Solution to the TTC'15 Model Execution Case Using the GEMOC
+  Studio}.
+\newblock In {\em {8th Transformation Tool Contest (workshop TTC 2015)}}, 2015.
+
 \bibitem[CDVL{\etalchar{+}}13]{sle13-combemale}
 Benoit Combemale, Julien Deantoni, Matias Vara~Larsen, Fr{'e}d{'e}ric Mallet,
   Olivier Barais, Benoit Baudry, and Robert France.
@@ -143,11 +150,6 @@ Emmanuel Durand.
   temps réel : {CLARA} et les r\'eseaux de Petri temporels}.
 \newblock PhD thesis, Nantes, ECN, Nantes, 1998.
 \newblock Th. : automatique et informatique appliqu\'ees.
-
-\bibitem[EkCT03]{elsurveybib}
-Jad El-khoury, DeJiu Chen, and Martin T{\"o}rngren.
-\newblock A survey of modeling approaches forembedded computer control systems.
-\newblock 2003.
 
 \bibitem[ES06]{metamodelcompo}
 Matthew Emerson and Janos Sztipanovits.
