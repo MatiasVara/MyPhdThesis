@@ -6,21 +6,20 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Overview of Our Approach}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{35}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces Heterogeneous Model of a Coffee Machine}}{36}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{37}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{38}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{39}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{39}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{40}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{41}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Resulting timing execution of the coordinated system}}{46}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{47}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces Screenshot}}{49}
-\contentsline {figure}{\numberline {4.12}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{50}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{37}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{38}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{39}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{40}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{41}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Resulting timing execution of the coordinated system}}{45}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{47}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Screenshot}}{48}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{57}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{63}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{63}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{62}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{62}

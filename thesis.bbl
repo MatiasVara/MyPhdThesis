@@ -129,7 +129,13 @@ Julien Deantoni, Papa~Issa Diallo, Jo{\"e}l Champeau, Benoit Combemale, and
   Language}.
 \newblock Research Report RR-8584, {INRIA}, September 2014.
 
-\bibitem[DM12]{timesquarebib}
+\bibitem[DM12a]{eclbib}
+Julien Deantoni and Fr{\'e}d{\'e}ric Mallet.
+\newblock {ECL: the Event Constraint Language, an Extension of OCL with
+  Events}.
+\newblock Research report, INRIA, 2012.
+
+\bibitem[DM12b]{timesquarebib}
 Julien Deantoni and Fr{\'e}d{\'e}ric Mallet.
 \newblock {TimeSquare: Treat your Models with Logical Time}.
 \newblock In {\em {TOOLS}}, 2012.
@@ -291,6 +297,10 @@ S.~Nejati, M.~Sabetzadeh, M.~Chechik, S.~Easterbrook, and P.~Zave.
 \newblock Matching and merging of statecharts specifications.
 \newblock In {\em Software Engineering, 2007. ICSE 2007. 29th International
   Conference on}, pages 54--64, May 2007.
+
+\bibitem[OMG03]{omgocl2bib}
+OMG.
+\newblock {\em {UML Object Constraint Language (OCL) 2.0}}, 2003.
 
 \bibitem[PA98]{coordmodels}
 George~A. Papadopoulos and Farhad Arbab.
