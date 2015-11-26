@@ -4,7 +4,10 @@ This chapter presents \bcool, a dedicated (meta)language to explicitly capture t
 	
 In this chapter, we illustrate the use of \bcool through a (simple) running example: the coordination of the model of a coffee machine. To build the model, we base on two languages: a state-based language named Timed Finite State Machine (TFSM) and an action-based language named Activity. We use the TFSM to model the control-flow aspects and the Activity to model the data-flow aspects. The model of the coffee machine is thus heterogeneous. We propose to automate the coordination of the models of the running example by relying on a \bcool operator between these languages.
 
+\todo{This represents a typical case of separation of concern in which one domain is better described by a data-flow language and other is described by a control flow language}
+
 This chapter begins by presenting the running example and the languages together with its behavioral interface.  Then, we continue the chapter by presenting the abstract syntax and the semantics of \bcool. To illustrate the use \bcool, we rely on the running example. Then, we present the implementation of \bcool into the GEMOC studio. To finish the chapter, we evaluate and compare our approach with coordination languages and frameworks and we conclude.
+
 
 %\begin{figure}
 %	\begin{center}

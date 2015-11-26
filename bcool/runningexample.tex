@@ -1,5 +1,9 @@
 \section{Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}
 \label{sec:runningexample}
+% the objevtive of this section is to present the running example
+% the languages and the interfaces
+% it ilustrates the DSE and the MSE that are defined in the context of a metaclass
+% it illutraste also how to coordinate two heterogenenous models. 
 \begin{itemize}
 	\item In this section, we develop the heterogeneous model of a coffee machine. The coffee machine system is composed of a coin control system and a coffee algorithm system. When a coin is inserted, the coin control system makes the coffee machine unlocked and the coffee algorithm system allows the user to select a coffee. Once selected it, the coffee algorithm system makes the coffee, and then, releases it. Then, the coin control system makes the coffee machine locked again. To model different aspects of the system, we use the languages TFSM and Activity. In the following, we present each languages with its behavioral interface. By relying on these language, we develop the model of each subsystem that composes the coffee machine.  
 	
@@ -57,7 +61,7 @@
 	
 	\item These models need to be coordinated. More precisely, when the TFSM becomes Unlocked, the Action selectCoffee must execute. After that, when the Action releaseCoffee is executed, the TFSM must become locked again. In other words, to coordinate these models, we have to specify the coordination between the \mse \emph{selectCoffee:occurs} and \emph{selectCoffee:executeIt}, and  between \emph{releaseCoffee:occurs} and \emph{releaseCoffee:executeIt}.
 	
-	\item To illustrate the use of \bcool, we propose to coordinate these models by developing a simple \bcool operator between these languages. We informally define it as follows: When coordinating a TFSM and an Activity, all pairs of FSMEvents and Actions that have the same name must be synchronized using a \emph{rendez-vous}. The operator is defined for any pair of TFSM and Activity. When applied it concerns two specific state machines, at the instance (model) level.  In the following sections, we use this simple operator as running example to illustrate the syntax and semantics of \bcool.  	
+	\item To illustrate the use of \bcool, we propose to coordinate these models by developing a simple \bcool operator between these languages. We informally define it as follows: When coordinating a TFSM and an Activity, all pairs of FSMEvents and Actions that have the same name must be synchronized using a \emph{rendez-vous}. The operator is defined for any pair of TFSM and Activity. When applied it concerns two specific models, at the instance (model) level.  In the following sections, we use this simple operator as running example to illustrate the syntax and semantics of \bcool.  	
 \end{itemize}
 
 
