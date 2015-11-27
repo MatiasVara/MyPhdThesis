@@ -10,14 +10,14 @@
 \contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{35}
 \contentsline {figure}{\numberline {4.3}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{37}
 \contentsline {figure}{\numberline {4.4}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{39}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Causality}}{39}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting timing execution of the coordinated system}}{43}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{44}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Screenshot}}{46}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{47}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}}{41}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting timing execution of the coordinated system}}{45}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces \textsc {B-COoL}\xspace Tooling Technologies}}{46}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Screenshot}}{48}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces ANT script to build the coordination specification for the coffee machine}}{49}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{54}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{56}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{60}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{60}
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{62}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{62}

@@ -7,49 +7,105 @@
 \end{figure}
 
 \begin{itemize}
-	\item The \bcool language is an implementation of the framework for coordination pattern approaches that we presented in Chapter~\ref{ch:framework}. A \bcool specification relies on operators to capture coordination patterns between languages. Operators are used to specify What, When and How instances of \dse (\mse) from different languages behavioral interfaces must be coordinated. To do so, each operator contains a correspondence matching and a coordination rule. These elements represent respectively the correspondence rule and the coordination rule presented in Chapter~\ref{ch:framework}. In this subsection, we present the syntactic elements of \bcool. To illustrate them, we define the operator for the running example between the language Activity and TFSM languages.
+	\item The \bcool language is an implementation of the framework for coordination pattern approaches (see Chapter~\ref{ch:framework}). A \bcool specification relies on operators to capture coordination patterns between languages. Operators are used to specify What, When and How instances of \dse (\mse) from different languages behavioral interfaces must be coordinated. To do so, each operator contains a correspondence matching and a coordination rule. These elements represent respectively the correspondence rule and the coordination rule presented in Chapter~\ref{ch:framework}. In this subsection, we present the syntactic elements of \bcool. To illustrate them, we define the operator for the running example between the Activity and TFSM languages.
 	
-	\item The abstract syntax of the \bcool is defined by its metamodel (see Figure~\ref{fig:bcool}). The root element is a \emph{BCoolSpecification} that contains \emph{Operators}. Each operator refers to \dse to specify the event types it coordinates. In our implementation, we force operators to be defined between at least two event types. The \dse are extracted from the language behavioral interface that must be imported. A \bcool specification imports at least two  two language behavioral interface (\emph{importsInterfaceStatements}). The imported interface may belong to the same language.    
+	\item The abstract syntax of \bcool is defined by its metamodel (see Figure~\ref{fig:bcool}). The root element is a \emph{BCoolSpecification} that contains \emph{Operators}. Each operator refers to \dse to specify the event types it coordinates. To get the \dse, a \bcool specification imports at least two language behavioral interfaces (\emph{importsInterfaceStatements}). \todo{Why?}
 	
+	\item Operators use the referred \dse as arguments. Each operator contains a \emph{correspondence matching} and a \emph{coordination rule}. The former is used to select instance of \dse and the latter to express how the selected instances must be coordinated. 
+	
+	\item A correspondence rule relies on a \emph{Condition} that contains an OCL Boolean expression. To define the boolean expression, an integrator can navigate through the context of the \dse and query a specific element. The Condition acts as a precondition for the coordination rule, \ie it is a predicate that defines when the coordination rule must be applied to the given parameters.
+	
+	\item The coordination rule contains the specification of the ``glue'' that coordinates instances of \dse. To express the glue, the coordination rule contains an \emph{EventRelation} that is used to restrict the relative order of the occurrences of events used as parameters. Event relations are defined into a \moccml library that the \bcool specification must import (\emph{ImportLibStatement}). That definition defines the correct order of the parameters. 
+	
+	\item We illustrate the syntactic elements of \bcool by developing the operator for the running example. The operator is defined between TFSM and Activity languages and specifies the synchronization between the occurrence of FSMEvents, \ie \dse \emph{FSMEvent::occurs}) and the execution of Actions, \ie \dse \emph{Action::executeIt}). 
+	
+	\item Listing~\ref{lst:bcoolrunningexample} shows the \bcool specification of the operator named \emph{TFSMAndActivity}. The specification imports the behavioral interface of each language that provides the \dse () and the \moccml library \emph{facilities.moccml} that provides the event relations that are used latter for the coordination rule. Then, it defines an operator named \emph{SyncFSMEventsAndActions} with the \dse \emph{occurs} and \emph{executeIt} as parameters. To get these \dse, we query the interfaces and we renamed the \dse as \emph{ActionExecute} and \emph{FSMEvenOccurs} respectively. 
+	
+	
+	\begin{lstlisting}[language=bcool,
+	caption={Synchronized product operator between the TFSM and Activity languages},
+	label={lst:bcoolrunningexample}, 
+	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+	BCOoLSpec TFSMAndActivity
+	ImportLib "facilities.moccml"
+	ImportInterface "activitySemantics.ecl" as activity
+	ImportInterface "TFSM.ecl" as tfsm
+	Operator SyncFSMEventsAndActions(ActionExecute:activity::executeIt, FSMEventOccurs:tfsm::occurs)
+		when (ActionExecute.name = FSMEventOccurs.name);
+		do   RendezVous(ActionExecute, FSMEventOccurs)
+	end operator
+	\end{lstlisting}
+	
+	\item To select pair of instances of these \dse, we query their context to get the attribute \emph{name}. Then, we use the condition to compare them. The selected instances are synchronized by the event relation \emph{Rendezvous}. This event relation takes as argument two events and specifies a strong synchronization between them. As a result, all the occurrences of these events are forced to happen simultaneously. 
+	
+	\item The specification can be used to coordinate any pair of TFSM and Activity. In particular, we use it to coordinate the models of the coffee machine. Figure~\ref{fig:runningrdv} shows the resulting coordination between the \mse \emph{selectCoffee:occurs} and \emph{selectCoffee:executeIt}. 
+	
+	\begin{figure}[]
+		\center
+		\includegraphics[width=.6\textwidth]{bcool/figs/runningrdv}
+		\caption{Resulting coordination of the Coffee Machine by using the event relation Rendezvous}
+		\label{fig:runningrdv}
+	\end{figure}
+	
+	\item The coordination rule would need to express complex protocols. For example, in some cases only some occurrences of the selected events may be synchronized. Also, it may happen that the coordination relies on a global clock. This situation is often in synchronous digital systems where a clock signal is used to coordinate the actions in a circuit. In these cases, it would be necessary to do something on the selected instances of \dse before to apply the event relation. 
+	
+	
+	\item To cover these cases, \bcool enables the definition of new events by using \emph{Event variables}. Such events can be either defined globally for the whole specification (\emph{globalEventVariables}) or locally within an operator (\emph{localEventVariables}). 
+	
+	\item An event variable can be either defined locally within the coordination rule (\emph{localEventVariables}) or globally for the whole specification (\emph{globalEventVariables}). These variables either define global events used across different operators, or create a new event from the selected instances of \dse and possibly from attributes of the input models. The definition of these events can be initialized by using an \emph{EventExpression}. An event expression returns a new event from a given parameter. For instance, this can be used to select only some occurrences of a DSE instance, thus allowing the implementation of filters. An event expression can also be used to join in a single event the occurrences of different events (union). When used in the coordination rule, the resulting events can be used as parameters of event relations, constraining by transitivity (some of) the occurrences of \dse instances. The definition of event expressions is made in \moccml libraries, which must be imported. 
+	
+	
+	\item We illustrate the use of event variables by modifying the previous example. In this case, the synchronization of FSMEvents and Actions is based on a global clock signal. The coordination happens only when the global clock ticks. To do so, we need to define a global event variable that act as global clock, and then, modify the coordination rule. 
+	
+	\item First, we define a global event variable named \emph{globalClock}(Listing~\ref{lst:bcoolrunningexampletimed}: line 5). Then, in the coordination rule, we use the globalClock together with the \dse \emph{occurs} and \emph{executeIt} to create two local event variables named \emph{sampledExecuteIt} and \emph{sampledOccurs} (Listing~\ref{lst:bcoolrunningexampletimed}: line 9 and 10). To initialize them, we rely on the event expression \emph{Sample}. 
+	
+	\item TODO: What does sample do? 
+	
+	\item How local events are syncronized 
+	
+	\item However, such a coordination can be gathere for future implementation by relying on a library. We the library notion in the following.
+	
+	%\item The resulting events tick if and only if the global clock and the instance of \dse have also ticked. For instance, the event \emph{sampledOccurs} only ticks if globalClock and the instance of \dse \emph{occurs} ticks. In this case, we use a global event variable together with event expressions to sample the occurrences of selected instances of \dse. Then, we can use the local events as parameters of event relations, constraining by transitivity (some of) the occurrences of \dse instances. In our example, we force a simultaneous occurrence between the local events by using the relation rendezvous (Listing~\ref{lst:bcoolrunningexample2}: line 13). As a result, instances of \dse occurs and startAction happen simultaneously (see Figure~\ref{fig:runningeventvar}). 
+
+	\begin{lstlisting}[language=bcool,
+	caption={Synchronized product operator between the TFSM and Activity languages by using Event Variables},
+	label={lst:bcoolrunningexampletimed}, 
+	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+	BCOoLSpec TimedTFSMandActivity
+	ImportLib "facilities.moccml"
+	ImportInterface "activitySemantics.ecl" as activity
+	ImportInterface "TFSM.ecl" as tfsm
+	Global Event globalClock;
+	Operator SyncFSMEventsAndActions(ActionExecute:activity::executeIt, FSMEventOccurs:tfsm::occurs)
+	when (dse1.name = dse2.name);
+	do
+		Local Event sampledExecuteIt = SampledBy (globalClock, ActionExecute);
+		Local Event sampledOccurs = SampledBy (globalClock, FSMEventOccurs);
+		RendezVous(sampledExecuteI, sampledoccurs)
+	end operator
+	\end{lstlisting}
+	
+	
+	 \begin{figure}[h]
+		\center
+		\includegraphics[width=.5\textwidth]{bcool/figs/runningeventvar}
+		\caption{Resulting coordination of the Coffee Machine by using the Event Variables TODO: To show local event variables}
+		\label{fig:runningeventvar}
+	\end{figure}
+	
+
 \end{itemize}
 
 
 %The main element of \bcool (see Figure~\ref{fig:bcool}) is a \emph{BCoolSpecification} that contains language behavioral interfaces (\emph{importsInterfaceStatements}) and \emph{Operators}. The specification must import at least two language behavioral interfaces. Interfaces provide the \emph{DSE} needed for the coordination. The imported \dse serve as parameters for the operators. Then, an operator specifies what instances of these \dse are selected and how they are coordinated (the \emph{DSEs} reference). For instance, to build the running example, we synchronize FSMEvents and the starting of Actions. This is done by coordinating the instances of \dse \emph{occurs} and \emph{startAction} (see Appendix~\ref{ap:languages}). To do so, in a \bcool specification named \emph{SyncFSMEventsAndActions} (Listing~\ref{lst:bcoolrunningexample}: line 1), we import the language behavioral interface of TFSM and Activity (Listing~\ref{lst:bcoolrunningexample}: line 3 and 4). Then, we define the operator named \emph{SyncProduct} with \emph{occurs} and \emph{startAction} as parameters  (Listing~\ref{lst:bcoolrunningexample}: line 6). 
 
-Each operator contains both a \emph{correspondenceMatching} and a \emph{coordinationRule}. The former relies on a Boolean \emph{Condition} defined as an OCL expression. It acts as a precondition for the coordination rule, \ie it is a predicate that defines when the coordination rule must be applied to the given parameters. To specify the predicate, it is possible to navigate through the context of the \dse and query a specific element used within the Boolean expression. For instance, for the running example, the condition selects pairs of instance of \dse \emph{occurs} and \emph{startAction} by looking at its attribute \emph{name} (Listing~\ref{lst:bcoolrunningexample}: line 7). %This corresponds with a correspondence that relies on a naming convention. We call such a correspondence implicit, however the correspondence may be explicit, we study that case in Section~\ref{subsubsec:explicitcorrespondence}.
+%Each operator contains both a \emph{correspondenceMatching} and a \emph{coordinationRule}. The former relies on a Boolean \emph{Condition} defined as an OCL expression. It acts as a precondition for the coordination rule, \ie it is a predicate that defines when the coordination rule must be applied to the given parameters. To specify the predicate, it is possible to navigate through the context of the \dse and query a specific element used within the Boolean expression. For instance, for the running example, the condition selects pairs of instance of \dse \emph{occurs} and \emph{startAction} by looking at its attribute \emph{name} (Listing~\ref{lst:bcoolrunningexample}: line 7). %This corresponds with a correspondence that relies on a naming convention. We call such a correspondence implicit, however the correspondence may be explicit, we study that case in Section~\ref{subsubsec:explicitcorrespondence}.
 
-The \emph{coordinationRule} specifies how the selected instances of \dse must be coordinated. To do so, the user must define \emph{EventRelation} and some \emph{EventVariables} (\emph{localEventVariables}).
+%The \emph{coordinationRule} specifies how the selected instances of \dse must be coordinated. To do so, the user must define \emph{EventRelation} and some \emph{EventVariables} (\emph{localEventVariables}).
 
-\begin{lstlisting}[language=bcool,
-caption={Synchronized product operator between the TFSM and Activity languages},
-label={lst:bcoolrunningexample}, 
-basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
-BCOoLSpec TFSM-fUMLOperators
-ImportLib "facilities.moccml"
-ImportInterface "activitySemantics.ecl" as activity
-ImportInterface "TFSM.ecl" as tfsm
 
-Operator SyncProduct(dse1 : activity::startAction, dse2 : tfsm::occurs)
-CorrespondenceMatching: when(dse1.name = dse2.name)
-CoordinationRule: RendezVous(dse1, dse2)
-end operator
-\end{lstlisting}
+%Event relations restrict the occurrences of the events on which it is applied. The actual parameters of the event relation can be some instances of \dse and/or some \emph{EventVariables}. For instance, in the running example we want a strong synchronization between FSMEvents and Actions. Thus, the coordination rule uses a ``rendez-vous'' relation between the selected instances of \dse \emph{occurs} and \emph{startAction} (see Appendix~\ref{ap:expressionandrelations}). As a result, all the occurrences of these events are forced to happen simultaneously. Figure~\ref{fig:runningrdv} shows the resulting coordination in the case of the coffee machine. The instance of \dse \emph{occurs} and \emph{startAction} happens simultaneously.
 
-Event relations restrict the occurrences of the events on which it is applied. The actual parameters of the event relation can be some instances of \dse and/or some \emph{EventVariables}. For instance, in the running example we want a strong synchronization between FSMEvents and Actions. Thus, the coordination rule uses a ``rendez-vous'' relation between the selected instances of \dse \emph{occurs} and \emph{startAction} (see Appendix~\ref{ap:expressionandrelations}). As a result, all the occurrences of these events are forced to happen simultaneously. Figure~\ref{fig:runningrdv} shows the resulting coordination in the case of the coffee machine. The instance of \dse \emph{occurs} and \emph{startAction} happens simultaneously.
 
-\begin{figure}[h]
-	\center
-	\includegraphics[width=.6\textwidth]{bcool/figs/runningrdv}
-	\caption{Resulting coordination of the Coffee Machine by using the event relation Rendezvous}
-	\label{fig:runningrdv}
-\end{figure}
-	
 
-Lots of other relations, more or less complex can be defined, \eg \emph{Causality}, \emph{FIFO} or ad-hoc relations for specific protocols. For instance, Figure~\ref{fig:runningrunningcausality} illustrates the resulting coordination if we use the event relation \emph{Causality}. The definition of event relations is made in dedicated libraries, which must be imported (see Section~\ref{subsec:bcoollib}).
-
-\begin{figure}[h]
-	\center
-	\includegraphics[width=.65\textwidth]{bcool/figs/runningcausality}
-	\caption{Resulting coordination of the Coffee Machine by using the event relation Causality}
-	\label{fig:runningrunningcausality}
-\end{figure}
+%Lots of other relations, more or less complex can be defined, \eg \emph{Causality}, \emph{FIFO} or ad-hoc relations for specific protocols. For instance, Figure~\ref{fig:runningrunningcausality} illustrates the resulting coordination if we use the event relation \emph{Causality}. The definition of event relations is made in dedicated libraries, which must be imported (see Section~\ref{subsec:bcoollib}).
