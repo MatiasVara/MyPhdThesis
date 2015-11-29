@@ -33,16 +33,13 @@
 \contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{37}
 \contentsline {subsection}{\numberline {4.3.2}Library}{41}
 \contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{43}
-\contentsline {section}{\numberline {4.4}Validation}{44}
-\contentsline {section}{\numberline {4.5}Tools}{45}
-\contentsline {subsection}{\numberline {4.5.1}Flow by using the plugins}{48}
-\contentsline {subsection}{\numberline {4.5.2}Flow by using ANT}{48}
-\contentsline {section}{\numberline {4.6}Evaluation}{49}
-\contentsline {subsection}{\numberline {4.6.1}Understandability and Adaptability}{49}
-\contentsline {subsection}{\numberline {4.6.2}Usability}{50}
-\contentsline {subsection}{\numberline {4.6.3}Analysis Capabilities}{50}
-\contentsline {subsection}{\numberline {4.6.4}Tooling Support}{50}
-\contentsline {section}{\numberline {4.7}Conclusion}{51}
+\contentsline {section}{\numberline {4.4}BCOoL Framework}{46}
+\contentsline {section}{\numberline {4.5}Evaluation}{49}
+\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{49}
+\contentsline {subsection}{\numberline {4.5.2}Usability}{49}
+\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{50}
+\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{50}
+\contentsline {section}{\numberline {4.6}Conclusion}{51}
 \contentsline {chapter}{\numberline {5}Examples}{52}
 \contentsline {section}{\numberline {5.1}Introduction}{52}
 \contentsline {section}{\numberline {5.2}Timing and Hierarchical Coordination Operator between TFSM and Activity Languages}{52}

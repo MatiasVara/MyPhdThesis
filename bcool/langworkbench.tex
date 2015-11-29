@@ -1,4 +1,4 @@
-\section{Tools}
+\section{BCOoL Framework}
 \label{section:bcoollengbench}
 \bcool is developed as set of plugins for Eclipse Modeling Framework (EMF)\footnote{http://www.eclipse.org}. Its abstract syntax has been developed using Ecore (\ie the meta-language associated with EMF) and the textual concrete  syntax has been developed in Xtext, thus providing advanced editing facilities (see Figure~\ref{fig:bcooltechnos}). A \bcool specification is defined between languages by relying on its language behavioral interface made of \dse. To get the \dse, the \ecl specification of each language must be imported (Figure~\ref{fig:bcooltechnos}: point 1). From a \bcool specification, the generation of the coordination between models has been automated by relying on two technologies: Acceleo\footnote{http://www.eclipse.org/acceleo/} and QVTo\footnote{https://projects.eclipse.org/projects/modeling.mmt.qvt-oml}. The acceleo transformation translates the \bcool specification into a QVTo transformation (Figure~\ref{fig:bcooltechnos}: point 2). The transformation can be applied between models to generate the coordination specification in \ccsl (Figure~\ref{fig:bcooltechnos}: point 3).    
 	
@@ -44,23 +44,23 @@ We implement the running example in the GEMOC studio. We rely on the languages T
 
 A video presenting the whole flow can be found on the companion website~\footnote{http://timesquare.inria.fr/BCOoL}, which also contains more examples with full descriptions. These examples are hosted in Github~\footnote{http://github.com} at BCOoLExamples~\footnote{http://matiasvara.github.io/BCOoLExamples/}. The \bcool code is hosted in the open source project Gemoc~\footnote{http://github.com/gemoc/} thus making the project fully available.
 
-\subsection{Flow by using the plugins}
-\subsection{Flow by using ANT}
-	\begin{itemize}
-		\item Ant\footnote{http://www.eclipse.org/eclipse/ant/}
-		\item Operational QVT Ant tasks let you launch QVTO transformations from the Ant script.
-		\item The flow can be implemented by using Ant.
-		\item This enables to define explicitly how a \bcool specification is invoked. 
-		\item However, the specification of a ANT script must be partially defined by the user. For instances, several parameters must be defined by the user, \eg model paths, generated timemodel. 
+%\subsection{Flow by using the plugins}
+%\subsection{Flow by using ANT}
+%	\begin{itemize}
+%		\item Ant\footnote{http://www.eclipse.org/eclipse/ant/}
+%		\item Operational QVT Ant tasks let you launch QVTO transformations from the Ant script.
+%		\item The flow can be implemented by using Ant.
+%		\item This enables to define explicitly how a \bcool specification is invoked. 
+%		\item However, the specification of a ANT script must be partially defined by the user. For instances, several parameters must be defined by the user, \eg model paths, generated timemodel. 
 		  
-	\end{itemize}
+%	\end{itemize}
 
 
-  \begin{figure}[h]
-  	\begin{center}
-  		\includegraphics[width=1\textwidth]{bcool/figs/antbcool.pdf}
-  		\caption{ANT script to build the coordination specification for the coffee machine}
-  		\label{fig:screenantbcool}
-  	\end{center}
-  \end{figure}
+ % \begin{figure}[h]
+  %	\begin{center}
+  %		\includegraphics[width=1\textwidth]{bcool/figs/antbcool.pdf}
+  %		\caption{ANT script to build the coordination specification for the coffee machine}
+  %		\label{fig:screenantbcool}
+ % 	\end{center}
+ % \end{figure}
 

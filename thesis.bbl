@@ -122,7 +122,14 @@ Kai Chen, J.~Sztipanovits, and Sandeep Neema.
 \newblock In {\em Design, Automation Test in Europe Conference Exhibition,
   2007. DATE '07}, pages 1--6, 2007.
 
-\bibitem[DDC{\etalchar{+}}14]{moccmlbib}
+\bibitem[DDC{\etalchar{+}}14a]{moccmlbib}
+Julien Deantoni, Papa~Issa Diallo, Jo{\"e}l Champeau, Benoit Combemale, and
+  Ciprian Teodorov.
+\newblock {Operational Semantics of the Model of Concurrency and Communication
+  Language}.
+\newblock Research Report RR-8584, {INRIA}, September 2014.
+
+\bibitem[DDC{\etalchar{+}}14b]{moccmloperbib}
 Julien Deantoni, Papa~Issa Diallo, Jo{\"e}l Champeau, Benoit Combemale, and
   Ciprian Teodorov.
 \newblock {Operational Semantics of the Model of Concurrency and Communication

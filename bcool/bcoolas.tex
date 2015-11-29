@@ -15,8 +15,8 @@
 	
 	\item A correspondence rule relies on a \emph{Condition} that contains an OCL Boolean expression. To define the boolean expression, an integrator can navigate through the context of the \dse and query a specific element. The Condition acts as a precondition for the coordination rule, \ie it is a predicate that defines when the coordination rule must be applied to the given parameters.
 	
-	\item The coordination rule contains the specification of the ``glue'' that coordinates instances of \dse. To express the glue, the coordination rule contains an \emph{EventRelation} that is used to restrict the relative order of the occurrences of events used as parameters. Event relations are defined into a \moccml library that the \bcool specification must import (\emph{ImportLibStatement}). That definition defines the correct order of the parameters. 
-	
+	\item The coordination rule contains the specification of the ``glue'' that coordinates instances of \dse. To express the glue, the coordination rule contains an \emph{EventRelation} that is used to restrict the relative order of the occurrences of events used as parameters. The actual parameters of the event relation can be instances of \dse and/or constants (\eg, Integer constants). Event relations are defined into a \moccml library that the \bcool specification must import (\emph{ImportLibStatement}). That definition defines the correct order of the parameters. 
+
 	\item We illustrate the syntactic elements of \bcool by developing the operator for the running example. The operator is defined between TFSM and Activity languages and specifies the synchronization between the occurrence of FSMEvents, \ie \dse \emph{FSMEvent::occurs}) and the execution of Actions, \ie \dse \emph{Action::executeIt}). 
 	
 	\item Listing~\ref{lst:bcoolrunningexample} shows the \bcool specification of the operator named \emph{TFSMAndActivity}. The specification imports the behavioral interface of each language that provides the \dse () and the \moccml library \emph{facilities.moccml} that provides the event relations that are used latter for the coordination rule. Then, it defines an operator named \emph{SyncFSMEventsAndActions} with the \dse \emph{occurs} and \emph{executeIt} as parameters. To get these \dse, we query the interfaces and we renamed the \dse as \emph{ActionExecute} and \emph{FSMEvenOccurs} respectively. 
@@ -52,7 +52,7 @@
 	
 	\item To cover these cases, \bcool enables the definition of new events by using \emph{Event variables}. Such events can be either defined globally for the whole specification (\emph{globalEventVariables}) or locally within an operator (\emph{localEventVariables}). 
 	
-	\item An event variable can be either defined locally within the coordination rule (\emph{localEventVariables}) or globally for the whole specification (\emph{globalEventVariables}). These variables either define global events used across different operators, or create a new event from the selected instances of \dse and possibly from attributes of the input models. The definition of these events can be initialized by using an \emph{EventExpression}. An event expression returns a new event from a given parameter. For instance, this can be used to select only some occurrences of a DSE instance, thus allowing the implementation of filters. An event expression can also be used to join in a single event the occurrences of different events (union). When used in the coordination rule, the resulting events can be used as parameters of event relations, constraining by transitivity (some of) the occurrences of \dse instances. The definition of event expressions is made in \moccml libraries, which must be imported. 
+	\item An event variable can be either defined locally within the coordination rule (\emph{localEventVariables}) or globally for the whole specification (\emph{globalEventVariables}). These variables either define global events used across different operators, or create a new event from the selected instances of \dse and possibly from attributes of the input models. The definition of these events can be initialized by using an \emph{EventExpression}. An event expression returns a new event from a given parameter. Parameters can be instances of \dse and integers. For instance, this can be used to select only some occurrences of a DSE instance, thus allowing the implementation of filters. An event expression can also be used to join in a single event the occurrences of different events (union). When used in the coordination rule, the resulting events can be used as parameters of event relations, constraining by transitivity (some of) the occurrences of \dse instances. The definition of event expressions is made in \moccml libraries, which must be imported. 
 	
 	
 	\item We illustrate the use of event variables by modifying the previous example. In this case, the synchronization of FSMEvents and Actions is based on a global clock signal. The coordination happens only when the global clock ticks. To do so, we need to define a global event variable that act as global clock, and then, modify the coordination rule. 
@@ -63,7 +63,7 @@
 	
 	\item How local events are syncronized 
 	
-	\item However, such a coordination can be gathere for future implementation by relying on a library. We the library notion in the following.
+	\item However, such a coordination can be gather for future implementation by relying on a library. We the library notion in the following.
 	
 	%\item The resulting events tick if and only if the global clock and the instance of \dse have also ticked. For instance, the event \emph{sampledOccurs} only ticks if globalClock and the instance of \dse \emph{occurs} ticks. In this case, we use a global event variable together with event expressions to sample the occurrences of selected instances of \dse. Then, we can use the local events as parameters of event relations, constraining by transitivity (some of) the occurrences of \dse instances. In our example, we force a simultaneous occurrence between the local events by using the relation rendezvous (Listing~\ref{lst:bcoolrunningexample2}: line 13). As a result, instances of \dse occurs and startAction happen simultaneously (see Figure~\ref{fig:runningeventvar}). 
 
@@ -103,9 +103,6 @@
 
 %The \emph{coordinationRule} specifies how the selected instances of \dse must be coordinated. To do so, the user must define \emph{EventRelation} and some \emph{EventVariables} (\emph{localEventVariables}).
 
-
 %Event relations restrict the occurrences of the events on which it is applied. The actual parameters of the event relation can be some instances of \dse and/or some \emph{EventVariables}. For instance, in the running example we want a strong synchronization between FSMEvents and Actions. Thus, the coordination rule uses a ``rendez-vous'' relation between the selected instances of \dse \emph{occurs} and \emph{startAction} (see Appendix~\ref{ap:expressionandrelations}). As a result, all the occurrences of these events are forced to happen simultaneously. Figure~\ref{fig:runningrdv} shows the resulting coordination in the case of the coffee machine. The instance of \dse \emph{occurs} and \emph{startAction} happens simultaneously.
-
-
 
 %Lots of other relations, more or less complex can be defined, \eg \emph{Causality}, \emph{FIFO} or ad-hoc relations for specific protocols. For instance, Figure~\ref{fig:runningrunningcausality} illustrates the resulting coordination if we use the event relation \emph{Causality}. The definition of event relations is made in dedicated libraries, which must be imported (see Section~\ref{subsec:bcoollib}).
