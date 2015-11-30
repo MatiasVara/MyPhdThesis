@@ -1,10 +1,6 @@
 \contentsline {chapter}{Abstract}{i}
 \contentsline {chapter}{Acknowledgements}{iii}
 \contentsline {chapter}{\numberline {1}Introduction}{1}
-\contentsline {section}{\numberline {1.1}Context}{1}
-\contentsline {section}{\numberline {1.2}Problem}{1}
-\contentsline {section}{\numberline {1.3}Contributions}{1}
-\contentsline {section}{\numberline {1.4}Publications}{1}
 \contentsline {chapter}{\numberline {2}Background}{2}
 \contentsline {section}{\numberline {2.1}Introduction}{2}
 \contentsline {section}{\numberline {2.2}Composition Approaches}{3}
@@ -36,7 +32,7 @@
 \contentsline {section}{\numberline {4.4}BCOoL Framework}{46}
 \contentsline {section}{\numberline {4.5}Evaluation}{51}
 \contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{51}
-\contentsline {subsection}{\numberline {4.5.2}Usability}{52}
+\contentsline {subsection}{\numberline {4.5.2}Usability}{51}
 \contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{52}
 \contentsline {subsection}{\numberline {4.5.4}Tooling Support}{52}
 \contentsline {section}{\numberline {4.6}Conclusion}{53}
