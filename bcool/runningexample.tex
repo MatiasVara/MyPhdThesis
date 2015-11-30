@@ -4,10 +4,10 @@
 % the languages and the interfaces
 % it ilustrates the DSE and the MSE that are defined in the context of a metaclass
 % it illutraste also how to coordinate two heterogenenous models. 
-\begin{itemize}
-	\item In this section, we develop the heterogeneous model of a coffee machine. The coffee machine system is composed of a coin control system and a coffee algorithm system. When a coin is inserted, the coin control system makes the coffee machine unlocked and the coffee algorithm system allows the user to select a coffee. Once selected it, the coffee algorithm system makes the coffee, and then, releases it. Then, the coin control system makes the coffee machine locked again. To model different aspects of the system, we use the languages TFSM and Activity. In the following, we present each languages with its behavioral interface. By relying on these language, we develop the model of each subsystem that composes the coffee machine.  
-	
-	\item To model the coin control system, we use the state-based language TFSM. This is a state machine language augmented with timed transitions (see Figure~\ref{fig:tfsmmm}). The metamodel describes the abstract syntax of the TFSM language (see Figure~\ref{fig:tfsmmm}). A \emph{System} is composed of \emph{TFSMs}, global \emph{FSMEvents} and global \emph{FSMClocks}. Each \emph{TFSM} is composed of \emph{States}. Each state can be the source of outgoing guarded \emph{Transitions}. A guard can be specified either by the reception of an \emph{FSMEvent} (\emph{EventGuard}) or by a duration relative to the entry time in the source state of the transition (\emph{TemporalGuard}). When fired, transitions generate a set of simultaneous \emph{FSMEvent} occurrences.
+In this section, we develop the heterogeneous model of a coffee machine. The coffee machine system is composed of a \emph{Coin Control System} and a \emph{Coffee Algorithm System} and it behaves as follows: When a coin is inserted, the coin control system makes the coffee machine unlocked and the coffee algorithm system allows the user to select a coffee; once selected it, the coffee algorithm system makes the coffee, and then releases it, thus making the coffee machine locked again. To model different aspects of the system, we use the languages TFSM and Activity. In the following, we present each language with its behavioral interface. %By relying on these language, we develop the model of each subsystem that composes the coffee machine.  
+
+
+To model the coin control system, we use the state-based language TFSM. This is a state machine language augmented with timed transitions. Its abstract syntax is described by a metamodel (see Figure~\ref{fig:tfsmmm}). A \emph{System} is composed of \emph{TFSMs}, global \emph{FSMEvents} and global \emph{FSMClocks}. Each \emph{TFSM} is composed of \emph{States}. Each state can be the source of outgoing guarded \emph{Transitions}. A guard can be specified either by the reception of an \emph{FSMEvent} (\emph{EventGuard}) or by a duration relative to the entry time in the source state of the transition (\emph{TemporalGuard}). When fired, transitions generate a set of simultaneous \emph{FSMEvent} occurrences.
 	
 	\begin{figure}
 		\begin{center}
@@ -31,9 +31,9 @@
 	def : leaving : Event = self
 	\end{lstlisting}
 	
-	\item The TFSM language defines the following \dse: \emph{entering} and \emph{leaving} a state, \emph{firing} a transition, the occurrences (\emph{occurs}) of a FSMEvent and the \emph{ticks} of a FSMClock (see at the top of Figure~\ref{fig:tfsmmm}). These \dse are part of the language behavioral interface of TFSM. \dse are defined by using a specific language named \ecl (standing for Event Constraint Language~\cite{eclbib}) which is an extension of OCL~\cite{omgocl2bib} with events. \ecl takes benefits from the OCL query language and its possibility to augment an abstract syntax with additional attributes (without any side effects). Consequently, by using \ecl, it is possible to augment \as metaclasses and add \dse. A partial \ecl specification of TFSM is shown in Listing~\ref{fig:tfsmmmecl} where the \dse \textit{entering} and \textit{leaving} are defined in the context of State (Listing~\ref{fig:tfsmmmecl}: line 6) while \textit{occurs} is defined in the context of FSMEvent (Listing~\ref{fig:tfsmmmecl}: line 4). When a metaclass is instantiated, the corresponding \dse are instantiated; \eg for each instance of the metaclass \emph{State}, \dse \textit{entering} is instantiated. Each instance of \dse is a \mse. 
+The TFSM language defines the following \dse: \emph{entering} and \emph{leaving} a state, \emph{firing} a transition, the occurrences (\emph{occurs}) of a FSMEvent and the \emph{ticks} of a FSMClock (see at the top of Figure~\ref{fig:tfsmmm}). These \dse are part of the language behavioral interface of TFSM. \dse are defined by using a specific language named \ecl (standing for Event Constraint Language~\cite{eclbib}) which is an extension of OCL~\cite{omgocl2bib} with events. \ecl takes benefits from the OCL query language and its possibility to augment an abstract syntax with additional attributes (without any side effects). Consequently, by using \ecl, it is possible to augment \as metaclasses and add \dse. A partial \ecl specification of TFSM is shown in Listing~\ref{fig:tfsmmmecl} where the \dse \textit{entering} and \textit{leaving} are defined in the context of State (Listing~\ref{fig:tfsmmmecl}: line 6) while \textit{occurs} is defined in the context of FSMEvent (Listing~\ref{fig:tfsmmmecl}: line 4). When a metaclass is instantiated, the corresponding \dse are instantiated; \eg for each instance of the metaclass \emph{State}, \dse \textit{entering} is instantiated. Each instance of \dse is a \mse. 
 	
-	\item At the button of Figure~\ref{fig:tfsmmm}, the TFSM named \emph{CoffeeCoin} represents the coin control system. The model is composed by two States (\emph{Locked} and \emph{Unlocked}). When a coin is inserted (the \mse \emph{coin:occurs} happens), the TFSM becomes Unlocked and the \mse \emph{selectCoffee:occurs} is triggered. In state Unlocked, the release of the coffee (the \mse \emph{releaseCoffee:occurs} happens) makes the TFSM becomes Locked again.   
+At the button of Figure~\ref{fig:tfsmmm}, the TFSM named \emph{CoffeeCoin} represents the coin control system. The model is composed by two States (\emph{Locked} and \emph{Unlocked}). When a coin is inserted (the \mse \emph{coin:occurs} happens), the TFSM becomes Unlocked and the \mse \emph{selectCoffee:occurs} is triggered. In state Unlocked, the release of the coffee (the \mse \emph{releaseCoffee:occurs} happens) makes the TFSM becomes Locked again.   
 	
 	\begin{figure}
 		\begin{center}
@@ -49,24 +49,15 @@
 	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=3pt, belowskip=-0.4em]
 	package activitydiagram
 	context Activity
-	def: startActivity : Event = self
-	def: finishActivity: Event = self
+		def: startActivity : Event = self
+		def: finishActivity: Event = self
 	context Action
-	def : executeIt : Event = self
+		def : executeIt : Event = self
 	\end{lstlisting}
+To model the coffee algorithm system, we use the action-based language Activity~\cite{ttc15bib}. Figure~\ref{fig:activitymm} shows the partial metamodel of Activity. The root element is an \emph{Activity} that is composed by \emph{ActivityNodes} and \emph{ActivityEdges}. Each ActivityNode can be the source of outgoing ActivityEdges. The language behavioral interface of the Activity is partially shown in Listing~\ref{fig:eclfuml}. For each \emph{Activity} two \dse are defined: \emph{startActivity} and \emph{finishActivity}, to identify respectively the starting and finishing instants of the activity. One \dse is defined for each \emph{Action}: \emph{executeIt}, to identify the execution of an Action. At the button of Figure~\ref{fig:activitymm}, the activity named \emph{CoffeeAlgorithm} represents the simple algorithm for preparing coffee. It starts by asking the user to select the kind of coffee, then the coffee is made and finally it is released.   
+
+To represent the global behavior of the coffee machine, we have to specify how these models interact. More precisely, when the FSMEvent selectCoffee is triggered, the Action selectCoffee must be executed. After that, when the Action releaseCoffee is executed, the FSMEvent releaseCoffee must be triggered. To coordinate the execution of these models, we have to define some constraints between the \mse \emph{selectCoffee:occurs} and \emph{selectCoffee:executeIt}, and between \emph{releaseCoffee:occurs} and \emph{releaseCoffee:executeIt}.
 	
-	\item To model the coffee algorithm system, we use the action-based language Activity~\cite{ttc15bib}. Figure~\ref{fig:activitymm} shows the partial metamodel of Activity. The root element is an \emph{Activity} that is composed by \emph{ActivityNodes} and \emph{ActivityEdges}. Each ActivityNode can be the source of outgoing ActivityEdges. The language behavioral interface of the Activity is partially shown in Listing~\ref{fig:eclfuml}. For each \emph{Activity} two \dse are defined: \emph{startActivity} and \emph{finishActivity}, to identify respectively the starting and finishing instants of the activity. One \dse is defined for each \emph{Action}: \emph{executeIt}, to identify the execution of an Action.
-
-	\item At the button of Figure~\ref{fig:activitymm}, the activity named \emph{CoffeeAlgorithm} represents the coffee algorithm system. First the coffee is selected, second it is prepared, and finally, it is released.    
-	
-	\item These models need to be coordinated. More precisely, when the FSMEvent selectCoffee is triggered, the Action selectCoffee must be executed. After that, when the Action releaseCoffee is executed, the FSMEvent releaseCoffee must be triggered. In other words, to coordinate these models, we have to define some constraints between the \mse \emph{selectCoffee:occurs} and \emph{selectCoffee:executeIt}, and between \emph{releaseCoffee:occurs} and \emph{releaseCoffee:executeIt}.
-	
-	\item To illustrate the use of \bcool, we propose to coordinate these models by developing a simple \bcool operator between these languages. We informally define it as follows: When coordinating a TFSM and an Activity, all pairs of FSMEvents and Actions that have the same name must be synchronized using a \emph{rendez-vous}. The operator is defined for any pair of TFSM and Activity, and specifies what and how instance of \dse \emph{occurs} and instances of \dse \emph{executeIt} are coordinated. When applied it concerns two specific models, at the instance (model) level. In the following sections, we use this simple operator as running example to illustrate the syntax and semantics of \bcool.  	
-\end{itemize}
-
-
-
-
-
+To illustrate the use of \bcool, we propose to coordinate these models by developing a simple \bcool operator between these languages. We informally define the operator as follows: When coordinating a TFSM and an Activity, all pairs of FSMEvents and Actions that have the same name must be synchronized using a \emph{rendez-vous}. The operator is defined for any pair of TFSM and Activity, and specifies what and how instance of \dse \emph{occurs} and instances of \dse \emph{executeIt} are coordinated. In the following sections, we use this simple operator as running example to illustrate the syntax and semantics of \bcool.  	
 
 	%\item The model is composed by two States (\emph{Locked} and \emph{Unlocked}). So that there are two \mse of \textit{entering}: \textit{Locked} and \textit{Unlocked}. All \mse are part of the model behavioral interface. 
