@@ -36,7 +36,7 @@
 \contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{52}
 \contentsline {subsection}{\numberline {4.5.4}Tooling Support}{52}
 \contentsline {section}{\numberline {4.6}Conclusion}{53}
-\contentsline {chapter}{\numberline {5}Examples}{54}
+\contentsline {chapter}{\numberline {5}Validation}{54}
 \contentsline {section}{\numberline {5.1}Introduction}{54}
 \contentsline {section}{\numberline {5.2}Timing and Hierarchical Coordination Operator between TFSM and Activity Languages}{54}
 \contentsline {subsection}{\numberline {5.2.1}Overview}{54}
