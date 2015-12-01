@@ -50,8 +50,7 @@
 \contentsline {subsection}{\numberline {5.3.3}Discussion}{61}
 \contentsline {section}{\numberline {5.4}Conclusion}{61}
 \contentsline {chapter}{\numberline {6}Conclusion}{62}
-\contentsline {section}{\numberline {6.1}Summary of Thesis Achievements}{62}
-\contentsline {section}{\numberline {6.2}Applications}{62}
-\contentsline {section}{\numberline {6.3}Future Work}{62}
+\contentsline {section}{\numberline {6.1}Overview}{62}
+\contentsline {section}{\numberline {6.2}Future Work}{62}
 \contentsline {chapter}{\numberline {A}Event Expression and Event Relations}{63}
 \contentsline {chapter}{Bibliography}{63}
