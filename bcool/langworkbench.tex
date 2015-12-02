@@ -1,76 +1,56 @@
 \section{BCOoL Framework}
 \label{section:bcoollengbench}
-\begin{itemize}
-
-	\item In this section, we present the \bcool framework that is the integration of \bcool into the GEMOC studio~\footnote{http://www.gemoc.org}. The GEMOC Studio integrates technologies based on Eclipse Modeling Framework (EMF)~\footnote{http://eclipse.org/modeling/emf/} adequate for the specification of executable domain specific modeling languages. It includes a \emph{language workbench} to design and implement tool-supported xDSMLs and a \emph{modeling workbench} where the xDSMLs are automatically deployed to allow system designers to edit, execute, simulate, and animate their models~\cite{ttc15bib}. \bcool takes advantages of this collaborative environment by adding coordination facilities. In this section, we elaborate on the workflow presented in Figure~\ref{fig:proposedworkflow}. An integrator uses the language workbench to develop \bcool operators to specify coordination patterns between languages. Then, a system designer can use these operators in the modeling workbench to execute and verify coordinated models. We begin this section by showing how the language workbench is used to develop \bcool operators. In particular, we use the language workbench to develop the operator for the running example (see Listing~\ref{lst:bcoolrunningexample}). Then, we use this operator in the modeling workbench to execute and verify the model of the coffee machine. 
-
-	% language workbench
-	\item The top of Figure~\ref{fig:bcooltechnos} illustrates the implementation of \bcool into the language workbench. \bcool is developed as a set of plugins based on the EMF. Its abstract syntax has been developed using Ecore (\ie the meta-language associated with EMF) and the textual concrete syntax has been developed in Xtext~\footnote{http://eclipse.org/Xtext/}, thus providing advanced editing facilities. When languages are deployed into the language workbench, an integrator can define a new \bcool specification and then import the language behavioral interfaces that are automatically deployed (Figure~\ref{fig:bcooltechnos}: step 1). Also, the language workbench provides \moccml thus helping the integrator to specify relations and expression. For the running example, we use the TFSM and Activity languages that are integrated into the studio. Then, we use \bcool to specify the Listing~\ref{lst:bcoolrunningexample}.   
-	
-	% modeling workbench 
-	\item In the modeling workbench, a system designer can use \bcool operators to automate the generation of a coordination model. Also, such a model of coordination can be executed and verified. 
-	
-	% bflow
-	\item To ease the task of a system designer, we provide a simple language named \bflow. With \bflow, a system designer specifies how a \bcool specification is applied on models (Figure~\ref{fig:bcooltechnos}: step 2). In other words, a \bflow specification specifies what operators are applied on which models. For example, Listing~\ref{lst:bflowcoffeemachine} shows the simple \bflow specification for the models of the coffee machine. The \bflow specification begins by importing the \bcool specification that will be used. Then, it specifies the models that will be coordinated. For the running example, this corresponds with the TFSM named \emph{CoffeeCoin} and the Activity named \emph{CoffeAlgorithm}. Afterwards, the specification contains \emph{Flows} that defines what operator is used and on which models. For instance, in Listing~\ref{lst:bflowcoffeemachine}, line 6 specifies that the operator named SyncFMEventsAndActions will be applied between the models CoffeeCoin and CoffeeAlgorithm. The specification, however, can contain several flows.  
-	
-	\item In the modeling workbench, the \bflow specification can be used to execute the coordinated system (Figure~\ref{fig:bcooltechnos}: step 3). Also, the specification can be used to generate a model of coordination in \ccsl. 
-	
-	\item The automatic generation of the coordination is implemented by relying on  Acceleo\footnote{http://www.eclipse.org/acceleo/} and QVTo\footnote{https://projects.eclipse.org/projects/modeling.mmt.qvt-oml}. An acceleo transformation is used to translate the \bcool specification into a QVTo transformation. Then, the QVTo transformation can be applied between models to generate the coordination specification in \ccsl. These steps have been automated by relying on a set of plugins, which are integrated into the studio. 
-	
-	\item To illustrate the use of the modeling workbench, we develop the models of the coffee machine and we coordinate them. To do so, the modeling workbench provides the \emph{Gemoc Coordinated Execution Engine} that we have to configure before launch the execution (see Figure~\ref{fig:execenginemenu}). The configuration contains information about the \bcool specification, the \bflow specification and the configuration launcher for each model. 
-		
-	\item After launched, the modeling workbench enables a system designer to control the execution. For instance, it enables a system designer to select the next valid execution step (Figure~\ref{fig:runningworkbench}: point 3). Also, the workbench provides the animation of models (Figure~\ref{fig:runningworkbench}: point 4).  
-	
-	\item  The execution engine generates the \ccsl specification of the coordination (Figure~\ref{fig:runningworkbench}: point 1). The modeling workbench offers the possibility to obtain by exploration quantitative results on the scheduling state-space of the coordinated system. The exploration of all schedules can be captured explicitly in a state space graph as presented. Any cyclic path in this graph (starting from the initial configuration) represents a valid schedule of the model. The state space can be always computable if the behavior of models are finite.
-	
-	
-	\item \bcool is hosted on Github~\footnote{http://github.com}, as a part of the GEMOC project~\footnote{http://github.com/gemoc/coordination}. In addition, we built a website that contains more examples with full descriptions~\footnote{http://timesquare.inria.fr/BCOoL}. For example, it contains a video that presents the whole flow of the coffee machine example. Currently, the coffee machine example is included into the GEMOC studio. To try it, it is only necessary to download the studio, and then to deploy the project by creating a new example project. 
-
-\end{itemize}
-
-
-%\bcool is developed as set of plugins for Eclipse Modeling Framework (EMF)\footnote{http://www.eclipse.org}. Its abstract syntax has been developed using Ecore (\ie the meta-language associated with EMF) and the textual concrete  syntax has been developed in Xtext, thus providing advanced editing facilities (see Figure~\ref{fig:bcooltechnos}). A \bcool specification is defined between languages by relying on its language behavioral interface made of \dse. To get the \dse, the \ecl specification of each language must be imported (Figure~\ref{fig:bcooltechnos}: point 1). From a \bcool specification, the generation of the coordination between models has been automated by relying on two technologies: Acceleo\footnote{http://www.eclipse.org/acceleo/} and QVTo\footnote{https://projects.eclipse.org/projects/modeling.mmt.qvt-oml}. The acceleo transformation translates the \bcool specification into a QVTo transformation (Figure~\ref{fig:bcooltechnos}: point 2). The transformation can be applied between models to generate the coordination specification in \ccsl (Figure~\ref{fig:bcooltechnos}: point 3).    
-	
-\begin{figure}
-		\begin{center}
-			\includegraphics[width=1\textwidth]{bcool/figs/bcooltechnos}
-			\caption{\bcool Tooling Technologies}
-			\label{fig:bcooltechnos}
-		\end{center}
-\end{figure}
-
-
-\begin{figure}
+In this section, we present the \bcool framework that is the integration of \bcool into the GEMOC studio~\footnote{http://www.gemoc.org}. The GEMOC Studio integrates technologies based on Eclipse Modeling Framework (EMF)~\footnote{http://eclipse.org/modeling/emf/} adequate for the specification of executable domain specific modeling languages. It includes a \emph{language workbench} to design and implement tool-supported xDSMLs and a \emph{modeling workbench} where the xDSMLs are automatically deployed to allow system designers to edit, execute, simulate, and animate their models~\cite{ttc15bib}. \bcool takes advantages of this collaborative environment by adding coordination facilities. In this section, we elaborate on the workflow presented in Figure~\ref{fig:proposedworkflow}. An integrator uses the language workbench to develop \bcool operators to specify coordination patterns between languages. Then, a system designer can use these operators in the modeling workbench to execute and verify coordinated models. We begin this section by showing how the language workbench is used to develop \bcool operators. In particular, we develop the operator for the running example (see Listing~\ref{lst:bcoolrunningexample}). Then, in the modeling workbench, we use this operator to execute and verify the models of the coffee machine. 
+\begin{figure}[h]
 	\begin{center}
-		\includegraphics[width=.8\textwidth]{bcool/figs/execenginemenu}
-		\caption{TODO}
-		\label{fig:execenginemenu}
+		\includegraphics[width=1\textwidth]{bcool/figs/bcooltechnos}
+		\caption{Overview of the \bcool framework}
+		\label{fig:bcooltechnos}
 	\end{center}
 \end{figure}
 
-
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=.8\textwidth]{bcool/figs/runningworkbench}
-		\caption{TODO}
-		\label{fig:runningworkbench}
-	\end{center}
-\end{figure}
-
-	
+\bcool is developed as a set of plugins based on the EMF. The top of Figure~\ref{fig:bcooltechnos} illustrates the technologies used to implement \bcool into the language workbench. For example, the \bcool abstract syntax has been developed using Ecore (\ie the meta-language associated with EMF) and the textual concrete syntax has been developed in Xtext~\footnote{http://eclipse.org/Xtext/} thus providing advanced editing facilities. When languages are deployed into the language workbench, an integrator can define a new \bcool specification and then import the language behavioral interfaces that are automatically deployed (Figure~\ref{fig:bcooltechnos}: step 1). Also, the language workbench provides \moccml thus helping the integrator to specify relations and expression. For the running example, we use the TFSM and Activity languages that are integrated into the studio. Then, we use \bcool to specify the Listing~\ref{lst:bcoolrunningexample}.   
 	\begin{lstlisting}[language=bflow,
 	caption={\bflow specification for the models of the coffee machine},
 	label={lst:bflowcoffeemachine}, 
 	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 	BCOoLFlow CoffeeMachine
-		ImportBCOoL  "syncproducttfsmwithfuml.bcool" ;
-		Model CoffeCoin "coffeecoin.tfsm"
-		Model CoffeeAlgorithm "coffeeAlgorithm.ad"
-		Flow 
-			applies SyncFSMEventsAndActions between (CoffeeAlgorithm, CoffeCoin);
-		end Flow;
-	\end{lstlisting}	
+	ImportBCOoL  "syncproducttfsmwithfuml.bcool" ;
+	Model CoffeCoin "coffeecoin.tfsm"
+	Model CoffeeAlgorithm "coffeeAlgorithm.ad"
+	Flow 
+	applies SyncFSMEventsAndActions between (CoffeeAlgorithm, CoffeCoin);
+	end Flow;
+	\end{lstlisting}
+
+
+In the modeling workbench, a system designer can use \bcool operators to automate the generation of a coordination model. Also, such a model of coordination can be executed and verified. To ease the task of a system designer, we provide a simple language named \bflow. With \bflow, a system designer specifies what operators are applied on which models (Figure~\ref{fig:bcooltechnos}: step 2). For example, Listing~\ref{lst:bflowcoffeemachine} shows the simple \bflow specification for the models of the coffee machine. The \bflow specification begins by importing the \bcool specification that will be used. Then, it specifies the models that will be coordinated. For the running example, this corresponds with the TFSM named \emph{CoffeeCoin} and the Activity named \emph{CoffeAlgorithm}. Afterwards, the specification contains \emph{Flows} that defines what operator is used and on which models. For instance, in Listing~\ref{lst:bflowcoffeemachine}, line 6 specifies that the operator named SyncFMEventsAndActions will be applied between the models CoffeeCoin and CoffeeAlgorithm. The specification, however, can contain several flows. We discuss this in the next chapter.   
+
+In the modeling workbench, the \bflow specification is used by the \emph{Gemoc Coordinated Execution Engine} to generate a model of coordination in \ccsl and then execute the coordinated system (see Figure~\ref{fig:bcooltechnos}). We automate the generation of the coordination by relying on Acceleo\footnote{http://www.eclipse.org/acceleo/} and QVTo\footnote{https://projects.eclipse.org/projects/modeling.mmt.qvt-oml}. An acceleo transformation is used to translate the \bcool specification into a QVTo transformation. Then, the QVTo transformation can be applied between models to generate the coordination specification in \ccsl. These steps have been automated by relying on a set of plugins that are integrated into the modeling workbench. We illustrate the use of the Coordinated Execution Engine by executing the models of the coffee machine. First, we configure the launcher that contains information about the \bcool specification, the \bflow specification and the configuration launcher for each model (see Figure~\ref{fig:execenginemenu}). Once launched, the engine provides several options to drive the execution of the models. For instance, it enables a system designer to select the next valid execution step (Figure~\ref{fig:runningworkbench}: point 3). Also, the workbench provides the animation of models (Figure~\ref{fig:runningworkbench}: point 4). 
+
+In addition, the generated \ccsl specification (Figure~\ref{fig:runningworkbench}: point 1) can be analyzed by using \ccsl tools. For example, the modeling workbench offers the possibility to obtain by exploration quantitative results on the scheduling state-space of the coordinated system. The exploration of all schedules can be captured explicitly in a state space graph as presented~\ref{?}. Any cyclic path in this graph (starting from the initial configuration) represents a valid schedule of the model. The state space is always computable if the behavior of models are finite.
+
+\begin{figure}[h]
+	\centering
+	\subfigure[Gemoc Coordinated Execution Engine launcher]{
+		\includegraphics[width=.5\textwidth]{bcool/figs/execenginemenu}
+		\label{fig:execenginemenu}
+	}
+	\subfigure[Coordinated Execution of the models of the Coffee Machine]{
+		\includegraphics[width=.7\textwidth]{bcool/figs/runningworkbench}
+		\label{fig:runningworkbench}
+	}
+	\caption[]{Coordinated Execution of models in the Modeling Workbench}
+	\label{fig:subfigureExample1}
+\end{figure}
+
+\bcool is hosted on Github~\footnote{http://github.com} as part of the GEMOC project~\footnote{http://github.com/gemoc/coordination}. In addition, we built a website that contains more examples with full descriptions~\footnote{http://timesquare.inria.fr/BCOoL}. For example, it contains a video that presents the whole flow of the coffee machine example. Furthermore, the project is included into the GEMOC studio as a deployable example. To try it, it is only necessary to download the studio, and then to create a new example project. 
+
+In this section, we have presented that current integration of \bcool into the GEMOC studio that we named the \bcool framework. The framework eases the task of integration by allowing integrators to develop operators between languages. Then, a system designer can use these operators to coordinate and execute their models. In the next section, we compare our approach with coordination languages and coordination frameworks.  
+
+%\bcool is developed as set of plugins for Eclipse Modeling Framework (EMF)\footnote{http://www.eclipse.org}. Its abstract syntax has been developed using Ecore (\ie the meta-language associated with EMF) and the textual concrete  syntax has been developed in Xtext, thus providing advanced editing facilities (see Figure~\ref{fig:bcooltechnos}). A \bcool specification is defined between languages by relying on its language behavioral interface made of \dse. To get the \dse, the \ecl specification of each language must be imported (Figure~\ref{fig:bcooltechnos}: point 1). From a \bcool specification, the generation of the coordination between models has been automated by relying on two technologies: Acceleo\footnote{http://www.eclipse.org/acceleo/} and QVTo\footnote{https://projects.eclipse.org/projects/modeling.mmt.qvt-oml}. The acceleo transformation translates the \bcool specification into a QVTo transformation (Figure~\ref{fig:bcooltechnos}: point 2). The transformation can be applied between models to generate the coordination specification in \ccsl (Figure~\ref{fig:bcooltechnos}: point 3).    
 	
+
 	
 %These technologies has been integrated into the GEMOC Studio, an Eclipse package atop EMF, which includes both a \emph{language workbench} to design and implement tool-supported xDSMLs, and a \emph{modeling workbench} where the xDSMLs are automatically deployed to allow system designers to edit, execute, simulate, and animate their models. In this context, \bcool takes advantages of this collaborative environment by adding coordination facilities. 
 

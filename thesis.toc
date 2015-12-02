@@ -8,49 +8,49 @@
 \contentsline {subsection}{\numberline {2.2.2}Discussion}{8}
 \contentsline {section}{\numberline {2.3}Coordination Approaches}{9}
 \contentsline {subsection}{\numberline {2.3.1}Overview}{9}
-\contentsline {subsection}{\numberline {2.3.2}Discussion}{17}
+\contentsline {subsection}{\numberline {2.3.2}Discussion}{16}
 \contentsline {section}{\numberline {2.4}Conclusion}{18}
-\contentsline {chapter}{\numberline {3}Framework for Coordination Pattern Specification}{21}
-\contentsline {section}{\numberline {3.1}Introduction}{21}
-\contentsline {section}{\numberline {3.2}Language Behavioral Interface}{22}
-\contentsline {subsection}{\numberline {3.2.1}Overview}{22}
-\contentsline {subsection}{\numberline {3.2.2}Discussion}{24}
-\contentsline {section}{\numberline {3.3}Correspondence Rule}{25}
-\contentsline {subsection}{\numberline {3.3.1}Overview}{25}
-\contentsline {subsection}{\numberline {3.3.2}Discussion}{26}
-\contentsline {section}{\numberline {3.4}Coordination Rule}{27}
-\contentsline {subsection}{\numberline {3.4.1}Overview}{27}
-\contentsline {subsection}{\numberline {3.4.2}Discussion}{28}
-\contentsline {section}{\numberline {3.5}Conclusion}{29}
-\contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{31}
-\contentsline {section}{\numberline {4.1}Introduction}{31}
-\contentsline {section}{\numberline {4.2}Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}{32}
-\contentsline {section}{\numberline {4.3}The Language}{37}
-\contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{37}
-\contentsline {subsection}{\numberline {4.3.2}Library}{41}
-\contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{43}
-\contentsline {section}{\numberline {4.4}BCOoL Framework}{46}
-\contentsline {section}{\numberline {4.5}Evaluation}{51}
-\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{51}
-\contentsline {subsection}{\numberline {4.5.2}Usability}{51}
-\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{52}
-\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{52}
-\contentsline {section}{\numberline {4.6}Conclusion}{53}
-\contentsline {chapter}{\numberline {5}Validation}{54}
-\contentsline {section}{\numberline {5.1}Introduction}{54}
-\contentsline {section}{\numberline {5.2}Timing and Hierarchical Coordination Operator between TFSM and Activity Languages}{54}
-\contentsline {subsection}{\numberline {5.2.1}Overview}{54}
-\contentsline {subsection}{\numberline {5.2.2}Definition of the Coordination Operators}{55}
-\contentsline {subsection}{\numberline {5.2.3}Use of the Operators in a Surveillance Camera System}{57}
-\contentsline {subsection}{\numberline {5.2.4}Discussion}{59}
-\contentsline {section}{\numberline {5.3}Operator between SigPML and TFSM}{60}
-\contentsline {subsubsection}{More about Correspondence Matching}{60}
-\contentsline {subsection}{\numberline {5.3.1}Definition}{61}
-\contentsline {subsection}{\numberline {5.3.2}Use of the Operators in deployed system}{61}
-\contentsline {subsection}{\numberline {5.3.3}Discussion}{61}
-\contentsline {section}{\numberline {5.4}Conclusion}{61}
-\contentsline {chapter}{\numberline {6}Conclusion}{62}
-\contentsline {section}{\numberline {6.1}Overview}{62}
-\contentsline {section}{\numberline {6.2}Future Work}{62}
-\contentsline {chapter}{\numberline {A}Event Expression and Event Relations}{63}
-\contentsline {chapter}{Bibliography}{63}
+\contentsline {chapter}{\numberline {3}Framework for Coordination Pattern Specification}{20}
+\contentsline {section}{\numberline {3.1}Introduction}{20}
+\contentsline {section}{\numberline {3.2}Language Behavioral Interface}{21}
+\contentsline {subsection}{\numberline {3.2.1}Overview}{21}
+\contentsline {subsection}{\numberline {3.2.2}Discussion}{22}
+\contentsline {section}{\numberline {3.3}Correspondence Rule}{24}
+\contentsline {subsection}{\numberline {3.3.1}Overview}{24}
+\contentsline {subsection}{\numberline {3.3.2}Discussion}{25}
+\contentsline {section}{\numberline {3.4}Coordination Rule}{26}
+\contentsline {subsection}{\numberline {3.4.1}Overview}{26}
+\contentsline {subsection}{\numberline {3.4.2}Discussion}{27}
+\contentsline {section}{\numberline {3.5}Conclusion}{27}
+\contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{30}
+\contentsline {section}{\numberline {4.1}Introduction}{30}
+\contentsline {section}{\numberline {4.2}Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}{31}
+\contentsline {section}{\numberline {4.3}The Language}{36}
+\contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{36}
+\contentsline {subsection}{\numberline {4.3.2}Library}{40}
+\contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{42}
+\contentsline {section}{\numberline {4.4}BCOoL Framework}{45}
+\contentsline {section}{\numberline {4.5}Evaluation}{49}
+\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{49}
+\contentsline {subsection}{\numberline {4.5.2}Usability}{49}
+\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{50}
+\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{50}
+\contentsline {section}{\numberline {4.6}Conclusion}{50}
+\contentsline {chapter}{\numberline {5}Validation}{52}
+\contentsline {section}{\numberline {5.1}Introduction}{52}
+\contentsline {section}{\numberline {5.2}Timing and Hierarchical Coordination Operator between TFSM and Activity Languages}{52}
+\contentsline {subsection}{\numberline {5.2.1}Overview}{52}
+\contentsline {subsection}{\numberline {5.2.2}Definition of the Coordination Operators}{53}
+\contentsline {subsection}{\numberline {5.2.3}Use of the Operators in a Surveillance Camera System}{55}
+\contentsline {subsection}{\numberline {5.2.4}Discussion}{57}
+\contentsline {section}{\numberline {5.3}Operator between SigPML and TFSM}{58}
+\contentsline {subsubsection}{More about Correspondence Matching}{58}
+\contentsline {subsection}{\numberline {5.3.1}Definition}{59}
+\contentsline {subsection}{\numberline {5.3.2}Use of the Operators in deployed system}{59}
+\contentsline {subsection}{\numberline {5.3.3}Discussion}{59}
+\contentsline {section}{\numberline {5.4}Conclusion}{59}
+\contentsline {chapter}{\numberline {6}Conclusion}{60}
+\contentsline {section}{\numberline {6.1}Overview}{60}
+\contentsline {section}{\numberline {6.2}Future Work}{60}
+\contentsline {chapter}{\numberline {A}Event Expression and Event Relations}{61}
+\contentsline {chapter}{Bibliography}{61}
