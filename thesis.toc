@@ -52,5 +52,4 @@
 \contentsline {chapter}{\numberline {6}Conclusion}{60}
 \contentsline {section}{\numberline {6.1}Overview}{60}
 \contentsline {section}{\numberline {6.2}Future Work}{60}
-\contentsline {chapter}{\numberline {A}Event Expression and Event Relations}{61}
-\contentsline {chapter}{Bibliography}{61}
+\contentsline {chapter}{Bibliography}{60}

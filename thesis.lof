@@ -21,6 +21,3 @@
 \addvspace {10\p@ }
 \contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{56}
 \addvspace {10\p@ }
-\addvspace {10\p@ }
-\contentsline {figure}{\numberline {A.1}{\ignorespaces Graphical Representation of the Event Relation \emph {LoopFromStartToFinishNonPreemptive}}}{62}
-\contentsline {figure}{\numberline {A.2}{\ignorespaces Graphical Representation of the Event Relation AtomicExec}}{62}
