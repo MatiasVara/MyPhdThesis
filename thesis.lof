@@ -1,23 +1,23 @@
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Specification of a Client-Server system in Wright\nobreakspace {}\cite {wrightbib}}}{12}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces High Level view of the approach proposed by Di Natale et al. in\nobreakspace {}\cite {dinatale}}}{13}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces High level view of Ptolemy\nobreakspace {}\cite {giraultbib}}}{15}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Overview of Our Approach}}{19}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Specification of a Client-Server system in Wright\nobreakspace {}\cite {wrightbib}}}{14}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces High Level view of the approach proposed by Di Natale et al. in\nobreakspace {}\cite {dinatale}}}{15}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces High level view of Ptolemy\nobreakspace {}\cite {giraultbib}}}{17}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Overview of Our Approach}}{21}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The proposed workflow}}{31}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{33}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{35}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{36}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{38}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the global event variable globalClock}}{40}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Excerpt of MoCCML Metamodel}}{40}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{42}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{46}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces }}{48}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gemoc Coordinated Execution Engine launcher}}}{48}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{48}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The proposed workflow}}{33}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{35}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{37}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{38}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{40}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the global event variable globalClock}}{42}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Excerpt of MoCCML Metamodel}}{42}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{44}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{48}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces }}{50}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gemoc Coordinated Execution Engine launcher}}}{50}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{50}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{56}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{58}
 \addvspace {10\p@ }
