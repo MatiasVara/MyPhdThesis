@@ -3,54 +3,46 @@
 %\section{Context}
 
 \begin{itemize}
+	% context 
 	% complex systems
-	\item Nowadays devices are becoming more complex. They are made of several subsystems with different that perform very different tasks. 
+	\item Nowadays devices are becoming more complex. They embed several subsystems with different characteristics that communicate and interact in many ways. For example, current cars can integrate an adaptive control cruise system, GPS tracking, fuel control system and soon on. Furthermore, these subsystems are widely coupled. For instance, the adaptive cruise system controls the way to get home depending on the GPS tacking, also, the fuel control system regulates the speed of the car depending on the level of fuel.
 	
-	\item For example, in a car, there is a \emph{adaptive cruise system} that controls the way to get home depending on the position. Also, there is a \emph{fuel control system} that regulates the speed of the car depending on the level of fuel. Furthermore, the cruise system can choose the best way depending on the current level of fuel. Each subsystem has different characteristics. 
-	
-	% From taming heterogeneity:
-	% Modern embedded computing systems tend to be heterogeneous in the sense of being composed of subsystems with very different characteristics, that communicate and interact in a variety of ways—synchronous or asynchronous, buffered or unbuffered, etc. Obviously, when designing such systems, a modeling language needs to reflect this heterogeneity.
-	
-	% Embedded systems also tend to be heterogeneous, i.e. they include subsystems with very different characteristics such as mechanical, hydraulic, analog, and digital hardware, as well as software that is oriented towards data flow, realizes control logic, deals with resource allocation, or must provide some real-time performance.
-	
-	% However, each model typically only represents one aspect of the entire system, and thus only part of its total behavior. In order to evaluate the behavior of the system as a whole, these models must be composed in some fashion so that their properties can be considered together. This heterogeneous composition must represent interaction and communication between models while preserving the properties of each individual model.
-	
-	
-	%\item In order to support such features, devices are implemented into very different computing resource like general-purpose processors, DSP and GPU, and various digital or analog devices (sensors, actuators) connected through a wide range of heterogeneous communication resources (buses, networks, meshes). 
-	
-	\item The development of application of such complex system is also complex. They have to take into account such a variability of each subsystem and the possible interaction between them. Often, the development is split into different domains with different experts \eg mechanical, electronic, software. This reduces the complexity of the problem by supporting a parallel developments and a separation of preoccupation. 
+	% designing of complex systems
+	\item This makes the designing of these systems very complex. A designer has to dealt with the heterogeneity of each subsystem but also with the interaction between them. To reduce the complexity of such a development, the designing is split into different domains, \eg mechanical, electronic, software. Therefore, the development of such complex system is talcked by different domains experts.
 	
 	% Multiple DSMLs --> heterogenenous
-	\item Model Driven Engineering has addressed the problem of the development of application for complex system by proposing Domain Specific Modeling Languages (DSMLs). Each domain expert relies on a DSMLs to better describe its domain. Each DSMLs has its own expressiveness and properties. As a result of such development, several models conforming to different DSMLs are developed and the specification of the overall system becomes \emph{heterogeneous}
+	\item In this context, Model Driven Engineering (MDE) has addressed the problem of the development of application for complex systems by proposing Domain Specific Modeling Languages (DSMLs). Each domain expert relies on a DSMLs to better describe its domain. Each DSMLs has its own expressiveness and properties. As a result of such development, several models conforming to different DSMLs are developed and the specification of the overall system becomes \emph{heterogeneous}.
+% problem
+	\item However, at some point of development, these models have to be integrated to understand the system and its emerging behavior globally. It is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. Whereas the MDE community provides some extensive support for the structural composition of models and languages (\eg~\cite{kompose,epsilon}), in this thesis, we rather focus on the coordination~\cite{coordsignibib} of behavioral models/languages to provide simulation and/or verification capabilities for the whole system specification. 
+	
+% partial solution
+	\item Coordination Languages~\cite{coordsignibib} and Architecture Description Languages (ADLs)~\cite{frameadlsbib} provide dedicated languages to specify the coordination between particular behavioral models. This is usually done by system designers that apply some coordination patterns according to their own skills and know-how. To automate such a task, coordination frameworks~\cite{ptoleframebib,modhelxbib} have identified such a pattern and they have encoded it inside a tool, \eg Ptolemy~\cite{ptoleframebib}. However, the semantics of the coordination is hidden thus limiting reasoning. Furthermore, they rely on a general purpose language to express the coordination thus limiting verification and validation of the coordinated system. Since the coordination pattern is encoded, they prevent any tunning of the pattern.   
+	
+% contribution
+\item In this thesis, we deal with the coordination of heterogeneous behavioral models by leveraging on the system designer's skills. We propose a dedicated language named \bcool (standing as Behavioral Coordination Operator Language) that allows for capturing coordination patterns for a given set of DSMLs. These patterns are captured between languages, and then used to derive a coordination model automatically for models conforming to the targeted DSMLs. The coordination at the language level relies on a so-called \emph{language behavioral interface}. This interface exposes an abstraction of the language behavioral semantics in terms of Events. \bcool helps understand and reason about the relationships between different languages used in the design of a system. 
 
-	\item To understand the system and its emerging behavior globally, it is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. This problem is becoming more and more important with the globalization of modeling languages~\cite{gemoccolum}.
+% outline	 		
+\item The content of this thesis is organized as follows. 
+
+\item Chapter~\ref{ch:background} presents the thesis background.
+
+\item Chapter~\ref{ch:framework} presents a framework 
+
+
+%\item Section~\ref{sec:coord-lang} presents the main issues in the coordination of behavioral models, and shows how they can be tackled by explicitly capturing coordination patterns at the language level. Section~\ref{sec:interfaceandexample} defines the notion of language behavioral interface by using an example language named Timed Finite State Machine (TFSM). This language is used later in Section~\ref{sec:BCOol} to illustrate \bcool. In Section~\ref{sec:caseStudies}, we validate the approach by using \bcool to capture three coordination patterns between two languages: TFSM and fUML Activities. Section~\ref{sec:related} gives an overview and comparison to related work. Section~\ref{sec:conclu} concludes with a brief summary and a discussion of ongoing and future actions.
 	
-	\item Parrafo dedicate a GEMOC.
-	
-	\item Whereas the MDE community provides some extensive support for the structural composition of models and languages (\eg~\cite{kompose,epsilon}), in this work, we rather focus on the coordination~\cite{coordlangandsigni} of behavioral languages to provide simulation and/or verification capabilities for the whole system specification. 
-	
-	\item In current coordination approaches~\cite{coordlangandsigni,rapide,esperbib,varalarsen:gemoc13}, the coordination is manually defined between particular models. This is usually done by integrator experts that apply some coordination patterns according to their own skills and know-how.
-	
-	
-	 \item In this thesis, we deal with the coordination of heterogeneous behavioral models by leveraging on the integrator expert's skills 
-	 
-	 \item We propose a dedicated language named \bcool (standing as Behavioral Coordination Operator Language) that allows for capturing coordination patterns for a given set of DSMLs. These patterns are captured between languages, and then used to derive a coordination model automatically for models conforming to the targeted DSMLs. 
-	 
-	 \item The coordination at the language level relies on a so-called \emph{language behavioral interface}. This interface exposes an abstraction of the language behavioral semantics in terms of Events. 
-	 
-	 \item \bcool helps understand and reason about the relationships between different languages used in the design of a system. 
-	
-	
-	
-	\item The content of this thesis is organized as follows. Section~\ref{sec:coord-lang} presents the main issues in the coordination of behavioral models, and shows how they can be tackled by explicitly capturing coordination patterns at the language level. Section~\ref{sec:interfaceandexample} defines the notion of language behavioral interface by using an example language named Timed Finite State Machine (TFSM). This language is used later in Section~\ref{sec:BCOol} to illustrate \bcool. In Section~\ref{sec:caseStudies}, we validate the approach by using \bcool to capture three coordination patterns between two languages: TFSM and fUML Activities. Section~\ref{sec:related} gives an overview and comparison to related work. Section~\ref{sec:conclu} concludes with a brief summary and a discussion of ongoing and future actions.
-	
-	\item Finally, we provide the conclusion of this work, highlighting its main contributions and
-	we give some future perspectives in Chapter 7.
+%\item Finally, we provide the conclusion of this work, highlighting its main contributions and we give some future perspectives in Chapter 7.
 	
 \end{itemize}
 
-
-
+\begin{landscape}
+\begin{figure}
+	\begin{center}
+		\includegraphics[width=1\textwidth]{Thesisoutline.pdf}
+		\label{fig:thesis outline}
+	\end{center}
+\end{figure}
+\end{landscape}
 
 %\section{Problem}
 
