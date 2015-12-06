@@ -279,6 +279,12 @@ Holger Krahn, Bernhard Rumpe, and Steven Völkel.
 \newblock {\em International Journal on Software Tools for Technology
   Transfer}, 12(5):353--372, 2010.
 
+\bibitem[Lee09]{modalsptolemybib}
+Edward~A. Lee.
+\newblock Finite state machines and modal models in ptolemy ii.
+\newblock Technical Report UCB/EECS-2009-151, EECS Department, University of
+  California, Berkeley, Nov 2009.
+
 \bibitem[LKA{\etalchar{+}}95]{rapidebib}
 David~C. Luckham, John~J. Kenney, Larry~M. Augustin, James Vera, Doug Bryan,
   and Walter Mann.

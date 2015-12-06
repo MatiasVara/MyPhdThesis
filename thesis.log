@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  5 DEC 2015 15:28
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  7 DEC 2015 00:36
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -490,46 +490,38 @@ Overfull \hbox (1.46759pt too wide) in paragraph at lines 19--20
 n Lan-guages (ADLs) [[]]
  []
 
-[2] <Thesisoutline.pdf, id=59, 1312.905pt x 809.0225pt>
-File: Thesisoutline.pdf Graphic file (type pdf)
-
-<use Thesisoutline.pdf>
-Package pdftex.def Info: Thesisoutline.pdf used on input line 41.
-(pdftex.def)             Requested size: 483.69687pt x 298.06213pt.
- [3 <./Thesisoutline.pdf>]) (background/background.tex
+) (background/background.tex [2]
 Chapter 2.
 (background/intro.tex
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
- [4
+ [3
 
+]) (background/composition.tex [4]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
-
-]) (background/composition.tex [5]
+ [5]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [6]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+[7] [8]
 
- [7]
-[8] [9]
-
-LaTeX Warning: Citation `?' on page 10 undefined on input line 45.
+LaTeX Warning: Citation `?' on page 9 undefined on input line 45.
 
 ) (background/coordination.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [10]
-[11] [12] [13]
-<background/figs/wrightspec.pdf, id=111, 624.3325pt x 500.87125pt>
+ [9]
+[10] [11] [12]
+<background/figs/wrightspec.pdf, id=94, 624.3325pt x 500.87125pt>
 File: background/figs/wrightspec.pdf Graphic file (type pdf)
 
 <use background/figs/wrightspec.pdf>
 Package pdftex.def Info: background/figs/wrightspec.pdf used on input line 48.
 (pdftex.def)             Requested size: 241.84843pt x 194.01682pt.
- [14 <./background/figs/wrightspec.pdf>]
-<background/figs/diNatale.pdf, id=131, 592.2125pt x 373.395pt>
+ [13 <./background/figs/wrightspec.pdf>]
+<background/figs/diNatale.pdf, id=114, 592.2125pt x 373.395pt>
 File: background/figs/diNatale.pdf Graphic file (type pdf)
 
 <use background/figs/diNatale.pdf>
@@ -538,11 +530,11 @@ Package pdftex.def Info: background/figs/diNatale.pdf used on input line 61.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [15 <./background/figs/diNatale.pdf>]
+ [14 <./background/figs/diNatale.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [16]
-<background/figs/ptolemyfig.pdf, id=161, 504.88625pt x 370.38374pt>
+ [15]
+<background/figs/ptolemyfig.pdf, id=144, 504.88625pt x 370.38374pt>
 File: background/figs/ptolemyfig.pdf Graphic file (type pdf)
 
 <use background/figs/ptolemyfig.pdf>
@@ -557,17 +549,17 @@ o par-tic-u-lar lan-guages, Ptolemy [[]]
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [17 <./background/figs/ptolemyfig.pdf>] [18]) (background/conclu.tex [19]
+ [16 <./background/figs/ptolemyfig.pdf>] [17]) (background/conclu.tex [18]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [20]
-<background/figs/bcoolapp.pdf, id=198, 527.9725pt x 508.90125pt>
+ [19]
+<background/figs/bcoolapp.pdf, id=181, 527.9725pt x 508.90125pt>
 File: background/figs/bcoolapp.pdf Graphic file (type pdf)
 
 <use background/figs/bcoolapp.pdf>
 Package pdftex.def Info: background/figs/bcoolapp.pdf used on input line 20.
 (pdftex.def)             Requested size: 338.58632pt x 326.35573pt.
-)) (framework/framework.tex [21 <./background/figs/bcoolapp.pdf>]
+)) (framework/framework.tex [20 <./background/figs/bcoolapp.pdf>]
 Chapter 3.
 (framework/intro.tex
 Overfull \hbox (6.70502pt too wide) in paragraph at lines 4--7
@@ -578,30 +570,30 @@ Overfull \hbox (6.70502pt too wide) in paragraph at lines 4--7
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [22
+ [21
 
 ])
-(framework/interface.tex [23] [24]
+(framework/interface.tex [22] [23]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [25])
-(framework/correspondencerule.tex [26] [27]) (framework/coordinationrule.tex
+ [24])
+(framework/correspondencerule.tex [25] [26]) (framework/coordinationrule.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [28])
-(framework/conclu.tex [29])) (bcool/bcool.tex
+ [27])
+(framework/conclu.tex [28])) (bcool/bcool.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [30]
-[31]
+ [29]
+[30]
 Chapter 4.
 (bcool/intro.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [32
+ [31
 
 ]
-<bcool/figs/process.pdf, id=291, 505.89pt x 343.2825pt>
+<bcool/figs/process.pdf, id=274, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
 <use bcool/figs/process.pdf>
@@ -610,8 +602,8 @@ Package pdftex.def Info: bcool/figs/process.pdf used on input line 15.
 ) (bcool/runningexample.tex
 Underfull \vbox (badness 1292) has occurred while \output is active []
 
- [33 <./bcool/figs/process.pdf>]
-<bcool/figs/tfsmmm.jpg, id=471, 883.04906pt x 1125.45468pt>
+ [32 <./bcool/figs/process.pdf>]
+<bcool/figs/tfsmmm.jpg, id=454, 883.04906pt x 1125.45468pt>
 File: bcool/figs/tfsmmm.jpg Graphic file (type jpg)
 
 <use bcool/figs/tfsmmm.jpg>
@@ -620,9 +612,9 @@ Package pdftex.def Info: bcool/figs/tfsmmm.jpg used on input line 14.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [34]
-[35 <./bcool/figs/tfsmmm.jpg>]
-<bcool/figs/admm.jpg, id=481, 817.55438pt x 965.85844pt>
+ [33]
+[34 <./bcool/figs/tfsmmm.jpg>]
+<bcool/figs/admm.jpg, id=463, 817.55438pt x 965.85844pt>
 File: bcool/figs/admm.jpg Graphic file (type jpg)
 
 <use bcool/figs/admm.jpg>
@@ -631,29 +623,29 @@ Package pdftex.def Info: bcool/figs/admm.jpg used on input line 40.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [36]
-[37 <./bcool/figs/admm.jpg>]) (bcool/language.tex (bcool/bcoolas.tex
-<bcool/figs/BcoolMM.pdf, id=488, 507.8975pt x 325.215pt>
+ [35]
+[36 <./bcool/figs/admm.jpg>]) (bcool/language.tex (bcool/bcoolas.tex
+<bcool/figs/BcoolMM.pdf, id=471, 507.8975pt x 325.215pt>
 File: bcool/figs/BcoolMM.pdf Graphic file (type pdf)
 
 <use bcool/figs/BcoolMM.pdf>
 Package pdftex.def Info: bcool/figs/BcoolMM.pdf used on input line 4.
 (pdftex.def)             Requested size: 386.95897pt x 247.78625pt.
- [38 <./bcool/figs/BcoolMM.pdf>]
+ [37 <./bcool/figs/BcoolMM.pdf>]
 Underfull \vbox (badness 1895) has occurred while \output is active []
 
- [39]
-<bcool/figs/runningrdv.pdf, id=618, 488.82625pt x 69.25874pt>
+ [38]
+<bcool/figs/runningrdv.pdf, id=601, 488.82625pt x 69.25874pt>
 File: bcool/figs/runningrdv.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningrdv.pdf>
 Package pdftex.def Info: bcool/figs/runningrdv.pdf used on input line 43.
 (pdftex.def)             Requested size: 386.95897pt x 54.82687pt.
- [40 <./bcool/figs/runningrdv.pdf>]
+ [39 <./bcool/figs/runningrdv.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41]
-<bcool/figs/runningeventvar.pdf, id=635, 498.86375pt x 99.37125pt>
+ [40]
+<bcool/figs/runningeventvar.pdf, id=617, 498.86375pt x 99.37125pt>
 File: bcool/figs/runningeventvar.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvar.pdf>
@@ -661,33 +653,33 @@ Package pdftex.def Info: bcool/figs/runningeventvar.pdf used on input line 108.
 
 (pdftex.def)             Requested size: 386.95897pt x 77.08318pt.
 ) (bcool/bcoollib.tex
-<bcool/figs/moccmlmm.pdf, id=636, 1250.6725pt x 251.94125pt>
+<bcool/figs/moccmlmm.pdf, id=618, 1250.6725pt x 251.94125pt>
 File: bcool/figs/moccmlmm.pdf Graphic file (type pdf)
 
 <use bcool/figs/moccmlmm.pdf>
 Package pdftex.def Info: bcool/figs/moccmlmm.pdf used on input line 6.
 (pdftex.def)             Requested size: 386.95897pt x 77.95105pt.
- [42 <./bcool/figs/runningeventvar.pdf> <./bcool/figs/moccmlmm.pdf
+ [41 <./bcool/figs/runningeventvar.pdf> <./bcool/figs/moccmlmm.pdf
 
 pdfTeX warning: pdflatex.exe (file ./bcool/figs/moccmlmm.pdf): PDF inclusion: m
 ultiple pdfs with page group included in a single page
 >]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [43])
+ [42])
 (bcool/bcoolsemantics.tex
-<bcool/figs/semantics.pdf, id=660, 699.61375pt x 515.9275pt>
+<bcool/figs/semantics.pdf, id=643, 699.61375pt x 515.9275pt>
 File: bcool/figs/semantics.pdf Graphic file (type pdf)
 
 <use bcool/figs/semantics.pdf>
 Package pdftex.def Info: bcool/figs/semantics.pdf used on input line 6.
 (pdftex.def)             Requested size: 435.32422pt x 321.02899pt.
- [44 <./bcool/figs/semantics.pdf>]
+ [43 <./bcool/figs/semantics.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [45]))
+ [44]))
 (bcool/langworkbench.tex
-<bcool/figs/bcooltechnos.pdf, id=698, 722.7pt x 628.3475pt>
+<bcool/figs/bcooltechnos.pdf, id=681, 722.7pt x 628.3475pt>
 File: bcool/figs/bcooltechnos.pdf Graphic file (type pdf)
 
 <use bcool/figs/bcooltechnos.pdf>
@@ -696,25 +688,25 @@ Package pdftex.def Info: bcool/figs/bcooltechnos.pdf used on input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [46]
+ [45]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[47]
+[46]
 Underfull \vbox (badness 3919) has occurred while \output is active []
 
- [48 <./bcool/figs/bcooltechnos.pdf>]
+ [47 <./bcool/figs/bcooltechnos.pdf>]
 
-LaTeX Warning: Reference `?' on page 49 undefined on input line 31.
+LaTeX Warning: Reference `?' on page 48 undefined on input line 31.
 
-<bcool/figs/execenginemenu.pdf, id=752, 979.66pt x 574.145pt>
+<bcool/figs/execenginemenu.pdf, id=735, 979.66pt x 574.145pt>
 File: bcool/figs/execenginemenu.pdf Graphic file (type pdf)
 
 <use bcool/figs/execenginemenu.pdf>
 Package pdftex.def Info: bcool/figs/execenginemenu.pdf used on input line 38.
 (pdftex.def)             Requested size: 241.84843pt x 141.73119pt.
 
-<bcool/figs/runningworkbench.pdf, id=753, 1542.76375pt x 849.1725pt>
+<bcool/figs/runningworkbench.pdf, id=736, 1542.76375pt x 849.1725pt>
 File: bcool/figs/runningworkbench.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningworkbench.pdf>
@@ -728,67 +720,49 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [49])
+ [48])
 (bcool/evaluation.tex
 Underfull \vbox (badness 1412) has occurred while \output is active []
 
- [50 <./bcool/figs/execenginemenu.pdf> <./bcool/figs/runningworkbench.pdf
+ [49 <./bcool/figs/execenginemenu.pdf> <./bcool/figs/runningworkbench.pdf
 
 pdfTeX warning: pdflatex.exe (file ./bcool/figs/runningworkbench.pdf): PDF incl
 usion: multiple pdfs with page group included in a single page
->] [51]) (bcool/conclu.tex [52])) (examples/examples.tex [53]
+>] [50]) (bcool/conclu.tex [51])) (examples/examples.tex [52]
 Chapter 5.
-(examples/intro.tex) (examples/cameraexample.tex
+(examples/intro.tex) (examples/operators.tex
+Underfull \vbox (badness 1648) has occurred while \output is active []
 
-LaTeX Warning: Reference `ap:languages' on page 54 undefined on input line 5.
-
-
-LaTeX Warning: Reference `ap:languages' on page 54 undefined on input line 5.
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [54
+ [53
 
 ]
+[54] [55] [56]
+<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=797, 611.88597pt x 39
+1.864pt>
+File: examples/figs/LoopFromStartToFinishNonPreemptive.pdf Graphic file (type p
+df)
+ <use examples/figs/LoopFromStartToFinishNonPreemptive.pdf>
+Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.pdf u
+sed on input line 58.
+(pdftex.def)             Requested size: 241.84843pt x 154.88324pt.
 
-LaTeX Warning: Reference `ap:languages' on page 55 undefined on input line 13.
+<examples/figs/AtomicExec.pdf, id=798, 534.79799pt x 344.48701pt>
+File: examples/figs/AtomicExec.pdf Graphic file (type pdf)
 
-
-LaTeX Warning: Reference `ap:expressionandrelations' on page 55 undefined on in
-put line 13.
-
-[55]
-
-LaTeX Warning: Reference `ap:expressionandrelations' on page 56 undefined on in
-put line 38.
-
-
+<use examples/figs/AtomicExec.pdf>
+Package pdftex.def Info: examples/figs/AtomicExec.pdf used on input line 62.
+(pdftex.def)             Requested size: 241.84843pt x 155.78516pt.
+)) (conclusion/conclusion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [56]
+ [57 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs/
+AtomicExec.pdf
 
-LaTeX Warning: Citation `encodingcomparison' on page 57 undefined on input line
- 49.
-
-<examples/figs/picmodels.pdf, id=811, 927.465pt x 640.3925pt>
-File: examples/figs/picmodels.pdf Graphic file (type pdf)
-
-<use examples/figs/picmodels.pdf>
-Package pdftex.def Info: examples/figs/picmodels.pdf used on input line 53.
-(pdftex.def)             Requested size: 483.69687pt x 333.98317pt.
- [57] [58 <./examples/figs/picmodels.pdf>]
-
-LaTeX Warning: Citation `MarcoModels2014' on page 59 undefined on input line 80
-.
-
-)) (conclusion/conclusion.tex
-Underfull \vbox (badness 1694) has occurred while \output is active []
-
- [59]
-[60]
+pdfTeX warning: pdflatex.exe (file ./examples/figs/AtomicExec.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>] [58]
 Chapter 6.
-) (thesis.bbl [61
+) (thesis.bbl [59
 
 ]
 Missing character: There is no √ in font cmr12!
@@ -801,20 +775,20 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no º in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
- [62
+ [60
 
-] [63]
+] [61]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no £ in font cmr12!
 Missing character: There is no √ in font cmti12!
 Missing character: There is no © in font cmti12!
- [64] [65]
+ [62] [63]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
- [66]
+ [64]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
- [67]) [68] (thesis.aux)
+ [65]) [66] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -823,13 +797,13 @@ LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 6013 strings out of 493673
- 83009 string characters out of 3141527
- 217601 words of memory out of 3000000
+ 6014 strings out of 493673
+ 83166 string characters out of 3141527
+ 205650 words of memory out of 3000000
  9100 multiletter control sequences out of 15000+200000
- 17389 words of font info for 71 fonts, out of 3000000 for 9000
+ 17735 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 41i,10n,40p,2976b,1655s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 41i,10n,40p,2976b,1631s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
@@ -844,13 +818,14 @@ KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKT
 eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
  2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
 9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
-ts/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/
-type1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (82 pages, 5999495 bytes).
+onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (80 pages, 2788854 bytes).
 PDF statistics:
- 933 PDF objects out of 1000 (max. 8388607)
+ 901 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  86 words of extra memory for PDF output out of 10000 (max. 10000000)
 
