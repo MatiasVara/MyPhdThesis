@@ -9,7 +9,7 @@
 \contentsline {section}{\numberline {2.3}Coordination Approaches}{10}
 \contentsline {subsection}{\numberline {2.3.1}Overview}{10}
 \contentsline {subsection}{\numberline {2.3.2}Discussion}{17}
-\contentsline {section}{\numberline {2.4}Conclusion}{19}
+\contentsline {section}{\numberline {2.4}Conclusion}{18}
 \contentsline {chapter}{\numberline {3}Framework for Coordination Pattern Specification}{21}
 \contentsline {section}{\numberline {3.1}Introduction}{21}
 \contentsline {section}{\numberline {3.2}Language Behavioral Interface}{22}
@@ -20,28 +20,29 @@
 \contentsline {subsection}{\numberline {3.3.2}Discussion}{26}
 \contentsline {section}{\numberline {3.4}Coordination Rule}{27}
 \contentsline {subsection}{\numberline {3.4.1}Overview}{27}
-\contentsline {subsection}{\numberline {3.4.2}Discussion}{28}
+\contentsline {subsection}{\numberline {3.4.2}Discussion}{27}
 \contentsline {section}{\numberline {3.5}Conclusion}{28}
-\contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{31}
-\contentsline {section}{\numberline {4.1}Introduction}{31}
-\contentsline {section}{\numberline {4.2}Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}{32}
-\contentsline {section}{\numberline {4.3}The Language}{37}
-\contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{37}
-\contentsline {subsection}{\numberline {4.3.2}Library}{41}
-\contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{43}
-\contentsline {section}{\numberline {4.4}BCOoL Framework}{46}
-\contentsline {section}{\numberline {4.5}Evaluation}{50}
-\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{50}
-\contentsline {subsection}{\numberline {4.5.2}Usability}{50}
-\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{51}
-\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{51}
-\contentsline {section}{\numberline {4.6}Conclusion}{51}
-\contentsline {chapter}{\numberline {5}Validation}{53}
-\contentsline {section}{\numberline {5.1}Introduction}{53}
-\contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{53}
-\contentsline {section}{\numberline {5.3}Discussion}{58}
-\contentsline {section}{\numberline {5.4}Conclusion}{58}
-\contentsline {chapter}{\numberline {6}Conclusion}{59}
-\contentsline {section}{\numberline {6.1}Overview}{59}
-\contentsline {section}{\numberline {6.2}Future Work}{59}
-\contentsline {chapter}{Bibliography}{59}
+\contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{30}
+\contentsline {section}{\numberline {4.1}Introduction}{30}
+\contentsline {section}{\numberline {4.2}Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}{31}
+\contentsline {section}{\numberline {4.3}The Language}{36}
+\contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{36}
+\contentsline {subsection}{\numberline {4.3.2}Library}{39}
+\contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{41}
+\contentsline {section}{\numberline {4.4}BCOoL Framework}{44}
+\contentsline {section}{\numberline {4.5}Evaluation}{48}
+\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{49}
+\contentsline {subsection}{\numberline {4.5.2}Usability}{49}
+\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{49}
+\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{50}
+\contentsline {section}{\numberline {4.6}Conclusion}{50}
+\contentsline {chapter}{\numberline {5}Validation}{52}
+\contentsline {section}{\numberline {5.1}Introduction}{52}
+\contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{52}
+\contentsline {section}{\numberline {5.3}Use of the Operators in a Surveillance Camera System}{57}
+\contentsline {section}{\numberline {5.4}Discussion}{60}
+\contentsline {section}{\numberline {5.5}Conclusion}{60}
+\contentsline {chapter}{\numberline {6}Conclusion}{62}
+\contentsline {section}{\numberline {6.1}Overview}{62}
+\contentsline {section}{\numberline {6.2}Future Work}{62}
+\contentsline {chapter}{Bibliography}{62}

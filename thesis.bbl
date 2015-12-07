@@ -321,6 +321,12 @@ George~A. Papadopoulos and Farhad Arbab.
 \newblock Technical report, CWI (Centre for Mathematics and Computer Science),
   Amsterdam, The Netherlands, The Netherlands, 1998.
 
+\bibitem[RSU04]{encodingcomparison}
+Mara Rhepp, Herbert Stögner, and Andreas Uhl.
+\newblock Comparison of jpeg and jpeg 2000 in low-power confidential image
+  transmission.
+\newblock In {\em SPC}, 2004.
+
 \bibitem[SDK{\etalchar{+}}95]{uniconbib}
 M.~Shaw, R.~DeLine, D.V. Klein, T.L. Ross, D.M. Young, and G.~Zelesnik.
 \newblock Abstractions for software architecture and tools to support them.

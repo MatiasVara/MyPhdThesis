@@ -6,20 +6,22 @@
 \contentsline {figure}{\numberline {2.4}{\ignorespaces Overview of Our Approach}}{20}
 \addvspace {10\p@ }
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {4.1}{\ignorespaces The proposed workflow}}{32}
-\contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{34}
-\contentsline {figure}{\numberline {4.3}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{36}
-\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{37}
-\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{39}
-\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the global event variable globalClock}}{41}
-\contentsline {figure}{\numberline {4.7}{\ignorespaces Excerpt of MoCCML Metamodel}}{41}
-\contentsline {figure}{\numberline {4.8}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{43}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{47}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces }}{49}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gemoc Coordinated Execution Engine launcher}}}{49}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{49}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces The proposed workflow}}{31}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces (At the top) The TFSM metamodel with its language behavioral interface. (At the bottom) a TFSM model with its model behavioral interface}}{33}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces (At the top) The Activity metamodel with its language behavioral interface. (At the bottom) an Activity model with its model behavioral interface}}{35}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Simplified view of \textsc {B-COoL}\xspace abstract syntax}}{36}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{38}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the global event variable globalClock}}{40}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Excerpt of MoCCML Metamodel}}{40}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{42}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{45}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces }}{48}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gemoc Coordinated Execution Engine launcher}}}{48}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{48}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{57}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\emph {LoopFromStartToFinishNonPreemptive} event relation}}}{57}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\emph {AtomicExec} event relation}}}{57}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{54}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\emph {LoopFromStartToFinishNonPreemptive} event relation}}}{54}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\emph {AtomicExec} event relation}}}{54}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{58}
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Resulting timing output of the surveillance camera system}}{59}
 \addvspace {10\p@ }
