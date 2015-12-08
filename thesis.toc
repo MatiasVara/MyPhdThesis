@@ -25,17 +25,16 @@
 \contentsline {chapter}{\numberline {4}\textsc {B-COoL}\xspace : the Behavioral Coordination Operator Language}{30}
 \contentsline {section}{\numberline {4.1}Introduction}{30}
 \contentsline {section}{\numberline {4.2}Running Example: Coordination of the Heterogeneous Model of a Coffee Machine}{31}
-\contentsline {section}{\numberline {4.3}The Language}{36}
-\contentsline {subsection}{\numberline {4.3.1}Abstract Syntax}{36}
-\contentsline {subsection}{\numberline {4.3.2}Library}{39}
-\contentsline {subsection}{\numberline {4.3.3}Execution Semantics}{41}
-\contentsline {section}{\numberline {4.4}BCOoL Framework}{44}
-\contentsline {section}{\numberline {4.5}Evaluation}{48}
-\contentsline {subsection}{\numberline {4.5.1}Understandability and Adaptability}{49}
-\contentsline {subsection}{\numberline {4.5.2}Usability}{49}
-\contentsline {subsection}{\numberline {4.5.3}Analysis Capabilities}{49}
-\contentsline {subsection}{\numberline {4.5.4}Tooling Support}{50}
-\contentsline {section}{\numberline {4.6}Conclusion}{50}
+\contentsline {section}{\numberline {4.3}Abstract Syntax of \textsc {B-COoL}\xspace }{36}
+\contentsline {section}{\numberline {4.4}Library}{40}
+\contentsline {section}{\numberline {4.5}Execution Semantics}{42}
+\contentsline {section}{\numberline {4.6}Implementation}{45}
+\contentsline {section}{\numberline {4.7}Evaluation}{49}
+\contentsline {subsection}{\numberline {4.7.1}Understandability and Adaptability}{49}
+\contentsline {subsection}{\numberline {4.7.2}Usability}{49}
+\contentsline {subsection}{\numberline {4.7.3}Analysis Capabilities}{50}
+\contentsline {subsection}{\numberline {4.7.4}Tooling Support}{50}
+\contentsline {section}{\numberline {4.8}Conclusion}{50}
 \contentsline {chapter}{\numberline {5}Validation}{52}
 \contentsline {section}{\numberline {5.1}Introduction}{52}
 \contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{52}
