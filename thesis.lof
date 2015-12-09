@@ -14,9 +14,11 @@
 \contentsline {figure}{\numberline {4.6}{\ignorespaces Resulting coordination of the Coffee Machine by using the event relation Rendezvous}}{39}
 \contentsline {figure}{\numberline {4.7}{\ignorespaces Resulting coordination of the Coffee Machine by using the global event variable globalClock}}{40}
 \contentsline {figure}{\numberline {4.8}{\ignorespaces Excerpt of MoCCML Metamodel}}{40}
-\contentsline {figure}{\numberline {4.9}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{42}
-\contentsline {figure}{\numberline {4.10}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{46}
-\contentsline {figure}{\numberline {4.11}{\ignorespaces }}{48}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces State-based representation of the relation \emph {RendezvousWithGlobalClock}}}{41}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Resulting coordination of the Coffee Machine by using the automata relation \emph {RendezvousWithGlobalClock}}}{42}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Steps in the application of the \textsc {B-COoL}\xspace specification between the models of the coffee machine}}{43}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Overview of the \textsc {B-COoL}\xspace framework}}{46}
+\contentsline {figure}{\numberline {4.13}{\ignorespaces }}{48}
 \contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Gemoc Coordinated Execution Engine launcher}}}{48}
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{48}
 \addvspace {10\p@ }

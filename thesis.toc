@@ -31,10 +31,10 @@
 \contentsline {section}{\numberline {4.6}Implementation}{45}
 \contentsline {section}{\numberline {4.7}Evaluation}{49}
 \contentsline {subsection}{\numberline {4.7.1}Understandability and Adaptability}{49}
-\contentsline {subsection}{\numberline {4.7.2}Usability}{49}
+\contentsline {subsection}{\numberline {4.7.2}Usability}{50}
 \contentsline {subsection}{\numberline {4.7.3}Analysis Capabilities}{50}
 \contentsline {subsection}{\numberline {4.7.4}Tooling Support}{50}
-\contentsline {section}{\numberline {4.8}Conclusion}{50}
+\contentsline {section}{\numberline {4.8}Conclusion}{51}
 \contentsline {chapter}{\numberline {5}Validation}{52}
 \contentsline {section}{\numberline {5.1}Introduction}{52}
 \contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{52}
