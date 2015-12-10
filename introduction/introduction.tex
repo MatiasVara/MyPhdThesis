@@ -6,7 +6,6 @@
 	% context 
 	% complex systems
 	
-	\item \todo{gemoc}
 	\item Nowadays devices are becoming more complex. They embed several subsystems with different characteristics that communicate and interact in many ways. For example, current cars can integrate an adaptive control cruise system, GPS tracking, fuel control system and soon on. Furthermore, these subsystems are widely coupled. For instance, the adaptive cruise system controls the way to get home depending on the GPS tacking, also, the fuel control system regulates the speed of the car depending on the level of fuel.
 	
 	% designing of complex systems
@@ -15,7 +14,8 @@
 	% Multiple DSMLs --> heterogenenous
 	\item In this context, Model Driven Engineering (MDE) has addressed the problem of the development of application for complex systems by proposing Domain Specific Modeling Languages (DSMLs). Each domain expert relies on a DSMLs to better describe its domain. Each DSMLs has its own expressiveness and properties. As a result of such development, several models conforming to different DSMLs are developed and the specification of the overall system becomes \emph{heterogeneous}.
 % problem
-	\item At some point of development, these models have to be integrated to understand the system and its emerging behavior globally. It is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. Whereas the MDE community provides some extensive support for the structural composition of models and languages (\eg~\cite{kompose,epsilon}), in this thesis, we rather focus on the coordination~\cite{coordsignibib} of behavioral models/languages to provide simulation and/or verification capabilities for the whole system specification. 
+	\item At some point of development, these models have to be integrated to understand the system and its emerging behavior globally. It is necessary to specify how models and languages are related to each other, in both a structural and a behavioral way. The GEMOC initiative has addressed this problem by proposing to coordinate and disseminate the research results regarding the support of the coordinated use of various modeling languages that will lead to the concept of globalization of modeling languages, that is, the use of multiple modeling languages to support coordinated development of diverse aspects of a system. This thesis is part of GEMOC initiative. We focus on the coordination~\cite{coordsignibib} of behavioral models/languages to provide simulation and/or verification capabilities for the whole system specification. 
+	
 	
 % partial solution
 	\item Coordination Languages~\cite{coordsignibib} and Architecture Description Languages (ADLs)~\cite{frameadlsbib} provide dedicated languages to specify the coordination between particular behavioral models. This is usually done by system designers that apply some coordination patterns according to their own skills and know-how. To automate such a task, coordination frameworks~\cite{ptoleframebib,modhelxbib} have identified such a pattern and they have encoded it inside a tool, \eg Ptolemy~\cite{ptoleframebib}, Modhel'X~\cite{modhelxbib}. However, the semantics of the coordination is hidden thus limiting reasoning. Furthermore, they rely on a general purpose language to express the coordination thus limiting verification and validation of the coordinated system. Since the coordination pattern is encoded, they prevent any tunning of the pattern.   

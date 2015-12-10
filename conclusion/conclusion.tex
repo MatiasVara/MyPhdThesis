@@ -4,19 +4,26 @@
 \section{Overview}
 
 \begin{itemize}
+	
+	\item Currently, the developing of complex application involve the developement of heterogeneous behavioral models. 
+	
+	\item To get the emerging system behavior, the behavior of this models has to be coordinated. 
+	
+	\item In this thesis, we have addressed this problem by proposing to specify coordination patterns between languages. 
+	
+	\item Coordination patterns capture the systematic activity of a system designer that relies on his know-how to coordinate the behavior of models.
 
-	\item We have demonstrated how the complexity of the coordination of behavioral model can be managed by specifying the coordination at language level \ie by capturing coordination pattern between languages.
-	
-	\item Moreover, we have demonstrated that the coordination between heterogenenous models must be formal as have been done by adls and coordination languages. 
-	
-	\item By specifying the coordination at language level, we are able to capture coordination patterns that enables to automate coordination between models. 
-	
-	\item However, current approaches that captures coordination pattern are fixed and rely on a general purpose language. 
-	
-	
-	\item We have proposed a framework for coordination patterns approaches
-	
-	\item We have proposed \bcool 
+
+	\item We proposed a framework to capture the specification of coordination patterns. We have identified three builder elements to specify a coordination pattern:
+		\begin{itemize}
+			\item a language behavioral interface
+			\item a correspondence rule
+			\item a coordination rule
+		\end{itemize}
+	\item By relying on this framework, we compared current coordination frameworks and we proposed the structure of a language to specify coordination pattern, \bcool. 
+	  	
+	\item \bcool is dedicated language to specify coordination patterns between languages.
+	  	
 	
 	\item We have validated our approach by applying \bcool to define set of operators between tfsm and activity.  
 
