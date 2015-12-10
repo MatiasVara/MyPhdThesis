@@ -30,18 +30,14 @@
 \contentsline {section}{\numberline {4.5}Execution Semantics}{43}
 \contentsline {section}{\numberline {4.6}Implementation}{46}
 \contentsline {section}{\numberline {4.7}Evaluation}{50}
-\contentsline {subsection}{\numberline {4.7.1}Understandability and Adaptability}{50}
-\contentsline {subsection}{\numberline {4.7.2}Usability}{51}
-\contentsline {subsection}{\numberline {4.7.3}Analysis Capabilities}{51}
-\contentsline {subsection}{\numberline {4.7.4}Tooling Support}{51}
 \contentsline {section}{\numberline {4.8}Conclusion}{52}
-\contentsline {chapter}{\numberline {5}Validation}{53}
-\contentsline {section}{\numberline {5.1}Introduction}{53}
-\contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{53}
-\contentsline {section}{\numberline {5.3}Use of the Operators in a Surveillance Camera System}{58}
-\contentsline {section}{\numberline {5.4}Discussion}{61}
-\contentsline {section}{\numberline {5.5}Conclusion}{61}
-\contentsline {chapter}{\numberline {6}Conclusion}{63}
-\contentsline {section}{\numberline {6.1}Overview}{63}
-\contentsline {section}{\numberline {6.2}Future Work}{63}
-\contentsline {chapter}{Bibliography}{64}
+\contentsline {chapter}{\numberline {5}Validation}{54}
+\contentsline {section}{\numberline {5.1}Introduction}{54}
+\contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{54}
+\contentsline {section}{\numberline {5.3}Use of the Operators in a Surveillance Camera System}{59}
+\contentsline {section}{\numberline {5.4}Discussion}{62}
+\contentsline {section}{\numberline {5.5}Conclusion}{62}
+\contentsline {chapter}{\numberline {6}Conclusion}{64}
+\contentsline {section}{\numberline {6.1}Overview}{64}
+\contentsline {section}{\numberline {6.2}Future Work}{64}
+\contentsline {chapter}{Bibliography}{65}
