@@ -35,9 +35,9 @@
 \contentsline {section}{\numberline {5.1}Introduction}{54}
 \contentsline {section}{\numberline {5.2}Definition of Coordination Operators between the TFSM and Activity Language}{54}
 \contentsline {section}{\numberline {5.3}Use of the Operators in a Surveillance Camera System}{59}
-\contentsline {section}{\numberline {5.4}Discussion}{62}
+\contentsline {section}{\numberline {5.4}Discussion}{61}
 \contentsline {section}{\numberline {5.5}Conclusion}{62}
-\contentsline {chapter}{\numberline {6}Conclusion}{64}
-\contentsline {section}{\numberline {6.1}Overview}{64}
-\contentsline {section}{\numberline {6.2}Future Work}{65}
-\contentsline {chapter}{Bibliography}{65}
+\contentsline {chapter}{\numberline {6}Conclusion}{63}
+\contentsline {section}{\numberline {6.1}Overview}{63}
+\contentsline {section}{\numberline {6.2}Future Work}{64}
+\contentsline {chapter}{Bibliography}{64}

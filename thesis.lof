@@ -23,9 +23,9 @@
 \contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Coordinated Execution of the models of the Coffee Machine}}}{50}
 \contentsline {figure}{\numberline {4.14}{\ignorespaces State space representation of the coordinated model of the coffee machine, encoding the set of valid schedules}}{53}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{56}
-\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\emph {LoopFromStartToFinishNonPreemptive} event relation}}}{56}
-\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\emph {AtomicExec} event relation}}}{56}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces }}{57}
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {\emph {LoopFromStartToFinishNonPreemptive} event relation}}}{57}
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {\emph {AtomicExec} event relation}}}{57}
 \contentsline {figure}{\numberline {5.2}{\ignorespaces Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface todo: eliminate loops and add battery control}}{60}
 \contentsline {figure}{\numberline {5.3}{\ignorespaces Resulting timing output of the surveillance camera system}}{61}
 \addvspace {10\p@ }
