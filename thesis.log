@@ -1,15 +1,13 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.12)  11 DEC 2015 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  12 DEC 2015 20:43
 entering extended mode
- restricted \write18 enabled.
- %&-line parsing enabled.
 **thesis.tex
-(./thesis.tex
-LaTeX2e <2011/06/27>
-Babel <3.9h> and hyphenation patterns for 78 languages loaded.
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size12.clo
-File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(thesis.tex
+LaTeX2e <2015/01/01> patch level 2
+Babel <3.9m> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
+Document Class: report 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
+File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -24,22 +22,22 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
-Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -54,11 +52,12 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layouthoffset=\dimen109
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks15
+
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\xspace.sty"
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
-Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.sty"
 \lst@mode=\count91
 \lst@gtempboxa=\box26
 \lst@token=\toks16
@@ -71,63 +70,64 @@ Package: xspace 2009/10/20 v1.13 Space after command names (DPC,MH)
 \lst@newlines=\count95
 \lst@lineno=\count96
 \lst@maxwidth=\dimen114
- (./lstpatch.sty
+
+(lstpatch.sty
 
 ***
 *** This is a patch for listings 1.3, but you're using
-*** version 1.5b.
+*** version 1.6.
 ***
 *** Patch file not loaded.
 ***
 
-) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2013/08/26 1.5b (Carsten Heinz)
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 \c@lstnumber=\count97
 \lst@skipnumbers=\count98
 \lst@framebox=\box27
 )
-(/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
-File: listings.cfg 2013/08/26 1.5b listings configuration
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
-Package: listings 2013/08/26 1.5b (Carsten Heinz)
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
-Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
-Package color Info: Driver file: pdftex.def on input line 130.
+Package color Info: Driver file: pdftex.def on input line 142.
 
-(/usr/share/texlive/texmf-dist/tex/latex/pdftex-def/pdftex.def
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count99
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsmath.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amstext.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsgen.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks17
 \ex@=\dimen115
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsbsy.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen116
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsmath/amsopn.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count100
@@ -168,23 +168,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amssymb.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/stmaryrd.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\stmaryrd.sty"
 Package: stmaryrd 1994/03/03 St Mary's Road symbol package
 \symstmry=\mathgroup6
 LaTeX Font Info:    Overwriting symbol font `stmry' in version `bold'
 (Font)                  U/stmry/m/n --> U/stmry/b/n on input line 89.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/fancybox/fancybox.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\fancybox\fancybox.sty"
 Package: fancybox 2010/05/15 1.4
 
 Style option: `fancybox' v1.4 <2010/05/15> (tvz)
@@ -197,8 +197,8 @@ Style option: `fancybox' v1.4 <2010/05/15> (tvz)
 \EndVerbatimTokens=\toks25
 \Verbatim@Outfile=\write3
 \Verbatim@Infile=\read1
-) (/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.sty
-Package: subfigure 2002/03/15 v2.1.5 subfigure package
+) ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.sty"
+Package: subfigure 2002/07/30 v2.1.4 subfigure package
 \subfigtopskip=\skip46
 \subfigcapskip=\skip47
 \subfigcaptopadj=\dimen125
@@ -213,26 +213,26 @@ Package: subfigure 2002/03/15 v2.1.5 subfigure package
 ****************************************
 * Local config file subfigure.cfg used *
 ****************************************
-(/usr/share/texlive/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\subfigure\subfigure.cfg")
 \subfig@top=\skip50
 \subfig@bottom=\skip51
 )
-(/usr/share/texlive/texmf-dist/tex/latex/multirow/multirow.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
 \bigstrutjot=\dimen127
 )
-(/usr/share/texmf/tex/latex/xcolor/xcolor.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
 Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
 
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/color.cfg
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
 File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
 )
 Package xcolor Info: Driver file: pdftex.def on input line 225.
 
-(/usr/share/texlive/texmf-dist/tex/latex/colortbl/colortbl.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
 Package: colortbl 2012/02/13 v1.0a Color table columns (DPC)
 
-(/usr/share/texlive/texmf-dist/tex/latex/tools/array.sty
-Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
 \col@sep=\dimen128
 \extrarowheight=\dimen129
 \NC@list=\toks26
@@ -255,45 +255,45 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
 )
 \@input{thesis.preamble.aux}
-\openout2 = `thesis.preamble.aux'.
+(thesis.preamble.tex
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
-(./thesis.preamble.tex
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
-Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
-Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
-
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/graphics.cfg
-File: graphics.cfg 2010/04/23 v1.9 graphics configuration of TeX Live
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
-Package graphics Info: Driver file: pdftex.def on input line 91.
+Package graphics Info: Driver file: pdftex.def on input line 94.
 )
 \Gin@req@height=\dimen130
 \Gin@req@width=\dimen131
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/verbatim.sty
-Package: verbatim 2003/08/22 v1.5q LaTeX2e package for verbatim enhancements
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\verbatim.sty"
+Package: verbatim 2014/10/28 v1.5q LaTeX2e package for verbatim enhancements
 \every@verbatim=\toks28
 \verbatim@line=\toks29
 \verbatim@in@stream=\read2
 )
-(/usr/share/texlive/texmf-dist/tex/latex/base/latexsym.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\latexsym.sty"
 Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
 \symlasy=\mathgroup7
 LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
-(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 47.
-) (./mathchars.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/setspace/setspace.sty
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(mathchars.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\setspace\setspace.sty"
 Package: setspace 2011/12/19 v6.7a set line spacing
-) (./blocked.sty) (./uhead.sty) (./boxit.sty) (./icthesis.sty)
+)
+(blocked.sty) (uhead.sty) (boxit.sty) (icthesis.sty)
 \c@definition=\count117
 \c@theorem=\count118
 
-(/usr/share/texlive/texmf-dist/tex/latex/booktabs/booktabs.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen132
 \lightrulewidth=\dimen133
@@ -313,21 +313,21 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count122
 \@thisrulewidth=\dimen144
 )
-(/usr/share/texlive/texmf-dist/tex/latex/tools/afterpage.sty
-Package: afterpage 1995/10/27 v1.08 After-Page Package (DPC)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\tools\afterpage.sty"
+Package: afterpage 2014/10/28 v1.08 After-Page Package (DPC)
 \AP@output=\toks30
 \AP@partial=\box32
 \AP@footins=\box33
 ))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\pdflscape.sty"
 Package: pdflscape 2008/08/11 v0.10 Display of landscape pages in PDF (HO)
 
-(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\lscape.sty"
 Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 80.
 )
-(/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\enumitem\enumitem.sty"
 Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \labelindent=\skip55
 \enit@outerparindent=\dimen145
@@ -335,8 +335,8 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box34
 \enitdp@description=\count123
 )
-(./keywordstyle.sty)
-(/usr/share/texlive/texmf-dist/tex/latex/titlesec/titlesec.sty
+(keywordstyle.sty)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\titlesec\titlesec.sty"
 Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \ttl@box=\box35
 \beforetitleunit=\skip56
@@ -347,13 +347,12 @@ Package: titlesec 2011/12/15 v2.10.0 Sectioning titles
 \titlewidth=\dimen148
 \titlewidthlast=\dimen149
 \titlewidthfirst=\dimen150
-) (./thesis.aux
+)
+(thesis.aux
 
 LaTeX Warning: Label `fig:camerasystem' multiply defined.
 
 )
-\openout1 = `thesis.aux'.
-
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 22.
 LaTeX Font Info:    ... okay on input line 22.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 22.
@@ -402,7 +401,7 @@ LaTeX Font Info:    ... okay on input line 22.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 \c@lstlisting=\count124
-(/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count125
 \scratchdimen=\dimen151
@@ -415,50 +414,7 @@ LaTeX Font Info:    ... okay on input line 22.
 \MPnumerator=\count129
 \makeMPintoPDFobject=\count130
 \everyMPtoPDFconversion=\toks34
-) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
-Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
 )
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
-Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
-Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
-
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
-Package: grfext 2010/08/19 v1.1 Manage graphics extensions (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
-Package: kvdefinekeys 2011/04/07 v1.3 Define keys (HO)
-))
-(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
-Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
-Package: kvsetkeys 2012/04/25 v1.16 Key value parser (HO)
-
-(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
-Package: etexcmds 2011/02/16 v1.5 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 452.
-
-(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
-e
-))
 Missing character: There is no ‚ in font cmr17!
 Missing character: There is no Ä in font cmr17!
 Missing character: There is no ô in font cmr17!
@@ -470,50 +426,59 @@ Overfull \vbox (82.7456pt too high) detected at line 38
 
 
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}] [2
+{C:/Users/Matias/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}] [2
 
 ]
-(./abstract/abstract.tex
+(abstract/abstract.tex
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/omscmr.fd
-File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
 )
-(./acknowledgements/acknowledgements.tex [1] [2
+(acknowledgements/acknowledgements.tex [1] [2
 
-]) (./dedication/dedication.tex
+]) (dedication/dedication.tex
 [3
 
 ] [4
 
-]) (./quotes/quotes.tex [5
+]
+Underfull \hbox (badness 10000) in paragraph at lines 10--11
+
+ []
+
+) (quotes/quotes.tex [5
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 6--9
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 6--8
 
  []
 
 ) [6
 
-] (./thesis.toc
+] (thesis.toc
 LaTeX Font Info:    Try loading font information for U+msa on input line 5.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 5.
-
-(/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Try loading font information for U+stmry on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/stmaryrd/Ustmry.fd)
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\stmaryrd\ustmry.fd")
 LaTeX Font Info:    Try loading font information for U+lasy on input line 5.
 
-(/usr/share/texlive/texmf-dist/tex/latex/base/ulasy.fd
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ulasy.fd"
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 Underfull \vbox (badness 1072) has occurred while \output is active []
@@ -528,41 +493,35 @@ LaTeX Font Warning: Font shape `OT1/cmr/bx/sc' undefined
 
 )
 \tf@toc=\write4
-\openout4 = `thesis.toc'.
-
- [8] (./thesis.lot)
+ [8] (thesis.lot)
 \tf@lot=\write5
-\openout5 = `thesis.lot'.
-
  [9
 
 
 ] [10
 
-] (./thesis.lof
+] (thesis.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [11
 
 ])
 \tf@lof=\write6
-\openout6 = `thesis.lof'.
 
-
-[12] (./introduction/introduction.tex
+[12] (introduction/introduction.tex
 Chapter 1.
 [1
 
 
 ]
-Overfull \hbox (1.46759pt too wide) in paragraph at lines 21--22
+Overfull \hbox (1.46759pt too wide) in paragraph at lines 25--26
 []\OT1/cmr/m/n/12 Coordination Lan-guages [[]] and Ar-chi-tec-ture De-scrip-tio
 n Lan-guages (ADLs) [[]]
  []
 
-[2]) (./background/background.tex [3]
+[2]) (background/background.tex [3]
 Chapter 2.
-(./background/intro.tex
+(background/intro.tex
 Missing character: There is no ‚ in font cmti12!
 Missing character: There is no Ä in font cmti12!
 Missing character: There is no ù in font cmti12!
@@ -572,7 +531,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [4
 
 ])
-(./background/composition.tex
+(background/composition.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [5]
@@ -586,19 +545,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 LaTeX Warning: Citation `?' on page 10 undefined on input line 45.
 
-) (./background/coordination.tex
+) (background/coordination.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [10]
 [11] [12] [13]
-<background/figs/wrightspec.pdf, id=98, 624.3325pt x 500.87125pt>
+<background/figs/wrightspec.pdf, id=97, 624.3325pt x 500.87125pt>
 File: background/figs/wrightspec.pdf Graphic file (type pdf)
 
 <use background/figs/wrightspec.pdf>
 Package pdftex.def Info: background/figs/wrightspec.pdf used on input line 48.
 (pdftex.def)             Requested size: 241.84843pt x 194.01682pt.
  [14 <./background/figs/wrightspec.pdf>]
-<background/figs/diNatale.pdf, id=118, 592.2125pt x 373.395pt>
+<background/figs/diNatale.pdf, id=117, 592.2125pt x 373.395pt>
 File: background/figs/diNatale.pdf Graphic file (type pdf)
 
 <use background/figs/diNatale.pdf>
@@ -611,7 +570,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [16]
-<background/figs/ptolemyfig.pdf, id=148, 504.88625pt x 370.38374pt>
+<background/figs/ptolemyfig.pdf, id=147, 504.88625pt x 370.38374pt>
 File: background/figs/ptolemyfig.pdf Graphic file (type pdf)
 
 <use background/figs/ptolemyfig.pdf>
@@ -630,19 +589,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18])
-(./background/conclu.tex [19]
+(background/conclu.tex [19]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
-<background/figs/bcoolapp.pdf, id=186, 527.9725pt x 508.90125pt>
+<background/figs/bcoolapp.pdf, id=184, 527.9725pt x 508.90125pt>
 File: background/figs/bcoolapp.pdf Graphic file (type pdf)
 
 <use background/figs/bcoolapp.pdf>
 Package pdftex.def Info: background/figs/bcoolapp.pdf used on input line 20.
 (pdftex.def)             Requested size: 338.58632pt x 326.35573pt.
-)) (./framework/framework.tex [21 <./background/figs/bcoolapp.pdf>]
+)) (framework/framework.tex [21 <./background/figs/bcoolapp.pdf>]
 Chapter 3.
-(./framework/intro.tex
+(framework/intro.tex
 Overfull \hbox (6.70502pt too wide) in paragraph at lines 4--7
 []\OT1/cmr/m/n/12 In the lit-er-a-ture, au-thors pro-posed frame-works for ADLs
  [[]], Co-or-di-na-tion Lan-guages [[]]
@@ -654,7 +613,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [22
 
 ])
-(./framework/interface.tex
+(framework/interface.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [23]
@@ -664,30 +623,30 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [25])
-(./framework/correspondencerule.tex
+(framework/correspondencerule.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [26])
-(./framework/coordinationrule.tex [27] [28]) (./framework/conclu.tex
+(framework/coordinationrule.tex [27] [28]) (framework/conclu.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]))
-(./bcool/bcool.tex [30]
+(bcool/bcool.tex [30]
 Chapter 4.
-(./bcool/intro.tex
+(bcool/intro.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [31
 
 ]
-<bcool/figs/process.pdf, id=276, 505.89pt x 343.2825pt>
+<bcool/figs/process.pdf, id=274, 505.89pt x 343.2825pt>
 File: bcool/figs/process.pdf Graphic file (type pdf)
 
 <use bcool/figs/process.pdf>
 Package pdftex.def Info: bcool/figs/process.pdf used on input line 22.
 (pdftex.def)             Requested size: 290.22107pt x 196.94066pt.
-) (./bcool/runningexample.tex [32 <./bcool/figs/process.pdf>] <bcool/figs/tfsmm
-m.jpg, id=457, 883.04906pt x 1125.45468pt>
+) (bcool/runningexample.tex [32 <./bcool/figs/process.pdf>] <bcool/figs/tfsmmm.
+jpg, id=454, 883.04906pt x 1125.45468pt>
 File: bcool/figs/tfsmmm.jpg Graphic file (type jpg)
 
 <use bcool/figs/tfsmmm.jpg>
@@ -698,7 +657,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [33]
 [34 <./bcool/figs/tfsmmm.jpg>]
-<bcool/figs/admm.jpg, id=466, 817.55438pt x 965.85844pt>
+<bcool/figs/admm.jpg, id=463, 817.55438pt x 965.85844pt>
 File: bcool/figs/admm.jpg Graphic file (type jpg)
 
 <use bcool/figs/admm.jpg>
@@ -709,21 +668,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [35]
 [36 <./bcool/figs/admm.jpg>]
-<bcool/figs/tfsmandadcoord.pdf, id=474, 567.11874pt x 259.97125pt>
+<bcool/figs/tfsmandadcoord.pdf, id=471, 567.11874pt x 259.97125pt>
 File: bcool/figs/tfsmandadcoord.pdf Graphic file (type pdf)
 
 <use bcool/figs/tfsmandadcoord.pdf>
 Package pdftex.def Info: bcool/figs/tfsmandadcoord.pdf used on input line 65.
 (pdftex.def)             Requested size: 338.58632pt x 155.21439pt.
-) (./bcool/bcoolas.tex
-<bcool/figs/BcoolMM.pdf, id=475, 507.8975pt x 325.215pt>
+) (bcool/bcoolas.tex
+<bcool/figs/BcoolMM.pdf, id=472, 507.8975pt x 325.215pt>
 File: bcool/figs/BcoolMM.pdf Graphic file (type pdf)
 
 <use bcool/figs/BcoolMM.pdf>
 Package pdftex.def Info: bcool/figs/BcoolMM.pdf used on input line 4.
 (pdftex.def)             Requested size: 386.95897pt x 247.78625pt.
  [37 <./bcool/figs/tfsmandadcoord.pdf>] [38 <./bcool/figs/BcoolMM.pdf>]
-<bcool/figs/runningrdv.pdf, id=632, 488.82625pt x 69.25874pt>
+<bcool/figs/runningrdv.pdf, id=628, 488.82625pt x 69.25874pt>
 File: bcool/figs/runningrdv.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningrdv.pdf>
@@ -738,21 +697,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [39]
 [40 <./bcool/figs/runningrdv.pdf>]
-<bcool/figs/runningeventvar.pdf, id=648, 607.87097pt x 136.51pt>
+<bcool/figs/runningeventvar.pdf, id=644, 607.87097pt x 136.51pt>
 File: bcool/figs/runningeventvar.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningeventvar.pdf>
 Package pdftex.def Info: bcool/figs/runningeventvar.pdf used on input line 71.
 (pdftex.def)             Requested size: 386.95897pt x 86.90158pt.
-) (./bcool/bcoollib.tex
-<bcool/figs/moccmlmm.pdf, id=649, 1250.6725pt x 251.94125pt>
+) (bcool/bcoollib.tex
+<bcool/figs/moccmlmm.pdf, id=645, 1250.6725pt x 251.94125pt>
 File: bcool/figs/moccmlmm.pdf Graphic file (type pdf)
 
 <use bcool/figs/moccmlmm.pdf>
 Package pdftex.def Info: bcool/figs/moccmlmm.pdf used on input line 6.
 (pdftex.def)             Requested size: 386.95897pt x 77.95105pt.
 
-<bcool/figs/moccmllib.jpg, id=650, 589.20125pt x 466.74374pt>
+<bcool/figs/moccmllib.jpg, id=646, 589.20125pt x 466.74374pt>
 File: bcool/figs/moccmllib.jpg Graphic file (type jpg)
 
 <use bcool/figs/moccmllib.jpg>
@@ -760,17 +719,17 @@ Package pdftex.def Info: bcool/figs/moccmllib.jpg used on input line 15.
 (pdftex.def)             Requested size: 338.58632pt x 268.21889pt.
  [41 <./bcool/figs/runningeventvar.pdf> <./bcool/figs/moccmlmm.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./bcool/figs/moccmlmm.pdf): PDF inclusi
-on: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./bcool/figs/moccmlmm.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
 >] [42 <./bcool/figs/moccmllib.jpg>]
-<bcool/figs/libvcd.pdf, id=670, 647.21799pt x 110.011pt>
+<bcool/figs/libvcd.pdf, id=666, 647.21799pt x 110.011pt>
 File: bcool/figs/libvcd.pdf Graphic file (type pdf)
 
 <use bcool/figs/libvcd.pdf>
 Package pdftex.def Info: bcool/figs/libvcd.pdf used on input line 37.
 (pdftex.def)             Requested size: 435.32422pt x 73.99738pt.
-) (./bcool/bcoolsemantics.tex
-<bcool/figs/semantics.pdf, id=671, 699.61375pt x 515.9275pt>
+) (bcool/bcoolsemantics.tex
+<bcool/figs/semantics.pdf, id=667, 699.61375pt x 515.9275pt>
 File: bcool/figs/semantics.pdf Graphic file (type pdf)
 
 <use bcool/figs/semantics.pdf>
@@ -790,8 +749,8 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [45])
-(./bcool/langworkbench.tex [46]
-<bcool/figs/bcooltechnos.pdf, id=720, 722.7pt x 628.3475pt>
+(bcool/langworkbench.tex [46]
+<bcool/figs/bcooltechnos.pdf, id=715, 722.7pt x 628.3475pt>
 File: bcool/figs/bcooltechnos.pdf Graphic file (type pdf)
 
 <use bcool/figs/bcooltechnos.pdf>
@@ -801,14 +760,14 @@ Package pdftex.def Info: bcool/figs/bcooltechnos.pdf used on input line 8.
 
 LaTeX Warning: Reference `?' on page 49 undefined on input line 36.
 
-<bcool/figs/execenginemenu.pdf, id=765, 979.66pt x 574.145pt>
+<bcool/figs/execenginemenu.pdf, id=760, 979.66pt x 574.145pt>
 File: bcool/figs/execenginemenu.pdf Graphic file (type pdf)
 
 <use bcool/figs/execenginemenu.pdf>
 Package pdftex.def Info: bcool/figs/execenginemenu.pdf used on input line 43.
 (pdftex.def)             Requested size: 241.84843pt x 141.73119pt.
 
-<bcool/figs/runningworkbench.pdf, id=766, 1542.76375pt x 849.1725pt>
+<bcool/figs/runningworkbench.pdf, id=761, 1542.76375pt x 849.1725pt>
 File: bcool/figs/runningworkbench.pdf Graphic file (type pdf)
 
 <use bcool/figs/runningworkbench.pdf>
@@ -819,7 +778,7 @@ Package pdftex.def Info: bcool/figs/runningworkbench.pdf used on input line 47.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<bcool/figs/statespace.pdf, id=767, 6442.0675pt x 8991.5925pt>
+<bcool/figs/statespace.pdf, id=762, 6442.0675pt x 8991.5925pt>
 File: bcool/figs/statespace.pdf Graphic file (type pdf)
 
 <use bcool/figs/statespace.pdf>
@@ -829,28 +788,28 @@ Package pdftex.def Info: bcool/figs/statespace.pdf used on input line 58.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-) (./bcool/evaluation.tex
+) (bcool/evaluation.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [49]
 [50 <./bcool/figs/execenginemenu.pdf> <./bcool/figs/runningworkbench.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./bcool/figs/runningworkbench.pdf): PDF
- inclusion: multiple pdfs with page group included in a single page
+pdfTeX warning: pdflatex.exe (file ./bcool/figs/runningworkbench.pdf): PDF incl
+usion: multiple pdfs with page group included in a single page
 >])
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [51]
-(./bcool/conclu.tex)) (./examples/examples.tex [52] [53 <./bcool/figs/statespac
-e.pdf>]
+(bcool/conclu.tex)) (examples/examples.tex [52] [53 <./bcool/figs/statespace.pd
+f>]
 Chapter 5.
-(./examples/intro.tex) (./examples/operators.tex
+(examples/intro.tex) (examples/operators.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [54
 
 ]
-<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=820, 611.88597pt x 39
+<examples/figs/LoopFromStartToFinishNonPreemptive.pdf, id=815, 611.88597pt x 39
 1.864pt>
 File: examples/figs/LoopFromStartToFinishNonPreemptive.pdf Graphic file (type p
 df)
@@ -859,7 +818,7 @@ Package pdftex.def Info: examples/figs/LoopFromStartToFinishNonPreemptive.pdf u
 sed on input line 15.
 (pdftex.def)             Requested size: 338.58632pt x 216.83534pt.
 
-<examples/figs/AtomicExec.pdf, id=821, 534.79799pt x 344.48701pt>
+<examples/figs/AtomicExec.pdf, id=816, 534.79799pt x 344.48701pt>
 File: examples/figs/AtomicExec.pdf Graphic file (type pdf)
 
 <use examples/figs/AtomicExec.pdf>
@@ -875,13 +834,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 [57 <./examples/figs/LoopFromStartToFinishNonPreemptive.pdf> <./examples/figs/A
 tomicExec.pdf
 
-pdfTeX warning: /usr/bin/pdflatex (file ./examples/figs/AtomicExec.pdf): PDF in
-clusion: multiple pdfs with page group included in a single page
->]) (./examples/useofoperators.tex
+pdfTeX warning: pdflatex.exe (file ./examples/figs/AtomicExec.pdf): PDF inclusi
+on: multiple pdfs with page group included in a single page
+>]) (examples/useofoperators.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [58]
-<examples/figs/picmodels.pdf, id=842, 927.465pt x 640.3925pt>
+<examples/figs/picmodels.pdf, id=837, 927.465pt x 640.3925pt>
 File: examples/figs/picmodels.pdf Graphic file (type pdf)
 
 <use examples/figs/picmodels.pdf>
@@ -892,21 +851,21 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [59]
 [60 <./examples/figs/picmodels.pdf>]
-<examples/figs/vcdcamera.pdf, id=875, 827.09pt x 214.8025pt>
+<examples/figs/vcdcamera.pdf, id=869, 827.09pt x 214.8025pt>
 File: examples/figs/vcdcamera.pdf Graphic file (type pdf)
 
 <use examples/figs/vcdcamera.pdf>
 Package pdftex.def Info: examples/figs/vcdcamera.pdf used on input line 32.
 (pdftex.def)             Requested size: 483.69687pt x 125.62126pt.
-) (./examples/discussion.tex
+) (examples/discussion.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [61 <./examples/figs/vcdcamera.pdf>]) (./examples/conclussion.tex))
-(./conclusion/conclusion.tex [62]
+ [61 <./examples/figs/vcdcamera.pdf>]) (examples/conclussion.tex))
+(conclusion/conclusion.tex [62]
 Chapter 6.
 [63
 
-]) (./thesis.bbl [64]
+]) (thesis.bbl [64]
 Missing character: There is no √ in font cmr12!
 Missing character: There is no © in font cmr12!
 Missing character: There is no √ in font cmr12!
@@ -932,7 +891,7 @@ Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
 Missing character: There is no √ in font cmr12!
 Missing character: There is no ∂ in font cmr12!
- [70]) [71] (./thesis.aux)
+ [70]) [71] (thesis.aux)
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
@@ -944,35 +903,35 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6651 strings out of 493304
- 93147 string characters out of 6139871
- 231200 words of memory out of 5000000
- 9805 multiletter control sequences out of 15000+600000
- 17735 words of font info for 72 fonts, out of 8000000 for 9000
- 957 hyphenation exceptions out of 8191
- 41i,10n,40p,2976b,1064s stack positions out of 5000i,500n,10000p,200000b,80000s
-</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></us
-r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb></usr/share
-/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></usr/share/texl
-ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb></usr/share/texlive/te
-xmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb></usr/share/texlive/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts
-/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist/fonts/type1/
-public/amsfonts/cm/cmr17.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/
-amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
-/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsl
-12.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb
-></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy6.pfb></usr/
-share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb></usr/share/t
-exlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb></usr/share/texlive
-/texmf-dist/fonts/type1/public/amsfonts/cm/cmti12.pfb></usr/share/texlive/texmf
--dist/fonts/type1/public/amsfonts/cm/cmti8.pfb></usr/share/texlive/texmf-dist/f
-onts/type1/public/amsfonts/cm/cmtt12.pfb></usr/share/texlive/texmf-dist/fonts/t
-ype1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (85 pages, 10856863 bytes).
+ 6305 strings out of 493673
+ 87434 string characters out of 3141527
+ 221947 words of memory out of 3000000
+ 9374 multiletter control sequences out of 15000+200000
+ 17735 words of font info for 72 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 41i,10n,40p,2976b,1064s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb>
+<C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx8.pfb><C:
+/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/
+Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Pr
+ogram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Progr
+am Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Fil
+es (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files 
+(x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files (x86
+)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86)/Mi
+KTeX 2.9/fonts/type1/public/amsfonts/cm/cmsl12.pfb><C:/Program Files (x86)/MiKT
+eX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x86)/MiKTeX
+ 2.9/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files (x86)/MiKTeX 2.
+9/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files (x86)/MiKTeX 2.9/fon
+ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
+/type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
+pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
+1/public/amsfonts/cm/cmtt8.pfb>
+Output written on thesis.pdf (85 pages, 10972161 bytes).
 PDF statistics:
- 989 PDF objects out of 1000 (max. 8388607)
- 616 compressed objects within 7 object streams
+ 981 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  116 words of extra memory for PDF output out of 10000 (max. 10000000)
 
