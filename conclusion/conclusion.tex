@@ -65,10 +65,22 @@
 
 	
 \end{itemize}
-\section{Future Work}
+\section{Future Works}
+
+We list the propositions we consider essential to the continuity of this work:
+
 \begin{itemize}
-	\item metalanguage of correspondences: a bcool specification should specify a metamodel of correspondence. Then, a model conformed to that metamodel must be an input model for the transformation. The correspondence matching should refers to EObjects used as connectors. 
-	\item data
-	\item properties 
-	\item coordination patterns like map reduce? 
+	\item \textbf{Extending \bcool to support the coordination of data:} 
+	\begin{itemize}
+		\item System designers build coordination models to specify how models interact. This interaction can rely on events (\ie control-driven coordination) but also on data (\ie data-driven coordination). Data-driven coordination involves mechanism to send and receive data between models. To support the specification of coordination pattern that involve data between models, we have to extend \bcool to support data driven coordination.   
+	\end{itemize}
+	
+	\item \textbf{Generalizing the specification of correspondences by using a dedicated language:}
+		\begin{itemize}
+			\item In \bcool, the correspondence matching can capture implicit and explicit correspondences between elements of models. In particular, explicit correspondences need to modify the metamodel of the languages. To avoid this, there is a need of a language to specify correspondence between elements without modifying the metamodel itself. Then, a \bcool specification could rely on such a metamodel of correspondence to select the elements on which apply the coordination rule. 
+		\end{itemize}
+			\item \textbf{Extending \bcool to generate a model of coordination in other language:} 
+			\begin{itemize}
+				\item Currently in \bcool, we rely on \ccsl to express the coordination. However, we could rely on other coordination language like Rapide thus taking advantages of the tooling of other environments.        
+			\end{itemize}
 \end{itemize}

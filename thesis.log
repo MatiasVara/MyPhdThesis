@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  12 DEC 2015 20:43
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2015.9.30)  13 DEC 2015 22:35
 entering extended mode
 **thesis.tex
 (thesis.tex
@@ -513,13 +513,7 @@ Chapter 1.
 [1
 
 
-]
-Overfull \hbox (1.46759pt too wide) in paragraph at lines 25--26
-[]\OT1/cmr/m/n/12 Coordination Lan-guages [[]] and Ar-chi-tec-ture De-scrip-tio
-n Lan-guages (ADLs) [[]]
- []
-
-[2]) (background/background.tex [3]
+] [2]) (background/background.tex [3]
 Chapter 2.
 (background/intro.tex
 Missing character: There is no â in font cmti12!
@@ -903,10 +897,10 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 6305 strings out of 493673
- 87434 string characters out of 3141527
+ 6307 strings out of 493673
+ 87458 string characters out of 3141527
  221947 words of memory out of 3000000
- 9374 multiletter control sequences out of 15000+200000
+ 9376 multiletter control sequences out of 15000+200000
  17735 words of font info for 72 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  41i,10n,40p,2976b,1064s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -929,7 +923,7 @@ ts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts
 /type1/public/amsfonts/cm/cmti8.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
 pe1/public/amsfonts/cm/cmtt12.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type
 1/public/amsfonts/cm/cmtt8.pfb>
-Output written on thesis.pdf (85 pages, 10972161 bytes).
+Output written on thesis.pdf (85 pages, 10973565 bytes).
 PDF statistics:
  981 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
