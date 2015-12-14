@@ -25,7 +25,11 @@
 	\item Currently, Coordination Languages~\cite{coordsignibib} and Architecture Description Languages (ADLs)~\cite{frameadlsbib} provide dedicated languages to specify the coordination between particular behavioral models. This is usually done by system designers that apply some coordination patterns according to their own skills and know-how. However, in heterogeneous systems, the manual coordination of models can become tedious and error prone. To automated this task, Coordination frameworks~\cite{ptoleframebib,modhelxbib} have encoded a coordination pattern inside a tool. These approaches, however, hide the semantics of the coordination. Moreover, they rely on a general purpose language (GPL) to express the coordination. As a result, the reasoning about how a system is coordinated remains very limited.  
 	
 % contribution
-\item In this thesis, we deal with the coordination of heterogeneous behavioral models by leveraging on the system designer's skills. We propose a dedicated language named \bcool (standing as Behavioral Coordination Operator Language) that allows for capturing coordination patterns for a given set of DSMLs. These patterns are captured between languages, and then used to derive a coordination model automatically for models conforming to the targeted DSMLs. The coordination at the language level relies on a so-called \emph{language behavioral interface}. This interface exposes an abstraction of the language behavioral semantics in terms of Events. Thus, an integrator use \bcool to define operators to specify how events from different language behavioral interfaces interact. These operators are defined at language level but they are applied between models to coordinate their behavior. This results in a model of coordination in \ccsl, a declarative language that describes causal and temporal relationships between events. By relying on \ccsl, we provide verification and validation of the coordinated system.    
+\item In this thesis, we deal with the coordination of heterogeneous behavioral models by leveraging on the system designer's skills. We propose a dedicated language named \bcool (standing as Behavioral Coordination Operator Language) that allows for capturing coordination patterns for a given set of DSMLs. These patterns are captured between languages, and then used to derive a coordination model automatically for models conforming to the targeted DSMLs. The coordination at the language level relies on a so-called \emph{language behavioral interface}. This interface exposes an abstraction of the language behavioral semantics in terms of Events. Thus, an integrator uses \bcool to define operators to specify how events from different language behavioral interfaces interact. These operators are defined at language level but they are applied between models to coordinate their behavior. This results in a model of coordination in \ccsl, a declarative language that describes causal and temporal relationships between events. By relying on \ccsl, we provide verification and validation of the coordinated system.    
+
+\item \todo{Implementation into the gemoc studio}
+ 
+\item \todo{Validation}
 
 % outline	 		
 \item The content of this thesis is organized  in six chapters. 
@@ -36,7 +40,7 @@
 
 \item In Chapter~\ref{ch:bcool}, we elaborate on our approach by presenting \bcool. We introduce a running example: the heterogeneous model of a coffee machine. Then, we use this example all through the chapter to illustrate the syntax and semantics of \bcool. We present the current implementation in the GEMOC studio by executing and validating the coffee machine models. 
 
-\item Chapter~\ref{ch:examples} validates our approach by using as use case the heterogeneous model of a surveillance video system.
+\item To validate \bcool, we present in Chapter~\ref{ch:examples} the coordination of the heterogeneous model of a surveillance video system.  
 
 \item Finally, we provide the conclusion of this work, highlighting its main contributions and we give some future perspectives in Chapter~\ref{ch:conclusions}.
 
