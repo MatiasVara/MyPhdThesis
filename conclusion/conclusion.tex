@@ -5,43 +5,46 @@
 
 \begin{itemize}
 		
-	\item In this thesis, we have addressed the problem of the coordination of heterogeneous behavioral models by proposing \bcool, a dedicated language to capture the specification of coordination patterns between languages. 
+	\item In this thesis, we have addressed the problem of the coordination of heterogeneous behavioral models by proposing \bcool, a dedicated language to capture the specification of coordination patterns between languages. By using \bcool, we reify the coordination at language level.
 	
-	
-	\item To build \bcool, we have proposed a framework for coordination pattern specification. \bcool is a particular implementation of such a framework.
-	
-	\item In \bcool, we have proposed to rely on a language behavioral interface made of event types, \ie \dse. These event types act as coordination points on the language behavioral semantics. 
-	
-	\item We have proposed to specify coordination patterns by using operators. Operators define a correspondence matching that selects instances of \dse, and a coordination rule that defines how the selected instances of \dse must be coordinated.  
+	\item To build \bcool, we have proposed a framework for coordination pattern approaches. We have proposed a language behavioral interface made of event types, \ie \dse. These event types act as coordination points on the language behavioral semantics. Then, we have proposed to specify coordination patterns by using operators. Operators define a correspondence matching that selects instances of \dse and a coordination rule that defines how the selected instances of \dse must be coordinated. Using \bcool, the know-how of an integrator is made explicit, stored and shared in libraries.
 
-	\item We have shown that the specification at language level allows us to generate a model of coordination in \ccsl when it is applied between particular models. 
+	\item We have shown that the specification at language level allows us to generate a model of coordination when it is applied between particular models. Furthermore, by relying on \ccsl to express the coordination, we can execute and verify of the coordinated system.   
 	
-	\item Furthermore, by relying on a formal language to express the coordination, we can provide execution and verification of the coordinated system.   
+	\item We have shown the current implementation of \bcool into the GEMOC studio. The environment enables an integrator to develop operators between languages. These operators can then be used by a system designer to automate the coordination of models. 
 	
-	\item We haven shown the current implementation of \bcool into the GEMOC studio. The environment enables an integrator to develop operators between languages that a system designer can use to coordinate their models. We have validated our approach by two examples: the coffee machine and the surveillance camera system. We have shown the use of the studio to develop operators, to coordinate models and to execute and validate the coordinated system. 
+	\item We have validated our approach by presenting two examples: the coffee machine and the surveillance camera system. We have used the studio to develop operators and then coordinate the models. The workbench has provided us simulation and verification of the examples. 
 	  
 
-	
 \end{itemize}
 \section{Future Works}
-
-We list the propositions we consider essential to the continuity of this work:
+\bcool provides some perspectives to extend and to improve the work carried out in this thesis. We list the propositions we consider essential to the continuity of this work:
 
 \begin{itemize}
 	\item \textbf{Extending \bcool to support the coordination of data:} 
 	\begin{itemize}
-		\item System designers build coordination models to specify how models interact. This interaction can rely on events (\ie control-driven coordination) but also on data (\ie data-driven coordination). Data-driven coordination specifies interaction between models that relies on data, \eg send and receive mechanisms. To support the specification of coordination pattern that involve data between models, we have to extend \bcool to support data driven coordination.
-	
+		\item System designers build coordination models to specify how models interact. With \bcool, we have managed interactions that rely on events, \ie control-driven coordination. However, the interaction between models can also rely on data, \ie data-driven coordination. In this case, data from a model is carried to data to another model. To support the specification of coordination patterns that involve data between models, we have to extend \bcool to support data driven coordination. First experiments show that we have to add a way to specify when a value of a variable in a model is carried to a new value in variable in another model. This experiments arise several questions like when the value of two variables must be synchronized, \eg immediately, after the second value. Other question is if the value must be changed or modify before to carry to the other variable. The supporting of data driven coordination will enable the specification of much more rich coordination patterns. 	 
 	\end{itemize}
 	
 	\item \textbf{Generalizing the specification of correspondences by using a dedicated language:}
 		\begin{itemize}
-			\item In \bcool, the correspondence matching can capture implicit and explicit correspondences between elements of models. In particular, explicit correspondences need to modify the metamodel of the languages. To avoid this, there is a need of a language to specify correspondence between elements without modifying the metamodels of the languages. Then, a \bcool specification could rely on such a metamodel of correspondence to select the elements on which apply the coordination rule. 
-			\item To implement this, it is necessary to modify the current metamodel of \bcool by adding a reference in the correspondence matching to an EObject. Then, such a reference could be use to refer to connectors. 
+			\item In \bcool, the correspondence matching can capture implicit and explicit correspondences between elements of models. So far, the explicit correspondences need to modify the metamodel of the languages to refer concepts from different languages. To avoid such modification, we need a language to specify correspondences between concepts from languages without modifying the metamodels. 
+			
+			\item Such a work is similar to the concept of user-type connectors in which a system designer can define a new type of connector and the roles on it applies. By following this idea, a metalanguage for correspondence should enable the definition of connector types between concepts of the language syntax.  
+			
+			\item Then, in a \bcool specification, the correspondence matching could rely on such a explicit correspondences to select the elements on which apply the coordination rule.
+		 
+			 \item This is interesting in the case of allocation. In such a case, there is a model of the hardware, a model of the application and a mapping models. A mapping model is often generated by using some heuristic. 
+			 
+			 \item These models can be the input for a \bcool operator to generate the coordination between the hardware and the platform model.  
 		\end{itemize}
 			\item \textbf{Extending \bcool to generate a model of coordination in other language:} 
 			\begin{itemize}
 				\item \bcool relies on \ccsl to express the coordination. However, we could rely on other coordination language like Rapide to take advantages of the tooling from other environments.
-				\item However, it is necessary to investigate which coordination could be used.         
+				
+				\item However, it is necessary to investigate which coordination could be used.
+				
+				\item We need to evaluate if the current event relation can be translated to another coordination language.
+				         
 			\end{itemize}
 \end{itemize}
