@@ -1,5 +1,6 @@
 \section{Composition Approaches}
-Composition approaches propose to compose models/languages into a new model/language. In this section, we categorize composition approaches into approaches that compose models and approaches that compose languages, in both structural and behavioral way.  We name the former \emph{Model Composition Approaches} and the latter \emph{Languages Composition Approaches}. In the following, we first present Model Composition Approaches, and then, we continue with Language Composition Approaches. 
+Composition approaches propose to compose models/languages into a new model/language. We categorize these approaches into approaches that compose models and approaches that compose languages, in both structural and behavioral way. In the following, we first present \emph{Model Composition Approaches}, and then, we continue with \emph{Language Composition Approaches}.
+ 
 \subsection{Model Composition Approaches}
 Model composition has as goal to get a resulting model that is built by composing one or more models of the same language or from different languages. The resulting model can conform to input model languages, or to a different language (see Figure~\ref{fig:modelcompo}).
 
@@ -31,7 +32,7 @@ In some approaches, the weaving of aspects considers the behavioral semantics of
 In this subsection, we have presented approaches that automated the composition between models by relying either on a matching and merging operator or a weaving of aspects. Most of these approaches focus on the syntax of languages. Some of them have identified that, in some cases, is necessary information about the behavioral semantics of the languages to compose the models. These approaches support the heterogeneous modeling of a system by providing composition capabilities. In this context, they seem suitable for development of a single system by using different DSMLs. In the next subsection, we present approaches that propose to compose languages into a new language.
 
 \subsection{Language Composition Approaches}
-Language composition approaches provide techniques to compose languages into a new language (see Figure~\ref{fig:langcompo}). In this subsection, we present approaches that compose the syntax of languages into a new syntax~\cite{metamodelcompo}. Then, we present an approach~\cite{semanticsanchoring} that proposes to define the behavioral semantics of a language as the composition of different language behavioral semantics. 
+Language composition approaches provide techniques to compose languages into a new language (see Figure~\ref{fig:langcompo}). We begin by presenting approaches that compose the syntax of languages into a new syntax~\cite{metamodelcompo}. Then, we present an approach~\cite{semanticsanchoring} that proposes to define the behavioral semantics of a language as the composition of different language behavioral semantics. 
 
 \begin{figure}
 	\begin{center}
@@ -49,10 +50,12 @@ In the literature, several techniques exist that compose the syntax of different
 \end{itemize}
 These techniques have been implemented in the GME framework~\cite{metamodelcompo}, which is based on the metametamodel MetaGME\footnote{http://w3.isis.vanderbilt.edu/projects/gme/meta.html}. The refinement and interfacing have also been implemented in Monticore~\cite{monticore}. In this approach, these techniques are named: \emph{inheritance} and \emph{language embedding}. A different approach is Neverlang~\cite{neverlang} that relies on interfacing to build a custom language from features coming from different General Purpose Languages. A feature, such as the syntactical aspect of a loop, is encapsulated in a \emph{module block}. The blocks can be composed together for generating the compiler/interpreter of the resulting language. 
 
-\emph{Semantic Anchoring}~\cite{semanticsanchoring} proposes to define the behavioral semantics of a language by relying on the concept of \emph{Semantic Unit} (SU). A SU is itself a language identified as ``basic", \eg Finite State Machine (FSM), Timed Automaton (TA) and Hybrid Automaton (HA). A SU is defined as a AsmL\footnote{http://research.microsoft.com/en-us/projects/asml/} specification in terms of (a) an AsmL Abstract Data Model (which corresponds to the abstract syntax), (b) the behavioral semantics (which is defined by the ASM mathematical framework).  SUs can be composed into a new SU. Roughly speaking, the composition is expressed manually by using AsmL. To define a new language, the approach proposes to:
+\emph{Semantic Anchoring}~\cite{semanticsanchoring} proposes to define the behavioral semantics of a language by relying on the concept of \emph{Semantic Unit} (SU). A SU is itself a language identified as ``basic", \eg Finite State Machine (FSM), Timed Automaton (TA) and Hybrid Automaton (HA). A SU is defined as a AsmL\footnote{http://research.microsoft.com/en-us/projects/asml/} specification in terms of (a) an AsmL Abstract Data Model (which corresponds to the abstract syntax), (b) the behavioral semantics (which is defined by the ASM mathematical framework).  SUs can be composed into a new SU. Roughly speaking, the composition is expressed manually by using AsmL. 
+
+The approaches proposes to define a DSML by:
 \begin{itemize}
-	\item Define the syntax by its metamodel; 
-	\item Define the behavioral semantics by specifying the model transformation rules between the metamodel of the DSML and the abstract data model of a SU.   
+	\item Defining the syntax by its metamodel; 
+	\item Defining the behavioral semantics by specifying the model transformation rules between the metamodel of the DSML and the abstract data model of a SU.   
 \end{itemize}
 Such a SU could be the result of the composition of other SUs. For example, in~\cite{composemanticanch}, a SU named FSM (Finite State Machine) and a SU named SDF (Synchronous Data Flow) are composed to get a new SU called SU-EFSM. Then, this SU can be used to define the behavioral semantics of a heterogeneous DSMLs.
 
