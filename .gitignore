@@ -36,6 +36,9 @@ thesis.pdf
 thesis.aux
 thesis.lof
 thesis.toc
+thesis.log
+thesis.lot
+thesis.preamble.aux
 /*.log
 /*.gz
 
