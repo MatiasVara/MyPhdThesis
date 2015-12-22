@@ -34,3 +34,4 @@
 # PDF
 thesis.pdf
 /*.log
+/*.gz
