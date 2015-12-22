@@ -33,5 +33,9 @@
 
 # PDF
 thesis.pdf
+thesis.aux
+thesis.lof
+thesis.toc
 /*.log
 /*.gz
+
