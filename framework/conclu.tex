@@ -1,8 +1,12 @@
 \section{Conclusion}
-In this chapter, we have determined three building blocks to capture the specification of coordination patterns: a language behavioral interface, a correspondence rule and a coordination rule. The characteristic of each element is summarized in Table~\ref{table:framework}.
-% Please add the following required packages to your document preamble:
-% \usepackage[table,xcdraw]{xcolor}
-% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+In this chapter, we have determined three building blocks to capture the specification of coordination patterns: 
+\begin{itemize}
+	\item a language behavioral interface;
+	\item a correspondence rule;
+	\item  a coordination rule.
+\end{itemize}
+Table~\ref{table:framework} summarizes the main characteristics of these elements in the studied approaches. 
+
 \begin{table}[]
 	\centering
 	\caption{Sumarizes of the studied approaches}
@@ -30,7 +34,7 @@ Together with a correspondence rule, we have shown that approaches rely on a not
 \begin{figure}
 	\begin{center}
 		\includegraphics[width=.7\textwidth]{framework/figs/bcool}
-		\caption{todo}
+		\caption{Overview of our approach and stakeholders}
 		\label{fig:bcool}
 	\end{center}
 \end{figure}
@@ -42,12 +46,8 @@ In this thesis, we propose a dedicated language named \bcool to capture coordina
 %	\item A coordination rule in a formal language. 
 %\end{enumerate}
 
-We base on a language behavioral interface made of event types (\ie \dse~\cite{sle13-combemale}) as ``coordination points" to drive the execution of languages. These events are used as handles or control points in two complementary ways: to observe what happens inside the model, and to control what is allowed to happen or not. When required by the coordination, constraints are used to forbid or delay some event occurrences. Forbidding occurrences reduces what can be done by individual models. When several executions are allowed
+We base on a language behavioral interface made of event types (\ie \dse\cite{sle13-combemale}) as ``coordination points" to drive the execution of languages. These events are used as handles or control points in two complementary ways: to observe what happens inside the model, and to control what is allowed to happen or not. When required by the coordination, constraints are used to forbid or delay some event occurrences. Forbidding occurrences reduces what can be done by individual models. When several executions are allowed
 (nondeterminism), it gives some freedom to individual semantics for making their own choices. All this put together makes the \dse suitable to drive coordinated simulations without being intrusive in the models. 
 
-In \bcool, coordination patterns are captured as constraints at the language level on the \dse. To do so, a language integrator defines \emph{Operators} that are composed by a \emph{correspondence matching} and a \emph{coordination rule}. 
-
-The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. To do so, we focus on the use of the context in which a \dse is defined to selected instances of such \dse. 
-
-Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. To specify the coordination rule, we rely on a CCSL-based language named \moccml~\cite{moccmlbib}. The specification at language level applies between models thus generating a formal model of coordination in \ccsl. This enables a system designer to validate and verify a coordinated system. We present the structure of \bcool in the following chapter.
+In \bcool, coordination patterns are captured as constraints at the language level on the \dse. To do so, a language integrator defines \emph{Operators} that are composed by a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. To do so, we rely on the context in which a \dse is defined to selected instances of such \dse. Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. To specify the coordination rule, we rely on a CCSL-based language named \moccml~\cite{moccmlbib}. The specification at language level applies between models thus generating a formal model of coordination in \ccsl. This enables a system designer to validate and verify a coordinated system. In the following chapter, we present the implementation of \bcool.
 %The design of \bcool is inspired by current structural composition languages (\eg\cite{epsilon,kompose}). These approaches rely on the \emph{matching} and \emph{merging} phases of syntactic model elements. A matching rule specifies what elements from different models are selected. A merging rule specifies how the selected model elements are composed. In these approaches the specification is at the language level, but the application is between models. Similarly, a \bcool operator relies on a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. The merging phase is replaced by a coordination rule. While in the structural case the merging operates on the syntax, the coordination rule operates on elements of the semantics (\ie instances of \dse). Thus, coordination rules specify the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching.
