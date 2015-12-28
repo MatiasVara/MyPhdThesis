@@ -196,3 +196,85 @@
 	%   backgroundcolor=\color{Gris}    
 }
 
+
+\newcommand*{\englishTitle}[1]{\def\engTitle{#1}}
+\newcommand*{\frenchTitle}[1]{\def\frTitle{#1}}
+\newcommand*{\director}[1]{\def\dirName{#1}}
+\newcommand*{\directorTitle}[1]{\def\dirTitle{#1}}
+\newcommand*{\directorAffiliation}[1]{\def\dirAff{#1}} 
+\newcommand*{\supervisor}[1]{\def\supName{#1}}
+\newcommand*{\supervisorTitle}[1]{\def\supTitle{#1}}
+\newcommand*{\supervisorAffiliation}[1]{\def\supAff{#1}} 
+\newcommand*{\reviewerOne}[1]{\def\revOneName{#1}}
+\newcommand*{\reviewerOneTitle}[1]{\def\revOneTitle{#1}}
+\newcommand*{\reviewerOneAffiliation}[1]{\def\revOneAff{#1}}
+\newcommand*{\reviewerTwo}[1]{\def\revTwoName{#1}}
+\newcommand*{\reviewerTwoTitle}[1]{\def\revTwoTitle{#1}}
+\newcommand*{\reviewerTwoAffiliation}[1]{\def\revTwoAff{#1}}
+\newcommand*{\president}[1]{\def\presName{#1}}
+\newcommand*{\presidentTitle}[1]{\def\presTitle{#1}} 
+\newcommand*{\presidentAffiliation}[1]{\def\presAff{#1}}
+\newcommand*{\examinerOne}[1]{\def\examOneName{#1}}
+\newcommand*{\examinerOneTitle}[1]{\def\examOneTitle{#1}}
+\newcommand*{\examinerOneAffiliation}[1]{\def\examOneAff{#1}}
+\newcommand*{\examinerTwo}[1]{\def\examTwoName{#1}}
+\newcommand*{\examinerTwoTitle}[1]{\def\examTwoTitle{#1}}
+\newcommand*{\examinerTwoAffiliation}[1]{\def\examTwoAff{#1}}
+\renewcommand*{\author}[1]{\def\authornames{#1}}
+\newcommand\maketitletesis{
+\begin{titlepage}
+	\newgeometry{	
+		left=1.5in,	
+		top=0.5in,
+		right=1.0in,	
+		bottom=1.2in,
+		headheight = 20.0pt,
+		headsep = 0.25in,
+		footskip = 0.3in
+	}
+	\begin{center}
+		\noindent {\large \textbf{UNIVERSIT\'E NICE - SOPHIA ANTIPOLIS}} \\
+		\vspace*{0.3cm}
+		\noindent {\LARGE \textbf{\'ECOLE DOCTORALE STIC}} \\
+		\noindent \textbf{SCIENCES ET TECHNOLOGIES DE L'INFORMATION \\ ET DE LA COMMUNICATION} \\
+		\vspace*{0.5cm}
+		\noindent \Huge \textbf{T H \`E S E} \\
+		\vspace*{0.3cm}
+		\noindent \large {pour l'obtention du grade de} \\
+		\vspace*{0.3cm}
+		\noindent \LARGE \textbf{Docteur en Sciences} \\
+		\vspace*{0.3cm}
+		\noindent \Large de l'Universit\'e Nice - Sophia Antipolis \\
+		\noindent \Large \textbf{Mention : \textsc{Informatique}}\\
+		\vspace*{0.4cm}
+		\noindent \large {present\'ee et soutenue par\\}
+		\noindent \authornames \\
+		\vspace*{0.5cm}
+		\noindent {\Huge \textbf{\frTitle}} \\
+		\vspace*{0.3cm}
+		\noindent {\Large \textbf{\engTitle}} \\
+		\vspace*{0.5cm}
+		\noindent \Large Th\`ese dirig\'ee par: \dirName \\
+		%\vspace*{10mm}
+		\noindent \Large et encadr\'ee par: \supName \\
+		%\noindent \Large pr\'epar\'ee \`a l'INRIA Sophia Antipolis, Projet \textsc{\groupname}\\
+		\vspace*{0.2cm}
+		\noindent \large soutenue le 27 F\'evrier 2016 \\
+		\vspace*{0.3cm}
+	\end{center}
+	\noindent \large \textbf{Jury :}
+	\begin{center}
+		%\noindent \large 
+		\begin{tabular}{llccl}
+			%	  M.		& \presName 		& \presTitle		&	\presAff		& \textit{Pr\'esident}\\
+			M.		& \revOneName 	& \revOneTitle	&	\revOneAff	& \textit{Rapporteur}\\
+			M.		& \revTwoName	& \revTwoTitle	&	\revTwoAff	& \textit{Rapporteur}\\	
+			M.		& \examOneName	& \examOneTitle	&	\examOneAff	& \textit{Examinateur}\\
+			M.		& \examTwoName	& \examTwoTitle 	&	\examTwoAff	& \textit{Examinateur}\\
+			M.		& \dirName 		& \dirTitle		&	\dirAff		& \textit{Directeur de Th\`ese}\\
+			M. 	& \supName 		& \supTitle		&	\supAff		& \textit{Encadrant}\\
+		\end{tabular}
+	\end{center}
+	\restoregeometry
+\end{titlepage}
+}
