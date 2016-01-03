@@ -1,4 +1,4 @@
-\documentclass[a4paper,12pt,twoside]{report}
+\documentclass[a4paper,11pt,twoside,openright]{report}
 \usepackage[left=2cm,right=2cm,top=2cm,bottom=3cm]{geometry}
 \usepackage{xspace}
 \usepackage{listings}
@@ -10,23 +10,10 @@
 \usepackage{multirow}
 \usepackage[table,xcdraw]{xcolor}
 \include{thesis.preamble}
-\usepackage{enumitem}
-\input{keywordstyle.sty}
-\usepackage{setspace}
 
-\usepackage[compact]{titlesec}
-\titlespacing{\section}{0pt}{*0}{*0}
-\titlespacing{\subsection}{0pt}{*0}{*0}
-\titlespacing{\subsubsection}{0pt}{*0}{*0}
+\input{keywordstyle.sty}
 
 \begin{document}
-% space between lines in paragraphs
-\singlespacing
-% space in list and enumerate
-\setlist{nolistsep}
-% eliminate space between paragraph
-\parskip 0pt 
-
 
 \englishTitle{\bcool: A Language to Coordinate Concurrent Heterogeneous Systems}
 \frenchTitle{\bcool: Un Language pour la Coordination du Syst\`emes Concurrent et H\'et\'erog\`ene}
@@ -59,7 +46,10 @@
 \input{acknowledgements/acknowledgements}
 \input{dedication/dedication}
 \input{quotes/quotes}
+
 \body
+
+\lstlistoflistings
 \input{introduction/introduction}
 \input{background/background}
 \input{framework/framework}
