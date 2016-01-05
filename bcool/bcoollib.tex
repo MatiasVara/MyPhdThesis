@@ -1,4 +1,4 @@
-\section{Library}
+\subsection{Library}
 \label{subsec:bcoollib}
 
 \begin{figure}
@@ -17,7 +17,7 @@ Libraries are used to gather predefined event expressions and relations that can
 	\label{fig:moccmllib}
 \end{figure}
 
-A \moccml library (\emph{RelationLibrary} in Figure~\ref{fig:moccml}) is a set of declarations together with their formal parameters. It also contains some definitions, which give the actual behavior of the declarations. There are two categories of constraint definitions: the \emph{Declarative Definitions} and the \emph{Constraint Automata Definitions}. Each constraint definition has an associated Constraint Declaration that defines the prototype of the constraint. A declarative definition is defined as a set of constraint instances. For more details, we refer the reader to~\cite{moccmloperbib} that described the declarative part inspired from the \ccsl language. A Constraint Automata Definition gives state based support for the definition of relations. For instance, this allows the integrator to define complex communication protocols, \eg the AMBA protocol~\cite{ambabus}. 
+A \moccml library (\emph{RelationLibrary} in Figure~\ref{fig:moccml}) is a set of declarations together with their formal parameters. It also contains some definitions, which give the actual behavior of the declarations. There are two categories of constraint definitions: the \emph{Declarative Definitions} and the \emph{Constraint Automata Definitions}. Each constraint definition has an associated Constraint Declaration that defines the prototype of the constraint. A declarative definition is defined as a set of constraint instances. For more details, we refer the reader to~\cite{moccmloperbib} that described the declarative part inspired from the \ccsl language. A Constraint Automata Definition gives state based support for the definition of relations. This helps a language integrator in the definition of coordination protocols that may be complex like the AMBA protocol~\cite{ambabus}. 
 
 \begin{lstlisting}[language=bcool,
 caption={Synchronized product operator between the TFSM and Activity languages by using the library},
@@ -29,8 +29,7 @@ end operator
 \end{lstlisting}
 
 
-To illustrate this, we propose to rewrite the coordination rule presented in Listing~\ref{lst:bcoolrunningexampletimed} by defining an automata relation in \moccml named \emph{RendezvousWithGlobalClock}. Figure~\ref{fig:moccmllib} shows the state-based representation of the relation that accepts three events as paramters: \emph{sampled}, \emph{trigger} and \emph{executeIt}. The automata is made of two states: \emph{waitSampled} and \emph{waitTrigger}. In \emph{waitSampled}, the event \emph{trigger} and \emph{sampled} are both allowed to tick. However, only \emph{trigger} can freely occur. When the event \emph{sampled} happens, such occurrence will be sampled by the next occurrence of the event \emph{trigger}. This is represented by the transition from \emph{waitSampled} to \emph{waitTrigger}. In this state, the event \emph{trigger} and \emph{executeIt} are forced to happen simultaneously. Also, In this the state, the occurrence of the event \emph{sampled} is forbidden. This is shown in Figure~\ref{fig:libvcd} in which the event can occur again only after it was sampled. This prevents to lose its occurrences. Then, by using this relation, we rewrite the coordination rule as shown in Listing~\ref{lst:bcoolrunningexamplellib}; the FSMEventOccurs is the \emph{sampled} event, the globalClock is the \emph{trigger} event and the ActionExecute is the \emph{executeIt}.
-
+To illustrate the use of \moccml for the definition of event relations, we propose to rewrite the coordination rule presented in Listing~\ref{lst:bcoolrunningexampletimed} by defining an automata relation named \emph{RendezvousWithGlobalClock}. The relation accepts three events as parameters: \emph{sampled}, \emph{trigger} and \emph{executeIt}. The \emph{sampled} event identifies the event that is sampled by the \emph{trigger}. The \emph{executeIt} event identifies the event that is forced to occur simultaneously with the last sample of the \emph{sampled} event. The automata representation is made of two states: \emph{waitSampled} and \emph{waitTrigger}. In \emph{waitSampled}, the event \emph{trigger} and \emph{sampled} are both allowed to tick. When the event \emph{sampled} happens, such occurrence will be sampled by the next occurrence of the event \emph{trigger}. This is represented by the transition from \emph{waitSampled} to \emph{waitTrigger}. In this state, the event \emph{trigger} and \emph{executeIt} are forced to happen simultaneously that represents the last sample of the occurrence of the \emph{sampled} event. By using this event relation, we rewrite the coordination rule as shown in Listing~\ref{lst:bcoolrunningexamplellib}; the FSMEventOccurs is the \emph{sampled} event, the globalClock is the \emph{trigger} event and the ActionExecute is the \emph{executeIt} event. Figure~\ref{fig:libvcd} shows the resulting coordination of the models of the coffee machine by using the relation RendezvousWithGlobalClock. In blue, we show the occurrences of the \emph{selectCoffee:occurs} (sampled) that are sampled by global clock (trigger). When an occurrence is sampled, this makes the event \emph{selectCoffee:executeIt} (executeIt) to occurs simultaneously with the occurrence of the global clock (in Red in Figure~\ref{fig:libvcd}). This represents the sampling of the last occurrence of the event \emph{selectCoffee:occurs}.   
   
 \begin{figure}
 	\center
@@ -39,7 +38,6 @@ To illustrate this, we propose to rewrite the coordination rule presented in Lis
 	\label{fig:libvcd}
 \end{figure}
 
-\todo{Some words about facilities}
 
 %Listing~\ref{lst:moccmllib} shows a partial representation of the \moccml library \emph{facilities.moccmllib} that provides all the declarations used in the previous examples. Lines 2 and 3 imports \ccsl libraries that contains the declaration of the kernel relations and expression from \ccsl. 
 
@@ -47,7 +45,7 @@ To illustrate this, we propose to rewrite the coordination rule presented in Lis
 
 %To do so, we use \moccml to define a new event relation named \emph{RendezvousWithGlobalClock} (Listing~\ref{lst:moccmllib}: line 10) that accepts three events as parameter: \emph{ActionExecuting}, \emph{FSMEventTriggering} and \emph{globalClock}. Roughly speaking, the relation synchronizes the events ActionExecuting and FSMEventTriggering by relying on the ticking of globalClock. Then, the coordination rule can be rewritten as shown in Listing~\ref{lst:bcoolrunningexamplellib}. The order of the parameters corresponds with the order of the parameters in the declaration (Listing~\ref{lst:moccmllib}: line 10). 
 
-Libraries enable integrators to organize all relevant event relations and expressions by modeling domains. This improves the readability of a \bcool specification by gathering domain specific relations, which can be reused in other specification. By relying on a \moccml library, the application of \bcool operators results in a \ccsl specification. We can use \ccsl tool (\eg TimeSquare\cite{timesquarebib}) to analyze and execute the generated coordination model. In the next section, we further explain how the coordination model is generated by presenting the semantics of \bcool.   
+Libraries enable integrators to organize all relevant event relations and expressions by modeling domains. This improves the readability of a \bcool specification by gathering domain specific relations, which can be reused in other specification. By relying on a \moccml library, the application of \bcool operators results in a \ccsl specification. We can use \ccsl tool (\eg TimeSquare\cite{timesquarebib}) to analyze and execute the generated coordination model. In the next subsection, we further explain how the coordination model is generated by presenting the semantics of \bcool.   
 
 
 
