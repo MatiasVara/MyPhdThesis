@@ -1,24 +1,32 @@
 \section{Definition of Coordination Operators between the TFSM and Activity Language}
+\todo{In this section, we capture the specification of hierarchical coordination pattern between tfsm and activity.} 
+
 This section presents the definition of the operators \emph{startActivityWhenEnter} and \emph{AtomicActions} between the TFSM and Activity language. In the following, we present each operator and the corresponding \bcool implementation. 
 
-The \emph{startActivityWhenEnter} coordinates the entering and leaving of a state with the execution of an activity. More precisely, we chose the semantics in which entering a specific state of a TFSM model triggers the execution of a given Activity. When leaving a state, several semantic variation points may be chosen. The outgoing transitions from a state can be considered, for instance, as preemptive for the activity model (\ie firing a transition from a state to another preempts the internal activity). Alternatively, the transition can be considered as non-preemptive (\ie the states cannot be left before the associated activity finishes). In our case, we chose non-preemptive transitions and we define the operator accordingly. The entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
+The \emph{startActivityWhenEnter} coordinates the entering and leaving of a state with the execution of an activity. More precisely, we chose the semantics in which entering a specific state of a TFSM model triggers the execution of a given Activity. 
+
+\todo{When leaving a state, several semantic variation points may be chosen. The outgoing transitions from a state can be considered, for instance, as preemptive for the activity model (\ie firing a transition from a state to another preempts the internal activity). Alternatively, the transition can be considered as non-preemptive (\ie the states cannot be left before the associated activity finishes). In our case, we chose non-preemptive transitions and we define the operator accordingly.} 
+
+The entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
 
 
 We use \bcool to define the operator \emph{startActivityWhenEnter} that has as parameters the \dse \textit{startActivity}, \textit{finishActivity}, \textit{entering} and \textit{leaving} (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 6). The operator selects instances of \dse \emph{startActivity} and \emph{finishActivity} by using their context (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 7). The pairs selected identify the starting and finishing of an activity. Then, we select the activities that represent a state by relying on the method \emph{onEnterAction} that is defined in the context of State. This method contains the name of the activity that the state represents (Listing~\ref{lst:bcoolStartActivityWhenEnter}: line 7). To coordinate the selected instances of \dse, we rely on the event relation \emph{LoopFromStartToFinishNonPeemptive} which makes the internal activity executes in a loop until the state is left. To specify this relation, we use \moccml to define an state-based relation (see Figure~\ref{fig:looprelation}). The relation takes four events as parameters: the events \emph{modeEnter} and \emph{modeLeave} that represents respectively the entering and leaving of a state; and the events \emph{startActivity} and \emph{finishActivity} that represents respectively the starting and finishing of an activity. The state-based representation is made of two states named \emph{waitEnterState} and \emph{canLoop}. In waitEnterState state, only the event modeEnter can occur. When this event happens, the state \emph{canLoop} is reached and the events startActivity and finishActivity are allowed to occur, thus making the activity to execute in a loop. Only when the event modeLeave and finishActivivity happens simultaneously, the state can be left and the activity stops to execute. The use of this relation in the coordination rule results in a coordination in which the transitions in the TFSM cannot preempt the execution of the internal activities. The entering a state makes the activity to execute in a loop. Then, only after the activity has finished, the state can be left.
 
 
 \begin{figure}
-	\centering
-	\subfigure[\emph{LoopFromStartToFinishNonPreemptive} event relation]{
-		\includegraphics[width=.7\columnwidth]{examples/figs/LoopFromStartToFinishNonPreemptive}
-		\label{fig:looprelation}
-	}
-	\subfigure[\emph{AtomicExec} event relation]{
-		\includegraphics[width=.7\columnwidth]{examples/figs/AtomicExec}
-		\label{fig:atomicexec}
-	}
-	\caption{State-based representation of the event relations in \moccml}
-	\label{fig:subfigurestatebased}
+	\center
+	\includegraphics[width=.7\columnwidth]{examples/figs/LoopFromStartToFinishNonPreemptive}
+	\caption{todo}
+	\label{fig:looprelation}
+\end{figure}
+
+
+
+\begin{figure}
+	\center
+	\includegraphics[width=.7\columnwidth]{examples/figs/AtomicExec}
+	\caption{todo}
+	\label{fig:atomicexec}
 \end{figure}
 
 
@@ -31,26 +39,28 @@ In this section, we used \bcool to define a set of coordination operators that d
 	   %  The specification also contains the operator defined in the previous section that enables the coordination of Action and FSMEvents by relying in theirs names (It is now shown in Listing). 
 
 \begin{lstlisting}[language=bcool,
-caption={Timing and Hierarchical operator between TFSM and fUML languages},
+caption={Hierarchical operator between TFSM and Activity languages},
 label={lst:bcoolStartActivityWhenEnter}, 
 basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
-BCOoLSpec TFMSandActivityHierarhicalOperators
-	ImportLib "facilities.moccml"
-	ImportInterface "activitySemantics.ecl" as activity
-	ImportInterface "TFSM.ecl" as tfsm
-
 Operator  StartActivityWhenEnter (activityStart : ad::startActivity , activityStop : ad::finishActivity, enterState : tfsm::entering, leaveState : tfsm::leaving)
 when ((activityStart.name = activityStop.name ) and (enterState.name = leaveState.name) and (activityStart.name = enterState.onEnterAction.name));
 do 
 	LoopFromStartToFinishNonPeemptive (enterState, leaveState, activityStart, activityStop)
 end operator;
+\end{lstlisting}
 
+
+\begin{lstlisting}[language=bcool,
+caption={Timing Hierarchical operator between TFSM and Activity languages},
+label={lst:bcoolAtomicExec}, 
+basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt, firstnumber=6]
 Operator AtomicActions (activityStart : ad::startActivity , activityStop : ad::finishActivity, enterState : tfsm::entering, leaveState : tfsm::leaving, timeTicks : tfsm::ticks)
 when ((activityStart.name = activityStop.name ) and (activityStart.name=enterState.OnEnterAction.name ) and (enterState.owningFSM.localClock = timeTicks));
 do 
 	AtomicExec (activityStart, activityStop, timeTicks)
 end operator;
 \end{lstlisting}
+
 
 
 
