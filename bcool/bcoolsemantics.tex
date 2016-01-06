@@ -1,5 +1,5 @@
 \subsection{Execution Semantics}
-In this section, we describe the execution semantics of \bcool, \ie how a \bcool specification is used to generate a coordination model. To illustrate the different steps in the generation, we rely on the application of the running example operator (see Listing~\ref{lst:bcoolrunningexample}) between the models of the coffee machine.
+In this subsection, we describe the execution semantics of \bcool, \ie how a \bcool specification is used to generate a coordination model. To illustrate the different steps in the generation, we rely on the application of the running example operator (see Listing~\ref{lst:bcoolrunningexample}) between the models of the coffee machine.
 
 \begin{figure}
 	\center
@@ -19,7 +19,7 @@ Second, a classical Cartesian product is applied on $\mathcal{I^{'}_{M_I}}$. It 
 
 Currently, the application of a \bcool operator generates a \ccsl specification that represents the coordination. Listing~\ref{lst:runningexampleccsl} shows the partial \ccsl specification for the coffee machine. The specification begins by importing the \ccsl specification of each model (Listing~\ref{lst:runningexampleccsl}: line 3 and 4). Then, the main block contains the coordination specification that is made of two instances of the event relation rendezvous (Listing~\ref{lst:runningexampleccsl}: line 9 and 11). Notice that individual specification of each model are not modified. So that, the behavior of individual models is not altered. Instead, the coordination adds some constrains thus restricting the behavior of models, but it does not add new behaviors. This results in a generated coordination that is not intrusive (\ie exogenous).
 
-In this section, we have presented the abstract syntax and the semantics of \bcool. Also, we have presented \moccml for the definition of libraries. In the next section, we present the current implementation of \bcool as a set of Eclipse plugins into th GEMOC studio. 
+In this section, we have presented the abstract syntax and the semantics of \bcool. Also, we have presented \moccml for the definition of libraries. In the next section, we present the current implementation of \bcool as a set of Eclipse plugins into the GEMOC studio. 
 %In the next section, we present the \bcool framework which is an Eclipse environment that enables the developing of \bcool operator between languages and automate the coordination between language. 
 
 
