@@ -39,6 +39,8 @@ thesis.toc
 thesis.log
 thesis.lot
 thesis.preamble.aux
+thesis.preamble.bbl
+thesis.synctex.gz
 thesis.bbl
 thesis.blg
 /*.log
