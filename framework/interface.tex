@@ -22,7 +22,8 @@ The \emph{cons} of this approach are twofold. First, the Java interface restrict
 \paragraph{Di Natale et al: }
 In \cite{dinatale}, they use a translation to a common executable language to provide the semantics of the languages they use (Simulink as functional language and a language to specify execution platforms). The resulting behavioral semantics is then for a part in the translation and for another part in the behavioral semantics of the target language (C in this case). In this approach the coordination is supported by a mapping language also translated in C to make the coordination fulfilled. 
 The translational semantics of the mapping language is based on knowledge about the translation semantics of the coordinated languages. For instance, it is aware of the name of some methods, which are generated for each subsystem in the functional language. Such methods are part of the translational semantics of the functional language. 
-Such knowledge, used to specify the coordination pattern, is a partial view of the behavioral semantics of the functional language. 
+Such knowledge, used to specify the coordination pattern, is a partial view of the behavioral semantics of the functional language.
+%the fact that the mapping language links only dedicated types means that they want to expose only a part of the AS. it could be in the LBI
 
 On the behavioral language interface point of view, the \emph{pro} of this approach is very
 limited since the interface is left implicit. However, it shows that the notion of behavioral interface also makes sense when the behavioral semantics is given by a translation to another language.
