@@ -31,48 +31,49 @@ The \emph{cons} comes from the direct encoding of the correspondence rule in the
 
 \subsection{Requirements}
 
-\todo{
-* support for heterogeneous languages \\
-* a few dependency as possible\\
-* explicit correspondence\\
-* tunable correspondence rules\\
-}
-We want to highlight that in all approaches the correspondences are syntactic, \ie they relate concepts from the syntax of different languages. We identified two ways to express correspondences between syntactic languages elements:
-\begin{enumerate}
- \item by using an explicit modeling artifact, \eg mapping model in~\cite{dinatale}, composite actors in~\cite{modhelxbib, ptoleframebib}; 	
-  \item by using specific modeling conventions, \eg naming matching in~\cite{mascotbib}.
-\end{enumerate}
-				
-In the first case, correspondences are close to the notion of connectors in ADLs, but with fixed roles that refer to syntactic language elements. Thus, the system designer has to instantiate such modeling artifact in order to specify when concepts are related. For instance, in Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the system designer instantiates composite actors to define a hierarchical heterogeneous model. Similarly, in~\cite{dinatale}, he has to apply a stereotype to specify where the tasks are deployed into a platform. In these cases, the process of looking for a correspondence between models elements cannot be fully automatized. The approaches need a system designer to decide when a connector must be used. In these cases, the correspondences could be provided by another tool like in~\cite{kofmanbib} where authors use design space exploration techniques to determine the allocation.% By following this idea, the approach of Di Natale et. al~\cite{dinatale} could include an allocation algorithm to automate the deployment of tasks into a platform. 
-	\begin{lstlisting}[language=epsilon,
-	caption={Matching rule in the Epsilon Comparison Language},
-	label={lst:epsilon}, 
-	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+We saw from the existing approaches that there exist very different ways to specify the elements that must be coordinated. Some approaches rely on a common abstract syntax to identify the elements to be coordinated, some others let the designer expressing an explicit mapping between the elements of different languages and some other defines some rules allowing the inference of the correspondence for specific models. While they all bring some benefits and lacks, we express here some requirements that can make existing or future approach more flexible and more expressive.
+
+The first important requirement to face the globalization of modeling languages is the support for heterogeneous languages, not only in terms of semantics but also in terms of syntax. Such support disable the possibility to rely on an artifact of a common abstract syntax like in Ptolemy and ModHel'X. However, it paves the road of an open world with emerging (domain specific) languages as depicted in~\cite{globalization_ieee}.
+
+Also, in order to address correspondences while taking into account the globalization of modeling languages, it is important to avoid the creation of strong dependencies when specifying the correspondences and the correspondence rules. While this requirements ease the support of new languages, it makes difficult to strongly type or constraint the correspondences. For instance, in \cite{dinatale} the mapping language constrains the mapping model to relate only some specific elements (creating a mapping language with dependencies to the related languages). We believe that the correct specification and use of an homogeneous language interface could also act positively towards this requirement. 
+
+When a system designer tries to understand the correspondence that exists in a coordinated system, it is very useful for her/him to have an explicit representation of these correspondences. It avoids ambiguities in the understanding of the coordination but also it allows external tools to take benefits of the correspondences. This is for instance not the case in the Mascot approach where the correspondences are never reified and only known by the framework and the people aware of the correspondence rules. While it brings benefits, it can be challenging to make an explicit correspondence model between heterogeneous models without dependencies to the different languages used in the system. Once again, language and model interfaces can be very helpful here. 
+
+Last but not least, it is important to specify some correspondence rules at the language level so that the correspondences can be inferred. Additionally, to make it flexible, such correspondences must be made explicit and tunable according to the domain or the organization. 
+We can illustrate two families of correspondence rules.
+The first one is not generic but consider specific languages on which it can define an analysis to decide what correspondences must be create for some specific models. This is for instance the case in~\cite{kofmanbib} where authors use design space exploration techniques to determine the (best) correspondences between an application and its deployment platform. This could for instance bring benefits to the \cite{dinatale} approach.
+
+The second one is generic but it requires to respect agreements between the organizations developing the different models (like in Mascot). These agreements can be more or less complex. For instance, they can simply rely on a naming convention or they can rely on a more complex ontology based system. These agreements determine how to determine the elements that are ``corresponding''. To illustrate our proposal we quickly present the Epsilon Comparison Language (ECL~\cite{TODO_ECLComparisonLanguage}), a language dedicated to the expression of correspondence rules. In Epsilon Comparison Language the correspondence rules are expressed by querying and then comparing model elements. For example, Listing~\ref{lst:epsilon} shows the specification in ECL of a matching rule named \emph{MatchEntityWithTerm}. Roughly speaking, the matching rule is used to find correspondences between instances of the \emph{Entity} and \emph{Term} classes (Listing~\ref{lst:epsilon}: line 2 and 3). These classes can be defined in different Ecore models. The class Entity is defined in an Ecore referred as \emph{Source} and the class Term is defined in an Ecore referred as \emph{Vocabulary} (Listing~\ref{lst:epsilon}: line 2 and 3). The comparison is done by using the attribute name defined in the context of each class (Listing~\ref{lst:epsilon}: line 5). To express the comparison, the approach relies on a query language named Epsilon Object Language\footnote{http://www.eclipse.org/epsilon/doc/eol/}. When two instances of these classes have the same name, the pairs are matched.
+
+\todo{adapt the Source!Entity and Vocabulary!Term to the Mascot case. Perhaps you can also do another one representing the Ptolemy case ? (not sure about this last point)}
+\begin{lstlisting}[language=epsilon, caption={The Mascot correspondence rule in the Epsilon Comparison Language}, label={lst:epsilon}, 	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 rule MatchEntityWithTerm
-match s : Source!Entity
-with t : Vocabulary!Term {
-compare {
-	return s.name = t.name;
-}
-}
+  match s : Source!Entity
+  with t : Vocabulary!Term 
+  {
+    compare {
+	    return s.name = t.name;
+    }
+  }
 \end{lstlisting}
-	
-When the correspondence rule relies on a specific modeling convention (case number two), the process of looking for similarities between model elements can be easily automatized. For example, by using the Epsilon Comparison Language (ECL), correspondence rules can be expressed by querying and comparing model elements. For example, Listing~\ref{lst:epsilon} shows the specification in ECL of a matching rule named \emph{MatchEntityWithTerm}. Roughly speaking, the matching rule is used to find correspondences between instances of the \emph{Entity} and \emph{Term} classes (Listing~\ref{lst:epsilon}: line 2 and 3). These classes are defined in different Ecore models. The class Entity is defined in an Ecore referred as \emph{Source} and the class Term is defined in an Ecore referred as \emph{Vocabulary} (Listing~\ref{lst:epsilon}: line 2 and 3). The comparison is done by using the attribute name defined in the context of each class (Listing~\ref{lst:epsilon}: line 5). To express the comparison, the approach relies on a query language named Epsilon Object Language\footnote{http://www.eclipse.org/epsilon/doc/eol/}. When two instances of these classes have the same name, the pairs are matched. The main benefit of the use of a dedicated language is to ease the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. Furthermore, conventions are independent of the languages itself, so that it is easy to add support to a new language without changing the current implementation. For example in~\cite{dinatale}, if the platform language is modified to add support to a new hardware, the mapping language must be changed to add a new stereotype that describes the new possible allocation.
 
-Returning to the approach presented in~\cite{sle13-combemale}, the \dse are defined in the context of a metaclass. This can be used to select instances of such \dse (\mse) by querying its context. Furthermore, instances of \dse from different model behavioral interfaces can be selected by comparing elements defined in its context, \ie by using the attribute name. Such a correspondence rule could be implemented by relying on a language to express queries between model elements, \eg OCL, Epsilon Object Language.
+The main benefit of the use this kind of dedicated language is to ease the customization of the correspondences rules thus enabling to adapt them according to the company modeling conventions and the language's nature. For instance in listing \ref{lst:epsilon} the matching is equivalent to the one encoded in Mascot. However it can be customized to add another criteria for matching.
+ Furthermore, conventions are independent of the languages themselves, so it is easy to add support for a new language without changing the approach framework.
 
-In this section, we presented the notion of correspondence rule that relates concepts from different language syntax. Such an artifact is used to identifies when elements from different languages must be coordinated. In the next section, we present the notion of coordination rule that specifies how the selected elements are coordinated.      
-			
-			
-						 
-						 %\item For instance, the aim of the ECP is to capture such a convetion by reying on explciit matching rules. It can express, at the language level, queries on different models and specify predicates based on the result of these queries. 
+
+%not here !
+%Returning to the approach presented in~\cite{sle13-combemale}, the \dse are defined in the context of a metaclass. This can be used to select instances of such \dse (\mse) by querying its context. Furthermore, instances of \dse from different model behavioral interfaces can be selected by comparing elements defined in its context, \ie by using the attribute name. Such a correspondence rule could be implemented by relying on a language to express queries between model elements, \eg OCL, Epsilon Object Language.
+
+In this section, we presented how the notion of correspondences and correspondence rules are dealt with in different approaches focusing on the specification of coordination patterns. Such an artifact is used to identifies when instances of concepts from different languages must be coordinated. 
+We proposed four requirements for a flexible implementation of correspondence and correspondence rules. They may: 
+\begin{enumerate}
+\item provide support for heterogeneous languages;
+\item avoid creating dependencies between a predefined set of languages to enable the support of new languages;
+\item be made explicit to ease the identification of what are the correspondences between model elements and to understand the rational of such correspondences (by having access to the correspondence rule);
+\item be adaptable to specific organizations or domains to avoid over constraining the agreements different organizations whose models must be coordinated.
+\end{enumerate}
+
+In the next section, we present the notion of coordination rule that specifies how the selected elements are coordinated.      
 							
-		   	%is interesting because it can be used on languages totally independent, \ie which have no idea of the existence of the other one. 
-			 %It requires the establishment of modeling conventions but is very agile when it is needed to add a new language into the development process. 
-			 %The Epsilon Comparison Language~\cite{epsilonbib} is a dedicated language to express matching relationships between models conforming to different language. 
-			 %It can express, at the language level, queries on different models and specify predicates based on the result of these queries. 
-			 %An interesting solution could investigate the introduce of such language in the specification of a correspondence matching,  to make the correspondence matching explicit, modular and adaptable.
-			%\item The correspondence matching of a coordination pattern could/should be customized according to the actual nature of the languages used (\eg are the languages related somehow or not) or according to the company modeling conventions.
-						
-						%The first case do not capture all the knowledge of the system designer, which is still injected manually by using a dedicated modeling artifact. It makes lots of sense when the identification of the correspondences is not systematic, like for instance for the allocation of tasks on CPUs. In some cases, this modeling artifact can be created by another dedicated tool (like \cite{kofman:hal-00950533} that uses design space exploration techniques to determine the allocation). It could be interesting to understand how the notions used in the megamodel field~\cite{megamodel} or in multi-view approaches~\cite{ieee42010} can be exploited to specify, in a generic way, the correspondences required in the definition of behavioral coordination patterns between heterogeneous languages.		
+%The first case do not capture all the knowledge of the system designer, which is still injected manually by using a dedicated modeling artifact. It makes lots of sense when the identification of the correspondences is not systematic, like for instance for the allocation of tasks on CPUs. In some cases, this modeling artifact can be created by another dedicated tool (like \cite{kofman:hal-00950533} that uses design space exploration techniques to determine the allocation). It could be interesting to understand how the notions used in the megamodel field~\cite{megamodel} or in multi-view approaches~\cite{ieee42010} can be exploited to specify, in a generic way, the correspondences required in the definition of behavioral coordination patterns between heterogeneous languages.		
 				
