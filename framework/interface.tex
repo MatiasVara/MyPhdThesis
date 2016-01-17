@@ -1,17 +1,13 @@
 \section{Language Behavioral Interface}
-This section presents the notion of \emph{Language Behaviora Interface}. In the framework, such an element contains a representation of the syntax and behavioral semantics of each coordinated language. In this section, we first review how the notion of language interface varies from one approach to other. Then, we present requirements to make the behavioral interface of a language explicit and better customizable.    
+This section presents the notion of \emph{Language Behavioral Interface}. We begin by reviewing the concept of language interface in existing approaches. Then, we present requirements to make the behavioral interface of a language explicit and better customizable.    
 
 \subsection{Review of Existing Approaches}
 
-The notion of language interface is not well defined in the literature, however this concept is recently the focus of many researcher on the globalization of modeling languages~\cite{GML_ch1,GML_ch3,GML_ch4,degueule2015melange}. It is quite consensual to say that a language interface can have different forms depending on the use we want to make of this interface. Consequently, in this section we discuss the notion of a language interface in the specific context of expressing coordination patterns. 
-
-To specify coordination patterns at language level, all existing approaches we reviewed rely on a partial knowledge of the syntax and the behavioral semantics of the languages they use. Because the coordination activity require a view of the behavioral semantics of the language we named it \emph{Language Behavioral Interface}. From Section~\ref{ch:background}, we know that, at the model level, the notion of interface can be used to expose information about the model behavior in order to allow its coordination. Similarly, at the language level, a behavioral interface is used to expose only a part of the behavioral semantics of languages to allow the expression of coordination patterns. In other words, a language behavioral interface abstracts the behavioral semantics of a language, providing only the information required to coordinate it. 
-
-%\ie a partial representation of concurrency and time-related aspects. In this sense, a language behavioral interface is specific for coordination purpose.    
-
-In the state-of-art approaches, authors did not consciously use a language behavioral interface. However we show in this section that they all rely on a dedicated abstraction of the language behavioral semantics. 
-
-\todo{In the following we discuss each approach on the light of the language interface elements}
+In the literature, the notion of language interface is not well defined. Recent works have focused on the concept of language interface in the context of the globalization of modeling languages~\cite{GML_ch1,GML_ch3,GML_ch4,degueule2015melange}. From these works, it is consensual that the content of a language interface is purpose-specific, \ie the content varies depending on the use of the interface. In this subsection, we discuss the notion of a language interface for the specific purpose of specifying coordination patterns between languages, \ie a \emph{Language Behavioral Interface}.
+	
+To specify coordination patterns at language level, reviewed approaches rely on partial knowledge of the syntax and behavioral semantics of the languages they use. At the model level (see Section~\ref{ch:background}), the notion of behavioral interface is used to expose information about the model behavior to allow its coordination. Similarly, at the language level, a behavioral language interface is used to expose only a part of the behavioral semantics of languages to allow the expression of coordination patterns. In other words, a language behavioral interface abstracts the behavioral semantics of a language, providing only the information required to coordinate it. 
+  
+In the following, we show how existing approaches specify coordination patterns by relying on partial information about the syntax and behavioral semantics of the languages they use.  
 
 \paragraph{Ptolemy/ModHel'X: }
 In Ptolemy~\cite{ptoleframebib} and ModHel'X~\cite{modhelxbib}, the behavioral semantics of a language is described by a director that encodes a domain in Java, \eg FSM, DE, SDF. To support the communication between different domains, each director implements a generic interface in Java. Such an interface is made of specific set of methods (\eg \emph{initialize()}, \emph{prefire()}, \emph{fire()}, \emph{postfire()}, \emph{wrapup()}). This mechanism provides a homogeneous view of all the domain behavioral semantics. The implementation of these methods depends on the domain. However, they must conform to a common goal, which is expressed in natural language. For instance, a part of the \emph{fire()} function description is: ``\emph{Typically, the fire() method performs the computation associated with an actor}''. 
@@ -71,7 +67,7 @@ The \emph{cons} of this approach comes from the lack of techniques and methods t
 
 
 \subsection{Requirements}
-Based on the reviewed approaches, we present in the following some requirements to improve the way that approaches represent the coordinated languages. This requirements aim at providing a language behavioral interface explicit and better customizable.     
+Based on the reviewed approaches, we want to highlight that all approaches rely on partial information about the language they use. However, they did not do so consciously. In other words, approaches did not make such information explicit in a language behavioral interface. In the following, we present some requirements to improve the way that approaches represent such information about the language they use. These requirements aim at providing a language behavioral interface explicit and better customizable.     
 
 In Ptolemy and ModHel'X, the coordination is based on a generic language behavioral interface. The interface specifies, in intention, the coordination points that any model provide. Combemale et al. also specify coordination points in intention by using \dse. This notion of coordination points specified in intention would have been also beneficial for the approach provided by Di Natale et al. to be more flexible with regard to the addition of a new language. Thus, our first requirement is that a language behavioral interface should specified in intention the coordination points. More precisely, it should expose what elements from the languages can be coordinated.
 
