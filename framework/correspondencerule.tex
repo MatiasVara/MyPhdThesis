@@ -1,4 +1,7 @@
 \section{Correspondences}
+
+\todo{To introduce the difference between correspondences and correspondences rules}
+
 This section presents the notion of \emph{Correspondence}. We begin by reviewing the concept of correspondences in existing approaches. Then, we present requirements to make the correspondences explicit and better customizable.  
 
 \subsection{Review of Existing Approaches}
@@ -79,9 +82,6 @@ To make correspondence rules explicit, a dedicated language should be used. To i
 	
 The main benefit of the use of such a dedicated language is to ease the customization of the correspondences rules, thus enabling to adapt them according to the company modeling conventions and the language's nature. For instance in listing \ref{lst:epsilon} the matching is equivalent to the one encoded in Mascot. However, it can be customized to add another criteria for matching. Furthermore, conventions are independent of the languages themselves, so it is easy to add support for a new language without changing the approach framework.
 	
-
-
-
 
 In this section, we have presented some requirements to improve the way that approaches get correspondences between models. In the specification of a coordination pattern, correspondences are used to identify which elements from different models must be coordinated. We proposed four requirements for a flexible implementation of correspondences. They should: 
 \begin{enumerate}
