@@ -1,6 +1,9 @@
 \section{Coordination Rule}
 \subsection{Overview}
-To capture the specification of a given coordination pattern, approaches specify not only what and when elements must be coordinated, but also how they must be coordinated. Together with a correspondence rule, approaches define a coordination rule that contains the specification of the interaction. In other words, each correspondence has associated a coordination rule that defines its behavioral meaning. 
+The coordination rule defines how the model elements which are in a same correspondence are coordinated together. In other words, it is a specification of the interaction between elements selected by the correspondence rules.
+
+\paragraph{Di Natale et al \& MASCOT :}
+in both~\cite{dinatale} and ~\cite{mascotbib}, the coordination rule is specified by the translational semantics of the correspondences, \ie resulting in a C++ glue for Di NAtale et al. and in C wrappers for MASCOT. 
 
 For example, in~\cite{dinatale}, each correspondence in the mapping model (\ie stereotypes) is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform translation semantics are coordinated. More precisely, the glue is encoded into the translation semantics of the mapping language as method invocation in C++. Similarly, MASCOT~\cite{mascotbib} encodes the coordination rule into the SDL wrappers in C. The SDL engine communicates to the Matlab engine by invoking the methods in the SDL wrappers. Such a protocol is implemented in C. 
 			
