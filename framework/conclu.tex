@@ -1,35 +1,35 @@
 \section{Conclusion}
-In this chapter, we have determined three building blocks to capture the specification of coordination patterns: 
+In this chapter, we have presented requirements for a language that capture the specification of a coordination pattern. Such requirements lie on a framework to compare language coordination approaches. Our framework is built of three elements: 
 \begin{itemize}
 	\item a language behavioral interface;
 	\item a correspondence rule;
-	\item  a coordination rule.
+	\item a coordination rule.
 \end{itemize}
-Table~\ref{table:framework} summarizes the main characteristics of these elements in the studied approaches. 
 
-\begin{table}[]
-	\centering
-	\caption{Sumarizes of the studied approaches}
-	\label{table:framework}
-\begin{tabular}{|c|c|c|c|}
-	\hline
-	\rowcolor[HTML]{FFFFC7} 
-	Approach                                                    & \begin{tabular}[c]{@{}c@{}}Language Behavioral \\ Interface\end{tabular} & \begin{tabular}[c]{@{}c@{}}Correspondence \\ Rule\end{tabular} & \begin{tabular}[c]{@{}c@{}}Coordination \\ Rule\end{tabular} \\ \hline
-	\begin{tabular}[c]{@{}c@{}}Ptolemy \\ ModHel'X\end{tabular} & \begin{tabular}[c]{@{}c@{}}methods,\\ generic\end{tabular}               & composite actors                                               & Java                                                         \\ \hline
-	MASCOT                                                      & \begin{tabular}[c]{@{}c@{}}methods,\\ wrappers\end{tabular}              & naming convention                                              & C                                                            \\ \hline
-	Di Natale                                                   & methods                                                                  & connectors                                                     & C++                                                          \\ \hline
-	\rowcolor[HTML]{FFCCC9} 
-	BCOoL                                                       & \begin{tabular}[c]{@{}c@{}}Event types\\ domain-specific\end{tabular}    & dedicated language                                             & MOCCML                                                       \\ \hline
-\end{tabular}
-\end{table}
+
+%\begin{table}[]
+%	\centering
+%	\caption{Sumarizes of the studied approaches}
+%	\label{table:framework}
+%\begin{tabular}{|c|c|c|c|}
+%	\hline
+%	\rowcolor[HTML]{FFFFC7} 
+%	Approach                                                    & \begin{tabular}[c]{@{}c@{}}Language Behavioral \\ Interface\end{tabular} & \begin{tabular}[c]{@{}c@{}}Correspondence \\ Rule\end{tabular} & \begin{tabular}[c]{@{}c@{}}Coordination \\ Rule\end{tabular} \\ \hline
+%	\begin{tabular}[c]{@{}c@{}}Ptolemy \\ ModHel'X\end{tabular} & \begin{tabular}[c]{@{}c@{}}methods,\\ generic\end{tabular}               & composite actors                                               & Java                                                         \\ \hline
+%	MASCOT                                                      & \begin{tabular}[c]{@{}c@{}}methods,\\ wrappers\end{tabular}              & naming convention                                              & C                                                            \\ \hline
+%	Di Natale                                                   & methods                                                                  & connectors                                                     & C++                                                          \\ \hline
+%	\rowcolor[HTML]{FFCCC9} 
+%	BCOoL                                                       & \begin{tabular}[c]{@{}c@{}}Event types\\ domain-specific\end{tabular}    & dedicated language                                             & MOCCML                                                       \\ \hline
+%\end{tabular}
+%\end{table}
  
 We have identified that a language behavioral interface is a partial representation of the syntax and behavioral semantics of languages for coordination purpose. We have determined that an explicit language behavioral interface has several benefits. For instance, it helps to identify the coordination point thus easing the task to add support to a new language. We have noted that, when the interface is made of events, the specification of the coordination between languages can be done by keeping separately the coordination and the computation concerns. This avoids altering the coordinated language semantic.
 
-We want to highlight that the notion of interface is not presented in model composition approaches. These approaches compose heterogeneous models by relying on a fixed metametamodel. For example, in the Epsilon Comparing Language the metametamodel is always Ecore. However, in the case of behavioral coordination, the models can be built with very different languages, \eg SDL and Matlab in MASCOT. This results in a need of a notion of interface at language level to coordinate both languages.  
+%We want to highlight that the notion of interface is not presented in model composition approaches. These approaches compose heterogeneous models by relying on a fixed metametamodel. For example, in the Epsilon Comparing Language the metametamodel is always Ecore. However, in the case of behavioral coordination, the models can be built with very different languages, \eg SDL and Matlab in MASCOT. This results in a need of a notion of interface at language level to coordinate both languages.  
 
-We have identified that correspondence rules specify when elements from different languages must be coordinated. From the studied approaches, we have identified two kinds of correspondences. However, we have determined that only the naming convention can be fully automatized without the help of a system designer. We have also noted that none approach relies on a dedicated language (\eg Epsilon Comparison Language) to express the correspondence rule. We have determined that such a language would ease the task of a language integrator to find similarities between models elements.  
+We have identified that correspondence rules specify in intention the correspondences between model elements. We have determined that all approaches rely on a fixed set of correspondences rules. We have noted that none approach relies on a dedicated language (\eg Epsilon Comparison Language) to express the correspondence rules. We have determined that such a language would ease the task of a language integrator to find similarities between models elements.  
 
-Together with a correspondence rule, we have shown that approaches rely on a notion of coordination rule that specifies the behavior of the correspondences. We have noted that all approaches express the coordination in a general purpose language thus limiting verification and validation. We have concluded that none approaches leverage on the work done by Coordination Languages and ADLs in which the coordination rule is explicit and expressed in a formal language.  
+Together with a correspondence rule, we have shown that approaches rely on a notion of coordination rule that specifies the interaction between elements in a correspondence. We have noted that all approaches hide the coordination rule into tool/frameworks in which the coordination is expressed in a general purpose language thus limiting verification and validation. We have concluded that none approaches leverage on the work done by Coordination Languages and ADLs in which the coordination is expressed in a formal language.  
 
 \begin{figure}
 	\begin{center}
@@ -39,7 +39,7 @@ Together with a correspondence rule, we have shown that approaches rely on a not
 	\end{center}
 \end{figure}
 
-In this thesis, we propose a dedicated language named \bcool to capture coordination patterns between languages. \bcool is an implementation of the framework previously presented (in red in Table~\ref{table:framework}).  
+Based on the requirements presented in this section, we propose, in this thesis, a dedicated language named \bcool to capture coordination patterns between languages. \bcool is an implementation of the framework previously presented.  
 %\begin{enumerate}
 %	\item A language behavioral interface made of event types. 
 %	\item A correspondence rule expressed in a query language (\eg a matching operator). 
