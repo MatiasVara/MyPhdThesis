@@ -2,7 +2,7 @@
 \label{section:bcoollengbench}
 This section presents the implementation of \bcool into the GEMOC studio\footnote{http://www.gemoc.org}; which integrates technologies based on Eclipse Modeling Framework (EMF)~\footnote{http://eclipse.org/modeling/emf/} adequate for the specification of executable domain specific modeling languages. The studio includes a \emph{language workbench} to design and implement tool-supported xDSMLs and a \emph{modeling workbench} where the xDSMLs are automatically deployed to allow designers to edit, execute, simulate, and animate their models~\cite{ttc15bib}. \bcool takes advantages of this collaborative environment by adding coordination facilities. The resulting integrated environment enables the implementation of the workflow presented in Figure~\ref{fig:proposedworkflow} in which a language integrator uses the language workbench to develop \bcool operators to specify coordination patterns between languages, and then a system designer can use these operators in the modeling workbench to  coordinate models. In this section, we illustrate the use the of language workbench by developing the running example operator (see Listing~\ref{lst:bcoolrunningexample}). Then, in the modeling workbench, we use this operator to execute and verify the models of the coffee machine. 
 
-\begin{figure}[h]
+\begin{figure}[]
 	\begin{center}
 		\includegraphics[width=1\textwidth]{bcool/figs/bcooltechnos}
 		\caption{Overview of the \bcool Framework}
