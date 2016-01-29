@@ -1,6 +1,6 @@
-\backcite {wrightbib}{{17}{(document)}{Doc-Start}}
-\backcite {dinatale}{{17}{(document)}{Doc-Start}}
-\backcite {giraultbib}{{17}{(document)}{Doc-Start}}
+\backcite {wrightbib}{{19}{(document)}{Doc-Start}}
+\backcite {dinatale}{{19}{(document)}{Doc-Start}}
+\backcite {giraultbib}{{19}{(document)}{Doc-Start}}
 \backcite {coordsignibib}{{2}{1}{chapter.1}}
 \backcite {coordsignibib}{{2}{1}{figure.1.1}}
 \backcite {frameadlsbib}{{2}{1}{figure.1.1}}
@@ -11,7 +11,7 @@
 \backcite {translationalbib}{{5}{2.1}{section.2.1}}
 \backcite {moccsemanticbib}{{5}{2.1}{section.2.1}}
 \backcite {mergemanifest,epsilon,kompose}{{6}{2.2.1}{figure.2.1}}
-\backcite {mergemanifest}{{6}{2.2.1}{figure.2.1}}
+\backcite {mergemanifest}{{7}{2.2.1}{figure.2.1}}
 \backcite {kompose}{{7}{2.2.1}{figure.2.1}}
 \backcite {signaturecomposebib}{{7}{2.2.1}{figure.2.1}}
 \backcite {epsilon}{{7}{2.2.1}{figure.2.1}}
@@ -70,7 +70,7 @@
 \backcite {coordmodels}{{23}{3.1}{section.3.1}}
 \backcite {framecompoas}{{23}{3.1}{section.3.1}}
 \backcite {frameadlsbib}{{23}{3.1}{section.3.1}}
-\backcite {coordmodels}{{23}{3.1}{section.3.1}}
+\backcite {coordmodels}{{24}{3.1}{section.3.1}}
 \backcite {framecompoas}{{24}{3.1}{section.3.1}}
 \backcite {GML_ch1,GML_ch3,GML_ch4,degueule2015melange}{{25}{3.2.1}{subsection.3.2.1}}
 \backcite {sle13-combemale}{{25}{3.2.1}{subsection.3.2.1}}
@@ -83,12 +83,12 @@
 \backcite {eventStructures}{{30}{3.2.2}{Item.6}}
 \backcite {ccslbib}{{30}{3.2.2}{Item.6}}
 \backcite {tagmachinebib}{{30}{3.2.2}{Item.6}}
-\backcite {sle13-combemale}{{30}{3.2.2}{Item.6}}
+\backcite {sle13-combemale}{{31}{3.2.2}{Item.6}}
 \backcite {ptoleframebib}{{31}{3.3.1}{subsection.3.3.1}}
 \backcite {modhelxbib}{{31}{3.3.1}{subsection.3.3.1}}
 \backcite {dinatale}{{32}{3.3.1}{subsection.3.3.1}}
 \backcite {mascotbib}{{32}{3.3.1}{subsection.3.3.1}}
-\backcite {kofmanbib}{{33}{3.3.2}{Item.10}}
+\backcite {kofmanbib}{{34}{3.3.2}{Item.10}}
 \backcite {epsilonbib}{{34}{3.3.2}{lstnumber.3.1.8}}
 \backcite {lee1998framework}{{36}{3.4.1}{subsection.3.4.1}}
 \backcite {dinatale}{{36}{3.4.1}{subsection.3.4.1}}
@@ -96,7 +96,7 @@
 \backcite {dinatale}{{37}{3.4.2}{Item.13}}
 \backcite {mascotbib}{{37}{3.4.2}{Item.13}}
 \backcite {wrightbib,rapidebib}{{38}{3.4.2}{Item.13}}
-\backcite {sle13-combemale}{{39}{3.5}{figure.3.1}}
+\backcite {sle13-combemale}{{40}{3.5}{figure.3.1}}
 \backcite {moccmlbib}{{40}{3.5}{figure.3.1}}
 \backcite {sle13-combemale}{{42}{4.2}{section.4.2}}
 \backcite {ttc15bib}{{46}{4.2}{lstnumber.4.2.6}}
