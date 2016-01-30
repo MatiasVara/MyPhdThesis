@@ -1,17 +1,17 @@
-\section{Coordination Rule}
-In this section, we first a review the notion of \emph{Coordination Rule} in existing approaches, and then, we present some requirements to make them better defined. 
+\section{Coordination Rules}
+In this section, we first a review the notion of \emph{Coordination Rules} in existing approaches, and then, we present some requirements to make them better defined. 
 
 \subsection{Review of Existing Approaches}
-In the specification of a coordination pattern, coordination rules specify \emph{how} the elements selected by the correspondences rules must be coordinated. Based on a coordination rule, approaches specify the interaction between elements in a correspondence. In the following, we review how existing approaches implements a coordination rule depending on the specified coordination pattern.  
+In the specification of a coordination pattern, coordination rules specify \emph{how} the elements selected by the correspondence rules must be coordinated. Based on a coordination rule, approaches specify the interaction between elements in a correspondence. In the following, we review how existing approaches implement a coordination rule depending on the specified coordination pattern.  
 
-\paragraph{Ptolemy \& ModHel'X :}	
+\paragraph{Ptolemy~\cite{ptoleframebib}/ModHel'X~\cite{modhelxbib}:}	
 In these approaches, composite actors interact with their internal actors by invoking the methods in their interface. The coordination rule implements a hierarchical execution of actors in which the coordination is expressed in Java together with the semantics of the actors. In ModHel'X, authors made explicit the notion of semantics adaption between actors by allowing the specification of the code between two component interfaces. Such a manual adaptation is also done in Java.
 
 These approaches, in particular Ptolemy, were the first to propose a hierarchical framework to coordinate heterogeneous models. These approaches, however, do not leverage on the formal works done by their authors in the field of Model of Computation~\cite{lee1998framework}. The current implementation contains only few of the ideas proposed in such works. Thus, the main \emph{cons} is that the approaches are limited in terms of verification and validation of the coordinated system. 
 
 ModHel'X went one step forward by proposing the notion of semantics adaptation between two components. However, the semantics adaptation is never reifed at language level thus making the approach close to the notion of glue in existing ADLs.
 
-\paragraph{Di Natale et al \& MASCOT :}
+\paragraph{Di Natale et al.~\cite{dinatale} \& MASCOT~\cite{mascotbib}:}
 In these approaches, the coordination rule is specified by the translational semantics of the correspondences. In Di Natale et al.~\cite{dinatale}, each correspondence in the mapping model is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform translation semantics are coordinated. In the case of MASCOT~\cite{mascotbib}, the coordination rule is encoded by using SDL wrappers which results in a coordination expressed in C.
 
 The \emph{pros} of these approaches is that they achieved to coordinate models that are developed in different technologies, \ie Maltab and SDL. They do so by expressing the semantics of both the coordination and the models in a common GPL, \ie C, C++. 
@@ -20,17 +20,15 @@ The main \emph{cons} of these approaches is that they are very limited in terms 
 
 Another \emph{cons} of these approaches is that they force to express the semantics of both the model and the coordination in the same language. The use of a GPL to express the coordination limits the verification and validation of the resulting coordinated system. 
 	
-%For example, in~\cite{dinatale}, each correspondence in the mapping model (\ie stereotypes) is translated to a specific glue in C++. The glue encodes how elements of the functional and the platform translation semantics are coordinated. More precisely, the glue is encoded into the translation semantics of the mapping language as method invocation in C++. Similarly, MASCOT~\cite{mascotbib} encodes the coordination rule into the SDL wrappers in C. The SDL engine communicates to the Matlab engine by invoking the methods in the SDL wrappers. Such a protocol is implemented in C. 
-
 \subsection{Requirements}
-In the reviewed approaches, we identified that each approach encodes a different coordination rule depending on the coordination pattern that they specify. Such a coordination rule specifies how concepts from different language \emph{must} be coordinated. The coordination rule allows approaches to derivate a glue between the elements selected by a correspondence rule. Such a glue specifies how elements in a correspondence \emph{are} coordinated. However, in these approaches, the coordination rule is encoded into a framework/tool and the coordination is expressed in a GPL. This limits the task of a system designer to provide analysis and verification of the coordinated system. To support the heterogeneous development of complex systems, a system designer has to understand well how a system is coordinated and he must be able to provide analysis of the coordinate system. These characteristics motivate the following requirements:
+In the reviewed approaches, we identified that they encode a different coordination rule depending on the coordination pattern. Such a coordination rule specifies how concepts from different language \emph{must} be coordinated. The coordination rule allows approaches to derivate a glue between the elements selected by a correspondence rule. Such a glue specifies how elements in a correspondence \emph{are} coordinated. However, in these approaches, the coordination rule is encoded into a framework/tool and the coordination is expressed in a GPL. This limits the task of a system designer to provide analysis and verification of the coordinated system. To support the heterogeneous development of complex systems, a system designer has to understand well how a system is coordinated and he must be able to provide analysis of the coordinate system. These characteristics motivate the following requirements:
 	\begin{enumerate}
-		\item The coordination rule should be independent of the coordinated languages. 
-		\item The coordination rule should be customizable. 
-		\item The coordination should be formal defined. 
+		\item Coordination rules should be expressed independently of the implementation of the coordinated languages;  
+		\item Coordination rules should be customizable;
+		\item Coordination between models should be formally defined. 
 	\end{enumerate}
 	
-Let us consider each of these requirements in turn. For an approach to specify coordination patterns, it is important that a new language be easy to add. In this sense, the coordination rule cannot depend on the coordinated languages. \cite{dinatale} and~\cite{mascotbib} proposed a coordination rule whose expression is strongly linked to the languages to be coordinated, thus making tedious to add a new language without modifying the whole implementation. Note that this requirement is strongly linked with the need for an explicit language behavioral interface.
+Let us consider each of these requirements in turn. For an approach to specify coordination patterns, it is important that a new language be easy to add. In this sense, the coordination rule cannot depend on the implementation of coordinated languages. \cite{dinatale} and~\cite{mascotbib} proposed a coordination rule whose expression is strongly linked to the implementation of the coordinated languages, thus making tedious to add a new language without modifying the whole implementation. Note that this requirement is strongly linked with the need for an explicit language behavioral interface.
 	
 In the proposed approaches the coordination rules are encoded in the framework/tools. Thus, a system designer has to modify the current implementation to change the proposed coordination. To be able to specify different coordination patterns, a system designer should be able to modify the coordination rules without altering the whole implementation. This is somehow possible in Ptolemy and ModHel'X but since the semantics of a composite actor and the coordination of its internal actors are mixed, there is a risk of altering the semantics of the actor. In ModHel'X, the semantic adaptation can be modified but only between two particular models.
 	
