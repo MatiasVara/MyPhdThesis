@@ -9,17 +9,17 @@
 	\end{center}
 \end{figure}
 
-\todo{, which is a particular implementation of the framework previously presented.  }
+This chapter presents the implementation of \bcool, a dedicated language to specify coordination patterns. \bcool is a particular implementation of the framework presented in chapter~\ref{ch:framework}. It is based on a language behavioral interface made of event types (\ie \dse\cite{sle13-combemale}) as ``coordination points" to drive the execution of languages. These events are used as handles or control points in two complementary ways: to observe what happens inside the model, and to control what is allowed to happen or not. When required by the coordination, constraints are used to forbid or delay some event occurrences. Forbidding occurrences reduces what can be done by individual models. When several executions are allowed
+(nondeterminism), it gives some freedom to individual semantics for making their own choices. All this put together makes the \dse suitable to drive coordinated simulations without being intrusive in the models. 
 
-\todo{We base on a language behavioral interface made of event types (\ie \dse\cite{sle13-combemale}) as ``coordination points" to drive the execution of languages. These events are used as handles or control points in two complementary ways: to observe what happens inside the model, and to control what is allowed to happen or not. When required by the coordination, constraints are used to forbid or delay some event occurrences. Forbidding occurrences reduces what can be done by individual models. When several executions are allowed
-(nondeterminism), it gives some freedom to individual semantics for making their own choices. All this put together makes the \dse suitable to drive coordinated simulations without being intrusive in the models.} 
+\bcool is a dedicated language to capture the system designer know-how (see Figure~\ref{fig:bcoolapp}). With \bcool, an \emph{language integrator} can deal with the complexity of the coordination of heterogeneous behavioral models by capturing coordination patterns at the language level. Once specified in \bcool, integrators can shared such knowledge thus allowing reusing and tuning of coordination patterns. \emph{System designers} can then use the \bcool specification to generate an explicit coordination model when specific models are used. In addition, the generated coordination model is formal thus allowing system designers to verify and validate the coordinated system.  
 
-\todo{In \bcool, coordination patterns are captured as constraints at the language level on the \dse (see Figure~\ref{fig:bcoolapp}). To do so, a language integrator defines \emph{Operators} that are composed by a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. To do so, we rely on the context in which a \dse is defined to selected instances of such \dse. Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. To specify the coordination rule, we rely on a CCSL-based language named \moccml~\cite{moccmlbib}. The specification at language level applies between models thus generating a formal model of coordination in \ccsl. This enables a system designer to validate and verify a coordinated system. In the following chapter, we present the implementation of \bcool.}
+In \bcool, coordination patterns are captured as constraints at the language level on the \dse. A language integrator defines \emph{Operators} that are composed by a \emph{correspondence matching} and a \emph{coordination rule}. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. To do so, we rely on the context in which a \dse is defined to selected instances of such \dse. Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected during the matching. To specify the coordination rule, we rely on a CCSL-based language named \moccml~\cite{moccmlbib}. The specification at language level applies between models thus generating a formal model of coordination in \ccsl.
 
-
-This chapter presents \bcool, a dedicated (meta)language to capture the knowledge about system integration. With \bcool, an \emph{language integrator} can deal with the complexity of the coordination of heterogeneous behavioral models by capturing coordination patterns at the language level (see Figure~\ref{fig:proposedworkflow}). Once specified in \bcool, integrators can shared such knowledge thus allowing reusing and tuning of coordination patterns. \emph{System designers} can then use the \bcool specification to generate an explicit coordination model when specific models are used. In addition, the generated coordination model is formal thus allowing system designers to verify and validate the coordinated system.     
 	
-\bcool is an implementation of the framework presented in Section~\ref{ch:framework}. Coordination patterns are captured at language level by using operators that specify how the \dse of different language behavioral interfaces are combined and interact. Operators rely on a correspondence matching and a coordination rule. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected.
+%Coordination patterns are captured at language level by using operators that specify how the \dse of different language behavioral interfaces are combined and interact. Operators rely on a correspondence matching and a coordination rule. The correspondence matching identifies what elements from the behavioral interfaces (\ie what instances of \dse) must be selected. Then, a coordination rule specifies the, possibly timed, synchronizations and causality relationships between the instances of \dse selected.
+
+
 
 In this chapter, we illustrate the use of \bcool through a simple running example: the coordination of the models of a coffee machine. To build the model, we base on two languages: a state-based language named Timed Finite State Machine (TFSM) and an action-based language named Activity. The goal here is to show that we can build an operator in \bcool between these languages and then use it to coordinate the heterogeneous model of the coffee machine. We use this operator as running example all through the chapter. 
 	
@@ -34,13 +34,13 @@ This chapter is organized as follows. We begin by introducing the running exampl
 %We begin this chapter by presenting the running example; we show the languages with its behavioral interface. Then, we continue by presenting our language \bcool. We illustrate it by relying on the running example. Afterward, we present the implementation of \bcool into the GEMOC studio. To finish the chapter, we evaluate and compare our approach with coordination languages and frameworks and we conclude.
 
 
-\begin{figure}
-	\begin{center}
-		\includegraphics[width=.6\textwidth]{bcool/figs/process}
-		\caption{The Proposed Workflow}
-		\label{fig:proposedworkflow}
-	\end{center}
-\end{figure}
+%\begin{figure}
+%	\begin{center}
+%		\includegraphics[width=.6\textwidth]{bcool/figs/process}
+%		\caption{The Proposed Workflow}
+%		\label{fig:proposedworkflow}
+%	\end{center}
+%\end{figure}
 
 %The running example helps us to illustrate the different tasks in the development of heterogeneous systems:
 %	\begin{enumerate}
