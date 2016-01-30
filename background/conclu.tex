@@ -1,13 +1,22 @@
 \section{Conclusion}
-In this chapter, we have identified two mechanisms to get a global representation of a heterogeneous system: \emph{composition} and \emph{coordination}. 
+In this chapter, we have presented the state-of-art approaches that rely on two mechanisms to get a global representation of a heterogeneous system: \emph{composition} and \emph{coordination}. 
 
-We have presented approaches that compose heterogeneous models/languages to obtain a new model/language. The composition of models has been automated by looking for correspondences between heterogeneous models, and then composing them into a new model that conform to another language. While most of the approaches only consider structural correspondences, only few consider also the behavior of models to find similarities. Furthermore, we have determined that these last approaches only compose homogeneous models. This limits the use of such approaches in complex systems where heterogeneous behavioral models may be used. 
+We have presented approaches that compose heterogeneous models/languages to obtain a new model/language. The composition of models has been automated by looking for correspondences between heterogeneous models, and then composing them into a new model that conform to another language. Most of the approaches consider structural correspondences and only few consider also the behavior of models to find similarities. Furthermore, we have determined that these last approaches only compose homogeneous models. This limits the use of such approaches in complex systems where heterogeneous behavioral models may be used. 
 
 We have presented approaches that compose languages to get a new language. Most of these approaches focus on the composition of the syntax of languages into a new syntax. Only Semantics Anchoring~\cite{semanticsanchoring} proposes to compose behavioral semantics by relying on the notion of Semantic Units. These approaches propose to model a heterogeneous system by relying on a single language which results from the composition of other languages. From our point of view, language composition approaches are not suitable for separation of preoccupations and development of a single system by various domain experts who focus on a specific part of the system.
 
 We have presented state-of-the-art approaches that deal with coordination of the behavior of heterogeneous models/languages. First, we have presented the work done by Coordination Languages and ADLs that support the coordination of heterogeneous models. However, the system designer has to manually specify each relation, thus making this task tedious and error prone. Then, we have shown how language coordination approaches have leveraged on the know-how of system designer to automate the coordination between models. However, we have noted that the knowledge about system integration is encoded within a framework. Furthermore, in frameworks, the model of coordination is expressed by using a general purpose language thus limiting verification and validation activities. 
 
-In this thesis, we rely on the coordination of (heterogeneous) behavioral models to get the emerging system behavior of a heterogeneous system. We propose to automate the coordination between models by specifying coordination patterns between languages. Such a pattern leverage on the know-how of a system designer. To specify coordination patterns, a language integrator should rely on a dedicated language. Such specification defined at language level should enable a system designer to synthesis a coordination model when applied between particular models. The generated model of coordination should be expressed in a formal language to enable reasoning on the global system. In the next chapter, we elaborate on these requirements and we present a framework for the specification of coordination patterns. From these requirements, we propose a language for specifying coordination patterns named \bcool. Then, in chapter~\ref{ch:bcool}, we present the implementation of our language.
+In this thesis, we rely on the coordination of (heterogeneous) behavioral models to get the emerging system behavior of a heterogeneous system. We propose to automate the coordination between models by specifying coordination patterns between languages. In the next chapter, we elaborate on the requirements towards a language to specify coordination patterns. Such requirements tend to improve existing language coordination approaches to make them more flexible and well founded. From these requirements, we propose a language for specifying coordination patterns named \bcool. Then, in chapter~\ref{ch:bcool}, we present the implementation of our language.
+
+
+
+
+
+%To specify coordination patterns, a language integrator should rely on a dedicated language. Such specification defined at language level should enable a system designer to synthesize a coordination model when applied between particular models. The generated model of coordination should be expressed in a formal language to enable reasoning on the global system. 
+
+
+
 
 
 
