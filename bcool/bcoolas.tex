@@ -8,7 +8,7 @@
 
 The abstract syntax of \bcool is defined by its metamodel (see Figure~\ref{fig:bcool}). The root element is a \emph{BCoolSpecification} that contains \emph{Operators}. Each operator refers to \dse to specify what event types it coordinates. To get the \dse, a \bcool specification imports language behavioral interfaces (\emph{importsInterfaceStatements}). The number of imported interfaces is related with the number of models that the specification accepts as input. Since the \bcool specification is applied at least between two models, it imports at least two interfaces. The same interface can be imported several times to allow the specification of operators between homogeneous languages.   
 
-To build the running example operator, we need to synchronize FSMEvents and Actions. This is done by coordinating instances of \dse \emph{occurs} and instances of \dse \emph{executeIt}. To specify this in \bcool, we first define a specification named \emph{TFSMAndActivity} and we import the language behavioral interface of each language, named \emph{activity} and \emph{tfsm} (Listing~\ref{lst:bcoolrunningexample}: line 3 and 4). Then, the operator \emph{SyncFSMEventsAndActions} is defined, which refers to the \dse \emph{occurs} and \emph{executeIt}, mapped as \emph{FSMEvenOccurs} and \emph{ActionExecute} respectively (Listing~\ref{lst:bcoolrunningexample}: line 5). 
+To build the running example operator, we need to synchronize FSMEvents and Actions. This is done by coordinating instances of \dse \emph{occurs} and instances of \dse \emph{executeIt}. To specify this in \bcool, we first define a specification named \emph{TFSMAndActivity} and we import the language behavioral interface of each language, named \emph{activity} and \emph{tfsm} (Listing~\ref{lst:bcoolrunningexample}: line 3 and 4). Then, the operator \emph{SyncFSMEventsAndActions} is defined, which refers to the \dse \emph{occurs} and \emph{executeIt}, mapped as \emph{FSMEventOccurs} and \emph{ActionExecute} respectively (Listing~\ref{lst:bcoolrunningexample}: line 5). 
 	
 	 
 	\begin{lstlisting}[language=bcool,
@@ -46,7 +46,7 @@ Conjointly with an event relation, \bcool enables the definition of \emph{EventV
 To illustrate the use of event variables, we suppose the situation in which the coordination between events relies on a global synchronization clock. This is often in synchronous digital systems in which a clock signal is used to coordinate the actions in a circuit. Thus, we slightly modify the running example operator by considering the case in which the coordination between instances of \dse \emph{occurs} and instances of \dse \emph{executeIt} relies on a global clock signal. The selected instances of \dse \emph{occurs} (called \emph{sampledEvent}) are sampled by a global clock (called \emph{trigger}). This results in a new event which contains the occurrences of the \emph{sampledEvent} that were sampled by the \emph{trigger}. This new event ticks always in coincidence with the global clock and represents the last occurrence of the \emph{sampledEvent} that was sampled by the \emph{trigger}. 
 	
 \begin{lstlisting}[language=bcool,
-caption={Synchronized product operator between the TFSM and Activity languages by using Event Variables},
+caption={\bcool specification of the modified running example operator between the TFSM and Activity languages by using Event Variables},
 label={lst:bcoolrunningexampletimed}, 
 basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 BCOoLSpec TimedTFSMandActivity
