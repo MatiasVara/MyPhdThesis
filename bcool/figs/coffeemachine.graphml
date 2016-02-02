@@ -49,7 +49,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[351499836]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="1909.3312834492478" y="-2234.674466444145"/>
@@ -70,7 +69,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[734960074]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="1669.830451284113" y="-1394.6255342508703"/>
@@ -91,7 +89,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[303577431]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="325.19582084126773" y="314.85145466819813"/>
@@ -112,7 +109,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1055948395]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="2106.0718349963136" y="-118.25138041880973"/>
@@ -133,7 +129,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[51420680]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="69.078125" x="3794.931238271103" y="-487.0504861363406"/>
@@ -154,7 +149,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1347801721]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="730.6870729666696" y="892.5120224448169"/>
@@ -175,7 +169,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1870249668]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="2495.707201190059" y="505.16520549118286"/>
@@ -196,7 +189,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1294248796]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="3674.6235643692453" y="208.152180726428"/>
@@ -217,7 +209,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1972723203]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1333.659458950158" y="1270.6253758316216"/>
@@ -238,7 +229,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[191728377]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="2035.73568629565" y="1387.5008490079263"/>
@@ -259,7 +249,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1616371633]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="2721.6722807164315" y="1227.9240929010193"/>
@@ -280,7 +269,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[2131305670]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="3300.2615777051324" y="813.4607873139548"/>
@@ -301,7 +289,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1362378023]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="3210.787935376845" y="-1750.4468877922627"/>
@@ -322,7 +309,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[277120078]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="-603.444492230959" y="2853.5433218717208"/>
@@ -343,7 +329,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1849423476]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1884.1747289844523" y="5197.638297004003"/>
@@ -364,7 +349,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[75580994]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="69.078125" x="86.680620671219" y="2736.0690219986272"/>
@@ -385,7 +369,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[642827120]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="1362.8717798753466" y="3251.4633205466816"/>
@@ -406,7 +389,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1572684331]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1775.7508872846017" y="3818.527131868331"/>
@@ -427,7 +409,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[249418477]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="1962.8866248269494" y="4497.932542424433"/>
@@ -448,7 +429,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[965639166]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="25.723428958474415" y="4245.173300295321"/>
@@ -469,7 +449,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1508762302]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="765.4309967973743" y="2873.5630827443965"/>
@@ -490,7 +469,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1800381598]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1558.877786867786" y="5825.844700244144"/>
@@ -511,7 +489,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1579322797]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="-1847.7629487055776" y="4442.412570182999"/>
@@ -532,7 +509,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1656079560]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1217.1010757518577" y="-2069.407794871383"/>
@@ -553,7 +529,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1573317998]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="-1642.960836511272" y="3765.2733817858707"/>
@@ -574,7 +549,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[478149367]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="-165.14423224114944" y="5339.787914967497"/>
@@ -595,7 +569,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[868370114]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="-1204.9869562364" y="3211.463426309293"/>
@@ -616,7 +589,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[114012305]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="1034.495798853962" y="6290.820781061685"/>
@@ -637,7 +609,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1115234090]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="-1792.3166230544814" y="5147.6693252688065"/>
@@ -658,7 +629,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[655897289]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="-329.72613376241407" y="6520.171721367726"/>
@@ -679,7 +649,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1545709940]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="370.03829469377183" y="6533.208819420582"/>
@@ -700,7 +669,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[587295870]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="-1482.6494117322575" y="5781.430489647263"/>
@@ -721,7 +689,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[36729378]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="69.078125" x="-970.7744553576272" y="6257.556537514503"/>
@@ -742,7 +709,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[2123796046]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="2604.7139917478726" y="-2123.568558460238"/>
@@ -763,7 +729,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[109768]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="53.80859375" x="180.359817800693" y="-360.64500598558516"/>
@@ -784,7 +749,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[2046565329]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="1699.6286686922497" y="-741.6679663288023"/>
@@ -805,7 +769,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[953908650]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="76.712890625" x="277.7268622377794" y="-1045.3930165050351"/>
@@ -826,7 +789,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1616550391]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="3626.435188123476" y="-1172.7075282604637"/>
@@ -847,7 +809,6 @@
       <data key="d8"><![CDATA[#ffffff]]></data>
       <data key="d9"><![CDATA[1287106355]]></data>
       <data key="d10"><![CDATA[circle]]></data>
-      <data key="d12"/>
       <data key="d13">
         <y:ShapeNode>
           <y:Geometry height="30.0" width="84.34765625" x="641.953760738681" y="-1650.1811589080062"/>
@@ -868,7 +829,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="3.846715875555674" sy="1.0967118914049934" tx="3.846715875555674" ty="1.0967118914049934"/>
@@ -890,7 +850,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-29.115745384710863" sy="0.0" tx="-29.115745384710863" ty="9.094947017729282E-13"/>
@@ -912,7 +871,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.796960989079707" sy="0.0" tx="-20.796960989079253" ty="0.0"/>
@@ -934,7 +892,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.478176593447643" sy="0.0" tx="-12.478176593447188" ty="0.0"/>
@@ -956,7 +913,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.159392197816487" sy="0.0" tx="-4.159392197815578" ty="-9.094947017729282E-13"/>
@@ -978,7 +934,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.478176593446733" sy="0.0" tx="12.478176593448097" ty="0.0"/>
@@ -1000,7 +955,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.796960989079253" sy="0.0" tx="20.796960989078798" ty="-9.094947017729282E-13"/>
@@ -1022,7 +976,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="29.115745384711317" sy="0.0" tx="29.115745384711317" ty="0.0"/>
@@ -1044,7 +997,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.5217225631236033" sy="-1.406344754008387" tx="0.5217225631240581" ty="-1.406344754008387"/>
@@ -1066,7 +1018,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="11.199245387808332" tx="0.0" ty="11.199245387808332"/>
@@ -1088,7 +1039,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="7.999460991291016" tx="0.0" ty="7.999460991291016"/>
@@ -1110,7 +1060,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="4.799676594775519" tx="0.0" ty="4.79967659477461"/>
@@ -1132,7 +1081,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="1.5998921982572938" tx="0.0" ty="1.5998921982582033"/>
@@ -1154,7 +1102,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-4.79967659477461" tx="0.0" ty="-4.799676594776429"/>
@@ -1176,7 +1123,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-7.999460991291926" tx="0.0" ty="-7.999460991291016"/>
@@ -1198,7 +1144,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-11.199245387808332" tx="0.0" ty="-11.199245387809242"/>
@@ -1220,7 +1165,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.3501547738355839" sy="1.4585580668453986" tx="0.3501547738355839" ty="1.4585580668453986"/>
@@ -1242,7 +1186,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-10.798335944254177" tx="0.0" ty="-10.798335944254177"/>
@@ -1264,7 +1207,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-7.7130971030392175" tx="0.0" ty="-7.7130971030392175"/>
@@ -1286,7 +1228,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-4.627858261822439" tx="0.0" ty="-4.627858261823349"/>
@@ -1308,7 +1249,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="-1.5426194206074797" tx="0.0" ty="-1.5426194206074797"/>
@@ -1330,7 +1270,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="4.627858261823349" tx="0.0" ty="4.627858261823349"/>
@@ -1352,7 +1291,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="7.7130971030392175" tx="0.0" ty="7.7130971030392175"/>
@@ -1374,7 +1312,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.547473508864641E-13" sy="10.798335944255086" tx="0.0" ty="10.798335944254177"/>
@@ -1396,7 +1333,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -1418,7 +1354,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="9.112919233536559" tx="4.547473508864641E-13" ty="9.112919233536559"/>
@@ -1440,7 +1375,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="6.075279489024979" tx="4.547473508864641E-13" ty="6.075279489024979"/>
@@ -1462,7 +1396,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="3.03763974451158" tx="4.547473508864641E-13" ty="3.03763974451158"/>
@@ -1484,7 +1417,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-3.03763974451158" tx="4.547473508864641E-13" ty="-3.0376397445124894"/>
@@ -1506,7 +1438,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-6.075279489024979" tx="0.0" ty="-6.075279489024069"/>
@@ -1528,7 +1459,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-9.112919233536559" tx="4.547473508864641E-13" ty="-9.112919233536559"/>
@@ -1550,7 +1480,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.7945556640625" sy="15.0" tx="38.3564453125" ty="1.875">
@@ -1579,7 +1508,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="9.589111328125" sy="15.0" tx="38.3564453125" ty="3.75">
@@ -1608,7 +1536,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="14.3836669921875" sy="15.0" tx="38.3564453125" ty="5.625">
@@ -1637,7 +1564,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.17822265625" sy="15.0" tx="38.3564453125" ty="7.5">
@@ -1666,7 +1592,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="23.9727783203125" sy="15.0" tx="38.3564453125" ty="9.375">
@@ -1695,7 +1620,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.767333984375" sy="15.0" tx="38.3564453125" ty="11.25">
@@ -1724,7 +1648,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="33.5618896484375" sy="15.0" tx="38.3564453125" ty="13.125">
@@ -1753,7 +1676,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="3.9947097088747796" sy="-0.20565588204772212" tx="3.9947097088747796" ty="-0.20565588204772212"/>
@@ -1775,7 +1697,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-28.037081080303324" sy="0.0" tx="-28.03708108030378" ty="0.0"/>
@@ -1797,7 +1718,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.0264864859314" sy="0.0" tx="-20.0264864859314" ty="0.0"/>
@@ -1819,7 +1739,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.015891891558567" sy="0.0" tx="-12.015891891558567" ty="0.0"/>
@@ -1841,7 +1760,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.005297297185734" sy="0.0" tx="-4.005297297186189" ty="0.0"/>
@@ -1863,7 +1781,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.015891891559022" sy="0.0" tx="12.015891891558113" ty="0.0"/>
@@ -1885,7 +1802,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.026486485930945" sy="0.0" tx="20.0264864859314" ty="0.0"/>
@@ -1907,7 +1823,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.03708108030378" sy="0.0" tx="28.037081080303324" ty="0.0"/>
@@ -1929,7 +1844,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.8509642732451539" sy="1.235256979603946" tx="0.8509642732451539" ty="1.235256979603946"/>
@@ -1951,7 +1865,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-18.50841509472457" sy="0.0" tx="-18.50841509472366" ty="0.0"/>
@@ -1973,7 +1886,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-13.220296496230276" sy="0.0" tx="-13.220296496230958" ty="0.0"/>
@@ -1995,7 +1907,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.932177897738711" sy="0.0" tx="-7.932177897737574" ty="0.0"/>
@@ -2017,7 +1928,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-2.644059299246237" sy="0.0" tx="-2.6440592992457823" ty="0.0"/>
@@ -2039,7 +1949,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="7.932177897737802" sy="0.0" tx="7.932177897737574" ty="0.0"/>
@@ -2061,7 +1970,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="13.220296496231185" sy="0.0" tx="13.220296496230276" ty="0.0"/>
@@ -2083,7 +1991,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="18.50841509472366" sy="0.0" tx="18.508415094723432" ty="0.0"/>
@@ -2105,7 +2012,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.36499020057590315" sy="1.454916545195374" tx="0.3649902005761305" ty="1.454916545195374"/>
@@ -2127,7 +2033,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-10.825363181146713" tx="0.0" ty="-10.825363181147623"/>
@@ -2149,7 +2054,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.732402272246873" tx="0.0" ty="-7.732402272246873"/>
@@ -2171,7 +2075,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-4.639441363347942" tx="0.0" ty="-4.639441363347942"/>
@@ -2193,7 +2096,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-1.5464804544499202" tx="0.0" ty="-1.5464804544499202"/>
@@ -2215,7 +2117,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="4.639441363348851" tx="0.0" ty="4.639441363348851"/>
@@ -2237,7 +2138,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.732402272247782" tx="-2.2737367544323206E-13" ty="7.732402272246873"/>
@@ -2259,7 +2159,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="10.825363181146713" tx="0.0" ty="10.825363181147623"/>
@@ -2281,7 +2180,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2303,7 +2201,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2325,7 +2222,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2347,7 +2243,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2369,7 +2264,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2391,7 +2285,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2413,7 +2306,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2435,17 +2327,16 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.125067922897415" sy="-3.388817835628288" tx="2.125067922897415" ty="-3.388817835628288"/>
           <y:LineStyle color="#CE2A0D" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="753.6484375" x="-464.4915822065453" y="183.68586016762674">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="80" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="97.125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="5625.1328125" x="-5380.0888908295465" y="264.20117878473866">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="2.0" distanceToCenter="false" position="right" ratio="0.03346377569247162" segment="0"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1629.0147112703862" distanceToCenter="true" position="right" ratio="-2015.2154539999306" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -2457,7 +2348,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-22.5875133132472" sy="4.547473508864641E-13" tx="-22.58751331324629" ty="0.0"/>
@@ -2479,7 +2369,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.5291711044160365" sy="4.547473508864641E-13" tx="-7.529171104416491" ty="0.0"/>
@@ -2501,7 +2390,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="22.5875133132472" sy="4.547473508864641E-13" tx="22.587513313247655" ty="0.0"/>
@@ -2523,7 +2411,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2545,7 +2432,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.489360266679341" tx="0.0" ty="7.489360266680251"/>
@@ -2567,7 +2453,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.489360266679796" tx="0.0" ty="-7.489360266679341"/>
@@ -2589,7 +2474,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2611,7 +2495,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2633,7 +2516,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.297322757186521" sy="0.0" tx="-11.297322757186976" ty="-4.547473508864641E-13"/>
@@ -2655,7 +2537,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.297322757186976" sy="0.0" tx="11.29732275718743" ty="0.0"/>
@@ -2677,7 +2558,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2699,7 +2579,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-10.477333991847445" sy="0.0" tx="-10.477333991847445" ty="0.0"/>
@@ -2721,7 +2600,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="10.4773339918479" sy="0.0" tx="10.477333991847445" ty="0.0"/>
@@ -2743,7 +2621,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2765,7 +2642,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2787,7 +2663,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-13.686648201979551" sy="0.0" tx="-13.686648201978187" ty="0.0"/>
@@ -2809,7 +2684,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="13.686648201978642" sy="0.0" tx="13.686648201978187" ty="0.0"/>
@@ -2831,7 +2705,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2853,7 +2726,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.757969833615789" sy="-4.547473508864641E-13" tx="-11.757969833615789" ty="0.0"/>
@@ -2875,7 +2747,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.757969833615789" sy="-4.547473508864641E-13" tx="11.757969833615789" ty="0.0"/>
@@ -2897,7 +2768,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2919,7 +2789,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2941,7 +2810,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -2963,17 +2831,16 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-0.41271181587444516" sy="2.465698472449276" tx="-0.41271181587444516" ty="2.465698472449276"/>
           <y:LineStyle color="#CE2A0D" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="753.6484375" x="-69.03355622306685" y="116.52451850459988">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="80" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="97.125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="5625.1328125" x="-352.62053672634465" y="76.25988464499596">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1.90625" distanceToCenter="false" position="left" ratio="-325.46747271825393" segment="2"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="282.9897660281807" distanceToCenter="true" position="right" ratio="-2447.9804631370766" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -2985,7 +2852,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.547473508864641E-13" sy="-7.604336138220788" tx="0.0" ty="-7.604336138221242"/>
@@ -3007,7 +2873,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.547473508864641E-13" sy="-2.5347787127402626" tx="0.0" ty="-2.5347787127402626"/>
@@ -3029,7 +2894,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.547473508864641E-13" sy="7.604336138220788" tx="0.0" ty="7.604336138221242"/>
@@ -3051,7 +2915,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="14.17822265625" sy="15.0" tx="38.3564453125" ty="3.75">
@@ -3080,7 +2943,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.17822265625" sy="15.0" tx="38.3564453125" ty="7.5">
@@ -3109,7 +2971,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="24.17822265625" sy="15.0" tx="38.3564453125" ty="11.25">
@@ -3138,7 +2999,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.5634990044904953" sy="2.4356660017206195" tx="0.5634990044904953" ty="2.4356660017206195"/>
@@ -3160,7 +3020,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.6980998161297975" tx="4.547473508864641E-13" ty="-7.6980998161297975"/>
@@ -3182,7 +3041,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-2.566033272043569" tx="-4.547473508864641E-13" ty="-2.566033272043569"/>
@@ -3204,7 +3062,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.6980998161297975" tx="-4.547473508864641E-13" ty="7.698099816129343"/>
@@ -3226,7 +3083,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="15.0" tx="42.173828125" ty="3.75">
@@ -3255,7 +3111,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="15.0" tx="42.173828125" ty="7.5">
@@ -3284,7 +3139,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="15.0" tx="42.173828125" ty="11.25">
@@ -3313,7 +3167,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.6205316515170125" sy="3.658252843011269" tx="2.6205316515165578" ty="3.658252843011269"/>
@@ -3335,7 +3188,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-23.18231873476452" sy="0.0" tx="-23.182318734764976" ty="4.547473508864641E-13"/>
@@ -3357,7 +3209,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.727439578255144" sy="0.0" tx="-7.727439578255144" ty="0.0"/>
@@ -3379,7 +3230,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="23.18231873476452" sy="0.0" tx="23.18231873476452" ty="4.547473508864641E-13"/>
@@ -3401,7 +3251,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="-15.0" tx="-42.173828125" ty="-3.75">
@@ -3430,7 +3279,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="-15.0" tx="-42.173828125" ty="-7.5">
@@ -3459,7 +3307,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="-15.0" tx="-42.173828125" ty="-11.25">
@@ -3488,7 +3335,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.33669166101753945" sy="1.4617245723466112" tx="0.3366916610179942" ty="1.4617245723466112"/>
@@ -3510,7 +3356,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-10.774943719197836" tx="-4.547473508864641E-13" ty="-10.774943719198745"/>
@@ -3532,7 +3377,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.696388370855857" tx="0.0" ty="-7.696388370855857"/>
@@ -3554,7 +3398,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-4.617833022512059" tx="0.0" ty="-4.617833022513878"/>
@@ -3576,7 +3419,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-1.539277674171899" tx="0.0" ty="-1.5392776741709895"/>
@@ -3598,7 +3440,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="4.6178330225129685" tx="0.0" ty="4.6178330225129685"/>
@@ -3620,7 +3461,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.696388370854947" tx="0.0" ty="7.696388370854947"/>
@@ -3642,7 +3482,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="10.774943719197836" tx="0.0" ty="10.774943719197836"/>
@@ -3664,7 +3503,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="6.0869140625" sy="-15.0" tx="42.173828125" ty="-1.875">
@@ -3693,7 +3531,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.0869140625" sy="-15.0" tx="42.173828125" ty="-3.75">
@@ -3722,7 +3559,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="-15.0" tx="42.173828125" ty="-5.625">
@@ -3751,7 +3587,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="-15.0" tx="42.173828125" ty="-7.5">
@@ -3780,7 +3615,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="-15.0" tx="42.173828125" ty="-9.375">
@@ -3809,7 +3643,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="31.0869140625" sy="-15.0" tx="42.173828125" ty="-11.25">
@@ -3838,7 +3671,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="36.0869140625" sy="-15.0" tx="42.173828125" ty="-13.125">
@@ -3867,7 +3699,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="1.388026123256168" sy="2.079274748838543" tx="1.3880261232566227" ty="2.079274748838543"/>
@@ -3889,7 +3720,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-31.51957968727129" sy="0.0" tx="-31.51957968727038" ty="0.0"/>
@@ -3911,7 +3741,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-22.513985490907544" sy="0.0" tx="-22.513985490908453" ty="0.0"/>
@@ -3933,7 +3762,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-13.508391294544708" sy="0.0" tx="-13.508391294545618" ty="0.0"/>
@@ -3955,7 +3783,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.502797098180963" sy="0.0" tx="-4.502797098180963" ty="0.0"/>
@@ -3977,7 +3804,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="13.508391294544708" sy="0.0" tx="13.508391294544708" ty="0.0"/>
@@ -3999,7 +3825,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="22.513985490908453" sy="0.0" tx="22.513985490908908" ty="0.0"/>
@@ -4021,7 +3846,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="31.51957968726947" sy="0.0" tx="31.519579687270834" ty="0.0"/>
@@ -4043,7 +3867,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.841128059937546" sy="-2.044013538858053" tx="2.841128059937546" ty="-2.044013538858053"/>
@@ -4065,7 +3888,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-30.18167368417926" sy="0.0" tx="-30.18167368418017" ty="0.0"/>
@@ -4087,7 +3909,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.558338345843367" sy="0.0" tx="-21.558338345844277" ty="0.0"/>
@@ -4109,7 +3930,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.935003007507476" sy="0.0" tx="-12.935003007506566" ty="0.0"/>
@@ -4131,7 +3951,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.311667669167946" sy="0.0" tx="-4.311667669167036" ty="0.0"/>
@@ -4153,7 +3972,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.935003007506566" sy="0.0" tx="12.935003007506566" ty="0.0"/>
@@ -4175,7 +3993,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.558338345843367" sy="0.0" tx="21.558338345843367" ty="0.0"/>
@@ -4197,7 +4014,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="30.181673684181078" sy="0.0" tx="30.18167368418017" ty="0.0"/>
@@ -4219,17 +4035,16 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.29752133231386324" sy="-1.4701976250893267" tx="0.29752133231386324" ty="-1.4701976250893267"/>
           <y:LineStyle color="#CE2A0D" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="816.220703125" x="1568.805094903816" y="122.58617396148748">[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="80" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="97.125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="6095.40625" x="-4856.964727514895" y="-295.0164310310065">[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="173.40625" distanceToCenter="false" position="left" ratio="32.965206473214266" segment="-2"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="117.30535330837307" distanceToCenter="true" position="right" ratio="-1825.0598317172091" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -4241,7 +4056,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="10.712845491804956" tx="0.0" ty="10.712845491804956"/>
@@ -4263,7 +4077,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.652032494146283" tx="0.0" ty="7.652032494146283"/>
@@ -4285,7 +4098,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="4.591219496487838" tx="0.0" ty="4.591219496487611"/>
@@ -4307,7 +4119,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="1.5304064988292794" tx="0.0" ty="1.5304064988295067"/>
@@ -4329,7 +4140,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, coin_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-4.591219496487611" tx="0.0" ty="-4.591219496487724"/>
@@ -4351,17 +4161,16 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.652032494146397" tx="0.0" ty="-7.652032494146397"/>
           <y:LineStyle color="#CE2A0D" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="657.478515625" x="-133.86119958754068" y="107.9085250218377">[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="80" fontStyle="bold" hasBackgroundColor="false" hasLineColor="false" height="97.125" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="4906.96875" x="2255.6913535083286" y="604.8663032381219">[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1.90625" distanceToCenter="false" position="right" ratio="0.11098994399307534" segment="1"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="293.6072819227484" distanceToCenter="true" position="left" ratio="2815.2415819991425" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -4373,7 +4182,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-10.712845491804956" tx="0.0" ty="-10.712845491804728"/>
@@ -4395,7 +4203,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4417,7 +4224,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-23.97846393323232" sy="0.0" tx="-23.97846393323198" ty="0.0"/>
@@ -4439,7 +4245,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-15.985642622154955" sy="0.0" tx="-15.985642622154955" ty="0.0"/>
@@ -4461,7 +4266,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.992821311077478" sy="0.0" tx="-7.992821311077478" ty="0.0"/>
@@ -4483,7 +4287,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="7.992821311077364" sy="0.0" tx="7.992821311077478" ty="0.0"/>
@@ -4505,7 +4308,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="15.985642622154273" sy="0.0" tx="15.985642622154955" ty="0.0"/>
@@ -4527,7 +4329,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="23.978463933232206" sy="0.0" tx="23.978463933232433" ty="0.0"/>
@@ -4549,7 +4350,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4571,7 +4371,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4593,7 +4392,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="30.09257053231204" sy="0.0" tx="30.092570532311584" ty="0.0"/>
@@ -4615,7 +4413,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.06171368820742" sy="0.0" tx="20.06171368820742" ty="0.0"/>
@@ -4637,7 +4434,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="10.03085684410371" sy="0.0" tx="10.03085684410371" ty="0.0"/>
@@ -4659,7 +4455,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-10.030856844104164" sy="0.0" tx="-10.03085684410371" ty="0.0"/>
@@ -4681,7 +4476,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.061713688207874" sy="0.0" tx="-20.06171368820833" ty="0.0"/>
@@ -4703,7 +4497,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-30.092570532312493" sy="0.0" tx="-30.092570532311584" ty="0.0"/>
@@ -4725,7 +4518,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4747,7 +4539,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="27.154228369583052" sy="0.0" tx="27.154228369582597" ty="0.0"/>
@@ -4769,7 +4560,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="18.10281891305567" sy="0.0" tx="18.102818913055216" ty="0.0"/>
@@ -4791,7 +4581,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="9.051409456527836" sy="0.0" tx="9.05140945652738" ty="0.0"/>
@@ -4813,7 +4602,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-9.051409456526926" sy="0.0" tx="-9.05140945652738" ty="0.0"/>
@@ -4835,7 +4623,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-18.10281891305476" sy="0.0" tx="-18.102818913055216" ty="0.0"/>
@@ -4857,7 +4644,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-27.154228369583052" sy="0.0" tx="-27.154228369582597" ty="0.0"/>
@@ -4879,7 +4665,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4901,7 +4686,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4923,7 +4707,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4945,7 +4728,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -4967,7 +4749,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-2.417486400051075" sy="1.7764457508093114" tx="-2.417486400051075" ty="1.77644575080933"/>
@@ -4989,7 +4770,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, coin_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.06012592197885" sy="0.0" tx="26.060125921978397" ty="0.0"/>
@@ -5011,7 +4791,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="18.614375658556582" sy="0.0" tx="18.614375658556582" ty="0.0"/>
@@ -5033,7 +4812,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, start_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.168625395133859" sy="0.0" tx="11.168625395134313" ty="0.0"/>
@@ -5055,7 +4833,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, coin_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="3.7228751317111346" sy="0.0" tx="3.7228751317115893" ty="0.0"/>
@@ -5077,7 +4854,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, coin_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.168625395133859" sy="0.0" tx="-11.168625395134313" ty="0.0"/>
@@ -5099,7 +4875,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, globalClock_ticks, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-18.614375658556128" sy="0.0" tx="-18.614375658556128" ty="0.0"/>
@@ -5121,7 +4896,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[unlockedtolocked_fire, releaseCoffee_occurs, Unlocked_leaving, releaseCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.06012592197885" sy="0.0" tx="-26.06012592197885" ty="0.0"/>
@@ -5143,7 +4917,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="6.0869140625" sy="-15.0" tx="42.173828125" ty="-1.875">
@@ -5172,7 +4945,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.0869140625" sy="-15.0" tx="42.173828125" ty="-3.75">
@@ -5201,7 +4973,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="-15.0" tx="42.173828125" ty="-5.625">
@@ -5230,7 +5001,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="-15.0" tx="42.173828125" ty="-7.5">
@@ -5259,7 +5029,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="-15.0" tx="42.173828125" ty="-9.375">
@@ -5288,7 +5057,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="31.0869140625" sy="-15.0" tx="42.173828125" ty="-11.25">
@@ -5317,7 +5085,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="36.0869140625" sy="-15.0" tx="42.173828125" ty="-13.125">
@@ -5346,7 +5113,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-3.861889514250379" sy="1.0420217750714755" tx="-3.861889514250379" ty="1.0420217750714649"/>
@@ -5368,7 +5134,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="29.001347549359252" sy="0.0" tx="29.001347549358798" ty="0.0"/>
@@ -5390,7 +5155,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.715248249542583" sy="0.0" tx="20.715248249543038" ty="0.0"/>
@@ -5412,7 +5176,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.429148949725004" sy="0.0" tx="12.429148949725459" ty="0.0"/>
@@ -5434,7 +5197,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.143049649908789" sy="0.0" tx="4.143049649909244" ty="0.0"/>
@@ -5456,7 +5218,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.429148949725459" sy="0.0" tx="-12.429148949725004" ty="0.0"/>
@@ -5478,7 +5239,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.715248249542128" sy="0.0" tx="-20.715248249542128" ty="0.0"/>
@@ -5500,7 +5260,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-29.001347549358798" sy="0.0" tx="-29.001347549359252" ty="0.0"/>
@@ -5522,7 +5281,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.7945556640625" sy="15.0" tx="38.3564453125" ty="1.875">
@@ -5551,7 +5309,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="9.589111328125" sy="15.0" tx="38.3564453125" ty="3.75">
@@ -5580,7 +5337,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="14.3836669921875" sy="15.0" tx="38.3564453125" ty="5.625">
@@ -5609,7 +5365,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.17822265625" sy="15.0" tx="38.3564453125" ty="7.5">
@@ -5638,7 +5393,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="23.9727783203125" sy="15.0" tx="38.3564453125" ty="9.375">
@@ -5667,7 +5421,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.767333984375" sy="15.0" tx="38.3564453125" ty="11.25">
@@ -5696,7 +5449,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="33.5618896484375" sy="15.0" tx="38.3564453125" ty="13.125">
@@ -5725,7 +5477,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5747,7 +5498,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5769,7 +5519,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.038843831130464" tx="0.0" ty="-7.038843831130521"/>
@@ -5791,7 +5540,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.038843831130407" tx="0.0" ty="7.038843831130407"/>
@@ -5813,7 +5561,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5835,7 +5582,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.2737367544323206E-13" sy="-7.285008556552896" tx="0.0" ty="-7.28500855655291"/>
@@ -5857,7 +5603,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.2737367544323206E-13" sy="7.285008556552839" tx="5.6843418860808015E-14" ty="7.285008556552867"/>
@@ -5879,7 +5624,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5901,7 +5645,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5923,7 +5666,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.160350097584796" sy="0.0" tx="-20.16035009758434" ty="0.0"/>
@@ -5945,7 +5687,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.16035009758434" sy="0.0" tx="20.160350097584683" ty="0.0"/>
@@ -5967,7 +5708,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -5989,7 +5729,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.101789103560009" tx="0.0" ty="-7.101789103560009"/>
@@ -6011,7 +5750,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.101789103560009" tx="1.4210854715202004E-14" ty="7.101789103560009"/>
@@ -6033,7 +5771,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6055,7 +5792,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6077,7 +5813,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -6099,7 +5834,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="-15.0" tx="-42.173828125" ty="-3.75">
@@ -6128,7 +5862,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="-15.0" tx="-42.173828125" ty="-7.5">
@@ -6157,7 +5890,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="-15.0" tx="-42.173828125" ty="-11.25">
@@ -6186,7 +5918,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.984619038740448" sy="-0.39188396066481346" tx="4.984619038740448" ty="-0.39188396066492714"/>
@@ -6208,7 +5939,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-15.046285266155905" sy="0.0" tx="-15.046285266155849" ty="0.0"/>
@@ -6230,7 +5960,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.0154284220519685" sy="0.0" tx="-5.015428422051912" ty="0.0"/>
@@ -6252,7 +5981,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="15.046285266155849" sy="0.0" tx="15.046285266155792" ty="0.0"/>
@@ -6274,7 +6002,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.9140539107479526" sy="-1.9386309100118524" tx="2.9140539107479526" ty="-1.9386309100118524"/>
@@ -6296,7 +6023,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-29.426360193173878" sy="0.0" tx="-29.426360193174332" ty="0.0"/>
@@ -6318,7 +6044,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.018828709409718" sy="0.0" tx="-21.018828709410627" ty="0.0"/>
@@ -6340,7 +6065,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.611297225646013" sy="0.0" tx="-12.611297225646922" ty="0.0"/>
@@ -6362,7 +6086,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.203765741881853" sy="0.0" tx="-4.203765741881398" ty="0.0"/>
@@ -6384,7 +6107,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.611297225646467" sy="0.0" tx="12.611297225646013" ty="0.0"/>
@@ -6406,7 +6128,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.018828709410627" sy="0.0" tx="21.018828709410172" ty="0.0"/>
@@ -6428,7 +6149,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="29.426360193174787" sy="0.0" tx="29.426360193174332" ty="0.0"/>
@@ -6450,7 +6170,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-6.0869140625" sy="-15.0" tx="-42.173828125" ty="-1.875">
@@ -6479,7 +6198,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.0869140625" sy="-15.0" tx="-42.173828125" ty="-3.75">
@@ -6508,7 +6226,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="-15.0" tx="-42.173828125" ty="-5.625">
@@ -6537,7 +6254,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="-15.0" tx="-42.173828125" ty="-7.5">
@@ -6566,7 +6282,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="-15.0" tx="-42.173828125" ty="-9.375">
@@ -6595,7 +6310,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-31.0869140625" sy="-15.0" tx="-42.173828125" ty="-11.25">
@@ -6624,7 +6338,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-36.0869140625" sy="-15.0" tx="-42.173828125" ty="-13.125">
@@ -6653,7 +6366,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.206613742790978" sy="2.0324506857796223" tx="2.206613742790978" ty="2.0324506857796223"/>
@@ -6675,7 +6387,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-28.550533688020096" sy="0.0" tx="-28.550533688019414" ty="0.0"/>
@@ -6697,7 +6408,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.393238348585328" sy="0.0" tx="-20.393238348585328" ty="0.0"/>
@@ -6719,7 +6429,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.23594300915147" sy="0.0" tx="-12.235943009151242" ty="0.0"/>
@@ -6741,7 +6450,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.0786476697171565" sy="0.0" tx="-4.078647669716702" ty="0.0"/>
@@ -6763,7 +6471,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.235943009151015" sy="0.0" tx="12.235943009151242" ty="0.0"/>
@@ -6785,7 +6492,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.393238348585328" sy="0.0" tx="20.393238348584873" ty="0.0"/>
@@ -6807,7 +6513,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.550533688020096" sy="0.0" tx="28.55053368801987" ty="0.0"/>
@@ -6829,7 +6534,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="1.4725826735061673" sy="2.020272325626138" tx="1.4725826735061673" ty="2.020272325626138"/>
@@ -6851,7 +6555,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-29.7097071608423" sy="0.0" tx="-29.70970716084298" ty="0.0"/>
@@ -6873,7 +6576,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.221219400601512" sy="0.0" tx="-21.221219400602877" ty="9.094947017729282E-13"/>
@@ -6895,7 +6597,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.73273164036209" sy="0.0" tx="-12.732731640361635" ty="9.094947017729282E-13"/>
@@ -6917,7 +6618,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.244243880119939" sy="0.0" tx="-4.244243880122212" ty="-9.094947017729282E-13"/>
@@ -6939,7 +6639,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.732731640362545" sy="0.0" tx="12.732731640362317" ty="0.0"/>
@@ -6961,7 +6660,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.221219400602877" sy="0.0" tx="21.221219400602195" ty="9.094947017729282E-13"/>
@@ -6983,7 +6681,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="29.709707160842754" sy="0.0" tx="29.70970716084298" ty="-9.094947017729282E-13"/>
@@ -7005,7 +6702,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.785889487794975" sy="1.4475019207632869" tx="4.785889487794975" ty="1.4475019207633295"/>
@@ -7027,7 +6723,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-15.67106808280164" sy="0.0" tx="-15.67106808280164" ty="0.0"/>
@@ -7049,7 +6744,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.223689360933861" sy="0.0" tx="-5.223689360933918" ty="0.0"/>
@@ -7071,7 +6765,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="15.671068082801696" sy="0.0" tx="15.671068082801696" ty="0.0"/>
@@ -7093,7 +6786,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="-15.0" tx="-42.173828125" ty="-3.75">
@@ -7122,7 +6814,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="-15.0" tx="-42.173828125" ty="-7.5">
@@ -7151,7 +6842,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="-15.0" tx="-42.173828125" ty="-11.25">
@@ -7180,7 +6870,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7202,7 +6891,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.091580505489446" sy="0.0" tx="19.0915805054899" ty="0.0"/>
@@ -7224,7 +6912,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-19.0915805054899" sy="0.0" tx="-19.09158050548956" ty="0.0"/>
@@ -7246,7 +6933,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7268,7 +6954,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.048850280900297" tx="5.6843418860808015E-14" ty="-7.048850280900297"/>
@@ -7290,7 +6975,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.048850280900524" tx="0.0" ty="7.048850280900297"/>
@@ -7312,7 +6996,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7334,7 +7017,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="3.934971717019195" sy="3.084801061050598" tx="3.9349717170192093" ty="3.0848010610506265"/>
@@ -7356,7 +7038,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-19.059857450973965" sy="0.0" tx="-19.059857450973993" ty="0.0"/>
@@ -7378,7 +7059,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-6.353285816991303" sy="0.0" tx="-6.353285816991217" ty="0.0"/>
@@ -7400,7 +7080,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_finishActivity, finalNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.05985745097408" sy="0.0" tx="19.059857450974107" ty="-7.105427357601002E-15"/>
@@ -7422,7 +7101,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-14.17822265625" sy="-15.0" tx="-38.3564453125" ty="-3.75">
@@ -7451,7 +7129,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-19.17822265625" sy="-15.0" tx="-38.3564453125" ty="-7.5">
@@ -7480,7 +7157,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-24.17822265625" sy="-15.0" tx="-38.3564453125" ty="-11.25">
@@ -7509,7 +7185,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7531,7 +7206,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7553,7 +7227,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7575,7 +7248,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.503046997463798" sy="-2.1731469666435714" tx="4.5030469974638265" ty="-2.1731469666435714"/>
@@ -7597,7 +7269,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.65538912701561" sy="0.0" tx="-16.655389127015695" ty="0.0"/>
@@ -7619,7 +7290,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.55179637567187" sy="0.0" tx="-5.551796375671955" ty="2.2737367544323206E-13"/>
@@ -7641,7 +7311,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.65538912701578" sy="0.0" tx="16.65538912701578" ty="0.0"/>
@@ -7663,7 +7332,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="15.0" tx="-42.173828125" ty="3.75">
@@ -7692,7 +7360,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="15.0" tx="-42.173828125" ty="7.5">
@@ -7721,7 +7388,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="15.0" tx="-42.173828125" ty="11.25">
@@ -7750,7 +7416,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-2.1580181285819435" sy="3.3679307826487275" tx="-2.1580181285819435" ty="3.3679307826485"/>
@@ -7772,17 +7437,16 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="22.24263057119981" sy="0.0" tx="22.242630571199868" ty="0.0"/>
           <y:LineStyle color="#CE2A0D" type="line" width="1.0"/>
           <y:Arrows source="none" target="standard"/>
-          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="642.982421875" x="-1423.8741040192967" y="-932.5871632783183">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]<y:LabelModel>
+          <y:EdgeLabel alignment="center" configuration="AutoFlippingLabel" distance="2.0" fontFamily="Dialog" fontSize="12" fontStyle="plain" hasBackgroundColor="false" hasLineColor="false" height="17.96875" modelName="custom" preferredPlacement="anywhere" ratio="0.5" textColor="#000000" visible="true" width="642.982421875" x="-1929.9038002717625" y="-825.5980274992235">[selectCoffee_occurs, opentoclose_fire, Locked_leaving, start_occurs, coin_occurs, selectCoffee_executeIt]<y:LabelModel>
               <y:SmartEdgeLabelModel autoRotationEnabled="false" defaultAngle="0.0" defaultDistance="10.0"/>
             </y:LabelModel>
             <y:ModelParameter>
-              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="1.9062499999847324" distanceToCenter="false" position="right" ratio="104.10612909226188" segment="-4"/>
+              <y:SmartEdgeLabelModelParameter angle="6.283185307179586" distance="180.17141185120838" distanceToCenter="true" position="left" ratio="472.4532531848551" segment="-1"/>
             </y:ModelParameter>
             <y:PreferredPlacementDescriptor angle="0.0" angleOffsetOnRightSide="0" angleReference="absolute" angleRotationOnRightSide="co" distance="-1.0" frozen="true" placement="anywhere" side="anywhere" sideReference="relative_to_edge_flow"/>
           </y:EdgeLabel>
@@ -7794,7 +7458,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, globalClock_ticks, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="7.414210190400468" sy="0.0" tx="7.414210190400155" ty="0.0"/>
@@ -7816,7 +7479,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#ce2a0d]]></data>
       <data key="d17"><![CDATA[[selectCoffee_occurs, opentoclose_fire, Locked_leaving, coin_occurs, selectCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-22.242630571199925" sy="0.0" tx="-22.24263057119964" ty="2.2737367544323206E-13"/>
@@ -7838,7 +7500,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7860,7 +7521,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="14.59336822166938" sy="0.0" tx="14.593368221669152" ty="0.0"/>
@@ -7882,7 +7542,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-14.593368221669152" sy="0.0" tx="-14.593368221669095" ty="0.0"/>
@@ -7904,7 +7563,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Locked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7926,7 +7584,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7948,7 +7605,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering, makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7970,7 +7626,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[makeCoffee_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -7992,7 +7647,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[Unlocked_entering]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="0.0" tx="0.0" ty="0.0"/>
@@ -8014,7 +7668,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="1.533333755404783" sy="1.9745601015256398" tx="1.533333755404783" ty="1.9745601015256398"/>
@@ -8036,7 +7689,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-28.532600841655494" sy="0.0" tx="-28.53260084165504" ty="0.0"/>
@@ -8058,7 +7710,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.380429172610548" sy="0.0" tx="-20.380429172609183" ty="0.0"/>
@@ -8080,7 +7731,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.228257503566056" sy="0.0" tx="-12.228257503565146" ty="0.0"/>
@@ -8102,7 +7752,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.076085834522019" sy="0.0" tx="-4.076085834522019" ty="0.0"/>
@@ -8124,7 +7773,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.228257503566056" sy="0.0" tx="12.228257503566056" ty="0.0"/>
@@ -8146,7 +7794,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.380429172610093" sy="0.0" tx="20.380429172611002" ty="0.0"/>
@@ -8168,7 +7815,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.532600841653675" sy="0.0" tx="28.532600841654585" ty="0.0"/>
@@ -8190,7 +7836,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="1.0485068651664733" sy="-1.7031245854896042" tx="1.048506865166928" ty="-1.7031245854896042"/>
@@ -8212,7 +7857,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.704641552874364" sy="0.0" tx="-26.70464155287391" ty="-9.094947017729282E-13"/>
@@ -8234,7 +7878,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-19.074743966339156" sy="0.0" tx="-19.074743966337337" ty="0.0"/>
@@ -8256,7 +7899,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.44484637980122" sy="0.0" tx="-11.444846379804403" ty="0.0"/>
@@ -8278,7 +7920,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-3.814948793266012" sy="0.0" tx="-3.8149487932687407" ty="0.0"/>
@@ -8300,7 +7941,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.444846379804858" sy="0.0" tx="11.444846379805313" ty="0.0"/>
@@ -8322,7 +7962,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="19.074743966340066" sy="0.0" tx="19.074743966338247" ty="0.0"/>
@@ -8344,7 +7983,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.704641552875273" sy="0.0" tx="26.704641552875728" ty="0.0"/>
@@ -8366,7 +8004,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.05850286559552842" sy="1.4988587040534185" tx="0.05850286559552842" ty="1.4988587040534185"/>
@@ -8388,7 +8025,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-10.507995154849596" tx="0.0" ty="-10.507995154850505"/>
@@ -8410,7 +8046,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.505710824892958" tx="0.0" ty="-7.505710824892958"/>
@@ -8432,7 +8067,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-4.5034264949345015" tx="0.0" ty="-4.503426494935411"/>
@@ -8454,7 +8088,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-1.501142164977864" tx="0.0" ty="-1.5011421649787735"/>
@@ -8476,7 +8109,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="4.503426494935411" tx="0.0" ty="4.503426494935411"/>
@@ -8498,7 +8130,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.5057108248938675" tx="0.0" ty="7.505710824892958"/>
@@ -8520,7 +8151,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="10.507995154850505" tx="0.0" ty="10.507995154849596"/>
@@ -8542,7 +8172,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="6.0869140625" sy="-15.0" tx="42.173828125" ty="-1.875">
@@ -8571,7 +8200,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="11.0869140625" sy="-15.0" tx="42.173828125" ty="-3.75">
@@ -8600,7 +8228,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="-15.0" tx="42.173828125" ty="-5.625">
@@ -8629,7 +8256,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="-15.0" tx="42.173828125" ty="-7.5">
@@ -8658,7 +8284,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="-15.0" tx="42.173828125" ty="-9.375">
@@ -8687,7 +8312,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="31.0869140625" sy="-15.0" tx="42.173828125" ty="-11.25">
@@ -8716,7 +8340,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="36.0869140625" sy="-15.0" tx="42.173828125" ty="-13.125">
@@ -8745,7 +8368,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-8.4521484375" sy="15.0" tx="-26.904296875" ty="3.75">
@@ -8774,7 +8396,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-13.4521484375" sy="15.0" tx="-26.904296875" ty="7.5">
@@ -8803,7 +8424,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-18.4521484375" sy="15.0" tx="-26.904296875" ty="11.25">
@@ -8832,7 +8452,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.871316298477723" sy="-1.1270658899047703" tx="4.871316298477723" ty="-1.1270658899043156"/>
@@ -8854,7 +8473,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-15.3962492691021" sy="0.0" tx="-15.396249269101418" ty="-4.547473508864641E-13"/>
@@ -8876,7 +8494,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.1320830897004726" sy="0.0" tx="-5.1320830897007" ty="-4.547473508864641E-13"/>
@@ -8898,7 +8515,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="15.3962492691021" sy="0.0" tx="15.3962492691021" ty="0.0"/>
@@ -8920,7 +8536,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="15.0" tx="42.173828125" ty="3.75">
@@ -8949,7 +8564,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="15.0" tx="42.173828125" ty="7.5">
@@ -8978,7 +8592,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="15.0" tx="42.173828125" ty="11.25">
@@ -9007,7 +8620,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.18846139240668" sy="-2.730712574460995" tx="4.18846139240668" ty="-2.730712574460995"/>
@@ -9029,7 +8641,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-17.90633671256228" sy="0.0" tx="-17.90633671256319" ty="0.0"/>
@@ -9051,7 +8662,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.968778904187275" sy="0.0" tx="-5.9687789041877295" ty="0.0"/>
@@ -9073,7 +8683,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="17.906336712562734" sy="0.0" tx="17.90633671256319" ty="4.547473508864641E-13"/>
@@ -9095,7 +8704,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.6024518192443793" sy="2.426324752684195" tx="0.6024518192446067" ty="2.426324752684195"/>
@@ -9117,7 +8725,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.727737179146061" tx="0.0" ty="-7.727737179146061"/>
@@ -9139,7 +8746,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-2.575912393048384" tx="0.0" ty="-2.575912393048384"/>
@@ -9161,7 +8767,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.727737179146061" tx="0.0" ty="7.727737179146061"/>
@@ -9183,7 +8788,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.7377149469334654" sy="3.5714026473278864" tx="2.737714946933238" ty="3.5714026473274316"/>
@@ -9205,7 +8809,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-22.190038472796914" sy="0.0" tx="-22.19003847279714" ty="0.0"/>
@@ -9227,7 +8830,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, globalClock_ticks, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.396679490932911" sy="0.0" tx="-7.396679490931774" ty="0.0"/>
@@ -9249,7 +8851,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, initialNode_executeIt]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="22.190038472796914" sy="0.0" tx="22.19003847279737" ty="0.0"/>
@@ -9271,7 +8872,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.4690167441922313" sy="0.3923726760349382" tx="2.4690167441922313" ty="0.3923726760349382"/>
@@ -9293,7 +8893,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-17.719604414555533" sy="0.0" tx="-17.719604414555533" ty="0.0"/>
@@ -9315,7 +8914,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.65686029611129" sy="0.0" tx="-12.65686029611129" ty="0.0"/>
@@ -9337,7 +8935,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.59411617766682" sy="0.0" tx="-7.594116177666592" ty="0.0"/>
@@ -9359,7 +8956,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-2.531372059222349" sy="0.0" tx="-2.531372059222349" ty="0.0"/>
@@ -9381,7 +8977,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="7.594116177666592" sy="0.0" tx="7.59411617766682" ty="0.0"/>
@@ -9403,7 +8998,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.656860296111518" sy="0.0" tx="12.65686029611129" ty="0.0"/>
@@ -9425,7 +9019,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[init_entering, CoffeeCoin_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="17.719604414555533" sy="0.0" tx="17.71960441455576" ty="0.0"/>
@@ -9447,7 +9040,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.7945556640625" sy="15.0" tx="-38.3564453125" ty="1.875">
@@ -9476,7 +9068,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-9.589111328125" sy="15.0" tx="-38.3564453125" ty="3.75">
@@ -9505,7 +9096,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-14.3836669921875" sy="15.0" tx="-38.3564453125" ty="5.625">
@@ -9534,7 +9124,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-19.17822265625" sy="15.0" tx="-38.3564453125" ty="7.5">
@@ -9563,7 +9152,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-23.9727783203125" sy="15.0" tx="-38.3564453125" ty="9.375">
@@ -9592,7 +9180,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-28.767333984375" sy="15.0" tx="-38.3564453125" ty="11.25">
@@ -9621,7 +9208,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-33.5618896484375" sy="15.0" tx="-38.3564453125" ty="13.125">
@@ -9650,7 +9236,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.5457768891283195" sy="2.4396982574271533" tx="0.5457768891278647" ty="2.4396982574271533"/>
@@ -9672,7 +9257,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-7.685376641523362" tx="0.0" ty="-7.685376641524272"/>
@@ -9694,7 +9278,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="-2.561792213841727" tx="0.0" ty="-2.561792213841727"/>
@@ -9716,7 +9299,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="0.0" sy="7.685376641525181" tx="0.0" ty="7.685376641524272"/>
@@ -9738,7 +9320,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="16.0869140625" sy="-15.0" tx="42.173828125" ty="-3.75">
@@ -9767,7 +9348,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="21.0869140625" sy="-15.0" tx="42.173828125" ty="-7.5">
@@ -9796,7 +9376,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="26.0869140625" sy="-15.0" tx="42.173828125" ty="-11.25">
@@ -9825,7 +9404,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.564562717040644" sy="3.6977044325321913" tx="2.564562717040644" ty="3.6977044325317365"/>
@@ -9847,7 +9425,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-23.688248915240365" sy="0.0" tx="-23.68824891523991" ty="0.0"/>
@@ -9869,7 +9446,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, globalClock_ticks, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-7.896082971748001" sy="0.0" tx="-7.8960829717470915" ty="0.0"/>
@@ -9891,7 +9467,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, CoffeeAlgorithm_startActivity]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="23.688248915240365" sy="0.0" tx="23.68824891524082" ty="0.0"/>
@@ -9913,7 +9488,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="4.867828409548565" sy="-1.1420361531909293" tx="4.867828409548565" ty="-1.1420361531909293"/>
@@ -9935,7 +9509,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, coin_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-15.407280965961945" sy="0.0" tx="-15.407280965961036" ty="0.0"/>
@@ -9957,7 +9530,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-5.135760321987618" sy="0.0" tx="-5.135760321987618" ty="0.0"/>
@@ -9979,7 +9551,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[inittoopen_fire, start_occurs, init_leaving]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="15.407280965961036" sy="0.0" tx="15.407280965961945" ty="0.0"/>
@@ -10001,7 +9572,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="2.9898873387360254" sy="1.819498200511589" tx="2.9898873387360254" ty="1.819498200511589"/>
@@ -10023,7 +9593,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-28.680010410108025" sy="0.0" tx="-28.680010410107798" ty="0.0"/>
@@ -10045,7 +9614,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-20.48572172150557" sy="0.0" tx="-20.485721721506252" ty="0.0"/>
@@ -10067,7 +9635,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-12.291433032903342" sy="0.0" tx="-12.291433032903797" ty="0.0"/>
@@ -10089,7 +9656,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-4.097144344300887" sy="0.0" tx="-4.097144344301341" ty="0.0"/>
@@ -10111,7 +9677,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="12.291433032903342" sy="0.0" tx="12.29143303290357" ty="0.0"/>
@@ -10133,7 +9698,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="20.485721721506025" sy="0.0" tx="20.485721721506252" ty="0.0"/>
@@ -10155,7 +9719,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[CoffeeMachine_start]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="28.680010410108025" sy="0.0" tx="28.680010410108252" ty="0.0"/>
@@ -10177,7 +9740,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-6.0869140625" sy="-15.0" tx="-42.173828125" ty="-1.875">
@@ -10206,7 +9768,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-11.0869140625" sy="-15.0" tx="-42.173828125" ty="-3.75">
@@ -10235,7 +9796,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-16.0869140625" sy="-15.0" tx="-42.173828125" ty="-5.625">
@@ -10264,7 +9824,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[start_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-21.0869140625" sy="-15.0" tx="-42.173828125" ty="-7.5">
@@ -10293,7 +9852,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs, globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-26.0869140625" sy="-15.0" tx="-42.173828125" ty="-9.375">
@@ -10322,7 +9880,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[coin_occurs]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-31.0869140625" sy="-15.0" tx="-42.173828125" ty="-11.25">
@@ -10351,7 +9908,6 @@
       <data key="d15"><![CDATA[filled]]></data>
       <data key="d16"><![CDATA[#aaaaaa]]></data>
       <data key="d17"><![CDATA[[globalClock_ticks]]]></data>
-      <data key="d20"/>
       <data key="d21">
         <y:PolyLineEdge>
           <y:Path sx="-36.0869140625" sy="-15.0" tx="-42.173828125" ty="-13.125">

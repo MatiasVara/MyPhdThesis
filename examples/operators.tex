@@ -1,5 +1,5 @@
 \section{Definition of Coordination Operators between the TFSM and Activity Language}
-This section presents the \bcool specification of two operators named \emph{startActivityWhenEnter} and \emph{AtomicActivity} between the TFSM and Activity languages. These operators are used to capture a hierarchical and timing coordination pattern between states and activities. In the following, we present the \bcool specification of each operator.    
+This section presents the \bcool specification of two operators named \emph{startActivityWhenEnter} and \emph{AtomicActivity} between the TFSM and Activity language. These operators are used to capture a hierarchical and timing coordination pattern between states and activities. In the following, we present the \bcool specification of each operator.    
 
 The \emph{startActivityWhenEnter} coordinates the entering and leaving of a state with the execution of an activity. The entering into a state is identified by the \textit{entering} \dse defined in the context of State. Instances of such \dse have to be coordinated with instances of the \textit{startActivity} \dse. Similarly, leaving a state is identified by \dse \textit{leaving} and finishing an activity is identified by \dse \textit{finishActivity}. 
 

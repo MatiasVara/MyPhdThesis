@@ -1,7 +1,7 @@
 \subsection{Library}
 \label{subsec:bcoollib}
 
-Libraries are used to gather predefined event expressions and relations that can be imported by a \bcool specification (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). \bcool relies on \moccml~\cite{moccmlbib} to define libraries of constraints between events. In this subsection, we present an overview of the notion of \moccml library.
+Libraries are used to gather predefined event expressions and relations that can be imported by a \bcool specification (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). \bcool relies on \moccml~\cite{moccmlbib} to define libraries of constraints between events. In this subsection, we overview the notion of \moccml library.
 
 A \moccml library (\emph{RelationLibrary} in Figure~\ref{fig:moccml}) is a set of declarations together with their formal parameters. It also contains some definitions, which give the actual behavior of the declarations. There are two categories of constraint definitions: the \emph{Declarative Definitions} and the \emph{Constraint Automata Definitions}. A declarative definition is defined as a set of constraint instances. For more details, we refer the reader to~\cite{moccmloperbib} that described the declarative part inspired from the \ccsl language. A Constraint Automata Definition gives state based support for the definition of relations. This helps a language integrator in the definition of coordination protocols that may be complex like, for instance, the AMBA protocol~\cite{ambabus}. 
 
