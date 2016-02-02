@@ -4,6 +4,8 @@ In this section, we use the operators defined previously to coordinate the heter
 \subsection{\bflow Specification of the Surveillance Camera System}
 To coordinate the surveillance camera system, we use \bflow to specify how the operators \emph{SyncFSMEventsAndActions}, \emph{startActivityWhenEnter} and \emph{AtomicActivity} are applied between the models in Figure~\ref{fig:camerasystem}. To specify this, we define a \bflow specification named \emph{CameraSystem} (Listing~\ref{lst:bflowcamerasystem}: line 1) that begins by importing the \bcool specification to use (Listing~\ref{lst:bflowcamerasystem}: line 2), and then, it specifies the models to coordinate (Listing~\ref{lst:bflowcamerasystem}: line 3 to 6).
 
+The specification contains a \emph{Flow} that define which operator is applied and on which models.\todo{The first flow (Listing~\ref{lst:bflowcamerasystem}: line 8) defines that the operator SyncFSMEventsAndActions is applied between the activity BatteryControl and the TFSM CameraControl. This results in the synchronization of the corresponding Action and FSMEvent by relying on theirs names.}
+
 \begin{lstlisting}[language=bflow,
 caption={\bflow specification for the Surveillance Camera System},
 label={lst:bflowcamerasystem}, 
@@ -15,17 +17,14 @@ Model CameraControl "cameracontrol.tfsm"
 Model doJPEG "doJPEGAlgorithm.ad"
 Model doJPEG2000 "doJPEG2000.ad"
 Flow 
-	applies SyncFSMEventsAndActions between (BatteryControl, CameraControl);
-	applies startActivityWhenEnter between (CameraControl, doJPEG);
-	applies startActivityWhenEnter between (CameraControl, doJPEG2000);
-	applies AtomicActivity between (CameraControl, doJPEG);		
-	applies AtomicActivity between (CameraControl, doJPEG2000);		
+applies syncFSMEventsAndActions between (BatteryControl, CameraControl);
+applies startActivityWhenEnter between (CameraControl, doJPEG);
+applies startActivityWhenEnter between (CameraControl, doJPEG2000);
+applies AtomicActivity between (CameraControl, doJPEG);		
+applies AtomicActivity between (CameraControl, doJPEG2000);		
 end Flow;
 \end{lstlisting}
 
-The specification contains a set \emph{flows} that define which operator is applied and on which models. In the following, we describe each flow by presenting what operator is used and between which models is applied.  
-
-The first flow (Listing~\ref{lst:bflowcamerasystem}: line 8) defines that the operator SyncFSMEventsAndActions is applied between the activity BatteryControl and the TFSM CameraControl. This results results in the synchronization of the corresponding Action and FSMEvent by relying on theirs names. 
 
 The second and third flows define that the operator startActivityWhenEnter is applied first between the TFSM CameraControl and the activity doJPEG (Listing~\ref{lst:bflowcamerasystem}: line 9), and then, between the TFSM and the activity doJPEG2000 (Listing~\ref{lst:bflowcamerasystem}: line 10). This results in a synchronization between the entering and leaving of the states BatteryLow and BatteryHigh, and the execution of the activities doJPEG and doJPEG2000. 
 
@@ -36,7 +35,7 @@ In this subsection, we have present the \bflow specification for the surveillanc
 \subsection{Execution of the Surveillance Camera System}
 
 In the modeling workbench, we use the \bflow specification to coordinate the surveillance camera system. The resulting model of coordination is composed of six \ccsl relations. Then, we use the modeling workbench to execute the coordinated system. Figure~\ref{fig:camerasystem} illustrates the partial timing output of the execution of the camera. As a result of the coordination, the \mse \emph{BatteryisHigh:occurs} and \emph{BatteryisHigh:executeIt} are strongly synchronized (in red in Figure~\ref{fig:camerasystem}). When the camera is in BatteryHigh state (in magenta in Figure~\ref{fig:camerasystem}), the activity doJPEG2000 is allowed to execute and the time in the TFSM does not elapse (in cyan in Figure~\ref{fig:camerasystem}). Only when the activity is finished, the time can elapse thus the \mse \emph{ms:ticks} is allowed to tick. 
-
+\todo{Furthermore, by relying on \ccsl to express the coordination, we can provide execution and verification of the coordinated system. In coordination frameworks, these tasks are limited since they express the coordination in a GPL like Java in Ptolemy. }
 		\begin{figure}[h]
 			\center
 			\includegraphics[width=1\columnwidth]{examples/figs/vcdcamera}
