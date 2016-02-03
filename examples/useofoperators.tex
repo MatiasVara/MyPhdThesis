@@ -18,9 +18,9 @@ Model CameraEncoderControl "cameraencodercontrol.tfsm"
 Model doJPEG "doJPEG.ad"
 Model doJPEG2000 "doJPEG2000.ad"
 Flow 
-	applies syncFSMEventsAndSignals between (BatterySensor, CameraEncoderControl);
-	applies startActivityWhenEnter between (CameraEncoderControl, doJPEG);
-	applies startActivityWhenEnter between (CameraEncoderControl, doJPEG2000);
+	applies SyncFSMEventsAndSignals between (BatterySensor, CameraEncoderControl);
+	applies StartActivityWhenEnter between (CameraEncoderControl, doJPEG);
+	applies StartActivityWhenEnter between (CameraEncoderControl, doJPEG2000);
 	applies AtomicActivity between (CameraEncoderControl, doJPEG);		
 	applies AtomicActivity between (CameraEncoderControl, doJPEG2000);		
 end Flow;
@@ -31,6 +31,9 @@ In this subsection, we have presented the \bflow specification for the surveilla
 
 \subsection{Execution of the Surveillance Camera System}
 
+\todo{to exaplin which ccsl relations are generated, why are 8 relations, etc}
+
+\todo{To write correct the name of the \mse}
 In the modeling workbench, we use the \bflow specification to coordinate the surveillance camera system. The resulting model of coordination is composed of six \ccsl relations. Then, we use the modeling workbench to execute the coordinated system. Figure~\ref{fig:camerasystem} illustrates the partial timing output of the execution of the camera. As a result of the coordination, the \mse \emph{BatteryisHigh:occurs} and \emph{BatteryisHigh:executeIt} are strongly synchronized (in red in Figure~\ref{fig:camerasystem}). When the camera is in BatteryHigh state (in magenta in Figure~\ref{fig:camerasystem}), the activity doJPEG2000 is allowed to execute and the time in the TFSM does not elapse (in cyan in Figure~\ref{fig:camerasystem}). Only when the activity is finished, the time can elapse thus the \mse \emph{ms:ticks} is allowed to tick. 
 \todo{Furthermore, by relying on \ccsl to express the coordination, we can provide execution and verification of the coordinated system. In coordination frameworks, these tasks are limited since they express the coordination in a GPL like Java in Ptolemy. }
 		\begin{figure}[h]

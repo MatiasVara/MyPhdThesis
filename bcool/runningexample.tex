@@ -57,6 +57,8 @@ We use the TFSM language to model the coin control system. We build a TFSM named
 		def: finishActivity: Event = self
 	context Action
 		def : executeIt : Event = self
+	context Signal
+		def : signalOccurs : Event = self
 	\end{lstlisting}
 To model the coffee algorithm system, we use the action-based language Activity~\cite{ttc15bib}. Figure~\ref{fig:activitymm} shows its partial metamodel. The root element is an \emph{Activity} that is composed of \emph{ActivityNodes} and \emph{ActivityEdges}. Each ActivityNode can be the source of outgoing ActivityEdges. The language behavioral interface of the Activity is partially shown in Listing~\ref{fig:eclfuml}. For each \emph{Activity} two \dse are defined: \emph{startActivity} and \emph{finishActivity}, to identify respectively the starting and finishing instants of the activity. In the context of \emph{Action}, the \dse \emph{executeIt} is defined that identifies the execution of an Action. At the bottom of Figure~\ref{fig:activitymm}, the activity named \emph{CoffeeAlgorithm} represents the simple algorithm for preparing coffee. It starts by the action \emph{selectCoffee} that asks the user to select the kind of coffee. After selected it (the \mse \emph{selectCoffee:executeIt} happens), the action \emph{makeCoffee} is executed. Finally, the coffee is released (the \mse \emph{releaseCoffee:executeIt} happens).
 

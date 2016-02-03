@@ -4,17 +4,22 @@
 	
 	\item The video surveillance system is composed of a \emph{Battery Sensor} and \emph{Camera Encoder Control}. The camera encoder control takes pictures by using either the \emph{JPEG2000} or \emph{JPG} algorithm depending on the status of the battery. 
 	
-	
+	\item \todo{to refer the figure of tfsm}
 	
 	\item The TFSM named \emph{CameraEncoderControl} represents the camera encoder control. When the TFSM model is in state \emph{JPEG2000Encoder}, the JPEG2000 algorithm is used. When in state \emph{JPEGEncoder}, the encoding algorithm is replaced by a mere JPEG algorithm. Each state has a temporal transition that happens every 40 ticks of the \emph{ms} local clock. Each tick of this clock represents one millisecond. Thus, in each state, the camera takes 25 frames per second which corresponds with the standart frame rate for video surveillance. The transition from one state to another is done when either the \emph{BatteryisHigh:occurs} event or the \emph{BatteryisLow:occurs} event occurs, depending on the current state.	
 	
-	\item \todo{picture tfsm}
+		\begin{figure}[h]
+			\center
+			\includegraphics[width=.6\columnwidth]{examples/figs/cameraencodercontrol.pdf}
+			\caption{Representation of the Camera Encoder Control by using a TFSM}
+			\label{fig:cameramodelencoder}
+		\end{figure}
 	
 	\item In the camera encoder, states are used to represent either the JPEG encoder or the JPEG2000 encoder. Roughly speaking, the JPEG\footnote{http://www.jpeg.org} algorithm encodes a picture by grouping it in blocks which are transformed by a \textit{forward transformation}. Each block of pixels is transformed to frequency coefficient using either a \textit{Fourier transform} (JPEG) or \textit{Wavelet transform} (JPEG2000). The transformed blocks are \textit{quantized} and then passed to a \textit{Run-Length coder} which compress the data. At the end, the block is \textit{transmitted}. We model these algorithms by using the Activity language: the activity named \emph{doJPEG} (see Figure~\ref{fig:dojpeg2000}) represents the JPEG algorithm and the activity named \emph{doJPEG2000} represents the JPEG2000 algorithm . 
 
 
 	
-	\begin{figure}
+	\begin{figure}[h]
 		\centering
 		\begin{minipage}{0.45\textwidth}
 			\centering
@@ -32,11 +37,16 @@
 	
 
 
-
+	\item \todo{to refer the picture of battery sensor}
 	\item The camera control encoder is powered by a battery. When the battery is low, the battery sensor makes the camera use the \emph{JPG} algorithm, thus reducing the quality of the picture but also the energy consumption~\cite{encodingcomparison}. When the battery is high, the JPEG2000 algorithm is used instead. The activity diagrams named \emph{BatterySensor} represents the simple algorithm implemented in the battery sensor. Depending on the status of the battery, the algorithm sends either the signal \emph{BatteryisLow} or \emph{BatteryisHigh}, which correspond with the occurrence of the \mse \emph{BatteryisLow:signalOccurs} and \emph{BatteryisHigh:signalOccurs} respectively.
 	
 	
-	\item \todo{picture battery sensor}
+			\begin{figure}[h]
+				\center
+				\includegraphics[width=.3\columnwidth]{examples/figs/BatterySensor.pdf}
+				\caption{Representation of the Battery Sensor by using activity diagrams}
+				\label{fig:batterysensor}
+			\end{figure}
 
 	\item To represent the global behavior of the surveillance camera system, we have to specify how these models are coordinated (see Figure~\ref{fig:cameramodel}).
 	
@@ -45,7 +55,7 @@
 	\begin{figure}
 		\center
 		\includegraphics[width=1\columnwidth]{examples/figs/picmodels.pdf}
-		\caption{Hierarchical model of a surveillance camera system and a partial representation of the behavioral interface}
+		\caption{Coordinated model of a surveillance camera system and a partial representation of the model behavioral interface}
 		\label{fig:cameramodel}
 	\end{figure}
 	
