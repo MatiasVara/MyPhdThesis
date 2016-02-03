@@ -1,36 +1,33 @@
 \section{Use of the Operators in a Surveillance Camera System}
-In this section, we use the operators defined previously to coordinate the heterogeneous model of a surveillance camera system. To do so, we propose to use \bflow to specify how the operators are applied on the models that compose the surveillance camera system. In the following, we first present the \bflow specification used to build the model of coordination for the surveillance camera system, and then, we execute the coordinated system. 
+In this section, we use the operators previously defined to coordinate the heterogeneous model of a surveillance camera system. To do so, we propose to use \bflow to specify how the operators are applied on the models that compose the surveillance camera system. In the following, we first present the \bflow specification, and then we use it to coordinate system. 
 
 \subsection{\bflow Specification of the Surveillance Camera System}
-To coordinate the surveillance camera system, we use \bflow to specify how the operators \emph{SyncFSMEventsAndActions}, \emph{startActivityWhenEnter} and \emph{AtomicActivity} are applied between the models in Figure~\ref{fig:camerasystem}. To specify this, we define a \bflow specification named \emph{CameraSystem} (Listing~\ref{lst:bflowcamerasystem}: line 1) that begins by importing the \bcool specification to use (Listing~\ref{lst:bflowcamerasystem}: line 2), and then, it specifies the models to coordinate (Listing~\ref{lst:bflowcamerasystem}: line 3 to 6).
+To coordinate the surveillance camera system, we use \bflow to specify how the operators \emph{SyncFSMEventsAndSignals}, \emph{startActivityWhenEnter} and \emph{AtomicActivity} are applied between the models in Figure~\ref{fig:camerasystem}. To specify this, we define a \bflow specification named \emph{CameraSystem} (Listing~\ref{lst:bflowcamerasystem}: line 1) that begins by importing the \bcool specification (Listing~\ref{lst:bflowcamerasystem}: line 2), and then, it specifies the models to coordinate (Listing~\ref{lst:bflowcamerasystem}: line 3 to 6). The specification contains a \emph{Flow} that defines which operator is applied and on which models (see Listing~\ref{lst:bflowcamerasystem}). We describe how each operator is applied in turn. 
 
-The specification contains a \emph{Flow} that define which operator is applied and on which models.\todo{The first flow (Listing~\ref{lst:bflowcamerasystem}: line 8) defines that the operator SyncFSMEventsAndActions is applied between the activity BatteryControl and the TFSM CameraControl. This results in the synchronization of the corresponding Action and FSMEvent by relying on theirs names.}
+First, the operator SyncFSMEventsAndSignals is applied between the activity BatterySensor and the TFSM CameraEncoderControl (Listing~\ref{lst:bflowcamerasystem}: line 8). This results in the synchronization of the corresponding Signal and FSMEvent by relying on theirs names. Then, the operator startActivityWhenEnter is applied between the TFSM CameraEncoderControl and the activity doJPEG (Listing~\ref{lst:bflowcamerasystem}: line 9), and between the TFSM and the activity doJPEG2000 (Listing~\ref{lst:bflowcamerasystem}: line 10). This results in a synchronization between the entering and leaving of the states JPEGEncoder and  JPEG2000Encoder, and the execution of the activities doJPEG and doJPEG2000. Finally, to coordinate the time between the TFSM and the activities, the operator AtomicActivity must be applied between the TFSM CameraEncoderControl and each activity (Listing~\ref{lst:bflowcamerasystem}: line 11 and 12). This results in a synchronization between the local clock of the TFSM CameraEncoderControl and the execution of the activities. 
+
 
 \begin{lstlisting}[language=bflow,
 caption={\bflow specification for the Surveillance Camera System},
 label={lst:bflowcamerasystem}, 
 basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 BCOoLFlow CameraSystem
-ImportBCOoL  "TFSMAndActivityHierarchical.bcool" ;
-Model BatteryControl "batterycontrol.ad"
-Model CameraControl "cameracontrol.tfsm"
-Model doJPEG "doJPEGAlgorithm.ad"
+ImportBCOoL  "TFSMAndActivity.bcool" ;
+Model BatterySensor "batterysensor.ad"
+Model CameraEncoderControl "cameraencodercontrol.tfsm"
+Model doJPEG "doJPEG.ad"
 Model doJPEG2000 "doJPEG2000.ad"
 Flow 
-applies syncFSMEventsAndActions between (BatteryControl, CameraControl);
-applies startActivityWhenEnter between (CameraControl, doJPEG);
-applies startActivityWhenEnter between (CameraControl, doJPEG2000);
-applies AtomicActivity between (CameraControl, doJPEG);		
-applies AtomicActivity between (CameraControl, doJPEG2000);		
+	applies syncFSMEventsAndSignals between (BatterySensor, CameraEncoderControl);
+	applies startActivityWhenEnter between (CameraEncoderControl, doJPEG);
+	applies startActivityWhenEnter between (CameraEncoderControl, doJPEG2000);
+	applies AtomicActivity between (CameraEncoderControl, doJPEG);		
+	applies AtomicActivity between (CameraEncoderControl, doJPEG2000);		
 end Flow;
 \end{lstlisting}
 
 
-The second and third flows define that the operator startActivityWhenEnter is applied first between the TFSM CameraControl and the activity doJPEG (Listing~\ref{lst:bflowcamerasystem}: line 9), and then, between the TFSM and the activity doJPEG2000 (Listing~\ref{lst:bflowcamerasystem}: line 10). This results in a synchronization between the entering and leaving of the states BatteryLow and BatteryHigh, and the execution of the activities doJPEG and doJPEG2000. 
-
-To coordinate the time between the TFSMs and the activities, the fourth and fifth flows define that the operator AtomicActivity must be applied between the TFSM CameraControl and each activity (Listing~\ref{lst:bflowcamerasystem}: line 11 and 12). This results in a synchronization between the local clock of the TFSM CameraControl and the execution of the activities. 
-
-In this subsection, we have present the \bflow specification for the surveillance camera system. The specification specified the order of application of the operators and on which models these operators are applied. In other words, the \bflow specification defines how to build the coordination model for camera system by relying on the operators previously defined. We want to highlight that these \bcool operators can be used to coordinate any set of TFSM and Activity models. In particular, in this subsection, we use these operators to coordinate the models of the camera by specifying the corresponding \bflow specification. In the following section, we use this specification to execute the coordinated system.    
+In this subsection, we have presented the \bflow specification for the surveillance camera system. The \bflow specification defines how to build the coordination model for the camera system by relying on the operators previously defined. We want to highlight that these \bcool operators can be used to coordinate any set of TFSM and Activity models. In particular, in this subsection, we use these operators to coordinate the models of the camera. In the following subsection, we use this specification to execute the coordinated system.    
 
 \subsection{Execution of the Surveillance Camera System}
 
