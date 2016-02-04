@@ -29,9 +29,16 @@ Flow
 end Flow;
 \end{lstlisting}
 
-The resulting model of coordination is thus composed of six relations, \ie two \ccsl relations and four \moccml relations. In the modeling workbench, we use the \bflow specification together with the Gemoc Coordinated Execution Engine to execute the coordinated system. \todo{the picture shows the 4 models and the four gemoc execution engine and the gemoc coordinated engine. From the view it is possible to drive the simulation together with the corresponding animation} 
+The resulting model of coordination is thus composed of six relations, \ie two \ccsl relations and four \moccml relations. In the modeling workbench, we use the \bflow specification together with the Gemoc Coordinated Execution Engine to execute the coordinated system. Figure~\ref{fig:studiocamera} illustrates the coordinated execution of the models. In the figure, four Gemoc execution engines are launched that correspond with the four models of the surveillance system. Also, one coordinated execution engine is launched that corresponds with the coordination between these models. 
 
-\todo{To show the studio}
+		\begin{figure}[h]
+			\center
+			\includegraphics[width=.9\columnwidth]{examples/figs/screenshot}
+			\caption{Coordinate execution of the models of the surveillance camera system by using the Gemoc studio}
+			\label{fig:studiocamera}
+		\end{figure}
+
+
 
 \todo{To show vcd}
 

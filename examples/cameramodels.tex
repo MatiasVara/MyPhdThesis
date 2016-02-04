@@ -2,8 +2,6 @@
 This section presents the heterogeneous models of a surveillance camera system. To model the system, we use the TFSM language for modeling the control subsystems (\ie the controller for the camera encoder), whereas for the dataflow aspects of the system we use the Activity language (\ie the encoding algorithms and the battery sensor). In the following, we present each subsystem and how we model them by using the corresponding language. We finish this section by presenting the necessary coordination between these models to get the global system behavior. In the following section, we propose three operators to generate the coordination between these models. 
 
 The video surveillance system is composed of a \emph{Battery Sensor} and \emph{Camera Encoder Control}. The camera encoder control takes pictures by using either the \emph{JPEG2000} or \emph{JPG} algorithm depending on the status of the battery. The TFSM named \emph{CameraEncoderControl} represents the camera encoder control (see Figure~\ref{fig:cameramodelencoder}). When the TFSM model is in state \emph{JPEG2000Encoder}, the JPEG2000 algorithm is used. When in state \emph{JPEGEncoder}, the encoding algorithm is replaced by a mere JPEG algorithm. Each state has a temporal transition that happens every 40 ticks of the \emph{ms} local clock. Each tick of this clock represents one millisecond. Thus, in each state, the camera takes 25 frames per second which corresponds with the standart frame rate for video surveillance~\cite{?}. The transition from one state to another is done when either the \emph{BatteryisHigh:occurs} event or the \emph{BatteryisLow:occurs} event occurs, depending on the current state.	
-
-
 	
 		\begin{figure}[h]
 			\center
