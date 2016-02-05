@@ -25,7 +25,7 @@ To build the running example operator, we need to synchronize FSMEvents and Acti
 	end operator
 	\end{lstlisting}
 	
-In \bcool, operators are used to specify when and how instances of the referred \dse must be coordinated. To do so, each operator contains a \emph{correspondence matching} and a \emph{coordination rule}. The former is used to select instance of \dse and the latter is used to express how the selected instances must be coordinated. 
+In \bcool, operators are used to specify when and how instances of the referred \dse must be coordinated. To do so, each operator contains a \emph{correspondence matching} and a \emph{coordination rule}. The former is used to select instances of \dse and the latter is used to express how the selected instances must be coordinated. 
 	
 A \emph{correspondence matching} selects instances of \dse by using a \emph{Condition} that contains an OCL Boolean expression. To express the boolean expression, the context of the \dse can be queried to get a specific syntactic element, \eg attribute \emph{name}. The boolean condition is thus used to compare the queried elements. The correspondence matching acts as a precondition for the coordination rule, \ie it is a predicate that defines when the coordination rule must be applied to the given instances of \dse. For instance, for the running example, we query the context of the \dse to get the attribute \emph{name} (Listing~\ref{lst:bcoolrunningexample}: line 6). Then, the attributes are used as operands for the boolean condition. When an instance of \dse \emph{occurs} and an instance of \dse \emph{executeIt} have the same name, the pairs are selected and the coordination rule is applied.
 	
@@ -36,7 +36,7 @@ The event relation is used to restrict the relative order of the occurrences of 
 	\begin{figure}[h]
 		\center
 		\includegraphics[width=.8\textwidth]{bcool/figs/runningrdv}
-		\caption{Resulting coordination of the Coffee Machine by using the event relation Rendezvous}
+		\caption{Resulting coordination of the coffee machine by using the event relation Rendezvous}
 		\label{fig:runningrdv}
 	\end{figure}
 
@@ -46,7 +46,7 @@ Conjointly with an event relation, \bcool enables the definition of \emph{EventV
 To illustrate the use of event variables, we suppose the situation in which the coordination between events relies on a global synchronization clock. This is often the case in synchronous digital systems in which a clock signal is used to coordinate the actions in a circuit. In this example, we slightly modify the running example operator by considering that the selected instances of \dse \emph{occurs} (the \emph{sampledEvent}) will be sampled by a global clock (the \emph{trigger}). This results in a new event named \emph{sampledOccurs} that ticks always in coincidence with the \emph{trigger} and each of its occurrences represents the last sample of the \emph{sampledEvent}. 
 	
 			
-To specify this in \bcool, we define a new specification named \emph{TimedTFSMandActivity} (Listing~\ref{lst:bcoolrunningexampletimed}). We first define a global event variable named \emph{globalClock} (Listing~\ref{lst:bcoolrunningexampletimed}: line 5). This global event variable represents the global synchronization clock. Then, in the coordination rule, we use the globalClock together with the \dse \emph{occurs} to create a new local event named \emph{sampledOccurs} (Listing~\ref{lst:bcoolrunningexampletimed}: line 9). To initialize this local variable, we use the event expression \emph{SampleOn}. This expression accepts two events as parameters: the \emph{SampledEvent} and the \emph{Trigger}. The expression creates a new event by sampling the \emph{SampledEvent} by the \emph{Trigger} event. This results in a new event that ticks always after the \emph{SampledEvent} and coincides with the occurrences of the \emph{Trigger} event. In our case, we sample the select instances of the \dse \emph{occurs} (\ie \emph{SampledEvent}) by the event global clock (\ie \emph{Trigger}), which results in the local event variable \emph{sampledOccurs}. Then, in the coordination rule, we coordinate the instances of \dse \emph{executeIt} and the resulting local event \emph{sampledOccurs} by a Rendezvous (Listing~\ref{lst:bcoolrunningexampletimed}: line 10). 
+To specify this in \bcool, we define a new specification named \emph{TimedTFSMandActivity} (Listing~\ref{lst:bcoolrunningexampletimed}). We first define a global event variable named \emph{globalClock} (Listing~\ref{lst:bcoolrunningexampletimed}: line 5). This global event variable represents the global synchronization clock. Then, in the coordination rule, we use the globalClock together with the \dse \emph{occurs} to create a new local event named \emph{sampledOccurs} (Listing~\ref{lst:bcoolrunningexampletimed}: line 9). To initialize this local variable, we use the event expression \emph{SampleOn}. This expression accepts two events as parameters: the \emph{sampledEvent} and the \emph{trigger}. The expression creates a new event by sampling the \emph{sampledEvent} by the \emph{trigger} event. This results in a new event that ticks always after the \emph{sampledEvent} and coincides with the occurrences of the \emph{trigger} event. In our case, we sample the select instances of the \dse \emph{occurs} (\ie \emph{sampledEvent}) by the event global clock (\ie \emph{trigger}), which results in the local event variable \emph{sampledOccurs}. Then, in the coordination rule, we coordinate the instances of \dse \emph{executeIt} and the resulting local event \emph{sampledOccurs} by a Rendezvous (Listing~\ref{lst:bcoolrunningexampletimed}: line 10). 
 
 \begin{lstlisting}[language=bcool,
 caption={\bcool specification of an operator that illustrates the use of Event Variables},
@@ -61,7 +61,7 @@ Operator SyncFSMEventsAndActions(ActionExecute:activity::executeIt, FSMEventOccu
 when (dse1.name = dse2.name);
 do
 Local Event sampledOccurs = SampledOn (FSMEventOccurs, globalClock);
-RendezVous(ActionExecute, sampledoccurs)
+	RendezVous(ActionExecute, sampledOccurs)
 end operator
 \end{lstlisting}
 
@@ -72,13 +72,13 @@ To illustrate the resulting coordination, we use this specification to coordinat
 		\begin{figure}[h]
 			\center
 			\includegraphics[width=.9\textwidth]{bcool/figs/runningeventvar}
-			\caption{Resulting coordination of the Coffee Machine by using the global event variable globalClock}
+			\caption{Resulting coordination of the coffee machine by using the global event variable globalClock}
 			\label{fig:runningeventvar}
 		\end{figure}
 
 
 
-In this subsection, we have presented the abstract syntax of \bcool by relying on the running example operator. To specify this example, we used event expressions and relations that are defined in the library \emph{facilities.moccml} (Listing~\ref{lst:bcoolrunningexampletimed}: line 2). In \bcool, expressions and relations are defined in dedicated libraries that must be imported (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). We introduce the notion of library in the following subsection.
+In this subsection, we have presented the abstract syntax of \bcool by relying on the running example operator. To specify this operator, we used event expressions and relations that are defined in the library \emph{facilities.moccml} (Listing~\ref{lst:bcoolrunningexampletimed}: line 2). In \bcool, expressions and relations are defined in dedicated libraries that must be imported (\emph{ImportedLibStatement} in Figure~\ref{fig:bcool}). We introduce the notion of library in the following subsection.
 	
 	
 	
