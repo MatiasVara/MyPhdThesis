@@ -2,7 +2,7 @@
 This section presents the notion of \emph{Correspondence Rules}. We first review the concept of correspondence rules in existing approaches, and then, we present requirements to make them explicit and better customizable.  
 
 \subsection{Review of Existing Approaches}
-A correspondence is any explicit or implicit relationship between model elements. Such a relationship is specified by a system designer that knows what elements from different models are related. In the specification of coordination patterns, correspondences specify the model elements that are coordinated. To automate the process of looking for correspondences between models, the specification of a coordination pattern involves the definition of a correspondence rule at language level. Such a rule defines, in intention, the correspondences to be instantiated at model level. In the following, we review the existing approaches by focusing on how they implemented correspondence rules and correspondences.       
+A correspondence is any explicit or implicit relationship between model elements. Such a relationship is specified by a system designer that knows what elements from different models are related. In the specification of coordination patterns, correspondences specify the model elements that are coordinated. To automate the process of looking for correspondences between models, the specification of a coordination pattern involves the definition of correspondence rules at language level. Such rule define, in intention, the correspondences to be instantiated at model level. In the following, we review the existing approaches by focusing on how they implemented correspondence rules and correspondences.       
 %A correspondence rule is a specification in intention, at the language level, of the correspondences to be created at the model level. In the following we review how the different approaches deal with correspondences and correspondence rules.
 
 \paragraph{Ptolemy~\cite{ptoleframebib}/ModHel'X~\cite{modhelxbib}:}
@@ -19,7 +19,7 @@ The \emph{pro} of the approach is that the mapping model defines explicitly the 
 
 The \emph{cons} of this approach is that a system designer has to manually build the mapping model depending on the current deployment. The approach has successfully identified some relationships between a functional and a platform language, which are captured by a set of predefined correspondence rules. From such a correspondence rules, the approach, however, is not able to automate the instantiation of correspondences at model level. 
 
-{\paragraph{Mascot~\cite{mascotbib}}:} In this work, the correspondences are implicit in the models. The approach relies on a naming convention to specify when events in SDL and streams in Matlab must be coordinated. This approach relies on a correspondence rule that specifies that the elements to be coordinated must have the same name. When this rule is applied between models, the framework can automatically get correspondences between model elements.
+{\paragraph{Mascot~\cite{mascotbib}:} In this work, the correspondences are implicit in the models. The approach relies on a naming convention to specify when events in SDL and streams in Matlab must be coordinated. It relies on a correspondence rule that specifies that the elements to be coordinated must have the same name. When this rule is applied between models, the framework can automatically get correspondences between model elements.
 
 The \emph{pro} of this approach is the use of a correspondence rule to select model elements. This makes the approach very flexible in terms of dependencies between the languages, thus easing the support for a new language.  
 
@@ -54,7 +54,7 @@ The support of heterogeneous languages should be done in a way that a new langua
 %In Mascot, authors identified that by relying on correspondence rules the process for looking for similarities between models elements can be easily automatized. %These rules are specified at language level and enable to get correspondences between two particular models. However, in MASCOT, these rules are encoded and not well defined. %To improve the definition of correspondence rules, our fourth requirement is that correspondences rules must be explicitly defined and customizable depending on the domain and conventions followed by different system engineers.
 A correspondence rule can be used to find correspondences between models that conform to two particular languages. This is the case in~\cite{kofmanbib} where authors use design space exploration techniques to determine the (best) correspondences between an application and its deployment platform. Also, correspondence rules can be used to capture conventions followed by system engineers in an organization. The complexity of the conventions can vary from a simple naming convention (\eg Mascot) to a more complex ontology based system. Based on such conventions, correspondence rules can determine what elements from different models must be coordinated.    
 
-\begin{lstlisting}[language=epsilon, caption={The Mascot correspondence rule in the Epsilon Comparison Language}, label={lst:epsilon}, 	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
+\begin{lstlisting}[language=epsilon, caption={Specification of the Mascot correspondence rule by using the Epsilon Comparison Language}, label={lst:epsilon}, 	basicstyle=\scriptsize\ttfamily, backgroundcolor=\color{LGrey}, numbers=left, xleftmargin=2pt]
 rule MatchEventWithStream
 match s : SDLMetamodel!Event
 with t : MatlabMetamodel!Stream 
@@ -86,7 +86,7 @@ Finally, to understand how a particular system is coordinated, correspondences b
 
 	
 
-In this section, we have presented some requirements to improve the way that approaches implements correspondence rules at and correspondences. % We proposed four requirements for a flexible implementation of correspondences and correspondences rules. They should: 
+In this section, we have presented some requirements to improve the way that approaches implements correspondence rules and correspondences. % We proposed four requirements for a flexible implementation of correspondences and correspondences rules. They should: 
 %\begin{enumerate}
 %\item provide support for heterogeneous languages;
 %\item avoid creating dependencies between a predefined set of languages to enable the support of new languages;
