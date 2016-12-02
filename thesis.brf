@@ -1,6 +1,6 @@
-\backcite {wrightbib}{{17}{(document)}{Doc-Start}}
-\backcite {dinatale}{{17}{(document)}{Doc-Start}}
-\backcite {giraultbib}{{17}{(document)}{Doc-Start}}
+\backcite {wrightbib}{{xv}{(document)}{Doc-Start}}
+\backcite {dinatale}{{xv}{(document)}{Doc-Start}}
+\backcite {giraultbib}{{xv}{(document)}{Doc-Start}}
 \backcite {coordsignibib}{{2}{1}{chapter.1}}
 \backcite {coordsignibib}{{2}{1}{figure.1.1}}
 \backcite {frameadlsbib}{{2}{1}{figure.1.1}}
@@ -116,7 +116,7 @@
 \backcite {ttc15bib}{{57}{4.4}{section.4.4}}
 \backcite {dinatale}{{64}{4.5}{Item.19}}
 \backcite {ptoleframebib}{{64}{4.5}{Item.19}}
-\backcite {ptoleframebib}{{65}{4.5}{Item.19}}
+\backcite {ptoleframebib}{{64}{4.5}{Item.19}}
 \backcite {modhelxbib}{{65}{4.5}{Item.19}}
 \backcite {encodingcomparison}{{69}{5.2}{figure.5.3}}
 \backcite {bcoolmodels15}{{79}{5.5}{section.5.5}}
