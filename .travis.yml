@@ -29,7 +29,7 @@ deploy:
 before_install:
 
 install:
-  - sudo apt-get install texlive-latex-base
+  - sudo apt-get install texlive-full
 
 script:
   - bibex thesis
