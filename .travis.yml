@@ -1,0 +1,40 @@
+# Part of `travis-lazarus` (https://github.com/nielsAD/travis-lazarus)
+# License: MIT
+
+language: generic
+sudo: required
+dist: trusty
+
+os:
+  - linux
+
+env:
+
+before_deploy:
+      - git config --local user.name "Travis CI"
+      - git config --local user.email "matiasevara@gmail.com"
+      - export GIT_TAG=$TRAVIS_BRANCH-$TRAVIS_BUILD_NUMBER
+      - git tag $GIT_TAG -m "Generated tag from TravisCI for build $TRAVIS_BUILD_NUMBER"
+
+deploy:
+  provider: releases
+  api_key:
+    secure: $GH_TOKEN
+  file: 
+    - ./thesis.pdf
+  on:
+     branch: master
+  skip_cleanup: true
+
+before_install:
+
+install:
+  - sudo apt-get install texlive-full
+
+script:
+  - pdflatex -synctex=1 -interaction=nonstopmode thesis.tex
+ 
+notifications:
+  email:
+    on_success: false
+    on_failure: false
