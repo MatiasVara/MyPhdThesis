@@ -29,13 +29,14 @@ deploy:
 before_install:
 
 install:
-  - sudo apt-get install texlive-full
+  - sudo apt-get install texlive-latex-base
+  - sudo apt-get install texlive-bibtex-extra
 
 script:
-  - bibex thesis
-  - pdflatex -synctex=1 -interaction=nonstopmode thesis.tex
-  - bibex thesis
-  - pdflatex -synctex=1 -interaction=nonstopmode thesis.tex
+  - latex -src -interaction=nonstopmode thesis.tex
+  - bibtex thesis
+  - latex -src -interaction=nonstopmode thesis.tex
+  - latex -src -interaction=nonstopmode thesis.tex
  
 notifications:
   email:
